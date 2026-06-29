@@ -1,0 +1,105 @@
+{
+  "sample_id": "cdr_1_voice1_male_real_market_0203",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_type": "market_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "val"
+  },
+  "interviewer": null,
+  "split": "val",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 4,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "steps_mentioned": 4,
+    "sequence_error_count": 0,
+    "memory_gap_count": 0
+  },
+  "conversation_context": null,
+  "spoken_transcript": "我早上出門去市場，先買青菜和肉，付錢後就回家準備煮飯。",
+  "marked_transcript": "我早上出門去市場，先買青菜和肉，付錢後就回家準備煮飯。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我早上出門去市場，先買青菜和肉，付錢後就回家準備煮飯。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 1,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.7,
+    "total_silence_duration_sec": 0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.7,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.5,
+      "filled_pause_count": 1,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 0,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 0
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.7,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "v18_fallback_sample": true,
+    "spoken_transcript_rebuilt_from_event_script": false,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": false,
+    "v19_task_aware_repair": true,
+    "v18_fallback_finalized": true
+  }
+}
