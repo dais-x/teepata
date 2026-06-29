@@ -1,0 +1,144 @@
+{
+  "sample_id": "cdr_3_voice1_male_real_family_0099",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "family",
+  "task_type": "family_event_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "family_event_recall",
+    "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 1,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "人物",
+      "地點",
+      "活動",
+      "時間或順序"
+    ],
+    "steps_mentioned": 2,
+    "sequence_error_count": 3,
+    "memory_gap_count": 2
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個昨天，呃跟家人吃飯。好像是在家裡吧？不過忘記是幾點了。有阿公、阿嬤還有我。我們吃吃什麼來著？忘記了。然後就聊天。大概聊了一點。後來就...睡覺了。",
+  "marked_transcript": "那個 [停頓] 昨天，呃 [停頓] 跟家人吃飯。好像是在家裡吧？不過 [停頓] 忘記是幾點了。有阿公、阿嬤還有我。我們吃 [停頓] 吃什麼來著？忘記了。然後就聊天。大概聊了一點。後來就... [長停頓] 睡覺了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天，呃"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "跟家人吃飯。好像是在家裡吧？不過"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記是幾點了。有阿公、阿嬤還有我。我們吃"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃什麼來著？忘記了。然後就聊天。大概聊了一點。後來就..."
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.3
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "睡覺了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 4,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 4,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 4,
+      "restart_count": 1
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 1,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 3
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 2,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 2,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": false,
+    "feature_counts_repaired": true,
+    "v19_task_aware_repair": true
+  }
+}

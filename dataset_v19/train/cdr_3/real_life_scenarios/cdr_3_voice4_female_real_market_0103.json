@@ -1,0 +1,171 @@
+{
+  "sample_id": "cdr_3_voice4_female_real_market_0103",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_type": "market_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 1,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "steps_mentioned": 2,
+    "sequence_error_count": 3,
+    "memory_gap_count": 4
+  },
+  "conversation_context": null,
+  "spoken_transcript": "就是早上，那個...我帶袋子去。然後...呃... 走到市場裡。看到很多菜。那個...忘記要買什麼了。想不起來。就...隨便拿一點。嗯...付錢的時候...不知道怎麼講。手抖。然後回家。",
+  "marked_transcript": "就是早上， [停頓] 那個... [停頓] 我帶袋子去。然後... [長停頓] 呃... 走到市場裡。看到很多菜。 [停頓] 那個... [停頓] 忘記要買什麼了。想不起來。就... [停頓] 隨便拿一點。嗯... [停頓] 付錢的時候... [停頓] 不知道怎麼講。手抖。然後回家。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是早上，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我帶袋子去。然後..."
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃... 走到市場裡。看到很多菜。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.0
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記要買什麼了。想不起來。就..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "隨便拿一點。嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "付錢的時候..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道怎麼講。手抖。然後回家。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 9,
+    "pause_count": 7,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 9.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 7,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 9.6,
+      "silence_ratio": 0.24,
+      "speech_rate_target_cps": 1.9,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 2,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 9
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 1,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 4,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true,
+    "v19_task_aware_repair": true
+  }
+}
