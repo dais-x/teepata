@@ -1,0 +1,165 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0814",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "欸，今天天氣不錯 我想去菜市場 買什麼來著？好像是青菜 阿母以前常說要吃綠色蔬菜 咳咳…… 那個藥呢？醫生講要拿藥的 可是我不記得藥名了 唉，年紀大了記性不好 剛剛不是在那邊嗎？診所就在市場旁邊 我走錯了嗎？沒有吧 反正要去拿藥 那個紅色的瓶子 還是白色的？忘記了 算了，先買菜再說",
+  "marked_transcript": "欸，今天天氣不錯 [停頓] 我想去菜市場 [停頓] 買什麼來著？好像是青菜 [長停頓] 阿母以前常說要吃綠色蔬菜 [咳嗽] 咳咳…… 那個藥呢？醫生講要拿藥的 [停頓] 可是我不記得藥名了 [嘆氣] 唉，年紀大了記性不好 [停頓] 剛剛不是在那邊嗎？診所就在市場旁邊 [長停頓] 我走錯了嗎？沒有吧 [停頓] 反正要去拿藥 [停頓] 那個紅色的瓶子 [停頓] 還是白色的？忘記了 [長停頓] 算了，先買菜再說",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，今天天氣不錯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 724
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 730
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "買什麼來著？好像是青菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1308
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母以前常說要吃綠色蔬菜"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 519
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "咳咳…… 那個藥呢？醫生講要拿藥的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 640
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是我不記得藥名了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1260
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "唉，年紀大了記性不好"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 789
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "剛剛不是在那邊嗎？診所就在市場旁邊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1194
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我走錯了嗎？沒有吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 874
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正要去拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 697
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個紅色的瓶子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 626
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是白色的？忘記了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1374
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "算了，先買菜再說"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 10,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 10735,
+    "chinese_char_count": 118
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 10
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR2 moderate dementia simulation. Features fragmented recall regarding medicine details, repetition of market location confusion, and natural hesitation markers (7 short pauses, 3 long pauses). Uses Taiwanese Mandarin colloquialisms like '欸', '來著', '囝仔' context."
+}

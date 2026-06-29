@@ -1,0 +1,121 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_market_0583",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：阿嬤，今天早點吃什麼啊？\n患者：嗯...喔，早點啊。我想一下，好像是吃粥啦，還有小菜。\n訪談者：小菜是什麼呢？\n患者：那個...就是醬瓜，跟豆腐乳嘛。欸，好像還有一樣，記不太清楚了。\n訪談者：那昨天家裡有什麼特別的事情嗎？\n患者：喔，昨天啊...阿囝仔有打電話來，說要回來吃飯啦。應該是今天吧，或者明天？\n訪談者：那藥有吃嗎？醫生交代要吃幾次？\n患者：有吃有吃，早上一次，晚上一次。不過...那個，好像是早點之前吃還之後吃的？有點忘記了。\n訪談者：好喔。我剛剛跟你提到什麼東西要記得嗎？\n患者：嗯...是什麼來著？好像是要去診所拿藥對不對？",
+  "marked_transcript": "訪談者：阿嬤，今天早點吃什麼啊？\n[停頓]\n患者：嗯...喔，早點啊。我想一下，好像是吃粥啦，還有小菜。\n訪談者：小菜是什麼呢？\n[長停頓]\n患者：那個...就是醬瓜，跟豆腐乳嘛。欸，好像還有一樣，記不太清楚了。\n訪談者：那昨天家裡有什麼特別的事情嗎？\n[吸氣]\n患者：喔，昨天啊...阿囝仔有打電話來，說要回來吃飯啦。應該是今天吧，或者明天？\n訪談者：那藥有吃嗎？醫生交代要吃幾次？\n[停頓]\n患者：有吃有吃，早上一次，晚上一次。不過...那個，好像是早點之前吃還之後吃的？有點忘記了。\n訪談者：好喔。我剛剛跟你提到什麼東西要記得嗎？\n[嘆氣]\n患者：嗯...是什麼來著？好像是要去診所拿藥對不對？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿嬤，今天早點吃什麼啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...喔，早點啊。我想一下，好像是吃粥啦，還有小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：小菜是什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：那個...就是醬瓜，跟豆腐乳嘛。欸，好像還有一樣，記不太清楚了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那昨天家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：喔，昨天啊...阿囝仔有打電話來，說要回來吃飯啦。應該是今天吧，或者明天？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那藥有吃嗎？醫生交代要吃幾次？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有吃有吃，早上一次，晚上一次。不過...那個，好像是早點之前吃還之後吃的？有點忘記了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好喔。我剛剛跟你提到什麼東西要記得嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...是什麼來著？好像是要去診所拿藥對不對？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3700,
+    "chinese_char_count": 209
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 4,
+    "orientation_error_count": 0,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

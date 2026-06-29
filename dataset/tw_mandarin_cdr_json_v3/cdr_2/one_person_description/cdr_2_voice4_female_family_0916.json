@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice4_female_family_0916",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，那個……我早上起來，先吃過早點。 然後去菜市場買菜，欸，是昨天嗎？還是今天？ 阿母說要拿藥，診所那邊……好像沒開門？ 囝仔們都在忙，我在家裡等他們。 對了，剛才誰來過？記不得了。 應該是那個醫生吧？還是鄰居？哎呀，腦袋有點亂了。 不過沒關係，反正大家都很好。",
+  "marked_transcript": "嗯，那個……我早上起來，先吃過早點。[停頓] 然後去菜市場買菜，欸，是昨天嗎？還是今天？[長停頓] 阿母說要拿藥，診所那邊……好像沒開門？[嘆氣] 囝仔們都在忙，我在家裡等他們。[吸氣] 對了，剛才誰來過？記不得了。[停頓] 應該是那個醫生吧？還是鄰居？哎呀，腦袋有點亂了。[長停頓] 不過沒關係，反正大家都很好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個……我早上起來，先吃過早點"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 781
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後去菜市場買菜，欸，是昨天嗎？還是今天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1319
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥，診所那邊……好像沒開門？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 991
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔們都在忙，我在家裡等他們"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 490
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對了，剛才誰來過？記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 743
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是那個醫生吧？還是鄰居？哎呀，腦袋有點亂了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1556
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過沒關係，反正大家都很好"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 5880,
+    "chinese_char_count": 101
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Moderate dementia simulation with fragmented recall, time/place confusion, and repetition. Includes natural pauses and markers appropriate for CDR 2."
+}

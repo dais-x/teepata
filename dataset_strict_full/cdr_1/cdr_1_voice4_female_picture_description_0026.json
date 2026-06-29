@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_voice4_female_picture_description_0026",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+    "key_units": [
+      "客廳場景",
+      "阿公坐在沙發上看相簿",
+      "老花眼鏡",
+      "茶或茶杯",
+      "小孩玩積木",
+      "媽媽在窗邊接電話",
+      "貓靠近茶几",
+      "茶杯可能被碰倒",
+      "牆上有時鐘",
+      "牆上有家庭照片"
+    ]
+  },
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯那個客廳裡面，阿公坐在沙發上，他在看相簿。旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，散開的。媽媽在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片。那個... 我忘記了，好像是下午。",
+  "marked_transcript": "嗯 [停頓] 那個 [停頓] 客廳裡面，阿公坐在沙發上，他在看相簿。旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，散開的。媽媽在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片。 [停頓] 那個... 我忘記了，好像是下午。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "客廳裡面，阿公坐在沙發上，他在看相簿。旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，散開的。媽媽在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個... 我忘記了，好像是下午。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 3,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 1.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 1.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": 8,
+      "key_information_units_total": 10,
+      "missing_key_information_count": 2,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.7,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

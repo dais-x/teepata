@@ -1,0 +1,89 @@
+{
+  "sample_id": "cdr_1_voice1_male_home_0642",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號呢？\n患者：嗯...好像是五月，我想一下...\n訪談者：那您早餐吃了什麼呀？\n患者：我吃了一些東西，好像有白粥跟菜市場買的蔬菜。\n訪談者：好的，我們來談談昨天發生的事情吧。你做了些什麼呢？\n患者：昨天嘛...我去診所拿藥了，然後回家休息了，對啦，還去公園走了一圈。",
+  "marked_transcript": "訪談者：今天是幾月幾號呢？[停頓]\n患者：嗯...好像是五月，我想一下...[長停頓]\n訪談者：那您早餐吃了什麼呀？\n患者：我吃了一些東西，好像有白粥跟菜市場買的蔬菜。\n訪談者：好的，我們來談談昨天發生的事情吧。你做了些什麼呢？\n患者：昨天嘛...我去診所拿藥了，然後回家休息了，對啦，還去公園走了一圈。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像是五月，我想一下..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早餐吃了什麼呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我吃了一些東西，好像有白粥跟菜市場買的蔬菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，我們來談談昨天發生的事情吧。你做了些什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天嘛...我去診所拿藥了，然後回家休息了，對啦，還去公園走了一圈。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2000,
+    "chinese_char_count": 111
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0903",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，你早上吃什麼？\n患者：嗯…… 早餐啊…… 好像是稀飯。哦不對，是粥。 還有鹹菜。\n訪談者：那昨天去診所了嗎？\n患者： 診所…… 喔，有去。拿藥。 是上週嗎？還是今天？ 記不得了。\n訪談者：你兒子叫什麼名字？\n患者：囝仔啊…… 小強。 還是阿強？ 我忘了。",
+  "marked_transcript": "訪談者：阿姨，你早上吃什麼？\n患者：嗯…… [停頓] 早餐啊…… [長停頓] 好像是稀飯。哦不對，是粥。[停頓] 還有鹹菜。\n訪談者：那昨天去診所了嗎？\n患者：[嘆氣] 診所…… [停頓] 喔，有去。拿藥。[停頓] 是上週嗎？還是今天？[長停頓] 記不得了。\n訪談者：你兒子叫什麼名字？\n患者：囝仔啊…… [停頓] 小強。[停頓] 還是阿強？[吸氣] 我忘了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1161
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯。哦不對，是粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 672
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有鹹菜"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天去診所了嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1086
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 647
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，有去。拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 622
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是上週嗎？還是今天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1337
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你兒子叫什麼名字？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 866
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "小強"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 811
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是阿強？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 708
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我忘了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 8,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 8761,
+    "chinese_char_count": 88
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 8
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate dementia simulation. Patient exhibits fragmented recall, time confusion (clinic visit), and name retrieval difficulty. Markers: 5 short pauses, 2 long pauses."
+}

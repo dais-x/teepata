@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_medicine_routine_0454",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：妳今天早上有沒有吃藥？\n患者：嗯，那個...我想一下...\n訪談者：昨天妳吃了幾次藥呢？\n患者：好像兩次吧。\n訪談者：妳可以告訴我現在是哪一天嗎？\n患者：應該是星期三吧，不過有點忘記了。\n訪談者：好的，那我們來看一張圖片，請描述一下圖中的情景。\n患者：啊，這是一間診所，有好多病人在裡面拿藥...",
+  "marked_transcript": "訪談者：妳今天早上有沒有吃藥？\n患者：嗯，那個...我想一下... [停頓]\n訪談者：昨天妳吃了幾次藥呢？\n患者：好像兩次吧。\n訪談者：妳可以告訴我現在是哪一天嗎？\n患者：應該是星期三吧，不過有點忘記了。 [長停頓]\n訪談者：好的，那我們來看一張圖片，請描述一下圖中的情景。\n患者：啊，這是一間診所，有好多病人在裡面拿藥...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早上有沒有吃藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個...我想一下..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天妳吃了幾次藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像兩次吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳可以告訴我現在是哪一天嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是星期三吧，不過有點忘記了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們來看一張圖片，請描述一下圖中的情景。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，這是一間診所，有好多病人在裡面拿藥..."
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2000,
+    "chinese_char_count": 116
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

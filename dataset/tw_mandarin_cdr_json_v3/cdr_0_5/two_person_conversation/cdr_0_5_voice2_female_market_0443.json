@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0443",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天天氣不錯，您記得現在是什麼季節嗎？\n患者：嗯……應該是春天吧。好像剛過完清明節， 對，是春天。\n訪談者：那您記得我們剛才提到要去哪裡買菜嗎？\n患者：喔，菜市場啊。我想一下…… 好像是去中山路那邊的那家。\n訪談者：好的，那您平常早上都會吃些什麼呢？\n患者：嗯，就是稀飯配小菜。 阿母以前常煮的，現在我也會自己弄一點。",
+  "marked_transcript": "訪談者：今天天氣不錯，您記得現在是什麼季節嗎？\n患者：嗯……應該是春天吧。好像剛過完清明節，[停頓] 對，是春天。\n訪談者：那您記得我們剛才提到要去哪裡買菜嗎？\n患者：喔，菜市場啊。我想一下…… [停頓] 好像是去中山路那邊的那家。\n訪談者：好的，那您平常早上都會吃些什麼呢？\n患者：嗯，就是稀飯配小菜。[嘆氣] 阿母以前常煮的，現在我也會自己弄一點。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天天氣不錯，您記得現在是什麼季節嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是春天吧。好像剛過完清明節"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 618
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，是春天"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得我們剛才提到要去哪裡買菜嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，菜市場啊。我想一下……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 664
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是去中山路那邊的那家"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您平常早上都會吃些什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，就是稀飯配小菜"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1314
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母以前常煮的，現在我也會自己弄一點"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2596,
+    "chinese_char_count": 129
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 very mild: Patient shows mostly coherent speech with only one subtle hesitation ([停頓]) and minor uncertainty ('我想一下', '好像是'). No significant memory loss or disorientation observed."
+}

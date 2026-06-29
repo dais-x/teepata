@@ -1,0 +1,155 @@
+{
+  "sample_id": "cdr_2_voice2_female_home_0846",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問現在是幾點鐘？\n患者：嗯…… 應該是下午吧， 我剛吃完飯，欸，好像是兩點？記不得……\n訪談者：那您記得今天是星期幾嗎？\n患者：星期幾啊…… 好像…… 忘了，應該是週末，囝仔會回來。\n訪談者：剛才我說了哪三個東西？\n患者：三個東西？ 嗯…… 蘋果、香蕉…… 第三個是什麼？啊，想不起來。\n訪談者：沒關係，那您平常早上都做什麼事呢？\n患者：早上啊…… 我去菜市場買菜，然後去診所拿藥。欸，是今天還是昨天去的？好像搞混了……",
+  "marked_transcript": "訪談者：請問現在是幾點鐘？\n患者：嗯…… [停頓] 應該是下午吧，[長停頓] 我剛吃完飯，欸，好像是兩點？記不得……\n訪談者：那您記得今天是星期幾嗎？\n患者：星期幾啊…… [吸氣] 好像…… [嘆氣] 忘了，應該是週末，囝仔會回來。\n訪談者：剛才我說了哪三個東西？\n患者：三個東西？[咳嗽] 嗯…… 蘋果、香蕉…… [停頓] 第三個是什麼？啊，想不起來。\n訪談者：沒關係，那您平常早上都做什麼事呢？\n患者：早上啊…… [長停頓] 我去菜市場買菜，然後去診所拿藥。欸，是今天還是昨天去的？好像搞混了……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問現在是幾點鐘？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 792
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是下午吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1387
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我剛吃完飯，欸，好像是兩點？記不得……"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得今天是星期幾嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期幾啊……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 768
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1202
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘了，應該是週末，囝仔會回來"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "剛才我說了哪三個東西？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "三個東西？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 536
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 蘋果、香蕉……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 658
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "第三個是什麼？啊，想不起來"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您平常早上都做什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1677
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我去菜市場買菜，然後去診所拿藥。欸，是今天還是昨天去的？好像搞混了……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7020,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "Moderate dementia simulation (CDR 2) featuring fragmented recall, time/place confusion, repetition of questions, and mild hesitation markers appropriate for moderate severity."
+}

@@ -1,0 +1,125 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_clinic_0109",
+  "cdr_level": "0.5",
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你記得今天大概是星期幾嗎？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯那個...我來這裡的時候好像有看日曆，不過現在有點想不太清楚了。"
+    }
+  ],
+  "spoken_transcript": "嗯那個...我來這裡的時候好像有看日曆，不過現在有點想不太清楚了。",
+  "marked_transcript": "嗯 [停頓] 那個...我來這裡的時候好像有看日曆，不過現在有點想不太清楚了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我來這裡的時候好像有看日曆，不過現在有點想不太清楚了。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得今天大概是星期幾嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我來這裡的時候好像有看日曆，不過現在有點想不太清楚了。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 2,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 4.2,
+      "filled_pause_count": 2,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 0,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.15,
+      "coherence_score": 0.85,
+      "memory_gap_count": 0,
+      "orientation_error_count": 0
+    }
+  }
+}

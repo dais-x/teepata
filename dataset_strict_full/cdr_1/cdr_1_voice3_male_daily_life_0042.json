@@ -1,0 +1,88 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0042",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天早上我起來嗯，去公園走走，順便買早餐。那個...豆腐腦，對，就是豆腐花。記得昨天好像也是吃這個，不過忘記是星期幾了。走路的時候，看到鄰居李太太，她跟我打招呼，說最近身體還好嗎？我就說還不錯啦，偶爾會頭暈一下，但沒關係。",
+  "marked_transcript": "今天早上我起來 [停頓] 嗯，去公園走走，順便買早餐。那個...豆腐腦，對，就是豆腐花。記得昨天好像也是吃這個，不過忘記是星期幾了。走路的時候，看到鄰居李太太，她跟我打招呼，說最近身體還好嗎？我就說還不錯啦，偶爾會頭暈一下，但沒關係。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我起來"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，去公園走走，順便買早餐。那個...豆腐腦，對，就是豆腐花。記得昨天好像也是吃這個，不過忘記是星期幾了。走路的時候，看到鄰居李太太，她跟我打招呼，說最近身體還好嗎？我就說還不錯啦，偶爾會頭暈一下，但沒關係。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 2,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.32,
+      "coherence_score": 0.75,
+      "memory_gap_count": 1,
+      "orientation_error_count": 1
+    }
+  }
+}

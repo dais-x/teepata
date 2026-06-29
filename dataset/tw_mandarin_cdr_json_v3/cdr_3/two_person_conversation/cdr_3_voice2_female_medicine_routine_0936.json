@@ -1,0 +1,185 @@
+{
+  "sample_id": "cdr_3_voice2_female_medicine_routine_0936",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… 早餐…… 忘記了。\n訪談者：昨天家裡有來人嗎？\n患者：有人…… 誰啊…… 記不得。欸， 好像有…… 不確定。\n訪談者：你的藥呢？\n患者：藥…… 在哪裡…… 忘記放哪裡了。拿藥…… 嗯…… 去診所…… 啊， 記不清了。",
+  "marked_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… [停頓] 早餐…… [長停頓] 忘記了。[嘆氣]\n訪談者：昨天家裡有來人嗎？\n患者：有人…… [吸氣] 誰啊…… [停頓] 記不得。欸，[停頓] 好像有…… [長停頓] 不確定。\n訪談者：你的藥呢？\n患者：藥…… [咳嗽] 在哪裡…… [停頓] 忘記放哪裡了。拿藥…… [停頓] 嗯…… [長停頓] 去診所…… 啊，[停頓] 記不清了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 631
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1496
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1335
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有來人嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有人……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 564
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 874
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 843
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1686
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不確定"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你的藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 470
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在哪裡……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 843
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記放哪裡了。拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 753
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1180
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "去診所…… 啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 802
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不清了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 17,
+    "pause_event_count": 9,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 11477,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 9
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 3 severe: fragmented sentences, frequent word-finding failure, orientation confusion, repeated simple phrases."
+}

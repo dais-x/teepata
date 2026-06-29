@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_1_voice4_female_clinic_0729",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳女士，請問今天是幾月幾號？\n受訪者：嗯 ……應該是九月吧。喔，不對，好像是八月三十日左右。\n訪談者：好的，那您今天早上吃了什麼早餐呢？\n受訪者：有吃喔，我煮了稀飯，還有配一顆蛋。啊，好像也有喝豆漿。\n訪談者：您現在是在哪個診所看診呢？\n受訪者：對啊，就是這裡，榮民診所嘛。不過我記不太清醫生叫什麼名字，好像是姓林 。\n訪談者：好的。那您最近有沒有吃藥？記得是什麼藥嗎？\n受訪者：有吃啦，我有拿藥。是降血壓的藥……喔，那個藥名我想一下 ，忘記了，就是每天早晚吃的 。\n訪談者：沒關係，我們慢慢想。那您昨天下午做了什麼事情呢？\n受訪者：昨天啊 ……我去菜市場買菜，然後回家煮飯。阿母也有來我家坐一下。",
+  "marked_transcript": "訪談者：陳女士，請問今天是幾月幾號？\n受訪者：嗯 [停頓] ……應該是九月吧。喔，不對，好像是八月三十日左右。\n訪談者：好的，那您今天早上吃了什麼早餐呢？\n受訪者：有吃喔，我煮了稀飯，還有配一顆蛋。啊，好像也有喝豆漿。\n訪談者：您現在是在哪個診所看診呢？\n受訪者：對啊，就是這裡，榮民診所嘛。不過我記不太清醫生叫什麼名字，好像是姓林 [長停頓] 。\n訪談者：好的。那您最近有沒有吃藥？記得是什麼藥嗎？\n受訪者：有吃啦，我有拿藥。是降血壓的藥……喔，那個藥名我想一下 [嘆氣] ，忘記了，就是每天早晚吃的 [停頓] 。\n訪談者：沒關係，我們慢慢想。那您昨天下午做了什麼事情呢？\n受訪者：昨天啊 [吸氣] ……我去菜市場買菜，然後回家煮飯。阿母也有來我家坐一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：陳女士，請問今天是幾月幾號？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "……應該是九月吧。喔，不對，好像是八月三十日左右。\n訪談者：好的，那您今天早上吃了什麼早餐呢？\n受訪者：有吃喔，我煮了稀飯，還有配一顆蛋。啊，好像也有喝豆漿。\n訪談者：您現在是在哪個診所看診呢？\n受訪者：對啊，就是這裡，榮民診所嘛。不過我記不太清醫生叫什麼名字，好像是姓林"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "。\n訪談者：好的。那您最近有沒有吃藥？記得是什麼藥嗎？\n受訪者：有吃啦，我有拿藥。是降血壓的藥……喔，那個藥名我想一下"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "，忘記了，就是每天早晚吃的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "。\n訪談者：沒關係，我們慢慢想。那您昨天下午做了什麼事情呢？\n受訪者：昨天啊"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "……我去菜市場買菜，然後回家煮飯。阿母也有來我家坐一下。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2650,
+    "chinese_char_count": 239
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_2_voice3_male_family_0919",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，今天吃早餐了嗎？\n受訪者： 有、有啦。嗯...那個...好像是吃粥。\n訪談者：吃什麼粥呢？\n受訪者：菜粥喔...還是玉米粥？我忘記了，欸，好像是菜粥。\n訪談者：那昨天家裡有什麼特別的事情嗎？\n受訪者： 啊...昨天？好像有囝仔來看我。是阿母叫他們來的吧。我不太記得幾點鐘來。\n訪談者：有吃藥嗎？吃了什麼藥？\n受訪者：藥、藥 。嗯，有拿藥。那個藥名忘記了，好像是降血壓的。對，應該是昨天早上去診所拿的。",
+  "marked_transcript": "訪談者：早啊，今天吃早餐了嗎？\n受訪者： [停頓] 有、有啦。嗯...那個...好像是吃粥。\n訪談者：吃什麼粥呢？\n受訪者：菜粥喔...還是玉米粥？我忘記了，欸，好像是菜粥。\n訪談者：那昨天家裡有什麼特別的事情嗎？\n受訪者： [長停頓] 啊...昨天？好像有囝仔來看我。是阿母叫他們來的吧。我不太記得幾點鐘來。\n訪談者：有吃藥嗎？吃了什麼藥？\n受訪者：藥、藥 [咳嗽] 。嗯，有拿藥。那個藥名忘記了，好像是降血壓的。對，應該是昨天早上去診所拿的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：早啊，今天吃早餐了嗎？\n受訪者："
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "有、有啦。嗯...那個...好像是吃粥。\n訪談者：吃什麼粥呢？\n受訪者：菜粥喔...還是玉米粥？我忘記了，欸，好像是菜粥。\n訪談者：那昨天家裡有什麼特別的事情嗎？\n受訪者："
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "啊...昨天？好像有囝仔來看我。是阿母叫他們來的吧。我不太記得幾點鐘來。\n訪談者：有吃藥嗎？吃了什麼藥？\n受訪者：藥、藥"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "。嗯，有拿藥。那個藥名忘記了，好像是降血壓的。對，應該是昨天早上去診所拿的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 1000,
+    "chinese_char_count": 152
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

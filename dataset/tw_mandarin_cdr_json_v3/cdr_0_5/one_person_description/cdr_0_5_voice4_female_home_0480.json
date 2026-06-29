@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_home_0480",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "早啊，今天天氣還蠻好的。 我剛剛在找我的眼鏡……欸，好像放在客廳的桌仔上了。 阿母剛才叫我吃早餐，說有煮稀飯。嗯，我去拿一下碗筷…… 記得那個鹽巴要放嗎？欸，應該是沒有啦。",
+  "marked_transcript": "早啊，今天天氣還蠻好的。[停頓] 我剛剛在找我的眼鏡……欸，好像放在客廳的桌仔上了。[長停頓] 阿母剛才叫我吃早餐，說有煮稀飯。嗯，我去拿一下碗筷…… [停頓] 記得那個鹽巴要放嗎？欸，應該是沒有啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早啊，今天天氣還蠻好的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 717
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我剛剛在找我的眼鏡……欸，好像放在客廳的桌仔上了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1460
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母剛才叫我吃早餐，說有煮稀飯。嗯，我去拿一下碗筷……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 712
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得那個鹽巴要放嗎？欸，應該是沒有啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2889,
+    "chinese_char_count": 69
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: 語句基本流暢，僅在記憶物品位置與細節時出現輕微猶豫（如「好像」「應該」），使用台語詞彙如「桌仔」「阿母」，標記符號少而精確。"
+}

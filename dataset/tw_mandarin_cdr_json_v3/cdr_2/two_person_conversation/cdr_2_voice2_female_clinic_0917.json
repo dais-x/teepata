@@ -1,0 +1,155 @@
+{
+  "sample_id": "cdr_2_voice2_female_clinic_0917",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，今天幾號？\n患者：嗯…… 好像是…… 五號？還是六號？我記不太清了。\n訪談者：沒關係。那您記得我們現在在哪裡嗎？\n患者：在診所啊， 對，來拿藥的…… 不過我忘了是什麼病。\n訪談者：好。那您早上吃了什麼早餐？\n患者： 粥…… 還是麵包？欸，我想一下…… 好像是稀飯吧。\n訪談者：那您記得昨天做了什麼嗎？\n患者：昨天？ 好像去菜市場…… 不對，是前天。我記不得時間了。\n訪談者：沒關係，我們先休息一下吧。",
+  "marked_transcript": "訪談者：您好，今天幾號？\n患者：嗯…… [停頓] 好像是…… [長停頓] 五號？還是六號？我記不太清了。\n訪談者：沒關係。那您記得我們現在在哪裡嗎？\n患者：在診所啊，[嘆氣] 對，來拿藥的…… [吸氣] 不過我忘了是什麼病。\n訪談者：好。那您早上吃了什麼早餐？\n患者：[停頓] 粥…… [長停頓] 還是麵包？欸，我想一下…… 好像是稀飯吧。\n訪談者：那您記得昨天做了什麼嗎？\n患者：昨天？[咳嗽] 好像去菜市場…… 不對，是前天。我記不得時間了。\n訪談者：沒關係，我們先休息一下吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 725
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1402
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "五號？還是六號？我記不太清了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係。那您記得我們現在在哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1310
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，來拿藥的……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 560
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過我忘了是什麼病"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好。那您早上吃了什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 881
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1590
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是麵包？欸，我想一下…… 好像是稀飯吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得昨天做了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 381
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像去菜市場…… 不對，是前天。我記不得時間了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們先休息一下吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6849,
+    "chinese_char_count": 147
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 3,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: Patient shows fragmented recall, time/place confusion, and repetition. Uses natural Taiwanese oral markers (欸, 對) with appropriate pauses."
+}

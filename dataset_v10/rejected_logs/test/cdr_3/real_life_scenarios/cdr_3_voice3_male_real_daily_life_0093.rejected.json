@@ -1,0 +1,1158 @@
+{
+  "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+  "cdr": "3",
+  "task_group": "real_life_scenarios",
+  "scenario": "daily_life",
+  "task_plan": {
+    "task_group": "real_life_scenarios",
+    "task_type": "daily_life_narrative",
+    "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+    "expected_steps": [
+      "起床",
+      "盥洗",
+      "吃早餐",
+      "安排活動"
+    ],
+    "max_score": 4,
+    "scoring_method": "expected_steps_and_sequence"
+  },
+  "speaker": {
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。"
+  },
+  "split": "test",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "silence event 7 duration 1.2 outside 2.0-8.0",
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "呃...早上起來，那個...先刷牙，然後...忘記了。對不起啊。我好像有去公園走走，但是...不記得幾點了。嗯...還有吃早餐，可是忘了吃什麼。大概九點吧？反正就是...亂七八糟的。",
+        "marked_transcript": "呃... [停頓] 早上起來，那個... [長停頓] 先刷牙，然後... [停頓] 忘記了。對不起啊。我好像有去公園走走，但是... [沉默] 不記得幾點了。嗯... [停頓] 還有吃早餐，可是忘了吃什麼。大概九點吧？反正就是... [長停頓] 亂七八糟的。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "早上起來，那個..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "先刷牙，然後..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了。對不起啊。我好像有去公園走走，但是..."
+          },
+          {
+            "type": "silence",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "不記得幾點了。嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "還有吃早餐，可是忘了吃什麼。大概九點吧？反正就是..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "亂七八糟的。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 7,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 1,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 5.7,
+          "total_silence_duration_sec": 1.2
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 5.7,
+            "silence_ratio": 0.18,
+            "speech_rate_target_cps": 1.6,
+            "filled_pause_count": 5,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 2,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 8
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 3,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]",
+        "acoustic_fluency.pause_count=2 outside allowed range [3, 12]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，今天早上起來之後那個...我好像有去廁所。然後呢？然後就...呃...吃早餐。但是忘記了，到底是先刷牙還是先洗澡。反正就是...那個...弄完以後就坐在沙發上看電視。不知道接下來要做什麼。",
+        "marked_transcript": "嗯，今天早上起來之後 [停頓] 那個...我好像有去廁所。然後呢？然後就...呃...吃早餐。但是忘記了，到底是先刷牙還是先洗澡。反正就是...那個...弄完以後 [長停頓] 就坐在沙發上看電視。不知道接下來要做什麼。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，今天早上起來之後"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我好像有去廁所。然後呢？然後就...呃...吃早餐。但是忘記了，到底是先刷牙還是先洗澡。反正就是...那個...弄完以後"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "就坐在沙發上看電視。不知道接下來要做什麼。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 4.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 5,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 1,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 7
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 2,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "speech_cognitive_task.score=3 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...今天早上我起來之後，那個...不知道怎麼講，好像有刷牙，但是忘記了。呃，然後去廁所，對不對？我想想啊，早餐吃了什麼，哎呀，不記得。那個東西，叫什麼名字，忘記了。",
+        "marked_transcript": "嗯...今天早上 [停頓] 我起來之後，那個...不知道怎麼講，好像有刷牙，但是忘記了。 [長停頓] 呃，然後去廁所，對不對？ [停頓] 我想想啊，早餐吃了什麼，哎呀，不記得。 [長停頓] 那個東西，叫什麼名字，忘記了。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...今天早上"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我起來之後，那個...不知道怎麼講，好像有刷牙，但是忘記了。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，然後去廁所，對不對？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我想想啊，早餐吃了什麼，哎呀，不記得。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個東西，叫什麼名字，忘記了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 5.7,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 5.7,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 9,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 3,
+            "vague_reference_count": 3,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 4
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.82,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "那個...今天早上起來之後，我好像...呃，忘記做什麼了。先起床，然後去廁所，嗯，刷牙...不記得有沒吃早餐，反正就是隨便弄一下。後來想說要去公園走走，但是又忘了帶鑰匙，就在家裡待著。那個東西，叫什麼來著？手機放在哪裡我都不知道了。",
+        "marked_transcript": "那個...今天早上起來之後，我好像... [長停頓] [停頓] 呃，忘記做什麼了。先起床，然後去廁所，嗯，刷牙...不記得有沒吃早餐，反正就是隨便弄一下。後來想說要去公園走走，但是又忘了帶鑰匙，就在家裡待著。 [停頓] 那個東西，叫什麼來著？手機放在哪裡我都不知道了。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...今天早上起來之後，我好像..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.2
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，忘記做什麼了。先起床，然後去廁所，嗯，刷牙...不記得有沒吃早餐，反正就是隨便弄一下。後來想說要去公園走走，但是又忘了帶鑰匙，就在家裡待著。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個東西，叫什麼來著？手機放在哪裡我都不知道了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 4.3,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 6,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 4,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 5
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 2
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...今天早上起來呃，先那個...起床啦。然後去廁所，對，盥洗一下。但是忘記...忘記怎麼刷牙了，好像忘了。然後吃早餐，呃，喝粥，那個...米漿也喝了。之後想安排活動，可是不知道要做什麼，忘記要去哪裡。嗯，就坐著看電視，一直看。",
+        "marked_transcript": "嗯...今天早上起來 [停頓] 呃，先那個...起床啦。然後去廁所，對，盥洗一下。但是 [長停頓] 忘記...忘記怎麼刷牙了，好像忘了。然後吃早餐，呃，喝粥，那個...米漿也喝了。之後想安排活動，可是不知道要做什麼， [停頓] 忘記要去哪裡。嗯，就坐著看電視，一直看。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...今天早上起來"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，先那個...起床啦。然後去廁所，對，盥洗一下。但是"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記...忘記怎麼刷牙了，好像忘了。然後吃早餐，呃，喝粥，那個...米漿也喝了。之後想安排活動，可是不知道要做什麼，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記要去哪裡。嗯，就坐著看電視，一直看。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.2,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 4.2,
+            "silence_ratio": 0.08,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 9,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 1,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 8
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 2,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "long_pause event 3 duration 1.2 outside 1.5-4.5",
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]",
+        "acoustic_fluency.pause_count=2 outside allowed range [3, 12]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...那個，今天早上起來之後，我好像有去刷牙，但是忘記了。然後呢，就是...呃，那個東西，叫什麼來著？吃了早餐，對不對？不記得吃什麼了。然後就...唉，想不起來了。可能去公園走走，或者...算了，記不得了。",
+        "marked_transcript": "嗯...那個，今天早上起來之後，我好像有去刷牙，但是忘記了。 [停頓] 然後呢，就是...呃，那個東西，叫什麼來著？吃了早餐，對不對？不記得吃什麼了。 [長停頓] 然後就...唉，想不起來了。可能去公園走走，或者...算了，記不得了。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...那個，今天早上起來之後，我好像有去刷牙，但是忘記了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後呢，就是...呃，那個東西，叫什麼來著？吃了早餐，對不對？不記得吃什麼了。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後就...唉，想不起來了。可能去公園走走，或者...算了，記不得了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.5,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.5,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 5,
+            "vague_reference_count": 3,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 6
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.82,
+            "coherence_score": 0.24,
+            "memory_gap_count": 3,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...那個，早上起來之後，我記得有去廁所，然後呃...好像有刷牙，但是忘記怎麼做。然後想不起來吃什麼早餐了，因為頭很痛。後來就坐在沙發上，不知道做了什麼活動。大概就這樣吧。",
+        "marked_transcript": "嗯... [停頓] 那個，早上起來之後，我記得有去廁所，然後呃... [長停頓] 好像有刷牙，但是忘記怎麼做。 [停頓] 然後想不起來吃什麼早餐了，因為頭很痛。 [長停頓] 後來就坐在沙發上，不知道做了什麼活動。 [停頓] 大概就這樣吧。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，早上起來之後，我記得有去廁所，然後呃..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好像有刷牙，但是忘記怎麼做。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後想不起來吃什麼早餐了，因為頭很痛。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "後來就坐在沙發上，不知道做了什麼活動。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "大概就這樣吧。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 6,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 7.1,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 7.1,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 5,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 4
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "speech_cognitive_task.score=3 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice3_male_real_daily_life_0093",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "daily_life",
+        "task_type": "daily_life_narrative",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice3_male",
+          "voice_id": "voice3_male",
+          "speaker_group": "older_male_soft",
+          "gender": "male",
+          "description": "較柔和的台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "daily_life_narrative",
+          "prompt": "你可以跟我說一下今天早上起來之後做了哪些事情嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "起床",
+            "盥洗",
+            "吃早餐",
+            "安排活動"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...今天早上我起來之後，好像有先那個...刷牙。然後去廚房倒水喝，但是忘記呃...忘記要拿什麼東西吃早餐了。我就坐在那邊想一下。後來好像有看到電視，就轉到新聞看。然後嗯...下午的時候，我有出去走走，但是忘了是去哪裡。回來之後那個...好像有打個電話給兒子，不過記不清楚講什麼了。",
+        "marked_transcript": "嗯...今天早上 [停頓] 我起來之後，好像有先 [停頓] 那個...刷牙。然後去廚房倒水喝，但是忘記 [長停頓] 呃...忘記要拿什麼東西吃早餐了。我就坐在那邊 [停頓] 想一下。後來好像有看到電視，就轉到新聞看。然後 [長停頓] 嗯...下午的時候，我有出去走走，但是忘了是去哪裡。回來之後 [停頓] 那個...好像有打個電話給兒子，不過記不清楚講什麼了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...今天早上"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我起來之後，好像有先"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...刷牙。然後去廚房倒水喝，但是忘記"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃...忘記要拿什麼東西吃早餐了。我就坐在那邊"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "想一下。後來好像有看到電視，就轉到新聞看。然後"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...下午的時候，我有出去走走，但是忘了是去哪裡。回來之後"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.9
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...好像有打個電話給兒子，不過記不清楚講什麼了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 7,
+          "pause_count": 4,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 6.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 6.6,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 7,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 4,
+            "circumlocution_count": 3,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 8
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_1_voice4_female_clinic_0653",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "今天早上起來，欸，我先去洗個澡，然後就準備早餐。早餐嘛，就是煮個稀飯、煎個蛋，啊，那個菜市場的青菜和豆腐。還有啦，吃完早餐後，我就去診所拿藥。醫生說最近要多吃蔬菜水果，嗯，我想一下，好像是因為最近身體有點不適。",
+  "marked_transcript": "今天早上起來，欸，我先去洗個澡，然後就準備早餐[停頓]早餐嘛，就是煮個稀飯、煎個蛋，啊，那個菜市場的青菜和豆腐。還有啦，吃完早餐後，我就去診所拿藥[長停頓][咳嗽]醫生說最近要多吃蔬菜水果，嗯，我想一下，好像是因為最近身體有點不適。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起來，欸，我先去洗個澡，然後就準備早餐"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐嘛，就是煮個稀飯、煎個蛋，啊，那個菜市場的青菜和豆腐。還有啦，吃完早餐後，我就去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "cough",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生說最近要多吃蔬菜水果，嗯，我想一下，好像是因為最近身體有點不適"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 2250,
+    "chinese_char_count": 89
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.35,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

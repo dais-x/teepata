@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice1_male_clinic_0836",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我早上起來， 好像去過診所拿藥，欸，是昨天還是前天？ 阿母叫我吃早餐，但我忘記了。 那個菜市場的雞蛋又漲價了…… 記不得幾點出門的。 醫生說要準時吃藥，可是…… 我好像把藥瓶放錯地方了。嗯，應該是放在抽屜吧？ 哎呀，頭有點暈。",
+  "marked_transcript": "嗯，我早上起來，[停頓] 好像去過診所拿藥，欸，是昨天還是前天？[長停頓] 阿母叫我吃早餐，但我忘記了。[嘆氣] 那個菜市場的雞蛋又漲價了…… [吸氣] 記不得幾點出門的。[停頓] 醫生說要準時吃藥，可是…… [長停頓] 我好像把藥瓶放錯地方了。嗯，應該是放在抽屜吧？[停頓] 哎呀，頭有點暈。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我早上起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 737
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像去過診所拿藥，欸，是昨天還是前天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1257
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母叫我吃早餐，但我忘記了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1189
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個菜市場的雞蛋又漲價了……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 714
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得幾點出門的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 678
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生說要準時吃藥，可是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1498
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我好像把藥瓶放錯地方了。嗯，應該是放在抽屜吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 762
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，頭有點暈"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6835,
+    "chinese_char_count": 90
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall about time (yesterday vs day before), repetition of uncertainty, and need for support regarding medication location. Natural pauses reflect cognitive effort."
+}

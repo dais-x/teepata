@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_voice1_male_daily_life_0751",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾啊？\n患者：嗯…… 應該是星期五吧，欸，好像有點記不太清楚了。\n訪談者：那我們現在在哪裡呢？\n患者：在診所啊， 我來拿藥的，對不對？那個…… 我想一下。",
+  "marked_transcript": "訪談者：今天星期幾啊？\n患者：嗯…… [停頓] 應該是星期五吧，欸，好像有點記不太清楚了。\n訪談者：那我們現在在哪裡呢？\n患者：在診所啊，[嘆氣] 我來拿藥的，對不對？那個…… 我想一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 670
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是星期五吧，欸，好像有點記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1331
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我來拿藥的，對不對？那個…… 我想一下"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2001,
+    "chinese_char_count": 62
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('應該', '好像'), mild uncertainty about day, and brief repetition with pauses. Still mostly coherent."
+}

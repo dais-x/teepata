@@ -1,0 +1,999 @@
+{
+  "sample_id": "cdr_1_voice2_female_real_market_0015",
+  "cdr": "1",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_plan": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "max_score": 4,
+    "scoring_method": "expected_steps_and_sequence"
+  },
+  "speaker": {
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "real_life steps_mentioned=3 does not match V10 step detector 4",
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=2 does not match V10 computed 4"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 2,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 1,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯我最近去市場...那個通常會先準備好袋子。然後出門，到那裡買菜、水果，但是有時候忘記帶錢包，就要跟人家借一下。回家就結束了。",
+        "marked_transcript": "嗯 [停頓] 我最近去市場...那個 [停頓] 通常會先準備好袋子。然後出門，到那裡買菜、水果，但是有時候忘記 [長停頓] 帶錢包，就要跟人家借一下。回家就結束了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我最近去市場...那個"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "通常會先準備好袋子。然後出門，到那裡買菜、水果，但是有時候忘記"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "帶錢包，就要跟人家借一下。回家就結束了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.6,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.0,
+            "filled_pause_count": 3,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=2 does not match V10 computed 3"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 2,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 1,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，最近去市場的時候...我會先準備好袋子，然後就出門。到了那裡，看到很多菜，我就隨便挑一些喜歡的。但是有時候會忘記帶錢包，所以得回家拿。付錢的部分...呃，好像不太記得怎麼算錢了。最後就是回家，不過路上可能會迷路一下下。",
+        "marked_transcript": "嗯，最近去市場的時候... [停頓] 我會先準備好袋子，然後就出門。到了那裡，看到很多菜，我就隨便挑一些喜歡的。但是有時候會忘記帶錢包，所以得回家拿。付錢的部分... [長停頓] 呃，好像不太記得怎麼算錢了。最後就是回家，不過路上可能會迷路一下下。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，最近去市場的時候..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我會先準備好袋子，然後就出門。到了那裡，看到很多菜，我就隨便挑一些喜歡的。但是有時候會忘記帶錢包，所以得回家拿。付錢的部分..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，好像不太記得怎麼算錢了。最後就是回家，不過路上可能會迷路一下下。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 3,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [2, 3]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，我最近去市場那個，通常就是先出門。然後呢，買菜的時候會挑新鮮的，但是 想不起來要帶什麼了。就付錢，回家。",
+        "marked_transcript": "嗯，我最近去市場 [停頓] [長停頓] 那個，通常就是先出門。然後呢，買菜的時候會挑新鮮的，但是 想不起來要帶什麼了。就付錢，回家。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，我最近去市場"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，通常就是先出門。然後呢，買菜的時候會挑新鮮的，但是 想不起來要帶什麼了。就付錢，回家。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.3,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 3,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 1
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [2, 3]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，我最近去市場啊，就是先出門。然後到那裡...那個蔬菜攤位啦，買菜。可是後來忘記要付錢了，就回家。",
+        "marked_transcript": "嗯，我最近去市場啊，就是先出門。 [停頓] 然後到那裡...那個蔬菜攤位啦，買菜。 [長停頓] 可是後來忘記要付錢了，就回家。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，我最近去市場啊，就是先出門。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後到那裡...那個蔬菜攤位啦，買菜。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "可是後來忘記要付錢了，就回家。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.65,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=3 does not match V10 computed 4"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 1,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，我平常去市場就是先出門。然後到那裡買菜，那個...蔬菜、肉類都有。不過有時候會忘記帶錢包，所以要先付錢。但是回家好像比較晚一點。",
+        "marked_transcript": "嗯，我平常去市場就是 [停頓] 先出門。然後到那裡買菜，那個... [長停頓] 蔬菜、肉類都有。不過有時候會忘記帶錢包，所以要先付錢。但是回家好像比較晚一點。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，我平常去市場就是"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "先出門。然後到那裡買菜，那個..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "蔬菜、肉類都有。不過有時候會忘記帶錢包，所以要先付錢。但是回家好像比較晚一點。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.2,
+            "filled_pause_count": 3,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "real_life steps_mentioned=3 does not match V10 step detector 4",
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=2 does not match V10 computed 4"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 2,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 1,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，去市場的話...我會先帶那個袋子，然後就出去。不過有時候會忘記帶錢包，或是忘記要買什麼菜。記得要先走到市場門口，但是進去之後就不太清楚該往哪邊走。然後就是跟老闆講價錢，付完錢就回家。",
+        "marked_transcript": "嗯，去市場的話...我會先帶那個袋子， [停頓] 然後就出去。不過有時候會忘記帶錢包，或是忘記要買什麼菜。記得要先走到市場門口，但是進去之後就不太清楚該往哪邊走。然後就是跟老闆講價錢，付完錢就回家。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，去市場的話...我會先帶那個袋子，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後就出去。不過有時候會忘記帶錢包，或是忘記要買什麼菜。記得要先走到市場門口，但是進去之後就不太清楚該往哪邊走。然後就是跟老闆講價錢，付完錢就回家。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.5,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=3 does not match V10 computed 4"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 1,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，我最近去市場那個...我會先從家裡出發，走到公車站，坐公車過去。到了之後就先逛一逛，看看有什麼新鮮的蔬菜，然後就買一點菜回家。不過有時候會忘記帶錢包，或是付錢的時候想不起來要拿哪一張卡，所以有時候會跑一趟回家拿東西。",
+        "marked_transcript": "嗯，我最近去市場 [停頓] 那個...我會先從家裡出發，走到公車站，坐公車過去。到了之後就先逛一逛，看看有什麼新鮮的蔬菜，然後就買一點菜回家。不過有時候會忘記帶錢包，或是付錢的時候想不起來要拿哪一張卡，所以有時候會跑一趟回家拿東西。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，我最近去市場"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我會先從家裡出發，走到公車站，坐公車過去。到了之後就先逛一逛，看看有什麼新鮮的蔬菜，然後就買一點菜回家。不過有時候會忘記帶錢包，或是付錢的時候想不起來要拿哪一張卡，所以有時候會跑一趟回家拿東西。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.0,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "real_life steps_mentioned=3 does not match V10 step detector 4",
+        "real_life sequence_error_count=1 does not match V10 detector 0",
+        "real_life score=2 does not match V10 computed 4"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice2_female_real_market_0015",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice2_female",
+          "voice_id": "voice2_female",
+          "speaker_group": "older_female",
+          "gender": "female",
+          "description": "台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 2,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 1,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，我最近去市場那個，就是先出門啦。然後呢，要去買菜，但是忘記帶錢包了，所以沒有買到東西。後來就回家。",
+        "marked_transcript": "嗯，我最近去市場 [停頓] 那個，就是先出門啦。然後呢，要去買菜， [長停頓] 但是忘記帶錢包了，所以沒有買到東西。後來就回家。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，我最近去市場"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，就是先出門啦。然後呢，要去買菜，"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "但是忘記帶錢包了，所以沒有買到東西。後來就回家。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 3,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 1
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

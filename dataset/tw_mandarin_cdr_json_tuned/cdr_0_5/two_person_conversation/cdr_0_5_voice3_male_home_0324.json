@@ -1,0 +1,104 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_home_0324",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，您今天早上吃什麼早餐？\n患者：欸，早上啊...我煮了稀飯，還有燙青菜。好像有配一顆蛋。\n訪談者：喔，那妳昨天家裡有什麼特別的事情嗎？\n患者：昨天啊...阿母打電話來，囝仔說他們要過來吃晚餐。應該是星期五吧？嗯，讓我想一想...\n訪談者：好，那您今天的藥有拿嗎？\n患者：有拿，早上去診所拿的。那個血壓藥，還有血糖藥。\n訪談者：好的，最後請告訴我，我剛剛問了您哪三個事情？\n患者：嗯...早餐吃了什麼，阿母打電話來，還有藥有沒有拿。對，應該是這三樣吧。\n訪談者：很好，謝謝您的回憶。",
+  "marked_transcript": "訪談者：早啊，您今天早上吃什麼早餐？\n[停頓]400\n患者：欸，早上啊...我煮了稀飯，還有燙青菜。好像有配一顆蛋。\n訪談者：喔，那妳昨天家裡有什麼特別的事情嗎？\n患者：昨天啊...阿母打電話來，囝仔說他們要過來吃晚餐。應該是星期五吧？嗯，[長停頓]1200讓我想一想...\n訪談者：好，那您今天的藥有拿嗎？\n患者：有拿，早上去診所拿的。那個血壓藥，還有血糖藥。\n訪談者：好的，最後請告訴我，我剛剛問了您哪三個事情？\n患者：嗯...早餐吃了什麼，阿母打電話來，還有藥有沒有拿。對，應該是這三樣吧。\n訪談者：很好，謝謝您的回憶。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早啊，您今天早上吃什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，早上啊...我煮了稀飯，還有燙青菜。好像有配一顆蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那妳昨天家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...阿母打電話來，囝仔說他們要過來吃晚餐。應該是星期五吧？嗯，讓我想一想..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您今天的藥有拿嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿，早上去診所拿的。那個血壓藥，還有血糖藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，最後請告訴我，我剛剛問了您哪三個事情？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早餐吃了什麼，阿母打電話來，還有藥有沒有拿。對，應該是這三樣吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好，謝謝您的回憶。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1600,
+    "chinese_char_count": 189
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

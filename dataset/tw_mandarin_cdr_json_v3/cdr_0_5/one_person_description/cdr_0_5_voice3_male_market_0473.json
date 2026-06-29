@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0473",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上去菜市場 買了一些魚。阿母說想吃清蒸的。 那個攤販叫什麼名字…… 記不得了。反正就是老位置啦。回家路上還遇到老鄰居，聊了一下。",
+  "marked_transcript": "嗯，今天早上去菜市場 [停頓] 買了一些魚。阿母說想吃清蒸的。[長停頓] 那個攤販叫什麼名字…… 記不得了。反正就是老位置啦。回家路上還遇到老鄰居，聊了一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 754
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "買了一些魚。阿母說想吃清蒸的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1303
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個攤販叫什麼名字…… 記不得了。反正就是老位置啦。回家路上還遇到老鄰居，聊了一下"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2057,
+    "chinese_char_count": 57
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5：語句流暢但有輕微停頓，出現單字提取困難（攤販名稱），整體邏輯清晰。"
+}

@@ -1,0 +1,136 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0667",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你好，請問今天是幾月幾號？\n患者：嗯……今天是……好像是十月，對不對？應該是五號吧。\n訪談者：好的。那請問現在我們在哪裡呢？\n患者：喔，這個啊……我在菜市場啦，剛剛來買菜的。\n訪談者：為什麼來到這裡呢？\n患者：因為……家裡需要一些東西嘛，阿母說要去拿藥，所以我就順道過來。\n訪談者：那最近有沒有發生什麼特別的事情？\n患者：特別的事嗎？嗯……沒什麼特別啦，就是每天吃吃飯、走走。好像有點忘記昨天做了什麼了。\n訪談者：好的，謝謝你。",
+  "marked_transcript": "訪談者：你好，請問今天是幾月幾號？\n患者：嗯……[停頓] 今天是……好像是十月，對不對？應該是五號吧。\n訪談者：好的。那請問現在我們在哪裡呢？\n患者：喔，這個啊……我在菜市場啦，剛剛來買菜的。\n訪談者：為什麼來到這裡呢？\n患者：因為……[長停頓] 家裡需要一些東西嘛，阿母說要去拿藥，所以我就順道過來。\n訪談者：那最近有沒有發生什麼特別的事情？\n患者：特別的事嗎？嗯……沒什麼特別啦，就是每天吃吃飯、走走。好像有點忘記昨天做了什麼了。\n訪談者：好的，謝謝你。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你好，請問今天是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天是……好像是十月，對不對？應該是五號吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那請問現在我們在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，這個啊……我在菜市場啦，剛剛來買菜的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來到這裡呢？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 450
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為……家裡需要一些東西嘛，阿母說要去拿藥，所以我就順道過來。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那最近有沒有發生什麼特別的事情？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "特別的事嗎？嗯……沒什麼特別啦，就是每天吃吃飯、走走。好像有點忘記昨天做了什麼了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝你。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6150,
+    "chinese_char_count": 169
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

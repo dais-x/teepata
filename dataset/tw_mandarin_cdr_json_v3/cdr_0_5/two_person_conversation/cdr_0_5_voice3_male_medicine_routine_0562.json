@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_medicine_routine_0562",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，就是那……那個白粥，還有鹹菜。 欸，好像是昨天阿母帶去菜市場買的。\n訪談者：那今天早上有吃藥嗎？\n患者：有啊，早上剛吃完。 我想一下，是降血壓的那顆，還是……應該是那個沒錯。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，就是那……那個白粥，還有鹹菜。[停頓] 欸，好像是昨天阿母帶去菜市場買的。\n訪談者：那今天早上有吃藥嗎？\n患者：有啊，早上剛吃完。[長停頓] 我想一下，是降血壓的那顆，還是……應該是那個沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，就是那……那個白粥，還有鹹菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 759
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像是昨天阿母帶去菜市場買的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天早上有吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上剛吃完"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1460
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，是降血壓的那顆，還是……應該是那個沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2219,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with one small uncertainty about the vegetable source and mild hesitation when recalling specific medication type, using natural Taiwanese Mandarin fillers."
+}

@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_2_voice1_male_market_0895",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早點吃什麼啊？\n患者：嗯...早上喔，有喝粥。好像是米粥，對不對？\n[停頓]\n訪談者：那昨天家裡有什麼特別的事情嗎？\n患者：昨天...好像囝仔有來，欸不是，是前幾天啦。哎呀，記不得了。\n[長停頓]\n訪談者：那藥有沒有按时吃？\n患者：藥...拿、拿藥。在診所拿的。應該是早上吧，或是晚上？忘記了。\n[嘆氣]\n訪談者：那你記得我剛才叫你記住什麼事嗎？\n患者：記住？嗯...好像是要買菜？還是去銀行？哎呀，想不起來了啦。\n[停頓]\n訪談者：那今天早上你做了什麼呢？\n患者：早上...去市場。對，菜市場。看到阿母...不是，是鄰居。然後就回家了。",
+  "marked_transcript": "訪談者：阿伯，早點吃什麼啊？\n患者：嗯...早上喔，有喝粥。好像是米粥，對不對？\n[停頓]\n訪談者：那昨天家裡有什麼特別的事情嗎？\n患者：昨天...好像囝仔有來，欸不是，是前幾天啦。哎呀，記不得了。\n[長停頓]\n訪談者：那藥有沒有按時吃？\n患者：藥...拿、拿藥。在診所拿的。應該是早上吧，或是晚上？忘記了。\n[嘆氣]\n訪談者：那你記得我剛才叫你記住什麼事嗎？\n患者：記住？嗯...好像是要買菜？還是去銀行？哎呀，想不起來了啦。\n[停頓]\n訪談者：那今天早上你做了什麼呢？\n患者：早上...去市場。對，菜市場。看到阿母...不是，是鄰居。然後就回家了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿伯，早點吃什麼啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...早上喔，有喝粥。好像是米粥，對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那昨天家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：昨天...好像囝仔有來，欸不是，是前幾天啦。哎呀，記不得了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那藥有沒有按時吃？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：藥...拿、拿藥。在診所拿的。應該是早上吧，或是晚上？忘記了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那你記得我剛才叫你記住什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：記住？嗯...好像是要買菜？還是去銀行？哎呀，想不起來了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那今天早上你做了什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：早上...去市場。對，菜市場。看到阿母...不是，是鄰居。然後就回家了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 195
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.55,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

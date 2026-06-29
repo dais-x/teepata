@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice2_female_home_0702",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來之後，我會先去菜市場買些新鮮的蔬菜。 不過今天好像忘記了要帶那個錢包……欸，應該有放在抽屜裡面。然後去診所拿藥，阿母常叮嚀我要準時吃。 那個……藥名有點記不太清楚，但記得是白色的顆粒。回家後就坐在沙發上看電視，囝仔們還沒回來。 總之就是這樣的一天，好像沒什麼特別的事。",
+  "marked_transcript": "嗯，早上起來之後，我會先去菜市場買些新鮮的蔬菜。[停頓] 不過今天好像忘記了要帶那個錢包……欸，應該有放在抽屜裡面。然後去診所拿藥，阿母常叮嚀我要準時吃。[長停頓] 那個……藥名有點記不太清楚，但記得是白色的顆粒。回家後就坐在沙發上看電視，囝仔們還沒回來。[吸氣] 總之就是這樣的一天，好像沒什麼特別的事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來之後，我會先去菜市場買些新鮮的蔬菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 637
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過今天好像忘記了要帶那個錢包……欸，應該有放在抽屜裡面。然後去診所拿藥，阿母常叮嚀我要準時吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1560
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……藥名有點記不太清楚，但記得是白色的顆粒。回家後就坐在沙發上看電視，囝仔們還沒回來"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 588
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總之就是這樣的一天，好像沒什麼特別的事"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2785,
+    "chinese_char_count": 120
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgot wallet location, couldn't recall pill name) and mild memory uncertainty. Speech remains coherent with only one orientation lapse. Includes natural pauses and Taiwanese colloquialisms like '阿母' and '囝仔'. No excessive fragmentation."
+}

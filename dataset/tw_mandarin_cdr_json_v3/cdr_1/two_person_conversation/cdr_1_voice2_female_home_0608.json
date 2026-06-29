@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_1_voice2_female_home_0608",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：早點吃了什麼？\n患者：嗯，那個……我好像有喝豆漿， 還有饅頭。欸，饅頭是昨天還是今天買的？我想一下……應該是今天吧。\n訪談者：那藥有吃嗎？\n患者：有啊， 我記得有拿藥。不過那個盒子在哪裡呢？好像放在客廳的抽屜裡面。 對，就是那裡。",
+  "marked_transcript": "訪談者：早點吃了什麼？\n患者：嗯，那個……我好像有喝豆漿，[停頓] 還有饅頭。欸，饅頭是昨天還是今天買的？我想一下……應該是今天吧。\n訪談者：那藥有吃嗎？\n患者：有啊，[嘆氣] 我記得有拿藥。不過那個盒子在哪裡呢？好像放在客廳的抽屜裡面。[停頓] 對，就是那裡。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早點吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個……我好像有喝豆漿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 779
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有饅頭。欸，饅頭是昨天還是今天買的？我想一下……應該是今天吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥有吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 951
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得有拿藥。不過那個盒子在哪裡呢？好像放在客廳的抽屜裡面"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 720
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那裡"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2450,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '好像'), mild uncertainty about timing (yesterday vs today), and one orientation/memory error regarding the medicine box location, but remains coherent and mostly on topic."
+}

@@ -1,0 +1,87 @@
+{
+  "sample_id": "cdr_3_voice1_male_daily_life_0997",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生，你昨天早上吃什麼？ 受訪者：嗯……早、早餐。好像有粥。\n訪談者：那阿母有來嗎？\n受訪者：啊……阿母。那個，欸，我記不起來咧。好像是下午吧。 訪談者：你的藥呢？你昨天有吃藥嗎？\n受訪者：藥……拿藥。嗯，對，去診所。但是，哎呀，忘記了。\n訪談者：那今天幾號？\n受訪者：幾、幾號喔？我想一下。啊，好像是那個，星期五吧？不對咧，應該是星期四。欸，搞不清楚啦。 訪談者：好，那你記得昨天我們講什麼嗎？\n受訪者：講……講什麼？忘記了。好像說菜市場，又好像不是。哎呀，頭暈喔。",
+  "marked_transcript": "訪談者：先生，你昨天早上吃什麼？ [停頓] 受訪者：嗯……早、早餐。好像有粥。\n訪談者：那阿母有來嗎？\n受訪者：啊……阿母。那個，欸，我記不起來咧。好像是下午吧。 [長停頓] 訪談者：你的藥呢？你昨天有吃藥嗎？\n受訪者：藥……拿藥。嗯，對，去診所。但是，哎呀，忘記了。\n訪談者：那今天幾號？\n受訪者：幾、幾號喔？我想一下。啊，好像是那個，星期五吧？不對咧，應該是星期四。欸，搞不清楚啦。 [停頓] 訪談者：好，那你記得昨天我們講什麼嗎？\n受訪者：講……講什麼？忘記了。好像說菜市場，又好像不是。哎呀，頭暈喔。 [吸氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：先生，你昨天早上吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "受訪者：嗯……早、早餐。好像有粥。\n訪談者：那阿母有來嗎？\n受訪者：啊……阿母。那個，欸，我記不起來咧。好像是下午吧。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：你的藥呢？你昨天有吃藥嗎？\n受訪者：藥……拿藥。嗯，對，去診所。但是，哎呀，忘記了。\n訪談者：那今天幾號？\n受訪者：幾、幾號喔？我想一下。啊，好像是那個，星期五吧？不對咧，應該是星期四。欸，搞不清楚啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：好，那你記得昨天我們講什麼嗎？\n受訪者：講……講什麼？忘記了。好像說菜市場，又好像不是。哎呀，頭暈喔。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2600,
+    "chinese_char_count": 172
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 6,
+    "word_finding_count": 7,
+    "orientation_error_count": 3,
+    "memory_error_count": 6,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.28,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "very_slow"
+}

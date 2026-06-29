@@ -1,0 +1,1258 @@
+{
+  "sample_id": "cdr_3_voice4_female_real_family_0015",
+  "cdr": "3",
+  "task_group": "real_life_scenarios",
+  "scenario": "family",
+  "task_plan": {
+    "task_group": "real_life_scenarios",
+    "task_type": "family_event_recall",
+    "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+    "expected_steps": [
+      "人物",
+      "地點",
+      "活動",
+      "時間或順序"
+    ],
+    "max_score": 4,
+    "scoring_method": "expected_steps_and_sequence"
+  },
+  "speaker": {
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "long_pause event 3 duration 1.2 outside 1.5-4.5",
+        "long_pause event 15 duration 1.4 outside 1.5-4.5",
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 4
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯... 那個... 最近一次跟家人吃飯...呃... 忘記是星期幾了。就是說，我們有去外面吃，對不對？然後...啊對了，是阿嬤生日。但是地點...想不起來是哪間餐廳了。記得是在台北，好像是在板橋那邊。嗯... 然後大家都有在吃飯，也有聊天。不過我忘記是誰先開始講的。呃... 就是說，我們吃了很多菜，有魚、有肉...那個什麼... 叫什麼名字忘了。然後阿嬤她...她很高興，因為大家都來了。但是後來...嗯... 我記不起來有沒有送禮物給阿嬤了。可能是有吧。呃... 然後就回家了。大概是在晚上八點左右？不對，好像是九點了。忘記了。",
+        "marked_transcript": "嗯... 那個... 最近一次跟家人吃飯... [停頓] 呃... 忘記是星期幾了。就是說，我們有去外面吃，對不對？然後... [長停頓] 啊對了，是阿嬤生日。但是地點... [停頓] 想不起來是哪間餐廳了。記得是在台北，好像是在板橋那邊。 [長停頓] 嗯... 然後大家都有在吃飯，也有聊天。不過我忘記是誰先開始講的。呃... 就是說，我們吃了很多菜，有魚、有肉... [停頓] 那個什麼... 叫什麼名字忘了。然後阿嬤她... [長停頓] 她很高興，因為大家都來了。但是後來... [停頓] 嗯... 我記不起來有沒有送禮物給阿嬤了。可能是有吧。呃... 然後就回家了。大概是在晚上八點左右？不對，好像是九點了。 [長停頓] 忘記了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 最近一次跟家人吃飯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 忘記是星期幾了。就是說，我們有去外面吃，對不對？然後..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "啊對了，是阿嬤生日。但是地點..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "想不起來是哪間餐廳了。記得是在台北，好像是在板橋那邊。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 然後大家都有在吃飯，也有聊天。不過我忘記是誰先開始講的。呃... 就是說，我們吃了很多菜，有魚、有肉..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個什麼... 叫什麼名字忘了。然後阿嬤她..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "她很高興，因為大家都來了。但是後來..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 我記不起來有沒有送禮物給阿嬤了。可能是有吧。呃... 然後就回家了。大概是在晚上八點左右？不對，好像是九點了。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.4
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 9,
+          "pause_count": 4,
+          "long_pause_count": 4,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 8.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 4,
+            "total_pause_duration_sec": 8.3,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 1.8,
+            "filled_pause_count": 10,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 2,
+            "vague_reference_count": 3,
+            "circumlocution_count": 4,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 1,
+            "self_correction_count": 2,
+            "sentence_fragment_count": 12
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.35,
+            "memory_gap_count": 4,
+            "orientation_error_count": 3
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...就是昨天啦那個...跟家人吃飯。哎呀忘記是誰了可能是阿公阿嬤？在老家，對，老房子那裡。吃什麼呢...呃，好像是排骨湯？還是燉雞？想不起來。然後有聊聊天，講以前的事。時間嘛...就晚上吧，大概六點多？不對，應該是七點忘記了啦。那個...就是大家坐在一起吃飯，很開心。",
+        "marked_transcript": "嗯...就是昨天啦 [停頓] 那個...跟家人吃飯。哎呀忘記是誰了 [長停頓] 可能是阿公阿嬤？在老家，對，老房子那裡。吃什麼呢...呃，好像是排骨湯？還是燉雞？想不起來。 [停頓] 然後有聊聊天，講以前的事。時間嘛...就晚上吧，大概六點多？不對，應該是七點 [長停頓] 忘記了啦。那個...就是大家坐在一起吃飯，很開心。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...就是昨天啦"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...跟家人吃飯。哎呀忘記是誰了"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "可能是阿公阿嬤？在老家，對，老房子那裡。吃什麼呢...呃，好像是排骨湯？還是燉雞？想不起來。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後有聊聊天，講以前的事。時間嘛...就晚上吧，大概六點多？不對，應該是七點"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了啦。那個...就是大家坐在一起吃飯，很開心。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 7.7,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 7.7,
+            "silence_ratio": 0.15,
+            "speech_rate_target_cps": 2.1,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 3,
+            "circumlocution_count": 3,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 1,
+            "self_correction_count": 2,
+            "sentence_fragment_count": 7
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 3,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯... 那個... 最近跟家人吃飯，就是說...呃... 好像是在家裡吧？但是我不太記得是哪一天了。我們有吃什麼呢？好像是雞...雞肉，還是豬肉？哎呀，我想不起來叫什麼菜名了。然後...那個誰... 就是阿嬤、還有哥哥他們都在。對不對？嗯...後來就聊了一下天，不過我忘記講什麼了。大概是在晚上吧？反正就是吃完飯之後，大家坐在一起而已啦。呃...好像還喝了茶，還是咖啡？我也記不太清楚。",
+        "marked_transcript": "嗯... 那個... 最近跟家人吃飯，就是說... [停頓] 呃... 好像是在家裡吧？但是我不太記得是哪一天了。我們有吃什麼呢？好像是雞... [長停頓] 雞肉，還是豬肉？哎呀，我想不起來叫什麼菜名了。然後... [停頓] 那個誰... 就是阿嬤、還有哥哥他們都在。對不對？嗯... [長停頓] 後來就聊了一下天，不過我忘記講什麼了。大概是在晚上吧？反正就是吃完飯之後，大家坐在一起而已啦。呃... [停頓] 好像還喝了茶，還是咖啡？我也記不太清楚。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 最近跟家人吃飯，就是說..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 好像是在家裡吧？但是我不太記得是哪一天了。我們有吃什麼呢？好像是雞..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "雞肉，還是豬肉？哎呀，我想不起來叫什麼菜名了。然後..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個誰... 就是阿嬤、還有哥哥他們都在。對不對？嗯..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "後來就聊了一下天，不過我忘記講什麼了。大概是在晚上吧？反正就是吃完飯之後，大家坐在一起而已啦。呃..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好像還喝了茶，還是咖啡？我也記不太清楚。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 6,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 7.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 7.8,
+            "silence_ratio": 0.15,
+            "speech_rate_target_cps": 1.6,
+            "filled_pause_count": 9,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 2,
+            "vague_reference_count": 2,
+            "circumlocution_count": 2,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 12
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 3
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "long_pause event 1 duration 1.2 outside 1.5-4.5",
+        "speech_cognitive_task.score=3 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "呃...最近一次跟家人吃飯啊，就是那個...上個月吧，忘記是幾號了。我們一家人，大概五個人，在台北...在一個餐廳裡吃，嗯，吃什麼來著？好像是有魚，還有青菜，對不對？然後我記得有聊到阿嬤的生日，呃，不過時間有點忘了，好像是...大概是上個月月底吧，忘記了。那個時候還有人說要去哪裡玩，但是我想不起來了。就只是吃飯而已啦，嗯，大概就這樣。",
+        "marked_transcript": "呃... [長停頓] 最近一次跟家人吃飯啊，就是那個... [停頓] 上個月吧，忘記是幾號了。我們一家人，大概五個人，在台北... [停頓] 在一個餐廳裡吃，嗯，吃什麼來著？好像是有魚，還有青菜，對不對？然後我記得有聊到阿嬤的生日，呃，不過時間有點忘了，好像是... [長停頓] 大概是上個月月底吧，忘記了。那個時候還有人說要去哪裡玩，但是我想不起來了。就只是吃飯而已啦，嗯， [停頓] 大概就這樣。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "最近一次跟家人吃飯啊，就是那個..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "上個月吧，忘記是幾號了。我們一家人，大概五個人，在台北..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "在一個餐廳裡吃，嗯，吃什麼來著？好像是有魚，還有青菜，對不對？然後我記得有聊到阿嬤的生日，呃，不過時間有點忘了，好像是..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "大概是上個月月底吧，忘記了。那個時候還有人說要去哪裡玩，但是我想不起來了。就只是吃飯而已啦，嗯，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "大概就這樣。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 6,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.5,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 4.5,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 1.8,
+            "filled_pause_count": 10,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 3,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 8
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 2,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 2
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "speech_cognitive_task.score=3 outside CDR envelope [0, 1]",
+        "acoustic_fluency.pause_count=2 outside allowed range [3, 12]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，那個...最近一次跟家人吃飯啊，忘記是幾號了。就是上個月吧？應該是有去大舅家，對不對？然後我們大家就坐下來吃東西。那個菜色好像有魚，還有什麼來著？想不起來了。呃，時間大概是在下午兩點左右。但是後來又忘了，到底是誰帶我去的。反正就是跟家人在一起，很開心啦。",
+        "marked_transcript": "嗯， [停頓] 那個...最近一次跟家人吃飯啊，忘記是幾號了。就是上個月吧？應該是有去大舅家，對不對？然後我們大家就坐下來吃東西。 [長停頓] 那個菜色好像有魚，還有什麼來著？想不起來了。呃，時間大概是在下午兩點左右。但是後來又忘了，到底是誰帶我去的。反正就是跟家人在一起，很開心啦。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...最近一次跟家人吃飯啊，忘記是幾號了。就是上個月吧？應該是有去大舅家，對不對？然後我們大家就坐下來吃東西。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個菜色好像有魚，還有什麼來著？想不起來了。呃，時間大概是在下午兩點左右。但是後來又忘了，到底是誰帶我去的。反正就是跟家人在一起，很開心啦。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.7,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 3.7,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.0,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 2,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 2,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from event_script": false,
+          "feature_counts_repaired": true,
+          "marked_transcript_rebuilt_from_event_script": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "long_pause event 3 duration 1.2 outside 1.5-4.5",
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "就是那個...昨天，跟家人。呃... 在餐廳。吃飯。對，吃飯。但是忘記了...誰？不記得。好像有阿嬤，還有哥哥。地點是... 哪間店？忘了。活動就是吃東西。時間... 昨天下午。然後...嗯，聊了一下。那個菜色... 叫什麼來著？忘記了。然後就回家。很簡單。",
+        "marked_transcript": "就是那個... [停頓] 昨天，跟家人。 [長停頓] 呃... 在餐廳。吃飯。對，吃飯。 [停頓] 但是忘記了... [停頓] 誰？不記得。好像有阿嬤，還有哥哥。 [長停頓] 地點是... 哪間店？忘了。活動就是吃東西。 [停頓] 時間... 昨天下午。然後... [長停頓] 嗯，聊了一下。那個菜色... 叫什麼來著？ [停頓] 忘記了。然後就回家。很簡單。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "就是那個..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "昨天，跟家人。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 在餐廳。吃飯。對，吃飯。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "但是忘記了..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "誰？不記得。好像有阿嬤，還有哥哥。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "地點是... 哪間店？忘了。活動就是吃東西。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "時間... 昨天下午。然後..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，聊了一下。那個菜色... 叫什麼來著？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.9
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了。然後就回家。很簡單。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 9,
+          "pause_count": 5,
+          "long_pause_count": 3,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 7.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 5,
+            "long_pause_count": 3,
+            "total_pause_duration_sec": 7.6,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 1.8,
+            "filled_pause_count": 7,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 4,
+            "vague_reference_count": 3,
+            "circumlocution_count": 3,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 1,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 10
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 3
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...就是說，上個月啊，跟家人，那個...一起吃飯。在台北的，呃...家裡？不記得是哪裡了。有爸爸、媽媽，還有弟弟。我們吃的是火鍋啦，但是忘記點什麼菜了。然後聊了一下，那個...聊什麼來著？想不起來了。大概講到工作的事吧。後來就回家了。",
+        "marked_transcript": "嗯... [停頓] 就是說，上個月啊，跟家人， [停頓] 那個... [長停頓] 一起吃飯。在台北的，呃... [停頓] 家裡？不記得是哪裡了。有爸爸、媽媽，還有弟弟。我們吃的是火鍋啦，但是忘記點什麼菜了。 [停頓] 然後聊了一下，那個... [長停頓] 聊什麼來著？想不起來了。大概講到工作的事吧。後來就回家了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "就是說，上個月啊，跟家人，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "一起吃飯。在台北的，呃..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "家裡？不記得是哪裡了。有爸爸、媽媽，還有弟弟。我們吃的是火鍋啦，但是忘記點什麼菜了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後聊了一下，那個..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.9
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "聊什麼來著？想不起來了。大概講到工作的事吧。後來就回家了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 7,
+          "pause_count": 4,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 6.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 6.6,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 1.8,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 2,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 6
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 3,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "long_pause event 1 duration 1.2 outside 1.5-4.5",
+        "speech event 8 speaker must be patient",
+        "speech_cognitive_task.score=4 outside CDR envelope [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_3_voice4_female_real_family_0015",
+        "cdr_level": 3,
+        "cdr_label": "severe",
+        "task_group": "real_life_scenarios",
+        "scenario": "family",
+        "task_type": "family_event_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "family_event_recall",
+          "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "人物",
+            "地點",
+            "活動",
+            "時間或順序"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...那個，最近一次跟家人吃飯...呃，忘記是幾號了。就是上個月吧？好像有阿公、阿嬤在，還有我兒子。地點...就在我們家。然後大家坐下來吃東西。但是...忘了吃什麼菜色。只記得有魚，還有青菜。時間的話，大概是晚上六點左右？嗯，對。後來聊了一下天，就散場了。那個，記不太清楚細節了。",
+        "marked_transcript": "嗯... [長停頓] 那個，最近一次跟家人吃飯... [停頓] 呃，忘記是幾號了。就是上個月吧？好像有阿公、阿嬤在，還有我兒子。地點... [停頓] 就在我們家。然後大家坐下來吃東西。但是... [長停頓] 忘了吃什麼菜色。只記得有魚，還有青菜。時間的話，大概是晚上六點左右？嗯，對。後來聊了一下天，就散場了。那個，記不太清楚細節了。 [停頓]",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，最近一次跟家人吃飯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，忘記是幾號了。就是上個月吧？好像有阿公、阿嬤在，還有我兒子。地點..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "就在我們家。然後大家坐下來吃東西。但是..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "player",
+            "text": "忘了吃什麼菜色。只記得有魚，還有青菜。時間的話，大概是晚上六點左右？嗯，對。後來聊了一下天，就散場了。那個，記不太清楚細節了。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 4.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 1.8,
+            "filled_pause_count": 6,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 8
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.85,
+            "coherence_score": 0.25,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

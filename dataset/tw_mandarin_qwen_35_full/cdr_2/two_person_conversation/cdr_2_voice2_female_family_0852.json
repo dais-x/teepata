@@ -1,0 +1,123 @@
+{
+  "sample_id": "cdr_2_voice2_female_family_0852",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：早，妳今天早餐吃什麼？\n患者：嗯...那個...好像是粥。欸，不曉得啦。\n訪談者：昨天家裡有發生什麼事嗎？\n患者：啊...昨天咧？好像...沒有什麼事情。應該是有去菜市場吧？\n訪談者：有去看醫生拿藥嗎？\n患者：拿藥...嗯...對喔，要去診所拿藥。\n訪談者：那妳記得要記住今天要做什麼事嗎？\n患者：記住...什麼事啊？想一下...好像是要吃藥。",
+  "marked_transcript": "訪談者：早，妳今天早餐吃什麼？\n[停頓] 患者：嗯...那個...好像是粥。欸，不曉得啦。\n[長停頓]\n訪談者：昨天家裡有發生什麼事嗎？\n[吸氣] 患者：啊...昨天咧？好像...沒有什麼事情。應該是有去菜市場吧？\n訪談者：有去看醫生拿藥嗎？\n[停頓] 患者：拿藥...嗯...對喔，要去診所拿藥。\n訪談者：那妳記得要記住今天要做什麼事嗎？\n[長停頓]\n[嘆氣] 患者：記住...什麼事啊？想一下...好像是要吃藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早，妳今天早餐吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個...好像是粥。欸，不曉得啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊...昨天咧？好像...沒有什麼事情。應該是有去菜市場吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有去看醫生拿藥嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥...嗯...對喔，要去診所拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那妳記得要記住今天要做什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記住...什麼事啊？想一下...好像是要吃藥。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 7400,
+    "chinese_char_count": 122
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 4,
+    "orientation_error_count": 0,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.58,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

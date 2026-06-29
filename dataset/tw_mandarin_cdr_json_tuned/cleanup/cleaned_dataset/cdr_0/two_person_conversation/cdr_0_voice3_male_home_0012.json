@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_0_voice3_male_home_0012",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，您昨天早餐吃了什麼？ 受訪者：喔，我早上有吃滷肉飯，還有喝豆漿。\n訪談者：最近家裡有什麼特別的事情嗎？\n受訪者：嗯，上週阿母生日，全家一起出去吃飯，大家都很高興。\n訪談者：那您今天有去拿藥嗎？ 受訪者：有啊，早上剛從診所回來，拿了降血壓的藥，按時吃就好。\n訪談者：我剛剛跟您說要記住的事情是什麼？\n受訪者：是明天下午兩點要去銀行辦手續對吧？我有記下來了。\n訪談者：那昨天早上您做了什麼呢？ 受訪者：喔，我九點左右去菜市場買菜，順便跟鄰居聊了幾句，然後就回家煮飯。",
+  "marked_transcript": "訪談者：早啊，您昨天早餐吃了什麼？ [停頓] 受訪者：喔，我早上有吃滷肉飯，還有喝豆漿。\n訪談者：最近家裡有什麼特別的事情嗎？\n受訪者：嗯，上週阿母生日，全家一起出去吃飯，大家都很高興。\n訪談者：那您今天有去拿藥嗎？ [停頓] 受訪者：有啊，早上剛從診所回來，拿了降血壓的藥，按時吃就好。\n訪談者：我剛剛跟您說要記住的事情是什麼？\n受訪者：是明天下午兩點要去銀行辦手續對吧？我有記下來了。\n訪談者：那昨天早上您做了什麼呢？ [停頓] 受訪者：喔，我九點左右去菜市場買菜，順便跟鄰居聊了幾句，然後就回家煮飯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：早啊，您昨天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：喔，我早上有吃滷肉飯，還有喝豆漿。\n訪談者：最近家裡有什麼特別的事情嗎？\n受訪者：嗯，上週阿母生日，全家一起出去吃飯，大家都很高興。\n訪談者：那您今天有去拿藥嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：有啊，早上剛從診所回來，拿了降血壓的藥，按時吃就好。\n訪談者：我剛剛跟您說要記住的事情是什麼？\n受訪者：是明天下午兩點要去銀行辦手續對吧？我有記下來了。\n訪談者：那昨天早上您做了什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "受訪者：喔，我九點左右去菜市場買菜，順便跟鄰居聊了幾句，然後就回家煮飯。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1550,
+    "chinese_char_count": 196
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "normal"
+}

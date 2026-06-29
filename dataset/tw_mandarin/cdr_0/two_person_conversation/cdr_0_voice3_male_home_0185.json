@@ -1,0 +1,147 @@
+{
+  "sample_id": "cdr_0_voice3_male_home_0185",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是哪一天？\n患者：今天是五月二十三日。\n訪談者：你在哪裡出生的啊？\n患者：我在台中出生的。\n訪談者：你幾歲了呢？\n患者：我今年六十五歲。\n訪談者：請問你的母親叫什麼名字？\n患者：我的母親叫做秀英。\n訪談者：你記得昨天吃過甚麼嗎？\n患者：嗯，昨天吃了炒麵和青菜。\n訪談者：那今天想做些什麼呢？\n患者：我想去公園散散步，呼吸一下新鮮空氣。",
+  "marked_transcript": "[停頓]訪談者：今天是哪一天？[長停頓]患者：今天是五月二十三日。[咳嗽]訪談者：你在哪裡出生的啊？[吸氣]患者：我在台中出生的。[嘆氣]訪談者：你幾歲了呢？患者：我今年六十五歲。[停頓]訪談者：請問你的母親叫什麼名字？患者：我的母親叫做秀英。[長停頓]訪談者：你記得昨天吃過甚麼嗎？患者：嗯，昨天吃了炒麵和青菜。[咳嗽]訪談者：那今天想做些什麼呢？患者：我想去公園散散步，呼吸一下新鮮空氣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是哪一天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是五月二十三日。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你在哪裡出生的啊？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在台中出生的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你幾歲了呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我今年六十五歲。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問你的母親叫什麼名字？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我的母親叫做秀英。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得昨天吃過甚麼嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，昨天吃了炒麵和青菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天想做些什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想去公園散散步，呼吸一下新鮮空氣。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 2,
+    "breath_event_count": 1,
+    "total_pause_ms": 7300,
+    "chinese_char_count": 136
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

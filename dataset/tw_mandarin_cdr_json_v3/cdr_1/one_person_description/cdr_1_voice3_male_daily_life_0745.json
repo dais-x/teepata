@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0745",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "嗯，早上起來之後，我就去菜市場買菜。那個……好像是七點左右吧？ 我記得阿母以前都會跟我一起去，但這次是我自己去的。買了青菜和魚，然後回家煮早餐。 啊對了，吃完飯要去診所拿藥，好像忘記帶健保卡了……欸，應該沒關係，我待會兒再回去拿。",
+  "marked_transcript": "嗯，早上起來之後，我就去菜市場買菜。那個……好像是七點左右吧？[停頓] 我記得阿母以前都會跟我一起去，但這次是我自己去的。買了青菜和魚，然後回家煮早餐。[長停頓] 啊對了，吃完飯要去診所拿藥，好像忘記帶健保卡了……欸，應該沒關係，我待會兒再回去拿。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來之後，我就去菜市場買菜。那個……好像是七點左右吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 613
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得阿母以前都會跟我一起去，但這次是我自己去的。買了青菜和魚，然後回家煮早餐"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1585
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對了，吃完飯要去診所拿藥，好像忘記帶健保卡了……欸，應該沒關係，我待會兒再回去拿"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2198,
+    "chinese_char_count": 96
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個'), one memory uncertainty about time and forgetting ID card, but remains coherent and on topic with minimal pauses."
+}

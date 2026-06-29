@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice1_male_home_0152",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：你好，今天幾月幾號啊？\n患者：今天是十月十五號啦。\n訪談者：好，那現在我們在哪裡呢？\n患者：應該是在我家裡吧，我在客廳這裡。\n訪談者：嗯，那你為什麼會來這裡檢查呢？\n患者：喔，因為最近頭有點昏，所以阿母叫我來診所拿藥，順便來看看醫生。\n訪談者：好的，那今天早上做了什麼事啊？\n患者：早上有去菜市場買菜，然後回家煮飯吃，大概十點多吧。",
+  "marked_transcript": "訪談者：你好，今天幾月幾號啊？\n[停頓]\n患者：今天是十月十五號啦。\n訪談者：好，那現在我們在哪裡呢？\n[吸氣]\n患者：應該是在我家裡吧，我在客廳這裡。\n訪談者：嗯，那你為什麼會來這裡檢查呢？\n[停頓]\n患者：喔，因為最近頭有點昏，所以阿母叫我來診所拿藥，順便來看看醫生。\n訪談者：好的，那今天早上做了什麼事啊？\n患者：早上有去菜市場買菜，然後回家煮飯吃，大概十點多吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你好，今天幾月幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是十月十五號啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那現在我們在哪裡呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在我家裡吧，我在客廳這裡。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，那你為什麼會來這裡檢查呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，因為最近頭有點昏，所以阿母叫我來診所拿藥，順便來看看醫生。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那今天早上做了什麼事啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上有去菜市場買菜，然後回家煮飯吃，大概十點多吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 137
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

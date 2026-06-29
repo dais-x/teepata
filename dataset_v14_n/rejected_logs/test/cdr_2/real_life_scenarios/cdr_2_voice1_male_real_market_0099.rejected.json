@@ -1,0 +1,1055 @@
+{
+  "sample_id": "cdr_2_voice1_male_real_market_0099",
+  "cdr": "2",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_plan": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "max_score": 4,
+    "scoring_method": "expected_steps_and_sequence"
+  },
+  "speaker": {
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。"
+  },
+  "split": "test",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "speech event 6 speaker must be patient",
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，那個我最近有去市場。先是要出門，然後忘了是先去哪裡了。反正就是買東西，好像有買菜，還有水果。呃，付錢的時候有點慢，因為忘記帶錢包，後來才回家",
+        "marked_transcript": "嗯，那個 [停頓] 我最近有去市場。先是要出門，然後 [長停頓] 忘了是先去哪裡了。反正就是買東西，好像有買菜，還有水果。 [停頓] 呃，付錢的時候有點慢，因為忘記帶錢包，後來才回家",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，那個"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我最近有去市場。先是要出門，然後"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘了是先去哪裡了。反正就是買東西，好像有買菜，還有水果。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "player",
+            "text": "呃，付錢的時候有點慢，因為忘記帶錢包，後來才回家"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 3.3,
+            "silence_ratio": 0.08,
+            "speech_rate_target_cps": 2.6,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 2
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 2,
+            "topic_drift_score": 0.58,
+            "coherence_score": 0.45,
+            "memory_gap_count": 1,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]",
+        "acoustic_fluency.speech_rate_target_cps=3.8 outside allowed range [2.2, 3.3]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯那個...我最近去市場啊，就是...早上出門。買菜，對，買菜。然後...呃，忘記怎麼回去的。好像有付錢，但記不太清楚。那個東西叫什麼來著？忘了。回家就沒了。",
+        "marked_transcript": "嗯 [長停頓] [停頓] 那個...我最近去市場啊，就是...早上出門。買菜，對，買菜。然後...呃，忘記怎麼回去的。好像有付錢，但記不太清楚。那個東西叫什麼來著？忘了。回家就沒了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我最近去市場啊，就是...早上出門。買菜，對，買菜。然後...呃，忘記怎麼回去的。好像有付錢，但記不太清楚。那個東西叫什麼來著？忘了。回家就沒了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.3,
+            "silence_ratio": 0.02,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 4,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 5
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.52,
+            "coherence_score": 0.48,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，去市場那個，我記得是早上。先出門，然後忘記了，好像有買菜，但是忘了怎麼付錢。一直想不起來，回家之後才記起來。",
+        "marked_transcript": "嗯，去市場 [停頓] 那個，我記得是早上。先出門，然後 [長停頓] 忘記了，好像有買菜，但是 [停頓] 忘了怎麼付錢。一直想不起來， [停頓] 回家之後才記起來。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，去市場"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，我記得是早上。先出門，然後"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了，好像有買菜，但是"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘了怎麼付錢。一直想不起來，"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "回家之後才記起來。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.9,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 3.9,
+            "silence_ratio": 0.08,
+            "speech_rate_target_cps": 2.5,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 1,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 1
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.52,
+            "coherence_score": 0.48,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "long_pause event 3 duration 1.2 outside 1.5-4.5",
+        "speech_cognitive_task.score=3 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...我最近去市場，就是那個...買菜。先出門，然後...忘記了。好像有買水果，但是不知道怎麼講那個東西的名字。然後就回家。",
+        "marked_transcript": "嗯... [停頓] 我最近去市場，就是那個... [長停頓] 買菜。先出門，然後... [停頓] 忘記了。好像有買水果，但是不知道怎麼講那個東西的名字。 [長停頓] 然後就回家。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我最近去市場，就是那個..."
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "買菜。先出門，然後..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了。好像有買水果，但是不知道怎麼講那個東西的名字。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後就回家。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 2,
+          "long_pause_count": 2,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 2,
+            "total_pause_duration_sec": 3.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.6,
+            "filled_pause_count": 5,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 3,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 4
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.55,
+            "coherence_score": 0.48,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 2
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯我最近去市場...那個...就是先出門。然後...呃忘記要買什麼了。就隨便逛逛...啊對，買菜。付錢...不記得怎麼付的。回家",
+        "marked_transcript": "嗯 [停頓] 我最近去市場...那個...就是先出門。然後...呃 [長停頓] 忘記要買什麼了。就隨便逛逛...啊對，買菜。付錢...不記得怎麼付的。 [停頓] 回家",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我最近去市場...那個...就是先出門。然後...呃"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.1
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記要買什麼了。就隨便逛逛...啊對，買菜。付錢...不記得怎麼付的。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "回家"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 3.3,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.8,
+            "filled_pause_count": 5,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 7
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.52,
+            "coherence_score": 0.48,
+            "memory_gap_count": 2,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，去市場那個，我通常會先出門。然後買東西呃，忘記怎麼付錢了。回家...好像忘了步驟。",
+        "marked_transcript": "嗯，去市場 [停頓] 那個，我通常會先出門。然後買東西 [停頓] 呃，忘記怎麼付錢了。 [長停頓] 回家...好像忘了步驟。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，去市場"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，我通常會先出門。然後買東西"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，忘記怎麼付錢了。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "回家...好像忘了步驟。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 5.5,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 5.5,
+            "silence_ratio": 0.12,
+            "speech_rate_target_cps": 2.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.58,
+            "coherence_score": 0.45,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "speech_cognitive_task.score=4 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 4,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 4,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯那個...我最近去市場，就是早上出門。然後記得要買菜，但是忘記帶錢包了，呃，後來就沒買到東西。回家之後才想起來，應該要先付錢再拿東西吧？不過記不太清楚步驟了。",
+        "marked_transcript": "嗯 [長停頓] [停頓] 那個...我最近去市場，就是早上出門。然後記得要買菜，但是忘記帶錢包了，呃，後來就沒買到東西。回家之後才想起來，應該要先付錢再拿東西吧？不過記不太清楚步驟了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我最近去市場，就是早上出門。然後記得要買菜，但是忘記帶錢包了，呃，後來就沒買到東西。回家之後才想起來，應該要先付錢再拿東西吧？不過記不太清楚步驟了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.3,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.3,
+            "silence_ratio": 0.02,
+            "speech_rate_target_cps": 3.1,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 1,
+            "topic_drift_score": 0.55,
+            "coherence_score": 0.48,
+            "memory_gap_count": 1,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "speech_cognitive_task.score=3 outside CDR envelope [1, 2]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_2_voice1_male_real_market_0099",
+        "cdr_level": 2,
+        "cdr_label": "moderate",
+        "task_group": "real_life_scenarios",
+        "scenario": "market",
+        "task_type": "market_activity_recall",
+        "interaction_type": "one_person_description",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "test"
+        },
+        "interviewer": null,
+        "split": "test",
+        "speech_cognitive_task": {
+          "task_group": "real_life_scenarios",
+          "task_type": "market_activity_recall",
+          "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+          "scoring_method": "expected_steps_and_sequence",
+          "score": 3,
+          "max_score": 4,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_steps": [
+            "出門",
+            "買東西",
+            "付錢",
+            "回家"
+          ],
+          "steps_mentioned": 3,
+          "sequence_error_count": 0,
+          "memory_gap_count": 1
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯...那個，我最近去市場啊，就是...就是早上去。買菜，對不對？然後...呃，忘記怎麼回去的。好像有付錢，但是記不清楚了。那個東西叫什麼來著？忘了。",
+        "marked_transcript": "嗯...那個，我最近去市場啊，就是...就是早上去。買菜，對不對？然後...呃，忘記怎麼回去的。好像有付錢，但是記不清楚了。那個東西叫什麼來著？ [長停頓] [停頓] 忘了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...那個，我最近去市場啊，就是...就是早上去。買菜，對不對？然後...呃，忘記怎麼回去的。好像有付錢，但是記不清楚了。那個東西叫什麼來著？"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘了。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 2.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 2.6,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 2.8,
+            "filled_pause_count": 7,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 4,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 1,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 5
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.55,
+            "coherence_score": 0.48,
+            "memory_gap_count": 1,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

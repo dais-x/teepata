@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0309",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃什麼？\n患者：嗯，我記得有喝粥……欸，好像是稀飯加鹹菜。那個，我想一下，好像還有煎蛋。\n訪談者：上週末家裡有什麼特別的事嗎？\n患者：啊，應該是兒子回來了……對，帶了囝仔來。不過記不得具體是哪一天了，可能是週六吧？",
+  "marked_transcript": "訪談者：今天早上吃什麼？\n患者：嗯，我記得有喝粥……欸，好像是稀飯加鹹菜。那個，我想一下，好像還有煎蛋。\n訪談者：上週末家裡有什麼特別的事嗎？\n患者：啊，應該是兒子回來了……對，帶了囝仔來。不過記不得具體是哪一天了，可能是週六吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我記得有喝粥……欸，好像是稀飯加鹹菜。那個，我想一下，好像還有煎蛋"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上週末家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，應該是兒子回來了……對，帶了囝仔來。不過記不得具體是哪一天了，可能是週六吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with subtle hesitation (嗯, 欸) and one mild uncertainty about date; minimal markers [停頓] implied in flow."
+}

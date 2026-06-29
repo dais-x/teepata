@@ -1,0 +1,161 @@
+{
+  "sample_id": "cdr_2_voice1_male_clinic_0066",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你最近睡得好不好？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯那個，我最近就是睡得不太好啦，常常半夜會醒來，然後想不起來幾點了，就不知道怎麼講，很煩。"
+    }
+  ],
+  "spoken_transcript": "嗯那個，我最近就是睡得不太好啦，常常半夜會醒來，然後想不起來幾點了，就不知道怎麼講，很煩。",
+  "marked_transcript": "嗯 [停頓] 那個，我最近就是睡得不太好啦，常常半夜會醒來，然後 [長停頓] 想不起來幾點了，就 [停頓] 不知道怎麼講，很煩。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，我最近就是睡得不太好啦，常常半夜會醒來，然後"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想不起來幾點了，就"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道怎麼講，很煩。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你最近睡得好不好？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，我最近就是睡得不太好啦，常常半夜會醒來，然後"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想不起來幾點了，就"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道怎麼講，很煩。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.3,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.3,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 0,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.52,
+      "coherence_score": 0.48,
+      "memory_gap_count": 2,
+      "orientation_error_count": 1
+    }
+  }
+}

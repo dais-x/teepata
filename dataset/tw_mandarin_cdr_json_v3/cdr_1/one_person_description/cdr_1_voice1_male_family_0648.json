@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_voice1_male_family_0648",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起床後，我還是會先幫阿母把藥拿好。欸，那個……好像是七點半？啊，記不得了。然後去菜市場買些青菜，囝仔們今天回來吃飯，要準備多一點。 對了，診所那邊的藥單……嗯，應該是放在抽屜裡沒錯吧？我想一下，好像有看過。",
+  "marked_transcript": "嗯，早上起床後，我還是會先幫阿母把藥拿好。欸，那個……好像是七點半？啊，記不得了。然後去菜市場買些青菜，囝仔們今天回來吃飯，要準備多一點。[停頓] 對了，診所那邊的藥單……嗯，應該是放在抽屜裡沒錯吧？我想一下，好像有看過。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起床後，我還是會先幫阿母把藥拿好。欸，那個……好像是七點半？啊，記不得了。然後去菜市場買些青菜，囝仔們今天回來吃飯，要準備多一點"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 830
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對了，診所那邊的藥單……嗯，應該是放在抽屜裡沒錯吧？我想一下，好像有看過"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 830,
+    "chinese_char_count": 87
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('好像是七點半'), mild memory uncertainty about medicine location, and one hesitation. Speech remains coherent and on topic with only two pauses."
+}

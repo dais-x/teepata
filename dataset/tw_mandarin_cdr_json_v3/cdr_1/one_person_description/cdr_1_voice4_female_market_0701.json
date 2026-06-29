@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice4_female_market_0701",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上一大早就去菜市場了。 想買點青菜，還有……那個，魚肉。欸，忘記叫什麼名字了，好像是鱸魚？應該是吧。 阿母說要拿藥去診所，但我記不太清楚是昨天還是前天去的。啊，對啦，就是今天要去拿。嗯，那個攤販還記得我，跟我聊了幾句囝仔的事。",
+  "marked_transcript": "嗯，今天早上一大早就去菜市場了。[停頓] 想買點青菜，還有……那個，魚肉。欸，忘記叫什麼名字了，好像是鱸魚？應該是吧。[長停頓] 阿母說要拿藥去診所，但我記不太清楚是昨天還是前天去的。啊，對啦，就是今天要去拿。嗯，那個攤販還記得我，跟我聊了幾句囝仔的事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上一大早就去菜市場了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 894
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想買點青菜，還有……那個，魚肉。欸，忘記叫什麼名字了，好像是鱸魚？應該是吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1175
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥去診所，但我記不太清楚是昨天還是前天去的。啊，對啦，就是今天要去拿。嗯，那個攤販還記得我，跟我聊了幾句囝仔的事"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2069,
+    "chinese_char_count": 97
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Clear word-finding difficulty (fish name), mild memory uncertainty about clinic visit date, mostly coherent with natural pauses."
+}

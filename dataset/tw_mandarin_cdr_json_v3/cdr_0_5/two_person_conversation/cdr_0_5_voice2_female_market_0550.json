@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0550",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……我想一下，好像是星期三吧。 對，應該是星期三。\n訪談者：我們現在在哪裡呢？\n患者：欸，這裡啊，是菜市場嘛。 我來拿藥的。",
+  "marked_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……我想一下，好像是星期三吧。[停頓] 對，應該是星期三。\n訪談者：我們現在在哪裡呢？\n患者：欸，這裡啊，是菜市場嘛。[停頓] 我來拿藥的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我想一下，好像是星期三吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 831
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，應該是星期三"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，這裡啊，是菜市場嘛"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 716
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我來拿藥的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1547,
+    "chinese_char_count": 59
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Patient shows mild hesitation and one moment of uncertainty regarding the day, but recovers quickly with correct location context. Natural oral markers used sparingly."
+}

@@ -1,0 +1,147 @@
+{
+  "sample_id": "cdr_3_voice2_female_market_0923",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿嬤，早上吃什麼？\n患者：嗯……早餐……粥。白粥。\n訪談者：有配什麼菜嗎？\n患者：鹹魚……鹹魚。對。\n訪談者：昨天發生什麼事？\n患者：昨天……去診所。拿藥。阿母，阿母在嗎？\n訪談者：沒有，是我去拿藥。\n患者：喔……我忘記了。藥盒……藥盒在哪裡？\n訪談者：記得剛才我說要記什麼嗎？\n患者：記……記什麼？好像是……囝仔。對，囝仔要來。\n訪談者：那今天早上幾點起床的？\n患者：早上……太陽出來了。起來。起來煮飯。\n訪談者：好，那藥名是什麼？\n患者：藥名……名字……那個白瓶。白瓶的。\n訪談者：謝謝你，阿嬤。",
+  "marked_transcript": "訪談者：阿嬤，早上吃什麼？\n患者：嗯……早餐……粥 [停頓] 白粥。\n訪談者：有配什麼菜嗎？\n患者：鹹魚……鹹魚。對。\n訪談者：昨天發生什麼事？\n患者：[長停頓] 昨天……去診所。拿藥。阿母，阿母在嗎？ [嘆氣]\n訪談者：沒有，是我去拿藥。\n患者：喔……我忘記了。藥盒……藥盒在哪裡？ [咳嗽]\n訪談者：記得剛才我說要記什麼嗎？\n患者：記……記什麼？好像是……囝仔。對，囝仔要來。\n訪談者：那今天早上幾點起床的？\n患者：早上……太陽出來了。起來。起來煮飯。\n訪談者：好，那藥名是什麼？\n患者：藥名……名字……那個白瓶。白瓶的。\n訪談者：謝謝你，阿嬤。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿嬤，早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早餐……粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "白粥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有配什麼菜嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "鹹魚……鹹魚。對。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天發生什麼事？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天……去診所。拿藥。阿母，阿母在嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒有，是我去拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔……我忘記了。藥盒……藥盒在哪裡？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得剛才我說要記什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記……記什麼？好像是……囝仔。對，囝仔要來。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天早上幾點起床的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上……太陽出來了。起來。起來煮飯。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那藥名是什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥名……名字……那個白瓶。白瓶的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "謝謝你，阿嬤。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 3300,
+    "chinese_char_count": 172
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 7,
+    "word_finding_count": 6,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

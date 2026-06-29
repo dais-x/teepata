@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0667",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，今天幾號？\n患者：嗯...今天是...那個，好像是禮拜三。欸不對，應該是星期四吧。\n訪談者：喔，好的。那我們現在是在哪裡呢？\n患者：這裡啊...是菜市場啦。我來買菜的。昨天才來的嘛。\n訪談者：為什麼今天會過來這裡呢？\n患者：嗯...阿母交代我，說要拿點藥，然後順便...那個，去診所看醫生。對，就是這樣。\n訪談者：那你今天早上有吃早餐嗎？\n患者：有啊，吃了稀飯跟蛋。不過我記不得是幾點了，好像...八點左右吧。",
+  "marked_transcript": "訪談者：老先生，今天幾號？\n患者：嗯 [停頓] 今天是...那個 [停頓] 好像是禮拜三。欸不對 [長停頓] 應該是星期四吧。\n訪談者：喔，好的。那我們現在是在哪裡呢？\n患者：這裡啊...是菜市場啦 [停頓] 我來買菜的。昨天才來的嘛。\n訪談者：為什麼今天會過來這裡呢？\n患者：嗯 [嘆氣] 阿母交代我，說要拿點藥，然後順便...那個 [停頓] 去診所看醫生。對，就是這樣。\n訪談者：那你今天早上有吃早餐嗎？\n患者：有啊，吃了稀飯跟蛋。不過我記不得是幾點了 [吸氣] 好像...八點左右吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 今天是 那個 好像是禮拜三。欸不對 應該是星期四吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，好的。那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊 是菜市場啦 我來買菜的。昨天才來的嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼今天會過來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 阿母交代我，說要拿點藥，然後順便 那個 去診所看醫生。對，就是這樣。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你今天早上有吃早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，吃了稀飯跟蛋。不過我記不得是幾點了 好像 八點左右吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4000,
+    "chinese_char_count": 156
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

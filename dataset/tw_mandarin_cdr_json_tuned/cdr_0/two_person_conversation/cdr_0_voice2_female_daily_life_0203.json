@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_0_voice2_female_daily_life_0203",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿姨您好，今天天氣不錯喔。\n患者：是啊，今天太陽很大，我早上有出來曬曬太陽。\n訪談者：那您今天早上的行程是怎麼安排的？\n患者：我六點半就起床了，然後去菜市場買些青菜，阿嬤想吃紅蘿蔔跟番茄。\n訪談者：喔，那你現在幾點了？大概記得嗎？\n患者：應該快十二點了吧。我看了一下手錶。\n訪談者：很好。那您剛剛說要去哪裡拿藥呢？\n患者：哦，對啦，下午要去診所拿阿公的藥。他最近血糖有點高。\n訪談者：喔，了解。那您家裡還有什麼人一起住嗎？\n患者：就我跟阿公兩個而已，囝仔都在外面工作，很少回來。",
+  "marked_transcript": "訪談者：陳阿姨您好，今天天氣不錯喔。\n患者：是啊，今天太陽很大，我早上有出來曬曬太陽。\n訪談者：那您今天早上的行程是怎麼安排的？\n患者：嗯，我六點半就起床了，然後去菜市場買些青菜，阿嬤想吃紅蘿蔔跟番茄。\n訪談者：喔，那你現在幾點了？大概記得嗎？\n患者：應該快十二點了吧。[停頓] 我看了一下手錶。\n訪談者：很好。那您剛剛說要去哪裡拿藥呢？\n患者：哦，對啦，下午要去診所拿阿公的藥。他最近血糖有點高。\n訪談者：喔，了解。那您家裡還有什麼人一起住嗎？\n患者：就我跟阿公兩個而已，囝仔都在外面工作，很少回來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿姨您好，今天天氣不錯喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是啊，今天太陽很大，我早上有出來曬曬太陽。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天早上的行程是怎麼安排的？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我六點半就起床了，然後去菜市場買些青菜，阿嬤想吃紅蘿蔔跟番茄。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那你現在幾點了？大概記得嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該快十二點了吧。我看了一下手錶。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那您剛剛說要去哪裡拿藥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦，對啦，下午要去診所拿阿公的藥。他最近血糖有點高。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，了解。那您家裡還有什麼人一起住嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就我跟阿公兩個而已，囝仔都在外面工作，很少回來。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2350,
+    "chinese_char_count": 199
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

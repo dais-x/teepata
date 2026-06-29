@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_medicine_routine_0438",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯，吃了一個蛋，還有……那個，好像是粥。我想一下，好像還有一點菜市場買的小菜。\n訪談者：好的，那最近家裡有什麼特別的事嗎？\n患者：欸，應該是阿母生日吧？啊，不對，是上個月。記不得具體日子了， 但應該有吃蛋糕。\n訪談者：您平常早上會吃什麼藥呢？\n患者：血壓藥，對，就是那個小瓶子裡的。嗯，我記得要拿藥去診所配， 好像昨天已經拿了。\n訪談者：謝謝您，最後請問一下，明天上午有什麼安排嗎？\n患者：明天？嗯……應該是去公園走走，啊，也可能是看電視。我想確認一下， 好像是散步沒錯。",
+  "marked_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯，吃了一個蛋，還有……那個，好像是粥。我想一下，好像還有一點菜市場買的小菜。\n訪談者：好的，那最近家裡有什麼特別的事嗎？\n患者：欸，應該是阿母生日吧？啊，不對，是上個月。記不得具體日子了，[停頓] 但應該有吃蛋糕。\n訪談者：您平常早上會吃什麼藥呢？\n患者：血壓藥，對，就是那個小瓶子裡的。嗯，我記得要拿藥去診所配，[長停頓] 好像昨天已經拿了。\n訪談者：謝謝您，最後請問一下，明天上午有什麼安排嗎？\n患者：明天？嗯……應該是去公園走走，啊，也可能是看電視。我想確認一下，[停頓] 好像是散步沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，您今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，吃了一個蛋，還有……那個，好像是粥。我想一下，好像還有一點菜市場買的小菜"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那最近家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是阿母生日吧？啊，不對，是上個月。記不得具體日子了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但應該有吃蛋糕"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您平常早上會吃什麼藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "血壓藥，對，就是那個小瓶子裡的。嗯，我記得要拿藥去診所配"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1339
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像昨天已經拿了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "謝謝您，最後請問一下，明天上午有什麼安排嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "明天？嗯……應該是去公園走走，啊，也可能是看電視。我想確認一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 810
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是散步沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2945,
+    "chinese_char_count": 202
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with subtle hesitation ('那個', '我想一下'), one minor uncertainty about date, and minimal use of markers ([停頓], [長停頓]). No significant memory loss or confusion."
+}

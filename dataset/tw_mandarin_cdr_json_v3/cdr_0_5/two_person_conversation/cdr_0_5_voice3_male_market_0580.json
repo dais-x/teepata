@@ -1,0 +1,100 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0580",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，吃了一個蛋餅……欸，好像是加蔥的。 記不太清有沒有加醬了。\n訪談者：上個星期家裡有發生什麼事嗎？\n患者：阿母有來過診所拿藥……啊，應該是上週二吧。 那個日子好像有點模糊。\n訪談者：記得要記得下週去複診喔。\n患者：欸，好，我會記得的。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，吃了一個蛋餅……欸，好像是加蔥的。[停頓] 記不太清有沒有加醬了。\n訪談者：上個星期家裡有發生什麼事嗎？\n患者：阿母有來過診所拿藥……啊，應該是上週二吧。[長停頓] 那個日子好像有點模糊。\n訪談者：記得要記得下週去複診喔。\n患者：欸，好，我會記得的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，吃了一個蛋餅……欸，好像是加蔥的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 817
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清有沒有加醬了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上個星期家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母有來過診所拿藥……啊，應該是上週二吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1597
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個日子好像有點模糊"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得要記得下週去複診喔"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好，我會記得的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2414,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5 very mild simulation: coherent narrative with one instance of uncertainty about condiments and slight hesitation regarding a date, using minimal markers."
+}

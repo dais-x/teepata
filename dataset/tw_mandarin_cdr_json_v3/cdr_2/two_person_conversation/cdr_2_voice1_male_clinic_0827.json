@@ -1,0 +1,135 @@
+{
+  "sample_id": "cdr_2_voice1_male_clinic_0827",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯……那個，我好像有吃……欸，是什麼來著？ 應該是粥吧……還是麵包？啊，記不得了。\n訪談者：沒關係，那昨天家裡有什麼特別的事嗎？\n患者：特別的事…… 喔對，我兒子有來過……不對，是女兒？ 哎呀，時間都搞混了，好像是上週還是前年？\n訪談者：您現在吃的藥記得怎麼吃嗎？\n患者：藥……嗯，早上跟晚上。 但是……到底是幾顆呢？我好像有忘記看說明書了。 哎呀，頭好暈。",
+  "marked_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯……那個，我好像有吃……欸，是什麼來著？[停頓] 應該是粥吧……還是麵包？啊，記不得了。[長停頓]\n訪談者：沒關係，那昨天家裡有什麼特別的事嗎？\n患者：特別的事……[嘆氣] 喔對，我兒子有來過……不對，是女兒？[停頓] 哎呀，時間都搞混了，好像是上週還是前年？[吸氣]\n訪談者：您現在吃的藥記得怎麼吃嗎？\n患者：藥……嗯，早上跟晚上。[咳嗽] 但是……到底是幾顆呢？我好像有忘記看說明書了。[長停頓] 哎呀，頭好暈。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，您今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個，我好像有吃……欸，是什麼來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 807
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是粥吧……還是麵包？啊，記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1488
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那昨天家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "特別的事……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1186
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對，我兒子有來過……不對，是女兒？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 882
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，時間都搞混了，好像是上週還是前年？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 593
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在吃的藥記得怎麼吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……嗯，早上跟晚上"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 378
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是……到底是幾顆呢？我好像有忘記看說明書了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1109
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，頭好暈"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6443,
+    "chinese_char_count": 147
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Moderate dementia (CDR 2) simulation featuring fragmented recall, time/place confusion, repetition of uncertainty markers, and occasional pauses with emotional markers like sighing or coughing."
+}

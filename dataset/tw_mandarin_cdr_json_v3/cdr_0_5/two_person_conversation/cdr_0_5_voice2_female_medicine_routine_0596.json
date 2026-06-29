@@ -1,0 +1,94 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_medicine_routine_0596",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳先生，今天早上吃早餐了嗎？\n患者：有啊， 吃了稀飯跟蛋。欸，那個……好像是昨天阿母打電話來過？\n訪談者：是喔，那您今天的藥有拿嗎？\n患者：有拿， 我想一下，應該是放在廚房那個櫃子裡。",
+  "marked_transcript": "訪談者：陳先生，今天早上吃早餐了嗎？\n患者：有啊，[停頓] 吃了稀飯跟蛋。欸，那個……好像是昨天阿母打電話來過？[停頓]\n訪談者：是喔，那您今天的藥有拿嗎？\n患者：有拿，[嘆氣] 我想一下，應該是放在廚房那個櫃子裡。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳先生，今天早上吃早餐了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 886
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃了稀飯跟蛋。欸，那個……好像是昨天阿母打電話來過？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 781
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "是喔，那您今天的藥有拿嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 873
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，應該是放在廚房那個櫃子裡"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2540,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with one minor memory hesitation regarding a family event and slight uncertainty about medication location, using natural Taiwanese Mandarin filler words."
+}

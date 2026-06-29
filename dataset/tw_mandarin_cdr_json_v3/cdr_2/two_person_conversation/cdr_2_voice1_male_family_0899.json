@@ -1,0 +1,136 @@
+{
+  "sample_id": "cdr_2_voice1_male_family_0899",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯……好像是…… 昨天還是今天啊，欸，我想一下。應該是五號吧？ 不對，好像記不得。\n訪談者：我們現在在哪裡？\n患者：這裡是……診所？ 對，來拿藥的。 阿母說要來，但我不記得幾點來的了。\n訪談者：你為什麼來看醫生？\n患者：頭暈嘛， 然後忘記吃藥了。欸，是今天還是昨天吃的？ 應該是昨天吧，記不清了。",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯……好像是……[停頓] 昨天還是今天啊，欸，我想一下。應該是五號吧？[長停頓] 不對，好像記不得。\n訪談者：我們現在在哪裡？\n患者：這裡是……診所？[嘆氣] 對，來拿藥的。[吸氣] 阿母說要來，但我不記得幾點來的了。\n訪談者：你為什麼來看醫生？\n患者：頭暈嘛，[咳嗽] 然後忘記吃藥了。欸，是今天還是昨天吃的？[停頓] 應該是昨天吧，記不清了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 714
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天還是今天啊，欸，我想一下。應該是五號吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1628
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，好像記不得"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是……診所？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 847
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，來拿藥的"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 555
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要來，但我不記得幾點來的了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼來看醫生？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "頭暈嘛"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 385
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後忘記吃藥了。欸，是今天還是昨天吃的？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 838
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是昨天吧，記不清了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4967,
+    "chinese_char_count": 118
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: fragmented recall, time/place confusion, repetition of uncertainty markers like '好像' and '記不得', appropriate use of pauses and oral fillers."
+}

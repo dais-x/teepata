@@ -1,0 +1,34 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_real_home_0084",
+  "cdr": "0.5",
+  "task_group": "real_life_scenarios",
+  "scenario": "home",
+  "task_plan": {
+    "task_group": "real_life_scenarios",
+    "task_type": "home_activity_recall",
+    "prompt": "你平常在家裡一天大概會做哪些事情？",
+    "expected_steps": [
+      "家務或休息",
+      "用餐",
+      "看電視或散步",
+      "時間順序"
+    ],
+    "max_score": 4,
+    "scoring_method": "expected_steps_and_sequence"
+  },
+  "speaker": {
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。"
+  },
+  "split": "val",
+  "rejected_attempts": [
+    {
+      "attempt": "exception",
+      "errors": [
+        "'str' object has no attribute 'get'"
+      ]
+    }
+  ]
+}

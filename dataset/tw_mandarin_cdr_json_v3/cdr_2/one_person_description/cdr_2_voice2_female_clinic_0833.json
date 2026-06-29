@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice2_female_clinic_0833",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯…… 我早上起來，先吃藥。 那個藥瓶…… 好像放在哪裡了？欸，應該是廚房吧。 然後去菜市場買菜，阿母說今天有新鮮的魚。 可是我不太記得是幾點了，好像是早上九點？ 診所那邊…… 對，要去拿藥。 醫生說要按時吃，不然頭會痛。 我記得了，回家後再找一下那個瓶子。",
+  "marked_transcript": "嗯…… 我早上起來，先吃藥。[停頓] 那個藥瓶…… 好像放在哪裡了？欸，應該是廚房吧。[長停頓] 然後去菜市場買菜，阿母說今天有新鮮的魚。[嘆氣] 可是我不太記得是幾點了，好像是早上九點？[吸氣] 診所那邊…… 對，要去拿藥。[停頓] 醫生說要按時吃，不然頭會痛。[長停頓] 我記得了，回家後再找一下那個瓶子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 我早上起來，先吃藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 774
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個藥瓶…… 好像放在哪裡了？欸，應該是廚房吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1506
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後去菜市場買菜，阿母說今天有新鮮的魚"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1134
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是我不太記得是幾點了，好像是早上九點？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 365
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊…… 對，要去拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 739
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生說要按時吃，不然頭會痛"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1561
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得了，回家後再找一下那個瓶子"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6079,
+    "chinese_char_count": 99
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall and time confusion (uncertain about hour), repetition of medication topic, needs support to complete thought. Natural pauses reflect cognitive load without total loss of coherence."
+}

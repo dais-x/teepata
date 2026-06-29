@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_3_voice1_male_family_1000",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯…… 早上…… 起床。 阿母…… 那個…… 菜市場…… 買菜？ 忘記了…… 藥…… 拿藥…… 診所…… 欸，家…… 囝仔…… 在哪裡？ 記不得…… 應該是…… 早上。",
+  "marked_transcript": "嗯…… 早上…… [停頓] 起床。[長停頓] 阿母…… 那個…… [嘆氣] 菜市場…… 買菜？[吸氣] 忘記了…… [停頓] 藥…… 拿藥…… [長停頓] 診所…… 欸，家…… [停頓] 囝仔…… 在哪裡？[咳嗽] 記不得…… 應該是…… [停頓] 早上。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 早上……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 709
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "起床"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1534
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母…… 那個……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 906
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場…… 買菜？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 455
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 875
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥…… 拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1545
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所…… 欸，家……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 636
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔…… 在哪裡？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 732
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得…… 應該是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 678
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 8070,
+    "chinese_char_count": 37
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 3 severe: Speech is fragmented with frequent word-finding failures, orientation confusion regarding location and time, and repeated simple phrases. Contains multiple pauses and markers indicating cognitive decline."
+}

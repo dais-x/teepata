@@ -1,0 +1,137 @@
+{
+  "sample_id": "cdr_3_voice4_female_home_0922",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "早……上。 起床……嗯……那裡。 阿母……在嗎？不知道。 那個……水。喝水。 藥……呢？忘記了。 囝仔……回來沒。 好像……沒有。今天……星期……幾。 吃……什麼。記不得。 嗯……那個……",
+  "marked_transcript": "早……上。[停頓] 起床……嗯……那裡。[長停頓] 阿母……在嗎？不知道。[停頓] 那個……水。喝水。[停頓] 藥……呢？忘記了。[停頓] [咳嗽] 囝仔……回來沒。[長停頓] 好像……沒有。今天……星期……幾。[停頓] 吃……什麼。記不得。[停頓] [嘆氣] 嗯……那個……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早……上"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 688
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "起床……嗯……那裡"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1280
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……在嗎？不知道"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 721
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……水。喝水"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 762
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……呢？忘記了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 783
+    },
+    {
+      "type": "cough",
+      "duration_ms": 652
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔……回來沒"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1128
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……沒有。今天……星期……幾"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 780
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃……什麼。記不得"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 890
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1377
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 8,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 9061,
+    "chinese_char_count": 47
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 8
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 3 嚴重失智特徵：語句破碎、詞彙搜尋困難、時間與人物定向障礙，重複簡單短句。"
+}

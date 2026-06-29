@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0663",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，你好。今天幾月幾號啊？\n受訪者：欸 今天是幾號喔。我想一下 好像是禮拜三吧。\n訪談者：對，是星期三。那現在是在哪裡呢？\n受訪者：在診所啦，我在這裡拿藥嘛。最近頭比較昏嘛。\n訪談者：好的。那你為什麼今天來這裡啊？\n受訪者：醫生說要來拿藥 然後...嗯...檢查一下血壓。好像是上週就約好了，我記不太清楚咧。\n訪談者：好，沒關係。那早餐有吃什麼呢？\n受訪者：早上有喝豆漿 還有那個...鹹酥雞...不對啦，是油條啦。菜市場的攤販賣的。",
+  "marked_transcript": "訪談者：阿姨，你好。今天幾月幾號啊？\n受訪者：欸 [停頓] 今天是幾號喔。我想一下 [長停頓] 好像是禮拜三吧。\n訪談者：對，是星期三。那現在是在哪裡呢？\n受訪者：在診所啦，我在這裡拿藥嘛。最近頭比較昏嘛。\n訪談者：好的。那你為什麼今天來這裡啊？\n受訪者：醫生說要來拿藥 [停頓] 然後...嗯...檢查一下血壓。好像是上週就約好了，我記不太清楚咧。\n訪談者：好，沒關係。那早餐有吃什麼呢？\n受訪者：早上有喝豆漿 [嘆氣] 還有那個...鹹酥雞...不對啦，是油條啦。菜市場的攤販賣的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，你好。今天幾月幾號啊？\n受訪者：欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "今天是幾號喔。我想一下"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是禮拜三吧。\n訪談者：對，是星期三。那現在是在哪裡呢？\n受訪者：在診所啦，我在這裡拿藥嘛。最近頭比較昏嘛。\n訪談者：好的。那你為什麼今天來這裡啊？\n受訪者：醫生說要來拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "然後...嗯...檢查一下血壓。好像是上週就約好了，我記不太清楚咧。\n訪談者：好，沒關係。那早餐有吃什麼呢？\n受訪者：早上有喝豆漿"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "還有那個...鹹酥雞...不對啦，是油條啦。菜市場的攤販賣的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 169
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "slow"
+}

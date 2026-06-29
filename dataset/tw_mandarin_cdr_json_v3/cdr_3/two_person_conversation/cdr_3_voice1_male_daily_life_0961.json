@@ -1,0 +1,167 @@
+{
+  "sample_id": "cdr_3_voice1_male_daily_life_0961",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上吃什麼？\n患者：嗯…… 粥…… 那個…… 忘記了。\n訪談者：昨天兒子有來嗎？\n患者： 誰…… 誰啊？ 好像…… 不記得。\n訪談者：藥吃了嗎？\n患者：藥…… 藥瓶…… 在哪裡？嗯…… 忘了。",
+  "marked_transcript": "訪談者：早上吃什麼？\n患者：嗯…… [停頓] 粥…… [長停頓] 那個…… [吸氣] 忘記了。\n訪談者：昨天兒子有來嗎？\n患者：[嘆氣] 誰…… [咳嗽] 誰啊？[停頓] 好像…… [停頓] 不記得。\n訪談者：藥吃了嗎？\n患者：藥…… [長停頓] 藥瓶…… [吸氣] 在哪裡？嗯…… [停頓] 忘了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 602
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1354
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 465
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天兒子有來嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1152
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 509
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 666
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 652
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不記得"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥吃了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1492
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥瓶……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 607
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在哪裡？嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 756
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 8255,
+    "chinese_char_count": 55
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Severe dementia simulation (CDR 3): fragmented speech, frequent word-finding failures, orientation confusion, and repeated simple phrases with significant pauses."
+}

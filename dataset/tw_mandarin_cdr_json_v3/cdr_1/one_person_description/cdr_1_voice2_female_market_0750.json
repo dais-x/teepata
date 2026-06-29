@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0750",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天去菜市場，嗯……想買點青菜。那個……好像是早上七點左右吧？ 阿母說要拿藥，我記得是在診所附近，欸……好像有點記不清路了。 不過還是找到了，囝仔也在旁邊陪著。啊，對，還有番茄和豆腐，應該沒錯。",
+  "marked_transcript": "今天去菜市場，嗯……想買點青菜。那個……好像是早上七點左右吧？[停頓] 阿母說要拿藥，我記得是在診所附近，欸……好像有點記不清路了。[長停頓] 不過還是找到了，囝仔也在旁邊陪著。啊，對，還有番茄和豆腐，應該沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天去菜市場，嗯……想買點青菜。那個……好像是早上七點左右吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 856
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥，我記得是在診所附近，欸……好像有點記不清路了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1582
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過還是找到了，囝仔也在旁邊陪著。啊，對，還有番茄和豆腐，應該沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2438,
+    "chinese_char_count": 77
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "Mild word-finding difficulty ('好像是', '記不清'), one minor orientation uncertainty, natural pauses, and appropriate use of Taiwanese terms (阿母, 囝仔). Speech remains coherent and on-topic."
+}

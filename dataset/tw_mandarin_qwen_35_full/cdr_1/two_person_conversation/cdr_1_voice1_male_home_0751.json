@@ -1,0 +1,125 @@
+{
+  "sample_id": "cdr_1_voice1_male_home_0751",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：欸...今天啊，我想一下喔，好像是...應該是五月初啦。\n訪談者：喔，那今天是星期幾呢？\n患者：星期...星期幾咧，好像禮拜三吧？不對，是星期四了啦。嗯...\n訪談者：沒關係，那您現在是在哪裡呀？\n患者：這裡啊，我家嘛，我在客廳坐著啊。\n訪談者：好的，那您今天為什麼要來這裡呢？\n患者：喔，對哦，我...我是來拿藥的啦。早上去診所拿過，然後就回來了。嗯...\n訪談者：那您早上吃了什麼早餐呢？\n患者：早餐啊，就是喝牛奶、吃吐司，還有...還有煮蛋一個。對，差不多就這樣。",
+  "marked_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：欸 [停頓] 今天啊 [停頓] 我想一下喔 [嘆氣]，好像是...應該是五月初啦。\n訪談者：喔，那今天是星期幾呢？\n患者：星期 [長停頓] 星期幾咧，好像禮拜三吧？不對，是星期四了啦。嗯 [吸氣]\n訪談者：沒關係，那您現在是在哪裡呀？\n患者：這裡啊，我家嘛，我在客廳坐著啊。\n訪談者：好的，那您今天為什麼要來這裡呢？\n患者：喔，對哦，我...我是來拿藥的啦 [停頓] 早上去診所拿過，然後就回來了。嗯 [咳嗽]\n訪談者：那您早上吃了什麼早餐呢？\n患者：早餐啊，就是喝牛奶、吃吐司，還有...還有煮蛋一個。對，差不多就這樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸 今天啊 我想一下喔，好像是...應該是五月初啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期 星期幾咧，好像禮拜三吧？不對，是星期四了啦。嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您現在是在哪裡呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊，我家嘛，我在客廳坐著啊。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您今天為什麼要來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，對哦，我...我是來拿藥的啦 早上去診所拿過，然後就回來了。嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐啊，就是喝牛奶、吃吐司，還有...還有煮蛋一個。對，差不多就這樣。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 5100,
+    "chinese_char_count": 186
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

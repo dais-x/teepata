@@ -1,0 +1,136 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0678",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯……早上有吃，好像是稀飯， 菜市場買的小菜， 記不得是豆腐還是豆乾了。應該是豆腐吧。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：欸，好像阿母來過， 對，有來看我， 她帶了什麼……忘記了，好像是水果。\n訪談者：藥有在吃嗎？\n患者：有啊，早上拿藥， 晚上也有吃， 嗯，記得有吃。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯……早上有吃，好像是稀飯，[停頓] 菜市場買的小菜，[嘆氣] 記不得是豆腐還是豆乾了。應該是豆腐吧。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：欸，好像阿母來過，[長停頓] 對，有來看我，[吸氣] 她帶了什麼……忘記了，好像是水果。\n訪談者：藥有在吃嗎？\n患者：有啊，早上拿藥，[停頓] 晚上也有吃，[咳嗽] 嗯，記得有吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早上有吃，好像是稀飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 854
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場買的小菜"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1176
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得是豆腐還是豆乾了。應該是豆腐吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上週家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像阿母來過"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1631
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，有來看我"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 486
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "她帶了什麼……忘記了，好像是水果"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥有在吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 642
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "晚上也有吃"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 722
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，記得有吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 5511,
+    "chinese_char_count": 115
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (豆腐/豆乾 uncertainty), mild repetition, and one orientation error regarding the mother's visit details. Speech remains coherent with natural pauses."
+}

@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice3_male_home_0655",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上吃了什麼早餐呢？\n患者：嗯... 我想一下...\n訪談者：你記得嗎？\n患者：啊... 糕餅，應該是吧。\n訪談者：昨天有沒有吃藥呢？\n患者：那個嘛... 拿藥了，不過忘了吃。\n訪談者：最近家裡發生什麼事嗎？\n患者：哦... 嗯... 好像去菜市場買過東西...\n訪談者：你說昨天發生的事記得嗎？\n患者：記不得咧... [停頓] 我想是去了診所拿藥，可是沒吃。",
+  "marked_transcript": "訪談者：早上吃了什麼早餐呢？[停頓]\n患者：嗯... 我想一下...\n訪談者：你記得嗎？\n患者：啊... 糕餅，應該是吧。\n訪談者：昨天有沒有吃藥呢？\n患者：那個嘛... 拿藥了，不過忘了吃。\n訪談者：最近家裡發生什麼事嗎？\n患者：哦... 嗯... 好像去菜市場買過東西...\n訪談者：你說昨天發生的事記得嗎？\n患者：記不得咧... [停頓] 我想是去了診所拿藥，可是沒吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯... 我想一下..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊... 糕餅，應該是吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有沒有吃藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個嘛... 拿藥了，不過忘了吃。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦... 嗯... 好像去菜市場買過東西..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你說昨天發生的事記得嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得咧... 我想是去了診所拿藥，可是沒吃。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1200,
+    "chinese_char_count": 121
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.3,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

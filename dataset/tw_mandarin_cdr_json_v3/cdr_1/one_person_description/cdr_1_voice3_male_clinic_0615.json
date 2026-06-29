@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice3_male_clinic_0615",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我今天早上去診所拿藥。 那個……好像是阿母陪我去的。欸，我記得是週二還是週三？ 哎呀，記不太清楚了。反正就是去拿高血壓的藥。 回家後就吃早餐，然後看電視。囝仔們後來也有打電話來問我狀況。應該沒忘記什麼大事吧？",
+  "marked_transcript": "嗯，我今天早上去診所拿藥。[停頓] 那個……好像是阿母陪我去的。欸，我記得是週二還是週三？[長停頓] 哎呀，記不太清楚了。反正就是去拿高血壓的藥。[嘆氣] 回家後就吃早餐，然後看電視。囝仔們後來也有打電話來問我狀況。應該沒忘記什麼大事吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我今天早上去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 646
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……好像是阿母陪我去的。欸，我記得是週二還是週三？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1619
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，記不太清楚了。反正就是去拿高血壓的藥"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1193
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後就吃早餐，然後看電視。囝仔們後來也有打電話來問我狀況。應該沒忘記什麼大事吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3458,
+    "chinese_char_count": 89
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (unclear day), mild repetition, and orientation uncertainty regarding the date of visit. Speech remains coherent with natural pauses but demonstrates clear memory gaps typical of early dementia."
+}

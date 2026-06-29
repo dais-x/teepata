@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_voice4_female_clinic_0226",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上吃什麼了？\n患者：嗯，我吃了兩顆蛋和一碗稀飯。欸，好像還有喝點豆漿。\n訪談者：昨天家裡有發生什麼特別的事嗎？\n患者：沒有特別的事啦，就是阿母來診所拿藥，順便聊了一下天氣。\n訪談者：那您記得醫生開的藥名嗎？\n患者：記得啊，是降血壓的那種，每天早上一顆。",
+  "marked_transcript": "訪談者：早上吃什麼了？\n患者：嗯，我吃了兩顆蛋和一碗稀飯。欸，好像還有喝點豆漿。\n訪談者：昨天家裡有發生什麼特別的事嗎？\n患者：沒有特別的事啦，就是阿母來診所拿藥，順便聊了一下天氣。\n訪談者：那您記得醫生開的藥名嗎？\n患者：記得啊，是降血壓的那種，每天早上一顆。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上吃什麼了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我吃了兩顆蛋和一碗稀飯。欸，好像還有喝點豆漿"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有發生什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒有特別的事啦，就是阿母來診所拿藥，順便聊了一下天氣"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得醫生開的藥名嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得啊，是降血壓的那種，每天早上一顆"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 107
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0 normal: coherent answers, accurate details, no memory gaps or orientation errors. Minimal pauses used naturally."
+}

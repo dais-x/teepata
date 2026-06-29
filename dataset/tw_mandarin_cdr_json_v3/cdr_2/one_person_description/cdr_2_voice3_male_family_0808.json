@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_voice3_male_family_0808",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯，今天早上我本來要去菜市場買菜的， 但是好像忘了帶錢包。欸，不對，是昨天忘記拿藥了。 阿母說要我去診所，可是我不記得是哪一天了。啊，應該是週三吧？還是週二？ 囝仔都在忙，我一個人在家有點亂。嗯，那個，我應該先吃早餐才對。 記不得了，反正就是早上那時候。 好像有去過診所，又好像沒有。",
+  "marked_transcript": "嗯，今天早上我本來要去菜市場買菜的，[停頓] 但是好像忘了帶錢包。欸，不對，是昨天忘記拿藥了。[長停頓] 阿母說要我去診所，可是我不記得是哪一天了。啊，應該是週三吧？還是週二？[停頓] 囝仔都在忙，我一個人在家有點亂。嗯，那個，我應該先吃早餐才對。[嘆氣] 記不得了，反正就是早上那時候。[停頓] 好像有去過診所，又好像沒有。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我本來要去菜市場買菜的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 894
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是好像忘了帶錢包。欸，不對，是昨天忘記拿藥了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1426
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要我去診所，可是我不記得是哪一天了。啊，應該是週三吧？還是週二？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 895
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔都在忙，我一個人在家有點亂。嗯，那個，我應該先吃早餐才對"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1128
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了，反正就是早上那時候"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 721
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有去過診所，又好像沒有"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5064,
+    "chinese_char_count": 117
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: fragmented recall of daily routine, confusion about specific days and medication, repetition of uncertainty markers, natural Taiwanese Mandarin oral style with minimal markers."
+}

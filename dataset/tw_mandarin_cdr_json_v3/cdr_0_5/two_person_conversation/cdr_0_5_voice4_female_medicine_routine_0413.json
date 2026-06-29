@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_medicine_routine_0413",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：陳先生，請問最近血壓藥有按時吃嗎？\n患者：嗯…… 有啊。那個，早上我會記得去診所拿。 不過晚上的藥，好像放哪裡有點模糊。\n訪談者：是放在床頭櫃還是客廳？\n患者：欸…… 應該是客廳吧，阿母幫我收的。我記不太清楚具體位置了。\n訪談者：那最近有沒有漏服的情況？\n患者：沒有啦，我都吃喔。 就是有時候想不起來藥名，不過沒關係，看包裝就知道。",
+  "marked_transcript": "訪談者：陳先生，請問最近血壓藥有按時吃嗎？\n患者：嗯…… 有啊。那個，早上我會記得去診所拿。[停頓] 不過晚上的藥，好像放哪裡有點模糊。\n訪談者：是放在床頭櫃還是客廳？\n患者：欸…… [長停頓] 應該是客廳吧，阿母幫我收的。我記不太清楚具體位置了。\n訪談者：那最近有沒有漏服的情況？\n患者：沒有啦，我都吃喔。[吸氣] 就是有時候想不起來藥名，不過沒關係，看包裝就知道。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳先生，請問最近血壓藥有按時吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 有啊。那個，早上我會記得去診所拿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 618
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過晚上的藥，好像放哪裡有點模糊"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "是放在床頭櫃還是客廳？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1565
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是客廳吧，阿母幫我收的。我記不太清楚具體位置了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那最近有沒有漏服的情況？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒有啦，我都吃喔"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 395
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是有時候想不起來藥名，不過沒關係，看包裝就知道"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2578,
+    "chinese_char_count": 134
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Subtle hesitation (那個), minor uncertainty about medication location (好像……有點模糊), but maintains functional daily routine coherence."
+}

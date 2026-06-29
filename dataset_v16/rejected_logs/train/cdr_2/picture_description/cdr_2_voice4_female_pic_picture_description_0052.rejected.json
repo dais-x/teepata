@@ -1,0 +1,42 @@
+{
+  "sample_id": "cdr_2_voice4_female_pic_picture_description_0052",
+  "cdr": "2",
+  "task_group": "picture_description",
+  "scenario": "picture_description",
+  "task_plan": {
+    "task_group": "picture_description",
+    "task_type": "picture_description",
+    "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+    "expected_response_type": "open_narrative",
+    "scoring_method": "key_information_units",
+    "key_units_total": 10,
+    "expected_key_units": [
+      "客廳場景",
+      "阿公坐在沙發上看相簿",
+      "老花眼鏡",
+      "茶或茶杯",
+      "小孩玩積木",
+      "媽媽在窗邊接電話",
+      "貓靠近茶几",
+      "茶杯可能被碰倒",
+      "牆上有時鐘",
+      "牆上有家庭照片"
+    ],
+    "max_score": 10
+  },
+  "speaker": {
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": "exception",
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    }
+  ]
+}

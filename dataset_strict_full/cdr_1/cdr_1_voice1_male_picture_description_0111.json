@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_1_voice1_male_picture_description_0111",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+    "key_units": [
+      "客廳場景",
+      "阿公坐在沙發上看相簿",
+      "老花眼鏡",
+      "茶或茶杯",
+      "小孩玩積木",
+      "媽媽在窗邊接電話",
+      "貓靠近茶几",
+      "茶杯可能被碰倒",
+      "牆上有時鐘",
+      "牆上有家庭照片"
+    ]
+  },
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "name": "phone_mic_degraded",
+    "description": "手機麥克風品質，略微壓縮。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯那個客廳裡有個阿公坐在沙發上，他在看相簿啦。旁邊有一副老花眼鏡和一杯茶，不過我忘記茶杯放在哪裡了。一個小孩在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。那個我想一下，好像是下午吧？",
+  "marked_transcript": "嗯 [停頓] 那個客廳裡有個阿公坐在沙發上，他在看相簿啦。旁邊有一副老花眼鏡和一杯茶，不過我忘記茶杯放在哪裡了。一個小孩在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。那個 [停頓] 我想一下，好像是下午吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個客廳裡有個阿公坐在沙發上，他在看相簿啦。旁邊有一副老花眼鏡和一杯茶，不過我忘記茶杯放在哪裡了。一個小孩在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，好像是下午吧？"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 2,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.9,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.9,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 1
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": 8,
+      "key_information_units_total": 10,
+      "missing_key_information_count": 2,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.7,
+      "memory_gap_count": 1,
+      "orientation_error_count": 2
+    }
+  }
+}

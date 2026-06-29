@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_1_voice4_female_family_0718",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，您今天早上吃了什麼早餐？\n患者：嗯…… 我想一下，好像是…… 粥，還有蛋。應該是昨天買的。欸，那個…… 好像有點忘了。\n訪談者：那您最近家裡有發生什麼特別的事嗎？\n患者：特別的事？啊…… 哦對，小孫子來過一次， 好像是上週。他帶了玩具來，我們一起看電視。應該是這樣沒錯吧。\n訪談者：您平常吃的藥都記得怎麼吃嗎？\n患者：藥…… 嗯，那是血壓的藥。早上兩顆，晚上一顆。 不過有時候會忘記放哪裡，要去抽屜找一下。",
+  "marked_transcript": "訪談者：早安，您今天早上吃了什麼早餐？\n患者：嗯…… 我想一下，好像是…… [停頓] 粥，還有蛋。應該是昨天買的。欸，那個…… 好像有點忘了。\n訪談者：那您最近家裡有發生什麼特別的事嗎？\n患者：特別的事？啊…… [長停頓] 哦對，小孫子來過一次，[吸氣] 好像是上週。他帶了玩具來，我們一起看電視。應該是這樣沒錯吧。\n訪談者：您平常吃的藥都記得怎麼吃嗎？\n患者：藥…… 嗯，那是血壓的藥。早上兩顆，晚上一顆。[嘆氣] 不過有時候會忘記放哪裡，要去抽屜找一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，您今天早上吃了什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 我想一下，好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 789
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥，還有蛋。應該是昨天買的。欸，那個…… 好像有點忘了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您最近家裡有發生什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "特別的事？啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1627
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦對，小孫子來過一次"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 637
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是上週。他帶了玩具來，我們一起看電視。應該是這樣沒錯吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您平常吃的藥都記得怎麼吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥…… 嗯，那是血壓的藥。早上兩顆，晚上一顆"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 908
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過有時候會忘記放哪裡，要去抽屜找一下"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3961,
+    "chinese_char_count": 159
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows clear word-finding difficulty ('想一下', '好像是'), mild repetition, and slight memory uncertainty regarding timing (yesterday vs. last week), but remains coherent and on topic with minimal fragmentation."
+}

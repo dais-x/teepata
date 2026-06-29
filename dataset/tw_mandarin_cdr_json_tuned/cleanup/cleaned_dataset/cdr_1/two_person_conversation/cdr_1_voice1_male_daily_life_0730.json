@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice1_male_daily_life_0730",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你好，今天星期幾？\n受訪者： 嗯 欸，這個嘛，應該是禮拜三吧。不對，好像禮拜二。\n訪談者：喔，那你是從哪裡來的呢？\n受訪者：啊...阿母叫我來拿藥的啦，在診所。對，就在那邊菜市場旁邊那個小樓房。\n訪談者：你記得是什麼時間來的嗎？\n受訪者：早、早上嘛。 嗯 我忘記是幾點了。應該差不多九點吧。",
+  "marked_transcript": "訪談者：你好，今天星期幾？\n受訪者： [停頓] 嗯 [停頓] 欸，這個嘛，應該是禮拜三吧。不對，好像禮拜二。\n訪談者：喔，那你是從哪裡來的呢？\n受訪者：啊...阿母叫我來拿藥的啦，在診所。對，就在那邊菜市場旁邊那個小樓房。\n訪談者：你記得是什麼時間來的嗎？\n受訪者：早、早上嘛。 [停頓] 嗯 [長停頓] 我忘記是幾點了。應該差不多九點吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：你好，今天星期幾？\n受訪者："
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "欸，這個嘛，應該是禮拜三吧。不對，好像禮拜二。\n訪談者：喔，那你是從哪裡來的呢？\n受訪者：啊...阿母叫我來拿藥的啦，在診所。對，就在那邊菜市場旁邊那個小樓房。\n訪談者：你記得是什麼時間來的嗎？\n受訪者：早、早上嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我忘記是幾點了。應該差不多九點吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2350,
+    "chinese_char_count": 113
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "slow"
+}

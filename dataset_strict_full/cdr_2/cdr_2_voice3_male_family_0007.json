@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_voice3_male_family_0007",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "我早上起來之後呢呃，那個...然後去公園走走，但是忘記帶傘了。因為那天下雨嘛，嗯，對不對？後來就回家煮飯，可是不知道怎麼講，好像忘了放鹽。哎呀，那個東西叫什么名字來著？就是那個調味料啦。然後我就坐下來休息，結果又想起昨天跟兒子吵架的事，呃...其實也沒什麼大不了的，但是心裡一直放不下。再說回來，剛才說到哪裡了？哦對，煮飯的事情。",
+  "marked_transcript": "我早上起來之後呢 [停頓] 呃，那個...然後去公園走走，但是忘記帶傘了。因為那天下雨嘛，嗯，對不對？ [長停頓] 後來就回家煮飯，可是不知道怎麼講，好像忘了放鹽。哎呀，那個東西叫什么名字來著？就是那個調味料啦。 [停頓] 然後我就坐下來休息，結果又想起昨天跟兒子吵架的事，呃...其實也沒什麼大不了的，但是心裡一直放不下。再說回來，剛才說到哪裡了？哦對，煮飯的事情。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我早上起來之後呢"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，那個...然後去公園走走，但是忘記帶傘了。因為那天下雨嘛，嗯，對不對？"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來就回家煮飯，可是不知道怎麼講，好像忘了放鹽。哎呀，那個東西叫什么名字來著？就是那個調味料啦。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後我就坐下來休息，結果又想起昨天跟兒子吵架的事，呃...其實也沒什麼大不了的，但是心裡一直放不下。再說回來，剛才說到哪裡了？哦對，煮飯的事情。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.5,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.5,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 3,
+      "vague_reference_count": 1,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 5
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.48,
+      "memory_gap_count": 2,
+      "orientation_error_count": 2
+    }
+  }
+}

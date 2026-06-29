@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0462",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：王先生，早安。昨天早餐吃什麼？\n患者：欸，早安。啊，昨天早上...嗯，我記得有喝牛奶，還有吃...呃，好像是煮蛋啦。\n訪談者：喔，那有沒有出門？\n患者：對，我有去菜市場，買一點青菜。然後去診所拿藥。\n訪談者：拿什麼藥呢？\n患者：那個...血壓藥。每天一顆，早上吃。\n訪談者：好，那昨天家裡有發生什麼事嗎？比如家人來探望？\n患者：欸，我女兒...好像是有打電話給我，但我不太記得是幾點啦。應該是傍晚吧？\n訪談者：好的，那今天早上的事呢？\n患者：早上起來，我先去倒垃圾，然後就回來了。應該沒忘記什麼重要的事。\n訪談者：謝謝您，王先生。",
+  "marked_transcript": "訪談者：王先生，早安。\n[停頓]患者：欸，早安。啊，昨天早上...嗯，我記得有喝牛奶，還有吃...呃，好像是煮蛋啦。\n訪談者：喔，那有沒有出門？\n患者：對，我有去菜市場，買一點青菜。然後去診所拿藥。\n訪談者：拿什麼藥呢？\n[長停頓]患者：那個...血壓藥。每天一顆，早上吃。\n訪談者：好，那昨天家裡有發生什麼事嗎？比如家人來探望？\n患者：欸，我女兒...好像是有打電話給我，但我不太記得是幾點啦。應該是傍晚吧？\n訪談者：好的，那今天早上的事呢？\n[吸氣]患者：早上起來，我先去倒垃圾，然後就回來了。應該沒忘記什麼重要的事。\n訪談者：謝謝您，王先生。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：王先生，早安。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，早安。啊，昨天早上...嗯，我記得有喝牛奶，還有吃...呃，好像是煮蛋啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，那有沒有出門？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：對，我有去菜市場，買一點青菜。然後去診所拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：拿什麼藥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：那個...血壓藥。每天一顆，早上吃。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好，那昨天家裡有發生什麼事嗎？比如家人來探望？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，我女兒...好像是有打電話給我，但我不太記得是幾點啦。應該是傍晚吧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那今天早上的事呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：早上起來，我先去倒垃圾，然後就回來了。應該沒忘記什麼重要的事。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：謝謝您，王先生。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2200,
+    "chinese_char_count": 201
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

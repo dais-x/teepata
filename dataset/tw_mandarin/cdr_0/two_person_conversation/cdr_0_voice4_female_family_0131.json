@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice4_female_family_0131",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：妳今天早餐有吃什麼？\n患者：我吃了稀飯和豆腐乳，還有個蛋。\n訪談者：最近家庭裡發生了什麼事情嗎？\n患者：阿母生日那天我們全家都去菜市場買了很多東西，然後一起回家準備晚餐。嗯，那時候還挺開心的呢。\n訪談者：妳有沒有吃藥啊？\n患者：我每天都會去診所拿藥，昨天也拿了哦。\n訪談者：記得上次我問你說什麼來著？\n患者：喔，好像是要記得下次帶雨傘吧。那次下雨了，我就忘了。\n訪談者：昨天發生了什麼事情啊？\n患者：昨天好像跟朋友約好了要去公園散步，但是因為下雨就沒去成。",
+  "marked_transcript": "訪談者：妳今天早餐有吃什麼？[停頓]\n患者：我吃了稀飯和豆腐乳，還有個蛋。\n訪談者：最近家庭裡發生了什麼事情嗎？\n患者：阿母生日那天我們全家都去菜市場買了很多東西，然後一起回家準備晚餐。嗯，那時候還挺開心的呢。\n訪談者：妳有沒有吃藥啊？[停頓]\n患者：我每天都會去診所拿藥，昨天也拿了哦。\n訪談者：記得上次我問你說什麼來著？\n患者：喔，好像是要記得下次帶雨傘吧。那次下雨了，我就忘了。\n訪談者：昨天發生了什麼事情啊？[長停頓]\n患者：昨天好像跟朋友約好了要去公園散步，但是因為下雨就沒去成。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早餐有吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我吃了稀飯和豆腐乳，還有個蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家庭裡發生了什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母生日那天我們全家都去菜市場買了很多東西，然後一起回家準備晚餐。嗯，那時候還挺開心的呢。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳有沒有吃藥啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我每天都會去診所拿藥，昨天也拿了哦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得上次我問你說什麼來著？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，好像是要記得下次帶雨傘吧。那次下雨了，我就忘了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天發生了什麼事情啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天好像跟朋友約好了要去公園散步，但是因為下雨就沒去成。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2200,
+    "chinese_char_count": 194
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

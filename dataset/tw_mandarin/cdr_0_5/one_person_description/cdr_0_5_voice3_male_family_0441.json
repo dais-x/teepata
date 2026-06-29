@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0441",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我去菜市場買菜，那個...我想一下，是星期幾來著？好像星期三吧。我先去賣雞蛋的地方，然後再去蔬菜攤，那個攤主叫什麼名字來著？應該是阿明啦。嗯，我在那裡買了一些青菜和紅蘿蔔，還有那個小番茄嘛。然後我又去了肉鋪，買了一些豬肉跟雞肉來做湯。喔，還有一個停頓，我回憶了一下昨天晚上煮了什麼，哦，好像是炒飯。啊，今天中午想吃面啦。",
+  "marked_transcript": "今天早上我去菜市場買菜，那個...我想一下，是星期幾來著？[停頓]好像星期三吧。我先去賣雞蛋的地方，然後再去蔬菜攤，那個攤主叫什麼名字來著？[長停頓]應該是阿明啦。嗯，我在那裡買了一些青菜和紅蘿蔔，還有那個小番茄嘛。然後我又去了肉鋪，買了一些豬肉跟雞肉來做湯。喔，還有一個停頓，我回憶了一下昨天晚上煮了什麼，哦，好像是炒飯。[咳嗽]啊，今天中午想吃面啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我去菜市場買菜，那個...我想一下，是星期幾來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像星期三吧。我先去賣雞蛋的地方，然後再去蔬菜攤，那個攤主叫什麼名字來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是阿明啦。嗯，我在那裡買了一些青菜和紅蘿蔔，還有那個小番茄嘛。然後我又去了肉鋪，買了一些豬肉跟雞肉來做湯。喔，還有一個停頓，我回憶了一下昨天晚上煮了什麼，哦，好像是炒飯。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，今天中午想吃面啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

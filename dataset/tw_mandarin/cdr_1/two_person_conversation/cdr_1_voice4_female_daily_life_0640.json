@@ -1,0 +1,95 @@
+{
+  "sample_id": "cdr_1_voice4_female_daily_life_0640",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號呀？\n患者：嗯...好像是上個禮拜五，我想一下...\n訪談者：你在哪裡呢？\n患者：喔，我在診所等拿藥。\n訪談者：你為什麼來這裡？\n患者：因為醫生叫我來檢查身體嘛，那個就是平常的健康檢查。\n訪談者：最近有什麼事情嗎？\n患者：應該是昨天才去菜市場買了菜，不過記不得確切日子了。",
+  "marked_transcript": "訪談者：今天幾號呀？[停頓]\n患者：嗯...好像是上個禮拜五，我想一下...\n訪談者：你在哪裡呢？\n患者：喔，我在診所等拿藥。\n訪談者：你為什麼來這裡？\n患者：因為醫生叫我來檢查身體嘛，那個就是平常的健康檢查。\n訪談者：最近有什麼事情嗎？\n患者：應該是昨天才去菜市場買了菜，不過記不得確切日子了[停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號呀？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像是上個禮拜五，我想一下..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我在診所等拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為醫生叫我來檢查身體嘛，那個就是平常的健康檢查。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近有什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是昨天才去菜市場買了菜，不過記不得確切日子了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 800,
+    "chinese_char_count": 112
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

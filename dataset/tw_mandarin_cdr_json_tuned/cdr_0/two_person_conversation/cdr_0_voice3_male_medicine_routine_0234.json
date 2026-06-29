@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice3_male_medicine_routine_0234",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：林先生你好，今天幾號？\n患者：喔，今天是五月二十號。\n訪談者：好，請問您現在在哪裡？\n患者：我在診所啊，就是這一間。\n訪談者：對。那您為什麼來這裡呢？\n患者：嗯，因為我上次拿的藥快吃完了，所以過來拿藥。\n訪談者：好的，那昨天家裡有發生什麼事嗎？\n患者：昨天啊，我就在家裡休息，跟老伴一起看電視，然後吃晚餐。沒什麼特別的事啦。",
+  "marked_transcript": "訪談者：林先生你好，今天幾號？\n患者：喔，今天是五月二十號。\n訪談者：好，請問您現在在哪裡？\n患者：我在診所啊，就是這一間。\n訪談者：對。那您為什麼來這裡呢？\n患者：嗯 [停頓] 因為我上次拿的藥快吃完了，所以過來拿藥。\n訪談者：好的，那昨天家裡有發生什麼事嗎？\n患者：昨天啊 [吸氣] 我就在家裡休息，跟老伴一起看電視，然後吃晚餐。沒什麼特別的事啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "林先生你好，今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，今天是五月二十號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，請問您現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在診所啊，就是這一間。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對。那您為什麼來這裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為我上次拿的藥快吃完了，所以過來拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那昨天家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊，我就在家裡休息，跟老伴一起看電視，然後吃晚餐。沒什麼特別的事啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 131
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

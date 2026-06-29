@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_2_voice1_male_market_0882",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯... 今天早上，我本來要去菜市場買菜的。欸，結果好像記不得，到底是去還是沒去喔。那個... 阿母叫我拿藥的，對不對？[停頓] 哎呀，腦筋有點亂咧。應該是... 大概九點鐘左右吧？[長停頓] 我記得有經過那個路口，但是忘記買什麼了。好像是蔥，又好像是小菜。啊！對了！診所那邊，要拿藥的嘛。[嘆氣] 不過現在想起來，那個時間好像有點記不清了。總之... 就是去市場，然後拿藥。嗯，大概就這樣啦。",
+  "marked_transcript": "嗯... [停頓] 今天早上，我本來要去菜市場買菜的。欸，結果好像記不得，到底是去還是沒去喔。那個... 阿母叫我拿藥的，對不對？[停頓] 哎呀，腦筋有點亂咧。應該是... [長停頓] 大概九點鐘左右吧？我記得有經過那個路口，但是忘記買什麼了。好像是蔥，又好像是小菜。啊！對了！診所那邊，要拿藥的嘛。[嘆氣] 不過現在想起來，那個時間好像有點記不清了。總之... [停頓] 就是去市場，然後拿藥。嗯，大概就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上，我本來要去菜市場買菜的。欸，結果好像記不得，到底是去還是沒去喔。那個... 阿母叫我拿藥的，對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，腦筋有點亂咧。應該是..."
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "大概九點鐘左右吧？我記得有經過那個路口，但是忘記買什麼了。好像是蔥，又好像是小菜。啊！對了！診所那邊，要拿藥的嘛。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過現在想起來，那個時間好像有點記不清了。總之..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是去市場，然後拿藥。嗯，大概就這樣啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3150,
+    "chinese_char_count": 148
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

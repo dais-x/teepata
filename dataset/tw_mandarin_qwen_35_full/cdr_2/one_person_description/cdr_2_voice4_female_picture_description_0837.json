@@ -1,0 +1,87 @@
+{
+  "sample_id": "cdr_2_voice4_female_picture_description_0837",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話，一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。畫面裡有幾個人和物品，每個人都在做不同的事情。"
+  },
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯...這個，這是我家客廳啦。阿公坐在那邊看那個相簿嘛。然後旁邊有杯茶...還有老花眼鏡。欸，囝仔在地上玩積木，對不對？好像是在拼什麼東西啦。媽媽站在窗邊...接電話喔。那邊有一隻貓，跳到茶几那裡，好像要碰倒茶杯。牆上有時鐘，還有照片。窗外應該是下午吧。那個畫面裡有幾個人，每個都在做事情。嗯...",
+  "marked_transcript": "[吸氣] 嗯 [停頓] ...這個，這是我家客廳啦。阿公坐在那邊看那個相簿嘛。然後旁邊有杯茶...還有老花眼鏡。欸 [長停頓] ，囝仔在地上玩積木，對不對？好像是在拼什麼東西啦。媽媽站在窗邊...接電話喔。那邊有一隻貓，跳到茶几那裡，好像要碰倒茶杯。牆上有時鐘，還有照片。窗外應該是下午吧。那個畫面裡有幾個人，每個都在做事情。[嘆氣] 嗯...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "[吸氣]"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯這個，這是我家客廳啦。阿公坐在那邊看那個相簿嘛。然後旁邊有杯茶還有老花眼鏡。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔在地上玩積木，對不對？好像是在拼什麼東西啦。媽媽站在窗邊接電話喔。那邊有一隻貓，跳到茶几那裡，好像要碰倒茶杯。牆上有時鐘，還有照片。窗外應該是下午吧。那個畫面裡有幾個人，每個都在做事情。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3100,
+    "chinese_char_count": 120
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.58,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

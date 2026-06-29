@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice3_male_family_0719",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來後，我先去菜市場買點青菜。 好像忘記帶錢包了，不過老闆人很好，先讓我拿回去。然後回家吃早餐，阿母常說要記得吃藥。 欸，那個藥盒……好像是放在櫃子第二層？啊，記不得了，待會再找一下。 總之就是這樣，一天過得蠻簡單的。",
+  "marked_transcript": "嗯，早上起來後，我先去菜市場買點青菜。[停頓] 好像忘記帶錢包了，不過老闆人很好，先讓我拿回去。然後回家吃早餐，阿母常說要記得吃藥。[長停頓] 欸，那個藥盒……好像是放在櫃子第二層？啊，記不得了，待會再找一下。[嘆氣] 總之就是這樣，一天過得蠻簡單的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來後，我先去菜市場買點青菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 838
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像忘記帶錢包了，不過老闆人很好，先讓我拿回去。然後回家吃早餐，阿母常說要記得吃藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1225
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，那個藥盒……好像是放在櫃子第二層？啊，記不得了，待會再找一下"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1073
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總之就是這樣，一天過得蠻簡單的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3136,
+    "chinese_char_count": 93
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '好像'), one orientation/memory uncertainty (medicine location), and mild repetition of routine. Uses natural pauses and Taiwanese markers like '阿母' and '菜市場'. Speech remains coherent and on topic."
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_medicine_routine_0509",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，現在是哪一年？\n患者：嗯...我想一下...現在應該是二○二三吧。\n訪談者：好的。你昨天有沒有吃藥啊？\n患者：那個...好像吃了啦...\n訪談者：今天的早餐吃什麼呀？\n患者：早餐就是稀飯跟鹹菜，還有豆腐乳咧。\n訪談者：這樣好。那請問家裡現在幾個人住著呢？\n患者：應該是三個人吧，我、阿母跟兒子。",
+  "marked_transcript": "訪談者：阿伯，現在是哪一年？\n患者：嗯...我想一下...現在應該是二○二三吧。\n[停頓]\n訪談者：好的。你昨天有沒有吃藥啊？\n患者：那個...好像吃了啦...\n[長停頓]\n訪談者：今天的早餐吃什麼呀？\n患者：早餐就是稀飯跟鹹菜，還有豆腐乳咧。\n訪談者：這樣好。那請問家裡現在幾個人住著呢？\n患者：應該是三個人吧，我、阿母跟兒子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，現在是哪一年？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下...現在應該是二○二三吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。你昨天有沒有吃藥啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...好像吃了啦..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天的早餐吃什麼呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐就是稀飯跟鹹菜，還有豆腐乳咧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "這樣好。那請問家裡現在幾個人住著呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是三個人吧，我、阿母跟兒子。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2000,
+    "chinese_char_count": 113
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

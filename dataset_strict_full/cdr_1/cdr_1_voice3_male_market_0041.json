@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0041",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天去市場買菜，那個嗯，忘記帶錢包了啦。然後就在那邊想，呃怎麼辦？算了，先跟老闆講一下，下次再拿。不過就是覺得有點不好意思，因為好久沒有這樣子發生過了。",
+  "marked_transcript": "今天去市場買菜，那個 [停頓] 嗯，忘記帶錢包了啦。然後就在那邊想，呃 [長停頓] 怎麼辦？算了，先跟老闆講一下，下次再拿。不過就是覺得有點不好意思，因為好久沒有這樣子發生過了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天去市場買菜，那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，忘記帶錢包了啦。然後就在那邊想，呃"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "怎麼辦？算了，先跟老闆講一下，下次再拿。不過就是覺得有點不好意思，因為好久沒有這樣子發生過了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 1,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 2.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

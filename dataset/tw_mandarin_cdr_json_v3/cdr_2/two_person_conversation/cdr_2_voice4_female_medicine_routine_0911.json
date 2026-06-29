@@ -1,0 +1,136 @@
+{
+  "sample_id": "cdr_2_voice4_female_medicine_routine_0911",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯……那個……好像是九月吧， 不對，應該是八月？ 啊，我想不起來了，欸。\n訪談者：我們現在在哪裡呢？\n患者：在診所呀， 拿藥的地方。 可是剛才好像走到醫院了……記不得路了。\n訪談者：為什麼今天來這裡？\n患者：因為阿母說要拿高血壓的藥， 對，就是那個紅色的盒子。 欸，我剛剛吃過了嗎？",
+  "marked_transcript": "訪談者：今天是幾月幾號？\n患者：嗯……那個……好像是九月吧，[停頓] 不對，應該是八月？[長停頓] 啊，我想不起來了，欸。\n訪談者：我們現在在哪裡呢？\n患者：在診所呀，[嘆氣] 拿藥的地方。[吸氣] 可是剛才好像走到醫院了……記不得路了。\n訪談者：為什麼今天來這裡？\n患者：因為阿母說要拿高血壓的藥，[停頓] 對，就是那個紅色的盒子。[長停頓] 欸，我剛剛吃過了嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……好像是九月吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 625
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是八月？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1406
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，我想不起來了，欸"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所呀"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1066
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥的地方"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是剛才好像走到醫院了……記不得路了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼今天來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為阿母說要拿高血壓的藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 689
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那個紅色的盒子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1131
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我剛剛吃過了嗎？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 5686,
+    "chinese_char_count": 117
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall regarding date and location, needs support to complete thoughts, mild repetition of uncertainty markers."
+}

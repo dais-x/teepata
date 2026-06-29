@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_3_voice3_male_home_0069",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "val"
+  },
+  "interviewer": null,
+  "split": "val",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯...那個，我早上有吃藥啦呃...忘記是幾點鐘吃的了，我想一下啊對，好像是早餐之後。然後那個我太太她今天去市場買菜，嗯...買了很多東西，不知道怎麼講，反正就是很多菜呃...我記得昨天好像也是這樣，但是後來...後來就不記得了。那個地方...哎呀忘記是什麼地方了，反正就是家附近",
+  "marked_transcript": "嗯...那個，我早上有吃藥啦 [停頓] 呃...忘記是幾點鐘吃的了，我想一下 [長停頓] 啊對，好像是早餐之後。然後那個 [停頓] 我太太她今天去市場買菜，嗯...買了很多東西，不知道怎麼講，反正就是很多菜 [停頓] 呃...我記得昨天好像也是這樣，但是後來...後來就不記得了。那個地方...哎呀 [長停頓] 忘記是什麼地方了，反正就是家附近",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個，我早上有吃藥啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...忘記是幾點鐘吃的了，我想一下"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對，好像是早餐之後。然後那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我太太她今天去市場買菜，嗯...買了很多東西，不知道怎麼講，反正就是很多菜"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...我記得昨天好像也是這樣，但是後來...後來就不記得了。那個地方...哎呀"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記是什麼地方了，反正就是家附近"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 3,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 5.7,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 5.7,
+      "silence_ratio": 0.18,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 10,
+      "restart_count": 3
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 10
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 3,
+      "orientation_error_count": 1
+    }
+  }
+}

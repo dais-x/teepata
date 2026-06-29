@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_voice4_female_daily_life_0669",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯，我每天早上都是先起床，然後去菜市場買點青菜。啊，那個……好像是昨天去的？記不太清楚了。 之後就回家煮粥，阿母以前常說要吃得清淡一點。欸，我想一下，今天好像有要去診所拿藥，但忘記是哪一種了。應該是降血壓的那種吧。",
+  "marked_transcript": "嗯，我每天早上都是先起床，然後去菜市場買點青菜。啊，那個……好像是昨天去的？記不太清楚了。[停頓] 之後就回家煮粥，阿母以前常說要吃得清淡一點。欸，我想一下，今天好像有要去診所拿藥，但忘記是哪一種了。應該是降血壓的那種吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我每天早上都是先起床，然後去菜市場買點青菜。啊，那個……好像是昨天去的？記不太清楚了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 693
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "之後就回家煮粥，阿母以前常說要吃得清淡一點。欸，我想一下，今天好像有要去診所拿藥，但忘記是哪一種了。應該是降血壓的那種吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 693,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('忘記是哪一種'), mild memory uncertainty ('好像是昨天去的？'), and one orientation error regarding the specific medication, but remains coherent and on topic with natural pauses."
+}

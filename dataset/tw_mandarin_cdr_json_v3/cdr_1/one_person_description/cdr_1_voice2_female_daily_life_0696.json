@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0696",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我每天早上都會去菜市場買菜。 今天好像忘了帶錢包……欸，應該有放口袋裡。然後去診所拿藥，阿母常叫我準時吃。那個，我記得昨天也來過這裡，對不對？ 哎呀，記不太清楚了。不過回家後還是會煮飯給囝仔吃。",
+  "marked_transcript": "嗯，我每天早上都會去菜市場買菜。[停頓] 今天好像忘了帶錢包……欸，應該有放口袋裡。然後去診所拿藥，阿母常叫我準時吃。那個，我記得昨天也來過這裡，對不對？[長停頓] 哎呀，記不太清楚了。不過回家後還是會煮飯給囝仔吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我每天早上都會去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 689
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天好像忘了帶錢包……欸，應該有放口袋裡。然後去診所拿藥，阿母常叫我準時吃。那個，我記得昨天也來過這裡，對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1470
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，記不太清楚了。不過回家後還是會煮飯給囝仔吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2159,
+    "chinese_char_count": 83
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('錢包' hesitation), mild repetition of routine, one memory uncertainty (forgetting wallet yesterday vs today). Natural pauses and filler words used sparingly. Mostly coherent daily life description."
+}

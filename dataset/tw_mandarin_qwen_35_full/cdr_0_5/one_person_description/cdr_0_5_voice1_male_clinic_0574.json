@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_clinic_0574",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "今天這禮拜...欸，應該是週三吧。[停頓] 喔對，就是星期二來的啦。那個...我記得早上起來之後呢，就先去拿藥。不過藥名有點忘記了，反正就是醫生開的那種。[嘆氣] 然後就去菜市場買點青菜，阿母說要吃清淡一點嘛。[吸氣] 嗯，回來之後就吃個早餐，大概是粥跟蛋啦。喔對，我還有喝牛奶。[停頓] 後來就在公園坐一下...好像有遇到老李咧，不過不确定是不是他。反正就是大概這樣而已啦。",
+  "marked_transcript": "今天這禮拜...欸，應該是週三吧。[停頓] 喔對，就是星期二來的啦。那個...我記得早上起來之後呢，就先去拿藥。不過藥名有點忘記了，反正就是醫生開的那種。[嘆氣] 然後就去菜市場買點青菜，阿母說要吃清淡一點嘛。[吸氣] 嗯，回來之後就吃個早餐，大概是粥跟蛋啦。喔對，我還有喝牛奶。[停頓] 後來就在公園坐一下...好像有遇到老李咧，不過不确定是不是他。反正就是大概這樣而已啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天這禮拜...欸，應該是週三吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對，就是星期二來的啦。那個...我記得早上起來之後呢，就先去拿藥。不過藥名有點忘記了，反正就是醫生開的那種。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後就去菜市場買點青菜，阿母說要吃清淡一點嘛。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，回來之後就吃個早餐，大概是粥跟蛋啦。喔對，我還有喝牛奶。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來就在公園坐一下...好像有遇到老李咧，不過不确定是不是他。反正就是大概這樣而已啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2900,
+    "chinese_char_count": 149
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

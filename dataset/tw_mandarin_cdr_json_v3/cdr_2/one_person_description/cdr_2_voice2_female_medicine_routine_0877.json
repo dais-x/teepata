@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_voice2_female_medicine_routine_0877",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……那個，我每天早上都要吃藥。 啊，是幾顆來著？好像是兩顆……欸，不對，應該是三顆吧？ 阿母，你幫我看看藥盒好嗎？我記不得啦。 診所那邊拿的藥，名字好像叫什麼……那個……忘記了。 反正就是早上吃一次，晚上也要吃。 時間對不對喔？好像是八點，還是九點？欸，反正就是吃完早餐再吃。",
+  "marked_transcript": "嗯……那個，我每天早上都要吃藥。[停頓] 啊，是幾顆來著？好像是兩顆……欸，不對，應該是三顆吧？[長停頓] 阿母，你幫我看看藥盒好嗎？我記不得啦。[嘆氣] 診所那邊拿的藥，名字好像叫什麼……那個……忘記了。[吸氣] 反正就是早上吃一次，晚上也要吃。[停頓] 時間對不對喔？好像是八點，還是九點？欸，反正就是吃完早餐再吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個，我每天早上都要吃藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 848
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，是幾顆來著？好像是兩顆……欸，不對，應該是三顆吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1451
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母，你幫我看看藥盒好嗎？我記不得啦"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 849
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊拿的藥，名字好像叫什麼……那個……忘記了"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 373
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正就是早上吃一次，晚上也要吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間對不對喔？好像是八點，還是九點？欸，反正就是吃完早餐再吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4171,
+    "chinese_char_count": 107
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: noticeable memory gaps regarding dosage and time, frequent self-correction, repetition of uncertainty markers like '好像' or '記不得', fragmented recall of medication routine requiring external support."
+}

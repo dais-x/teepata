@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_family_0405",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天是幾號？\n患者：嗯……我想一下，好像是……嗯，五月十二日吧。 應該沒錯。\n訪談者：我們為什麼來這裡呢？\n患者：欸，是來看阿母的，她最近頭比較昏。 對，就是這個原因。",
+  "marked_transcript": "訪談者：今天是幾號？\n患者：嗯……我想一下，好像是……嗯，五月十二日吧。[停頓] 應該沒錯。\n訪談者：我們為什麼來這裡呢？\n患者：欸，是來看阿母的，她最近頭比較昏。[吸氣] 對，就是這個原因。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我想一下，好像是……嗯，五月十二日吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 840
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，是來看阿母的，她最近頭比較昏"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 615
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是這個原因"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1455,
+    "chinese_char_count": 64
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent response with one brief hesitation and minor uncertainty about the date, reflecting very mild cognitive decline."
+}

@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_family_0579",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上太陽很好。 我起來後就去菜市場轉一圈。買了一些魚跟青菜。然後回家煮粥。阿母說她想吃鹹的，我就加了點醬油。那個…… 好像是七點半起床的？欸，應該沒錯。囝仔晚上會來，我們一起吃晚餐。嗯，就這樣子。",
+  "marked_transcript": "嗯，今天早上太陽很好。[停頓] 我起來後就去菜市場轉一圈。買了一些魚跟青菜。然後回家煮粥。阿母說她想吃鹹的，我就加了點醬油。那個…… [停頓] 好像是七點半起床的？欸，應該沒錯。囝仔晚上會來，我們一起吃晚餐。嗯，就這樣子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上太陽很好"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 625
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我起來後就去菜市場轉一圈。買了一些魚跟青菜。然後回家煮粥。阿母說她想吃鹹的，我就加了點醬油。那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 641
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是七點半起床的？欸，應該沒錯。囝仔晚上會來，我們一起吃晚餐。嗯，就這樣子"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1266,
+    "chinese_char_count": 84
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Mostly coherent with subtle hesitation on time recall. Uses typical Taiwan expressions (阿母，菜市場，囝仔). Two short pauses inserted."
+}

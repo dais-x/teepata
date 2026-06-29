@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0039",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯...我平常早上都會去公園走走那個地方...呃...離我家不遠大概走路十分鐘就到了。不過有時候會忘記帶水壺，因為最近記性不太好。然後呢，我會跟鄰居阿伯聊聊天他以前是老師，教過好多學生",
+  "marked_transcript": "嗯...我平常早上都會去公園走走 [停頓] 那個地方...呃...離我家不遠 [長停頓] 大概走路十分鐘就到了。不過有時候會忘記帶水壺，因為最近記性不太好。然後呢，我會跟鄰居阿伯聊聊天 [停頓] 他以前是老師，教過好多學生",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我平常早上都會去公園走走"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個地方...呃...離我家不遠"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "大概走路十分鐘就到了。不過有時候會忘記帶水壺，因為最近記性不太好。然後呢，我會跟鄰居阿伯聊聊天"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "他以前是老師，教過好多學生"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.9,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.9,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.5,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 3
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

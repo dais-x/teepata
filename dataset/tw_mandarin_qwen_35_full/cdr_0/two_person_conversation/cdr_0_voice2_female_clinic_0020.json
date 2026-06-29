@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_0_voice2_female_clinic_0020",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿姨，您好。請問今天是幾月幾號？\n患者：欸，讓我想一想喔...應該是五月的時候，對吧？\n訪談者：沒錯，是五月二十號。那請問我們現在是在哪裡呢？\n患者：啊這是在診所嘛，剛剛來拿藥的。\n訪談者：對，對。那陳阿姨今天為什麼會來這裡呢？\n患者：喔就是老毛病啦，頭有點暈，所以醫生說要來看看拿點藥吃。\n訪談者：了解，最近晚上睡眠情況怎麼樣呢？\n患者：還算不錯，睡得滿沉的，沒有失眠。",
+  "marked_transcript": "訪談者：陳阿姨，您好。請問今天是幾月幾號？\n患者：欸 [停頓] 讓我想一想喔...應該是五月的時候，對吧？\n訪談者：沒錯，是五月二十號。那請問我們現在是在哪裡呢？\n患者：啊這是在診所嘛，剛剛來拿藥的。\n訪談者：對，對。那陳阿姨今天為什麼會來這裡呢？\n患者：喔就是老毛病啦 [停頓] 頭有點暈，所以醫生說要來看看拿點藥吃。\n訪談者：了解，最近晚上睡眠情況怎麼樣呢？\n患者：還算不錯，睡得滿沉的，沒有失眠。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿姨，您好。請問今天是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸 讓我想一想喔...應該是五月的時候，對吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，是五月二十號。那請問我們現在是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊這是在診所嘛，剛剛來拿藥的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，對。那陳阿姨今天為什麼會來這裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔就是老毛病啦 頭有點暈，所以醫生說要來看看拿點藥吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "了解，最近晚上睡眠情況怎麼樣呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還算不錯，睡得滿沉的，沒有失眠。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 7,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3800,
+    "chinese_char_count": 151
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

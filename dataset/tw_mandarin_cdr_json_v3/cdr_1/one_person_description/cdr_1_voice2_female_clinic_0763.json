@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0763",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來先去菜市場買菜，然後回家煮粥。 記得阿母有吃藥，但好像……那個，是早上還是中午吃的？ 欸，應該是早上吧。後來去診所拿藥，醫生說要定期回診。 哎呀，最近記性變差一點點，不過應該沒大礙。",
+  "marked_transcript": "嗯，早上起來先去菜市場買菜，然後回家煮粥。[停頓] 記得阿母有吃藥，但好像……那個，是早上還是中午吃的？[長停頓] 欸，應該是早上吧。後來去診所拿藥，醫生說要定期回診。[嘆氣] 哎呀，最近記性變差一點點，不過應該沒大礙。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來先去菜市場買菜，然後回家煮粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 651
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得阿母有吃藥，但好像……那個，是早上還是中午吃的？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1523
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是早上吧。後來去診所拿藥，醫生說要定期回診"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1138
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，最近記性變差一點點，不過應該沒大礙"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3312,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '早上還是中午'), one memory uncertainty about medication timing, and mild self-correction. Natural pauses included without excessive fragmentation."
+}

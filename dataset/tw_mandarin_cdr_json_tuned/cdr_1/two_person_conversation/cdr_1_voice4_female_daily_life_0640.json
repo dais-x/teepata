@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice4_female_daily_life_0640",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，早安喔。今天幾號了？\n患者：嗯……今天是幾號啊？我想一下，應該是十月吧。\n訪談者：那現在我們在哪裡呢？\n患者：欸，這裡是診所啦，對不對？我來拿藥的。\n訪談者：沒錯，就是社區診所。你昨天做了什麼事呢？\n患者：昨天啊……喔，我有去菜市場買菜，然後回家煮飯。好像有看電視，但記不太清楚了。\n訪談者：那你有吃早餐嗎？\n患者：有吃啦，吃了粥跟蛋。不過好像是昨晚的，還是昨天的早上呢？哎呀，我忘記了。",
+  "marked_transcript": "訪談者：阿姨，早安喔。今天幾號了？\n患者：嗯……[停頓]今天是幾號啊？我想一下，應該是十月吧。\n訪談者：那現在我們在哪裡呢？\n患者：欸，這裡是診所啦，對不對？我來拿藥的。\n訪談者：沒錯，就是社區診所。你昨天做了什麼事呢？\n患者：昨天啊……[停頓]喔，我有去菜市場買菜，然後回家煮飯。好像有看電視，但記不太清楚了。\n訪談者：那你有吃早餐嗎？\n患者：有吃啦，吃了粥跟蛋。不過好像是昨晚的，還是昨天的早上呢？哎呀，我忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿姨，早安喔。今天幾號了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……今天是幾號啊？我想一下，應該是十月吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那現在我們在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，這裡是診所啦，對不對？我來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒錯，就是社區診所。你昨天做了什麼事呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：昨天啊……喔，我有去菜市場買菜，然後回家煮飯。好像有看電視，但記不太清楚了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那你有吃早餐嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有吃啦，吃了粥跟蛋。不過好像是昨晚的，還是昨天的早上呢？哎呀，我忘記了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 156
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

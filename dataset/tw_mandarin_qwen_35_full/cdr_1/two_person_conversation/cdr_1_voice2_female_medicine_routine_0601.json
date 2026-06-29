@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0601",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：陳阿姨，現在是幾月幾號？\n患者：嗯...今天是幾號喔。欸，好像是五月...應該是五月初吧。\n訪談者：那我們現在是在哪裡呢？\n患者：這裡啊...這個診所啦，對。我來拿藥的嘛。\n訪談者：好的，為什麼今天會過來呢？\n患者：因為...嗯，那個胃藥快吃完了，要拿新的。阿母叫我來的，差不多喔。\n訪談者：那請問昨天做了什麼事情嗎？\n患者：昨天啊...去過菜市場買菜，還有...跟鄰居聊一下天啦。好像還有一件小事忘記了...",
+  "marked_transcript": "訪談者：陳阿姨，現在是幾月幾號？\n患者：嗯 [停頓] ...今天是幾號喔。欸，好像是五月 [停頓] ...應該是五月初吧。\n訪談者：那我們現在是在哪裡呢？\n患者：這裡啊...這個診所啦，對。我來拿藥的嘛。\n訪談者：好的，為什麼今天會過來呢？\n患者：因為 [嘆氣] ...嗯，那個胃藥快吃完了，要拿新的。阿母叫我來的，差不多喔。\n訪談者：那請問昨天做了什麼事情嗎？\n患者：昨天啊...去過菜市場買菜，還有 [停頓] ...跟鄰居聊一下天啦。好像還有一件小事忘記了...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿姨，現在是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...今天是幾號喔。欸，好像是五月"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...應該是五月初吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊...這個診所啦，對。我來拿藥的嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，為什麼今天會過來呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為...嗯，那個胃藥快吃完了，要拿新的。阿母叫我來的，差不多喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那請問昨天做了什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...去過菜市場買菜，還有"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...跟鄰居聊一下天啦。好像還有一件小事忘記了..."
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3200,
+    "chinese_char_count": 154
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

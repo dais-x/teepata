@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0712",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問您現在記得今天吃過藥了嗎？\n患者：嗯，好像有…… 應該是早上吃的，阿母剛拿給我。那個…… 好像是白藥丸。\n訪談者：那下午呢？下午有吃嗎？\n患者：下午…… 記不太清楚了。欸，應該沒有吧？好像只吃了兩次。",
+  "marked_transcript": "訪談者：請問您現在記得今天吃過藥了嗎？\n患者：嗯，好像有…… [停頓] 應該是早上吃的，阿母剛拿給我。那個…… [長停頓] 好像是白藥丸。\n訪談者：那下午呢？下午有吃嗎？\n患者：下午…… [嘆氣] 記不太清楚了。欸，應該沒有吧？好像只吃了兩次。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您現在記得今天吃過藥了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，好像有……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 813
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是早上吃的，阿母剛拿給我。那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1131
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是白藥丸"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那下午呢？下午有吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "下午……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1309
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了。欸，應該沒有吧？好像只吃了兩次"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3253,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Clear word-finding difficulty with pauses and filler words (嗯, 那個), mild memory uncertainty about afternoon dose, but context remains understandable."
+}

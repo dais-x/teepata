@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_2_voice4_female_daily_life_0888",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，今天早上吃什麼早餐？\n患者：嗯...呃...早、早上啊。好像有喝豆漿。\n訪談者：那配什麼吃的呢？\n患者：那個...菜市場買的包子吧？哎呀，記不得了。\n訪談者：好，那昨天家裡有什麼特別的事嗎？\n患者：欸？昨天喔...是、是阿母來？還是囝仔來？想不起來了。\n訪談者：記得有去診所拿藥嗎？\n患者：有拿藥，對，去診所。那個藥丸...呃...白色的，忘記名字了。\n訪談者：那您記得我剛才問您的第一件事是什麼嗎？\n患者：什麼事啊？是吃早餐，還是拿藥？哎呀，頭有點暈，想不起來了。\n訪談者：我們慢慢來，是關於早餐的。",
+  "marked_transcript": "訪談者：阿姨，今天早上吃什麼早餐？\n患者：嗯...呃...早、早上啊。好像有喝豆漿。\n[停頓]\n訪談者：那配什麼吃的呢？\n患者：那個...菜市場買的包子吧？哎呀，記不得了。\n[長停頓]\n訪談者：好，那昨天家裡有什麼特別的事嗎？\n患者：欸？昨天喔...是、是阿母來？還是囝仔來？想不起來了。\n[嘆氣]\n訪談者：記得有去診所拿藥嗎？\n患者：有拿藥，對，去診所。那個藥丸...呃...白色的，忘記名字了。\n[停頓]\n訪談者：那您記得我剛才問您的第一件事是什麼嗎？\n患者：什麼事啊？是吃早餐，還是拿藥？哎呀，頭有點暈，想不起來了。\n[咳嗽]\n訪談者：我們慢慢來，是關於早餐的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，今天早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...呃...早、早上啊。好像有喝豆漿。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那配什麼吃的呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...菜市場買的包子吧？哎呀，記不得了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那昨天家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸？昨天喔...是、是阿母來？還是囝仔來？想不起來了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1100
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得有去診所拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿藥，對，去診所。那個藥丸...呃...白色的，忘記名字了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得我剛才問您的第一件事是什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "什麼事啊？是吃早餐，還是拿藥？哎呀，頭有點暈，想不起來了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們慢慢來，是關於早餐的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 4350,
+    "chinese_char_count": 188
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

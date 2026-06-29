@@ -1,0 +1,1108 @@
+{
+  "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+  "cdr": "0",
+  "task_group": "picture_description",
+  "scenario": "picture_description",
+  "task_plan": {
+    "task_group": "picture_description",
+    "task_type": "picture_description",
+    "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+    "expected_response_type": "open_narrative",
+    "scoring_method": "key_information_units",
+    "key_units_total": 10,
+    "expected_key_units": [
+      "客廳場景",
+      "阿公坐在沙發上看相簿",
+      "老花眼鏡",
+      "茶或茶杯",
+      "小孩玩積木",
+      "媽媽在窗邊接電話",
+      "貓靠近茶几",
+      "茶杯可能被碰倒",
+      "牆上有時鐘",
+      "牆上有家庭照片"
+    ],
+    "max_score": 10
+  },
+  "speaker": {
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "Missing top-level field: picture_reference"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 6,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 6,
+          "missing_key_information_count": 4,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "這個場景是在客廳裡面。阿公坐在沙發上，戴著老花眼鏡看相簿，旁邊還有一杯茶。然後地上有一個小朋友在玩積木，積木散得到處都是。窗邊有一位阿姨在接電話。茶几旁邊好像有一隻貓跳過去，快要碰到茶杯了。牆上面有時鐘跟照片，看起來是下午的時候。",
+        "marked_transcript": "這個場景是在客廳裡面。阿公坐在沙發上，戴著老花眼鏡看相簿，旁邊還有一杯茶。 [停頓] 然後地上有一個小朋友在玩積木，積木散得到處都是。窗邊有一位阿姨在接電話。茶几旁邊好像有一隻貓跳過去，快要碰到茶杯了。牆上面有時鐘跟照片，看起來是下午的時候。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "這個場景是在客廳裡面。阿公坐在沙發上，戴著老花眼鏡看相簿，旁邊還有一杯茶。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "然後地上有一個小朋友在玩積木，積木散得到處都是。窗邊有一位阿姨在接電話。茶几旁邊好像有一隻貓跳過去，快要碰到茶杯了。牆上面有時鐘跟照片，看起來是下午的時候。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 1,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 6,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 4,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "picture_description appears to copy prompt/reference wording too closely"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 9,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 9,
+          "missing_key_information_count": 1,
+          "incorrect_detail_count": 0
+        },
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "conversation_context": null,
+        "spoken_transcript": "這個是客廳的場景，阿公坐在沙發上在看他的相簿。旁邊有一副老花眼鏡和一杯茶。然後小孩坐在地毯上面玩積木，積木散得到處都是。媽媽站在窗邊接電話，好像很忙的樣子。一隻貓跳到茶几旁邊，快要碰到那個茶杯了。牆上有時鐘還有家庭照片，窗外看起來像是下午。",
+        "marked_transcript": "這個是客廳的場景，阿公坐在沙發上在看他的相簿。 [停頓] 旁邊有一副老花眼鏡和一杯茶。然後小孩坐在地毯上面玩積木，積木散得到處都是。媽媽站在窗邊接電話，好像很忙的樣子。一隻貓跳到茶几旁邊，快要碰到那個茶杯了。牆上有時鐘還有家庭照片，窗外看起來像是下午。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "這個是客廳的場景，阿公坐在沙發上在看他的相簿。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "旁邊有一副老花眼鏡和一杯茶。然後小孩坐在地毯上面玩積木，積木散得到處都是。媽媽站在窗邊接電話，好像很忙的樣子。一隻貓跳到茶几旁邊，快要碰到那個茶杯了。牆上有時鐘還有家庭照片，窗外看起來像是下午。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 1,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 9,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 1,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "speech_cognitive_task.score=7 outside CDR envelope [8, 10]",
+        "cognitive_task_performance.missing_key_information_count=3 outside allowed range [0, 1]",
+        "CDR 0 should not contain orientation uncertainty"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 7,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 7,
+          "missing_key_information_count": 3,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "這個畫面是在客廳裡面我看到阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶几上面有一杯茶，還有他的老花眼鏡放著。地上有一個小朋友在玩積木，玩具散得到處都是。窗戶那邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到那個茶杯了。牆上掛著時鐘跟一些照片。",
+        "marked_transcript": "這個畫面是在客廳裡面 [停頓] 我看到阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶几上面有一杯茶，還有他的老花眼鏡放著。地上有一個小朋友在玩積木，玩具散得到處都是。窗戶那邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到那個茶杯了。牆上掛著時鐘跟一些照片。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "這個畫面是在客廳裡面"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我看到阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶几上面有一杯茶，還有他的老花眼鏡放著。地上有一個小朋友在玩積木，玩具散得到處都是。窗戶那邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到那個茶杯了。牆上掛著時鐘跟一些照片。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 1,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 7,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 3,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "patient speech contains interviewer prompt leakage: 請你, 請你看",
+        "picture_description appears to copy prompt/reference wording too closely",
+        "picture_description patient speech starts with interviewer prompt"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 10,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 10,
+          "missing_key_information_count": 0,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+        "marked_transcript": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 1,
+          "pause_count": 0,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 0,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.6,
+            "filled_pause_count": 0,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 0,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 10,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 0,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "speech_cognitive_task.score=7 outside CDR envelope [8, 10]",
+        "cognitive_task_performance.missing_key_information_count=3 outside allowed range [0, 1]",
+        "CDR 0 should not contain orientation uncertainty"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 7,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 7,
+          "missing_key_information_count": 3,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "嗯，這個畫面看起來是客廳阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶幾上面放著一杯茶，還有老花眼鏡。地上有一個小朋友在玩積木，積木散開來。窗邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到茶杯了。牆上有時鐘和照片。",
+        "marked_transcript": "嗯，這個畫面看起來是客廳 [停頓] 阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶幾上面放著一杯茶，還有老花眼鏡。地上有一個小朋友在玩積木，積木散開來。窗邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到茶杯了。牆上有時鐘和照片。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，這個畫面看起來是客廳"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "阿公坐在沙發上，手裡拿著一本相簿在看。旁邊的茶幾上面放著一杯茶，還有老花眼鏡。地上有一個小朋友在玩積木，積木散開來。窗邊有一位女士在講電話，好像是媽媽。還有一隻貓跳到茶几附近，好像快要碰到茶杯了。牆上有時鐘和照片。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 1,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 1,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 1
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 7,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 3,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "picture_description appears to copy prompt/reference wording too closely"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 10,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 10,
+          "missing_key_information_count": 0,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "好，這張圖是在客廳裡面。阿公坐在沙發上看相簿，旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，媽媽在窗邊接電話。有一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片，外面看起來是下午。",
+        "marked_transcript": "好，這張圖是在客廳裡面。阿公坐在沙發上看相簿，旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，媽媽在窗邊接電話。有一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片，外面看起來是下午。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好，這張圖是在客廳裡面。阿公坐在沙發上看相簿，旁邊有老花眼鏡和一杯茶。小孩坐在地毯上玩積木，媽媽在窗邊接電話。有一隻貓跳到茶几旁邊，好像快要碰倒茶杯了。牆上有時鐘和家庭照片，外面看起來是下午。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 1,
+          "pause_count": 0,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 0,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.8,
+            "filled_pause_count": 0,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 0,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 10,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 0,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "speech_cognitive_task.score=6 outside CDR envelope [8, 10]",
+        "acoustic_fluency.pause_count=2 outside allowed range [0, 1]",
+        "cognitive_task_performance.missing_key_information_count=4 outside allowed range [0, 1]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 6,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 6,
+          "missing_key_information_count": 4,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "我看這是在一個客廳裡面阿公坐在那邊沙發上，手裡拿著一本相簿在看。他的眼鏡放在旁邊的茶几上，還有一杯茶在茶杯裡。地上有一個小朋友在玩積木，積木散得到處都是。窗戶那邊有一位女士正在講電話。茶几旁邊有一隻貓跳過去好像快要碰到那個杯子了。牆上面有時鐘跟照片。",
+        "marked_transcript": "我看這是在一個客廳裡面 [停頓] 阿公坐在那邊沙發上，手裡拿著一本相簿在看。他的眼鏡放在旁邊的茶几上，還有一杯茶在茶杯裡。地上有一個小朋友在玩積木，積木散得到處都是。窗戶那邊有一位女士正在講電話。茶几旁邊有一隻貓跳過去 [停頓] 好像快要碰到那個杯子了。牆上面有時鐘跟照片。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我看這是在一個客廳裡面"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "阿公坐在那邊沙發上，手裡拿著一本相簿在看。他的眼鏡放在旁邊的茶几上，還有一杯茶在茶杯裡。地上有一個小朋友在玩積木，積木散得到處都是。窗戶那邊有一位女士正在講電話。茶几旁邊有一隻貓跳過去"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好像快要碰到那個杯子了。牆上面有時鐘跟照片。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 2,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 1.6,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 1.6,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 1,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 3,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 6,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 4,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": false,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "patient speech contains interviewer prompt leakage: 請你, 請你看",
+        "picture_description appears to copy prompt/reference wording too closely",
+        "picture_description patient speech starts with interviewer prompt"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_0_voice1_male_pic_picture_description_0006",
+        "cdr_level": 0,
+        "cdr_label": "normal",
+        "task_group": "picture_description",
+        "scenario": "picture_description",
+        "task_type": "picture_description",
+        "interaction_type": "one_person_description",
+        "picture_reference": {
+          "picture_id": "living_room_family_scene_001",
+          "name": "living_room_family_scene",
+          "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+          "key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ]
+        },
+        "speaker": {
+          "speaker_id": "voice1_male",
+          "voice_id": "voice1_male",
+          "speaker_group": "older_male",
+          "gender": "male",
+          "description": "台灣華語男性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": null,
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "picture_description",
+          "task_type": "picture_description",
+          "prompt": "請你看這張圖，告訴我你看到什麼。可以從人物、物品、動作和可能發生的事情開始講。",
+          "scoring_method": "key_information_units",
+          "score": 10,
+          "max_score": 10,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_key_units": [
+            "客廳場景",
+            "阿公坐在沙發上看相簿",
+            "老花眼鏡",
+            "茶或茶杯",
+            "小孩玩積木",
+            "媽媽在窗邊接電話",
+            "貓靠近茶几",
+            "茶杯可能被碰倒",
+            "牆上有時鐘",
+            "牆上有家庭照片"
+          ],
+          "key_units_total": 10,
+          "key_units_mentioned": 10,
+          "missing_key_information_count": 0,
+          "incorrect_detail_count": 0
+        },
+        "conversation_context": null,
+        "spoken_transcript": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+        "marked_transcript": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。 [停頓] 一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "請你看這張圖，我看到一個客廳場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話。一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。"
+          }
+        ],
+        "full_conversation_event_script": null,
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": null
+        },
+        "event_stats": {
+          "speech_event_count": 2,
+          "pause_count": 1,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 0.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 0.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 0,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 0,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 0,
+            "sentence_fragment_count": 0
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": 10,
+            "key_information_units_total": 10,
+            "missing_key_information_count": 0,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.05,
+            "coherence_score": 0.95,
+            "memory_gap_count": 0,
+            "orientation_error_count": 0
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": false,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice2_female_clinic_0887",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……今天來診所拿藥， 欸，是早上還是下午啊？我記得有吃過早餐了。 那個……阿母說要帶我去菜市場，但我不確定是不是昨天去的。 好像有跟囝仔講過，記不得他們去沒去了。 藥瓶放在哪裡呢？應該是這裡吧？ 嗯，醫生說要按時吃藥，但我常常忘記。 啊，對了，今天要去拿藥，就是那個降压的藥。 欸，我好像忘了带病历卡了。",
+  "marked_transcript": "嗯……今天來診所拿藥，[停頓] 欸，是早上還是下午啊？我記得有吃過早餐了。[長停頓] 那個……阿母說要帶我去菜市場，但我不確定是不是昨天去的。[停頓] 好像有跟囝仔講過，記不得他們去沒去了。[嘆氣] 藥瓶放在哪裡呢？應該是這裡吧？[吸氣] 嗯，醫生說要按時吃藥，但我常常忘記。[停頓] 啊，對了，今天要去拿藥，就是那個降压的藥。[長停頓] 欸，我好像忘了带病历卡了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天來診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 630
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，是早上還是下午啊？我記得有吃過早餐了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1507
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……阿母說要帶我去菜市場，但我不確定是不是昨天去的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 859
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有跟囝仔講過，記不得他們去沒去了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1093
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥瓶放在哪裡呢？應該是這裡吧？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 671
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，醫生說要按時吃藥，但我常常忘記"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 856
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對了，今天要去拿藥，就是那個降压的藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1525
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我好像忘了带病历卡了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 7141,
+    "chinese_char_count": 123
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "Moderate dementia simulation: noticeable memory gaps regarding time and location, fragmented recall of daily tasks (medication, market visit), mild repetition, and reliance on external cues. Includes natural pauses and markers consistent with CDR 2 severity."
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_home_0340",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號呢？\n患者：嗯...我想一下，好像是九月了嗎？應該是九月吧。\n訪談者：好的，那可以跟我說說昨天做了什麼事嗎？\n患者：昨天啊...那個我去菜市場買了一些東西，然後回家準備晚餐。\n訪談者：很好。你平時喜歡做些什麼呢？\n患者：我喜歡看電視、讀書，還有就是和鄰居聊天。那個時候會聊很多天氣啦，最近發生的事情嘛。\n訪談者：那如果我們有一張照片，你能描述一下嗎？\n患者：好的，這張照片應該是我在公園散步的時候拍的，可以看到樹木和花園。那天天气很好的样子。",
+  "marked_transcript": "訪談者：今天是幾月幾號呢？[停頓]\n患者：嗯...我想一下，好像是九月了嗎？應該是九月吧。\n訪談者：好的，那可以跟我說說昨天做了什麼事嗎？\n患者：昨天啊...那個我去菜市場買了一些東西，然後回家準備晚餐。[停頓]\n訪談者：很好。你平時喜歡做些什麼呢？\n患者：我喜歡看電視、讀書，還有就是和鄰居聊天。那個時候會聊很多天氣啦，最近發生的事情嘛。\n訪談者：那如果我們有一張照片，你能描述一下嗎？\n患者：好的，這張照片應該是我在公園散步的時候拍的，可以看到樹木和花園。那天天气很好的样子。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下，好像是九月了嗎？應該是九月吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那可以跟我說說昨天做了什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...那個我去菜市場買了一些東西，然後回家準備晚餐。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。你平時喜歡做些什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我喜歡看電視、讀書，還有就是和鄰居聊天。那個時候會聊很多天氣啦，最近發生的事情嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那如果我們有一張照片，你能描述一下嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好的，這張照片應該是我在公園散步的時候拍的，可以看到樹木和花園。那天天气很好的样子。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1400,
+    "chinese_char_count": 190
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

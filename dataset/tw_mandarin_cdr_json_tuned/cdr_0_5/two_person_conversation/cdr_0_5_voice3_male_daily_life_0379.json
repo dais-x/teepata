@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0379",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早安啊。早餐有吃什麼？\n患者：嗯...早、早上有去買豆漿啦，還有一個包子。\n訪談者：喔，那今天早上家裡有發生什麼事嗎？\n患者：欸，好像是大孫女來拜託我帶她去看電影，不過我忘記是幾點了。應該還是昨天吧，啊不是，應該是上禮拜。\n訪談者：好，記得拿藥了嗎？\n患者：有拿啦，去診所拿的。不過那個...好像是早上吃的，還是下午吃呢？我想一下喔，應該是早、早上。\n訪談者：那我再問你喔，今天出門前有什麼特別要記得的事嗎？\n患者：嗯...好像醫生交代我要多喝水，還有按時量血壓。對啦，就是這個。",
+  "marked_transcript": "訪談者：阿伯，早安啊。早餐有吃什麼？\n患者：[停頓] 嗯...早、早上有去買豆漿啦，還有一個包子。\n訪談者：喔，那今天早上家裡有發生什麼事嗎？\n患者：欸，[停頓] 好像是大孫女來拜託我帶她去看電影，不過我忘記是幾點了。應該還是昨天吧，啊不是，應該是上禮拜。\n訪談者：好，記得拿藥了嗎？\n患者：有拿啦，去診所拿的。不過那個...[停頓] 好像是早上吃的，還是下午吃呢？我想一下喔，[吸氣] 應該是早、早上。\n訪談者：那我再問你喔，今天出門前有什麼特別要記得的事嗎？\n患者：嗯...好像醫生交代我要多喝水，還有按時量血壓。對啦，就是這個。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早安啊。早餐有吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早、早上有去買豆漿啦，還有一個包子。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那今天早上家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像是大孫女來拜託我帶她去看電影，不過我忘記是幾點了。應該還是昨天吧，啊不是，應該是上禮拜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，記得拿藥了嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿啦，去診所拿的。不過那個...好像是早上吃的，還是下午吃呢？我想一下喔，[吸氣] 應該是早、早上。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我再問你喔，今天出門前有什麼特別要記得的事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像醫生交代我要多喝水，還有按時量血壓。對啦，就是這個。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 194
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 2,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

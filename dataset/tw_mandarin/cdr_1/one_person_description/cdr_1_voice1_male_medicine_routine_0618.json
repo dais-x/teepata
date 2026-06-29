@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_1_voice1_male_medicine_routine_0618",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "今天早上起來，我先去拿藥。然後準備吃早餐，可是早餐好像忘了準備了，欸，現在要怎麼辦呢？應該是先準備一下吧。那個，準備好早餐之後再去拿藥，嗯，這樣子對嗎？記不得了，不過大概就是這樣的流程啦。",
+  "marked_transcript": "今天早上起來[停頓]，我先去拿藥。然後準備吃早餐[長停頓]，可是早餐好像忘了準備了[嘆氣]，欸，現在要怎麼辦呢[咳嗽]？應該是先準備一下吧。那個，準備好早餐之後再去拿藥[吸氣]，嗯，這樣子對嗎[停頓]？記不得了，不過大概就是這樣的流程啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我先去拿藥。然後準備吃早餐"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是早餐好像忘了準備了，欸，現在要怎麼辦呢？應該是先準備一下吧。那個"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "準備好早餐之後再去拿藥，嗯，這樣子對嗎？記不得了，不過大概就是這樣的流程啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.3,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

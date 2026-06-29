@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_voice1_male_medicine_routine_0818",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你今天感覺怎麼樣？\n患者：嗯，還好吧……那個……我剛剛好像有吃藥了。\n訪談者：你記得早上吃了什麼藥嗎？\n患者： 呃……好像是那個白色的……圓形的……欸，我忘記名字了。\n訪談者：那我們來算算看現在幾點鐘？\n患者： 喔……應該是下午吧……不對，可能是早上……啊，我想不起來了。\n訪談者：你記得醫生是怎麼交代要怎麼吃藥的嗎？\n患者： 嗯……就是說一天要吃兩次……可是……我好像又忘記了。\n訪談者：那你現在要去拿藥嗎？\n患者：啊，對喔……我要去診所……還是已經去了？",
+  "marked_transcript": "訪談者：你今天感覺怎麼樣？\n患者：嗯，還好吧……那個……我剛剛好像有吃藥了。\n訪談者：你記得早上吃了什麼藥嗎？\n患者：[停頓] 呃……好像是那個白色的……圓形的……欸，我忘記名字了。\n訪談者：那我們來算算看現在幾點鐘？\n患者：[長停頓] [吸氣] 喔……應該是下午吧……不對，可能是早上……啊，我想不起來了。\n訪談者：你記得醫生是怎麼交代要怎麼吃藥的嗎？\n患者：[嘆氣] 嗯……就是說一天要吃兩次……可是……我好像又忘記了。\n訪談者：那你現在要去拿藥嗎？\n患者：啊，對喔……我要去診所……還是已經去了？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你今天感覺怎麼樣？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，還好吧……那個……我剛剛好像有吃藥了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得早上吃了什麼藥嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 713
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃……好像是那個白色的……圓形的……欸，我忘記名字了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們來算算看現在幾點鐘？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1249
+    },
+    {
+      "type": "breath",
+      "duration_ms": 358
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔……應該是下午吧……不對，可能是早上……啊，我想不起來了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得醫生是怎麼交代要怎麼吃藥的嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1067
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……就是說一天要吃兩次……可是……我好像又忘記了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你現在要去拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對喔……我要去診所……還是已經去了？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3387,
+    "chinese_char_count": 170
+  },
+  "impairment_features": {
+    "hesitation_count": 11,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: fragmented recall, time confusion (morning/afternoon), repetition of forgetting, needs support to complete thought."
+}

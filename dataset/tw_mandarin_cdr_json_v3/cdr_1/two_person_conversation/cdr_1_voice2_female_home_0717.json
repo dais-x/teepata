@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_1_voice2_female_home_0717",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃什麼早餐啊？\n患者：嗯…… 好像是稀飯，還是麵包喔。 記不太清楚了啦。\n訪談者：有去拿藥嗎？\n患者：有，昨天去診所拿的。 那個血壓藥，對不對？\n訪談者：嗯，那下午有跟誰聯絡嗎？\n患者：欸…… 應該是阿嬤打來過，講說囝仔要回來。",
+  "marked_transcript": "訪談者：今天早上吃什麼早餐啊？\n患者：嗯…… [停頓] 好像是稀飯，還是麵包喔。[長停頓] 記不太清楚了啦。\n訪談者：有去拿藥嗎？\n患者：有，昨天去診所拿的。[嘆氣] 那個血壓藥，對不對？\n訪談者：嗯，那下午有跟誰聯絡嗎？\n患者：欸…… [停頓] 應該是阿嬤打來過，講說囝仔要回來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃什麼早餐啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 673
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯，還是麵包喔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1420
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有去拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有，昨天去診所拿的"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1126
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個血壓藥，對不對？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，那下午有跟誰聯絡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 776
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是阿嬤打來過，講說囝仔要回來"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3995,
+    "chinese_char_count": 90
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 輕度：尋字困難（稀飯或麵包），記憶不確定，語句尚連貫，使用少量台灣口語詞彙。"
+}

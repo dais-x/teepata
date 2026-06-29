@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0031",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，阿伯。請問今天幾號？\n患者：嗯...今天是十月五號。\n訪談者：對，那我們現在在哪裡呢？\n患者：喔，我在這裡啦，就是那個診所嘛。\n訪談者：沒錯，您為什麼來這裡啊？\n患者：因為要拿藥啊，阿母叫我來的。然後昨天有去菜市場買菜。\n訪談者：好的，那最近有沒有什麼特別的事情發生？\n患者：嗯...好像沒什麼啦，就平常那樣。不過那天忘記帶傘，淋到一點雨。",
+  "marked_transcript": "訪談者：早安，阿伯。請問今天幾號？\n[停頓]\n患者：嗯...今天是十月五號。\n訪談者：對，那我們現在在哪裡呢？\n患者：喔，我在這裡啦，就是那個診所嘛。\n訪談者：沒錯，您為什麼來這裡啊？\n患者：因為要拿藥啊，阿母叫我來的。然後昨天有去菜市場買菜。\n訪談者：好的，那最近有沒有什麼特別的事情發生？\n[停頓]\n患者：嗯...好像沒什麼啦，就平常那樣。不過那天忘記帶傘，淋到一點雨。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，阿伯。請問今天幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天是十月五號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我在這裡啦，就是那個診所嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，您為什麼來這裡啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為要拿藥啊，阿母叫我來的。然後昨天有去菜市場買菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那最近有沒有什麼特別的事情發生？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像沒什麼啦，就平常那樣。不過那天忘記帶傘，淋到一點雨。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 136
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.9,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

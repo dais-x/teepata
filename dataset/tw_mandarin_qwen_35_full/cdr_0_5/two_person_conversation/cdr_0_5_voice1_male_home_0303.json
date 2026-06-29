@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0303",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，今天幾號啊？\n患者：嗯……是幾號呢？我想一下喔。應該是……好像是十月啦。\n訪談者：對，今天是十月初三。那我們現在在哪裡啊？\n患者：欸，我在這裡啊。這個地方……是診所嗎？我來拿藥的。\n訪談者：沒錯，您今天來複診。昨天做了什麼事呢？\n患者：喔，昨天啊……那個……早上去菜市場買菜，然後回來看電視嘛。阿母也有在喔。\n訪談者：好，那您記得是什麼時間來的嗎？\n患者：時間……我想一下……應該是差不多上午九點吧。應該沒錯啦。",
+  "marked_transcript": "訪談者：阿伯，今天幾號啊？\n患者：嗯 [停頓]……是幾號呢？[吸氣] 我想一下喔。應該是……好像是十月啦。\n訪談者：對，今天是十月初三。那我們現在在哪裡啊？\n患者：欸，我在這裡啊。這個地方……是診所嗎？[長停頓] 我來拿藥的。\n訪談者：沒錯，您今天來複診。昨天做了什麼事呢？\n患者：喔，昨天啊……那個……早上去菜市場買菜，然後回來看電視嘛。阿母也有在喔。\n訪談者：好，那您記得是什麼時間來的嗎？\n患者：時間……[停頓] 我想一下……應該是差不多上午九點吧。應該沒錯啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，今天幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，是幾號呢？我想一下喔。應該是……好像是十月啦。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，今天是十月初三。那我們現在在哪裡啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我在這裡啊。這個地方……是診所嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，您今天來複診。昨天做了什麼事呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，昨天啊……那個……早上去菜市場買菜，然後回來看電視嘛。阿母也有在喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您記得是什麼時間來的嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間……我想一下……應該是差不多上午九點吧。應該沒錯啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4600,
+    "chinese_char_count": 161
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

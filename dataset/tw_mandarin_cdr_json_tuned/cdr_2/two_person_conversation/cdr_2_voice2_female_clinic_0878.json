@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_2_voice2_female_clinic_0878",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，今天幾號喔？\n患者：幾號...嗯...好像是一號？不是啦。\n訪談者：今天是幾月幾號呢？\n患者：欸...今天是...那個...好像是禮拜三吧。哎唷，我記不清楚了。\n訪談者：那我們現在在哪裡呢？\n患者：在這裡啊...診所...對喔，來拿藥的。\n訪談者：為什麼要來這裡呢？\n患者：因為...頭暈嘛。然後...那個醫生說要吃藥。哎唷，我好像忘了帶藥單。",
+  "marked_transcript": "訪談者：阿母，今天幾號喔？\n[停頓]\n患者：幾號...嗯...好像是一號？不是啦。\n[長停頓]\n訪談者：那今天是幾月幾號呢？\n[吸氣]\n患者：欸...今天是...那個...好像是禮拜三吧。哎唷，我記不清楚了。\n[嘆氣]\n訪談者：那我們現在在哪裡呢？\n[停頓]\n患者：在這裡啊...診所...對喔，來拿藥的。\n[停頓]\n訪談者：為什麼要來這裡呢？\n[咳嗽]\n患者：因為...頭暈嘛。然後...那個醫生說要吃藥。哎唷，我好像忘了帶藥單。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿母，今天幾號喔？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：幾號...嗯...好像是一號？不是啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那今天是幾月幾號呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸...今天是...那個...好像是禮拜三吧。哎唷，我記不清楚了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那我們現在在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：在這裡啊...診所...對喔，來拿藥的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：為什麼要來這裡呢？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：因為...頭暈嘛。然後...那個醫生說要吃藥。哎唷，我好像忘了帶藥單。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 5100,
+    "chinese_char_count": 121
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

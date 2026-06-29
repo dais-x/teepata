@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice3_male_home_0756",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……今天啊， 好像是禮拜三吧？欸，不對，應該還是星期二。\n訪談者：那我們現在是在哪裡呢？\n患者：在家裡啊， 這個客廳嘛。我剛剛在等那個……那個什麼來著。\n訪談者：您剛才說在等誰或等什麼？\n患者：嗯……等拿藥。對，要去診所拿藥。 欸，是上週去過嗎？還是這週？記不太清楚了。",
+  "marked_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……今天啊，[停頓] 好像是禮拜三吧？欸，不對，應該還是星期二。\n訪談者：那我們現在是在哪裡呢？\n患者：在家裡啊，[吸氣] 這個客廳嘛。我剛剛在等那個……那個什麼來著。\n訪談者：您剛才說在等誰或等什麼？\n患者：嗯……等拿藥。對，要去診所拿藥。[長停頓] 欸，是上週去過嗎？還是這週？記不太清楚了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 706
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是禮拜三吧？欸，不對，應該還是星期二"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在家裡啊"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 703
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個客廳嘛。我剛剛在等那個……那個什麼來著"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您剛才說在等誰或等什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……等拿藥。對，要去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，是上週去過嗎？還是這週？記不太清楚了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3009,
+    "chinese_char_count": 115
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (waiting for 'what'), mild repetition, and uncertainty about the day/date. Speech remains coherent with only brief pauses."
+}

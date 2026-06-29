@@ -1,0 +1,206 @@
+{
+  "sample_id": "cdr_3_voice1_male_real_medicine_routine_0115",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "medicine_routine",
+  "task_type": "medicine_routine_recall",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "medicine_routine_recall",
+    "prompt": "你可以說一下今天早上吃藥的順序嗎？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 0,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "起床",
+      "吃早餐",
+      "看藥袋或藥盒",
+      "吃藥"
+    ],
+    "steps_mentioned": 1,
+    "sequence_error_count": 3,
+    "memory_gap_count": 1
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你可以說一下今天早上吃藥的順序嗎？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯那個...早上啊，我...我有起床啦。然後...呃...早餐有吃，但是...看藥袋...忘記了，到底先吃什麼。就是...先喝水，然後...好像再吃藥吧。反正...反正就那樣。"
+    }
+  ],
+  "spoken_transcript": "嗯那個...早上啊，我...我有起床啦。然後...呃...早餐有吃，但是...看藥袋...忘記了，到底先吃什麼。就是...先喝水，然後...好像再吃藥吧。反正...反正就那樣。",
+  "marked_transcript": "嗯 [停頓] 那個...早上啊，我...我有起床啦。 [長停頓] 然後...呃...早餐有吃，但是...看藥袋...忘記了，到底先吃什麼。 [停頓] 就是...先喝水，然後...好像再吃藥吧。 [長停頓] 反正...反正就那樣。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...早上啊，我...我有起床啦。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後...呃...早餐有吃，但是...看藥袋...忘記了，到底先吃什麼。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.9
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是...先喝水，然後...好像再吃藥吧。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正...反正就那樣。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你可以說一下今天早上吃藥的順序嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...早上啊，我...我有起床啦。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後...呃...早餐有吃，但是...看藥袋...忘記了，到底先吃什麼。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.9
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是...先喝水，然後...好像再吃藥吧。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正...反正就那樣。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 5,
+    "pause_count": 3,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 6.1,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 6.1,
+      "silence_ratio": 0.18,
+      "speech_rate_target_cps": 1.6,
+      "filled_pause_count": 5,
+      "restart_count": 3
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 0,
+      "vague_reference_count": 1,
+      "circumlocution_count": 0,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 11
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 2,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "sample_id": "cdr_3_voice3_male_clinic_0989",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生，請問今天星期幾？\n患者：嗯……星期……星期……\n訪談者：沒关系，慢慢想。\n患者：好像是……星期三？不对咧，记不得了。昨天……昨天有來拿藥吗？好像有。\n訪談者：那您现在在哪個地方呢？\n患者：這裡……诊所……对啦，诊所。為什么來？因為……頭昏，走路不稳。那個……囝仔說要來检查。\n訪談者：好的，那今天日期大概是几号？\n患者：几号……喔，這個记不太清。好像是十五？不对，好像二十。哎呀，我忘了。",
+  "marked_transcript": "訪談者：先生，請問今天星期幾？\n[停頓]\n患者：嗯……星期……星期……\n[長停頓]\n訪談者：沒關係，慢慢想。\n[吸氣]\n患者：好像是……星期三？不對咧，記不得了。\n[咳嗽]\n訪談者：那您現在在哪個地方呢？\n患者：這裡……診所……對啦，診所。為什麼來？因為……頭昏，走路不穩。那個……囝仔說要來檢查。\n[停頓]\n訪談者：好的，那今天日期大概是幾號？\n患者：幾號……喔，這個記不太清。好像是十五？不對，好像二十。哎呀，我忘了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "先生，請問今天星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……星期……星期……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢想。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……星期三？不對咧，記不得了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您現在在哪個地方呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡……診所……對啦，診所。為什麼來？因為……頭昏，走路不穩。那個……囝仔說要來檢查。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那今天日期大概是幾號？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號……喔，這個記不太清。好像是十五？不對，好像二十。哎呀，我忘了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4800,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 14,
+    "repetition_count": 7,
+    "word_finding_count": 8,
+    "orientation_error_count": 3,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.25,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

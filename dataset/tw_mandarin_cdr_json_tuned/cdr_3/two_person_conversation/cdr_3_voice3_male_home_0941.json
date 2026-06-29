@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_3_voice3_male_home_0941",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：現在是幾點鐘？今天是星期幾？\n患者：欸...那個...時間...不知道。好像...早上。啊，不是。\n訪談者：我們在這裡做什麼？這裡是哪？\n患者：[吸氣]嗯...在診、診所。拿藥。對，拿藥。\n訪談者：您為什麼來這裡？是看醫生嗎？\n患者：[停頓]喔...醫生...阿母叫我來的。看病。忘記時間了。好像下午。\n訪談者：今天幾號？\n患者：日期...記不起來。囝仔...會寫。我忘了。",
+  "marked_transcript": "訪談者：現在是幾點鐘？今天是星期幾？\n患者：欸...[停頓] 那個...時間...不知道。好像...早上。啊，不是。\n訪談者：我們在這裡做什麼？這裡是哪？\n患者：[吸氣] 嗯...在診、診所。拿藥。對，拿藥。\n訪談者：您為什麼來這裡？是看醫生嗎？\n患者：[停頓] 喔...醫生...阿母叫我來的。看病。忘記時間了。好像下午。\n訪談者：今天幾號？\n患者：日期...記不起來。囝仔...會寫。我忘了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在是幾點鐘？今天是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸...那個...時間...不知道。好像...早上。啊，不是。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們在這裡做什麼？這裡是哪？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...在診、診所。拿藥。對，拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您為什麼來這裡？是看醫生嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 950
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔...醫生...阿母叫我來的。看病。忘記時間了。好像下午。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "日期...記不起來。囝仔...會寫。我忘了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 6,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 5000,
+    "chinese_char_count": 122
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 5,
+    "word_finding_count": 6,
+    "orientation_error_count": 3,
+    "memory_error_count": 7,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.29,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

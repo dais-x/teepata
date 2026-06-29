@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_2_voice3_male_home_0812",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生您好，請問今天是幾月幾號啊？\n患者：喔...是這個...那個...好像是七月吧。欸，應該是七月底啦。\n訪談者：好的，那您現在人在哪裡呢？\n患者：在家啊...嗯...對，在客廳。我家就在這裡嘛。哎喲，記不太清楚了，好像是在餐廳？\n[吸氣]\n訪談者：沒關係，我們慢慢來。那您昨天吃了什麼早餐呢？\n患者：早餐...那個...我記得有吃粥。還有什麼...那個蛋。\n停頓很久...\n好像是菜市場買的菜湯？對，應該是有菜湯啦。欸，到底是什麼來著？忘記了。\n訪談者：沒關係，那您今天早上有沒有去拿藥呢？\n患者：拿藥...嗯...有去診所。醫生說要...那個...吃藥。喔，好像是下午去的。\n長停頓...\n應該是昨天吧？哎喲，我腦袋有點亂咧。",
+  "marked_transcript": "訪談者：先生您好，請問今天是幾月幾號啊？\n患者：喔...是這個 [停頓] 那個...好像是七月吧。欸，應該是七月底啦。\n訪談者：好的，那您現在人在哪裡呢？\n患者：在家啊...嗯...對，在客廳。我家就在這裡嘛。哎喲，記不太清楚了，好像是在餐廳？\n[吸氣]\n訪談者：沒關係，我們慢慢來。那您昨天吃了什麼早餐呢？\n患者：早餐...那個 [停頓] 我記得有吃粥。還有什麼...那個蛋。\n[長停頓]\n好像是菜市場買的菜湯？對，應該是有菜湯啦。欸，到底是什麼來著？忘記了。\n訪談者：沒關係，那您今天早上有沒有去拿藥呢？\n患者：拿藥...嗯...有去診所。醫生說要...那個 [停頓] 吃藥。喔，好像是下午去的。\n[長停頓]\n應該是昨天吧？哎喲，我腦袋有點亂咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "先生您好，請問今天是幾月幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔...是這個 那個 好像是七月吧。欸，應該是七月底啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您現在人在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在家啊 嗯 對，在客廳。我家就在這裡嘛。哎喲，記不太清楚了，好像是在餐廳？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢來。那您昨天吃了什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐 那個 我記得有吃粥。還有什麼 那個蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是菜市場買的菜湯？對，應該是有菜湯啦。欸，到底是什麼來著？忘記了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您今天早上有沒有去拿藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥 嗯 有去診所。醫生說要 那個 吃藥。喔，好像是下午去的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是昨天吧？哎喲，我腦袋有點亂咧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4150,
+    "chinese_char_count": 222
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 5,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.45,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

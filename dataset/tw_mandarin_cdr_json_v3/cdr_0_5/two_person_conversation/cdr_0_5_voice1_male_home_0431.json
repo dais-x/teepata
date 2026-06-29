@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0431",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，你今早吃什麼早餐？\n患者：嗯……我記得有喝豆漿， 好像還有吃一顆蛋。那個……菜市場剛開門時買的。\n訪談者：喔，那昨天兒子打電話來過嗎？\n患者：欸，應該有吧， 我想一下……好像是上週的事？反正他會來看阿母。\n訪談者：好，那你今天的藥帶了嗎？\n患者：有帶在包包裡啦， 我記得要拿的。",
+  "marked_transcript": "訪談者：阿伯，你今早吃什麼早餐？\n患者：嗯……我記得有喝豆漿，[停頓] 好像還有吃一顆蛋。那個……菜市場剛開門時買的。\n訪談者：喔，那昨天兒子打電話來過嗎？\n患者：欸，應該有吧，[停頓] 我想一下……好像是上週的事？反正他會來看阿母。\n訪談者：好，那你今天的藥帶了嗎？\n患者：有帶在包包裡啦，[吸氣] 我記得要拿的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，你今早吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我記得有喝豆漿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 812
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有吃一顆蛋。那個……菜市場剛開門時買的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那昨天兒子打電話來過嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該有吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 774
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下……好像是上週的事？反正他會來看阿母"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那你今天的藥帶了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有帶在包包裡啦"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 753
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得要拿的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2339,
+    "chinese_char_count": 111
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with subtle hesitation on specific details (egg timing, call date). One brief pause and one long pause used naturally to simulate mild retrieval difficulty without losing context."
+}

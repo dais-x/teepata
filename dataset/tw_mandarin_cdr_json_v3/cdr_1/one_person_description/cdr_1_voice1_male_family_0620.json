@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_voice1_male_family_0620",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上起來，我照例去市場買菜。那個……好像是青菜吧？欸，記不太清楚了。 然後回家煮粥，阿母說要喝熱的。拿藥的時候，我好像把時間搞混了，應該是早上還是晚上呢？啊，想一下……對，是早上。囝仔們都去上班了，家裡蠻安靜的。",
+  "marked_transcript": "嗯，今天早上起來，我照例去市場買菜。那個……好像是青菜吧？欸，記不太清楚了。[停頓] 然後回家煮粥，阿母說要喝熱的。拿藥的時候，我好像把時間搞混了，應該是早上還是晚上呢？啊，想一下……對，是早上。囝仔們都去上班了，家裡蠻安靜的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上起來，我照例去市場買菜。那個……好像是青菜吧？欸，記不太清楚了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 824
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後回家煮粥，阿母說要喝熱的。拿藥的時候，我好像把時間搞混了，應該是早上還是晚上呢？啊，想一下……對，是早上。囝仔們都去上班了，家裡蠻安靜的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 824,
+    "chinese_char_count": 89
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Contains word-finding difficulty ('好像是青菜吧'), mild memory uncertainty (morning vs. evening medication), and one orientation error regarding time, but remains coherent and on topic with minimal pauses."
+}

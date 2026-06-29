@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_3_voice2_female_family_0078",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "test"
+  },
+  "interviewer": null,
+  "split": "test",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "呃...今天天氣還不錯啦那個...我記得昨天有去菜市場買東西，但是忘記帶什麼去了，嗯...好像買了青菜，還有豆腐，對不對？啊，我想不起來叫什麼了，那個豆腐，呃...就是白色的塊狀物。然後呢，我兒子說他要去上班，嗯...他說幾點出門的忘記了啦。哎呀，那個時候天氣很熱，嗯...流了很多汗，對不對？我想想看啊，那個東西叫什麼名字來著，呃...就是早上吃的那個粥",
+  "marked_transcript": "呃...今天天氣還不錯啦 [停頓] 那個...我記得昨天有去菜市場買東西，但是 [長停頓] 忘記帶什麼去了，嗯...好像買了青菜，還有豆腐，對不對？啊，我想不起來叫什麼了，那個豆腐，呃...就是白色的塊狀物。然後呢，我兒子說他要去上班，嗯...他說幾點出門的 [停頓] 忘記了啦。哎呀，那個時候天氣很熱，嗯...流了很多汗，對不對？我想想看啊，那個東西叫什麼名字來著，呃...就是早上吃的那個粥 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...今天天氣還不錯啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我記得昨天有去菜市場買東西，但是"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記帶什麼去了，嗯...好像買了青菜，還有豆腐，對不對？啊，我想不起來叫什麼了，那個豆腐，呃...就是白色的塊狀物。然後呢，我兒子說他要去上班，嗯...他說幾點出門的"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了啦。哎呀，那個時候天氣很熱，嗯...流了很多汗，對不對？我想想看啊，那個東西叫什麼名字來著，呃...就是早上吃的那個粥"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 3,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.3,
+      "filled_pause_count": 10,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 12
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.82,
+      "coherence_score": 0.31,
+      "memory_gap_count": 3,
+      "orientation_error_count": 2
+    }
+  }
+}

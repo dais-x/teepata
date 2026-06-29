@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_voice4_female_family_0025",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "昨天呃...那個去市場買菜，有看到阿嬤，她在那邊跟鄰居聊天。然後我回去的時候，忘記帶錢包了啦，就只好回家拿。不過後來想起來，好像沒帶夠錢，因為那時候嗯...那個東西叫什麼來著？好像是賣菜的那個阿姨，她跟我說要多少錢，我就忘記了。然後回到家裡，我太太問我要做什麼，我說我去買菜，結果她說我剛剛不是已經吃過了嗎？我想想喔，好像是有吃過，但是又不太確定。那個嗯...我記得我出門的時候，是早上還是下午啊？可能是中午吧，因為太陽很大。",
+  "marked_transcript": "昨天 [長停頓] [停頓] 呃...那個去市場買菜，有看到阿嬤，她在那邊跟鄰居聊天。然後我回去的時候，忘記帶錢包了啦，就只好回家拿。不過後來想起來，好像沒帶夠錢，因為那時候 [停頓] 嗯...那個東西叫什麼來著？好像是賣菜的那個阿姨，她跟我說要多少錢，我就忘記了。然後回到家裡，我太太問我要做什麼，我說我去買菜，結果她說我剛剛不是已經吃過了嗎？我想想喔，好像是有吃過，但是又不太確定。那個 [停頓] 嗯...我記得我出門的時候，是早上還是下午啊？可能是中午吧，因為太陽很大。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...那個去市場買菜，有看到阿嬤，她在那邊跟鄰居聊天。然後我回去的時候，忘記帶錢包了啦，就只好回家拿。不過後來想起來，好像沒帶夠錢，因為那時候"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個東西叫什麼來著？好像是賣菜的那個阿姨，她跟我說要多少錢，我就忘記了。然後回到家裡，我太太問我要做什麼，我說我去買菜，結果她說我剛剛不是已經吃過了嗎？我想想喔，好像是有吃過，但是又不太確定。那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我記得我出門的時候，是早上還是下午啊？可能是中午吧，因為太陽很大。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 3,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 3,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 6
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.49,
+      "memory_gap_count": 2,
+      "orientation_error_count": 1
+    }
+  }
+}

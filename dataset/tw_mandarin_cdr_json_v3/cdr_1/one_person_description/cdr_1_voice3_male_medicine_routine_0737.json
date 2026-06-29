@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice3_male_medicine_routine_0737",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我每天早上都會去拿藥。 阿母說要記得吃，但我好像……那個，忘記是幾點了。欸，應該是早餐後吧？ 診所離家不遠，走路過去就好。 有時候會想不起來藥名，但醫生有寫在紙上，應該沒問題。囝仔也會提醒我。",
+  "marked_transcript": "嗯，我每天早上都會去拿藥。[停頓] 阿母說要記得吃，但我好像……那個，忘記是幾點了。欸，應該是早餐後吧？[長停頓] 診所離家不遠，走路過去就好。[嘆氣] 有時候會想不起來藥名，但醫生有寫在紙上，應該沒問題。囝仔也會提醒我。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我每天早上都會去拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 787
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要記得吃，但我好像……那個，忘記是幾點了。欸，應該是早餐後吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1247
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所離家不遠，走路過去就好"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1003
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有時候會想不起來藥名，但醫生有寫在紙上，應該沒問題。囝仔也會提醒我"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3037,
+    "chinese_char_count": 80
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgetting time, medicine name), mild repetition of checking memory, and one orientation uncertainty. Pauses are natural and speech remains coherent."
+}

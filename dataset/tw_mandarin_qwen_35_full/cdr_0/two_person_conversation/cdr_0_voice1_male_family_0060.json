@@ -1,0 +1,132 @@
+{
+  "sample_id": "cdr_0_voice1_male_family_0060",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問您現在知道今天是幾月幾號嗎？\n患者：嗯，讓我想想喔。應該是今天五月二十號左右吧。\n訪談者：對的，那您知道我們現在在哪裡嗎？\n患者：啊，這個簡單啦，就在我家客廳嘛，剛剛還在聽收音機咧。\n訪談者：好，那您記得今天早上吃了什麼早餐嗎？\n患者：哦，有吃粥跟蛋，阿母早上煮的，很香喔。\n訪談者：很好。那您能不能告訴我現在幾點鐘了？\n患者：我看一下手錶...嗯，好像快十點了啦。\n訪談者：沒問題，謝謝您的配合。",
+  "marked_transcript": "訪談者：您好，請問您現在知道今天是幾月幾號嗎？\n患者：嗯 [停頓]，讓我想想喔。應該是今天五月二十號左右吧。\n訪談者：對的，那您知道我們現在在哪裡嗎？\n患者：啊 [停頓]，這個簡單啦，就在我家客廳嘛，剛剛還在聽收音機咧。\n訪談者：好，那您記得今天早上吃了什麼早餐嗎？\n患者：哦 [吸氣]，有吃粥跟蛋，阿母早上煮的，很香喔。\n訪談者：很好。那您能不能告訴我現在幾點鐘了？\n患者：我看一下手錶...嗯 [停頓]，好像快十點了啦。\n訪談者：沒問題，謝謝您的配合。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問您現在知道今天是幾月幾號嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "讓我想想喔。應該是今天五月二十號左右吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對的，那您知道我們現在在哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個簡單啦，就在我家客廳嘛，剛剛還在聽收音機咧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您記得今天早上吃了什麼早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有吃粥跟蛋，阿母早上煮的，很香喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那您能不能告訴我現在幾點鐘了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我看一下手錶...嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像快十點了啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒問題，謝謝您的配合。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1900,
+    "chinese_char_count": 165
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.95,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

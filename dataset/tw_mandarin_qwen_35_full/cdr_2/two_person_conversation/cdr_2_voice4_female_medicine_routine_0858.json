@@ -1,0 +1,112 @@
+{
+  "sample_id": "cdr_2_voice4_female_medicine_routine_0858",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿母，今天幾號喔？\n患者：嗯...欸...今天...好像...是星期三吧。哎呀，我記不太清楚了。\n訪談者：沒關係，我們在這裡看日曆就好。那現在是在哪裡呢？\n患者：這裡...診所...對，拿藥的地方啦。我是來...拿藥的。那個...藥膏忘帶了。\n訪談者：好喔，那您是為什麼今天來這裡的呢？\n患者：因為...頭暈。醫生說要拿新的藥。嗯...然後...好像還有去菜市場買菜。啊，不對啦，是昨天去的。",
+  "marked_transcript": "訪談者：陳阿母，[停頓] 今天幾號喔？\n患者：[嘆氣] 嗯...欸...今天...[長停頓] 好像...是星期三吧。哎呀，我記不太清楚了。\n訪談者：沒關係，我們在這裡看日曆就好。那現在是在哪裡呢？\n患者：這裡...[咳嗽] 診所...對，拿藥的地方啦。我是來...拿藥的。那個...藥膏忘帶了。\n訪談者：好喔，那您是為什麼今天來這裡的呢？\n患者：因為...頭暈。醫生說要拿新的藥。嗯...然後...好像還有去菜市場買菜。啊，不對啦，是昨天去的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿母，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號喔？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...欸...今天..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像...是星期三吧。哎呀，我記不太清楚了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們在這裡看日曆就好。那現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所...對，拿藥的地方啦。我是來...拿藥的。那個...藥膏忘帶了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好喔，那您是為什麼今天來這裡的呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為...頭暈。醫生說要拿新的藥。嗯...然後...好像還有去菜市場買菜。啊，不對啦，是昨天去的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 3400,
+    "chinese_char_count": 137
+  },
+  "impairment_features": {
+    "hesitation_count": 11,
+    "repetition_count": 5,
+    "word_finding_count": 6,
+    "orientation_error_count": 3,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

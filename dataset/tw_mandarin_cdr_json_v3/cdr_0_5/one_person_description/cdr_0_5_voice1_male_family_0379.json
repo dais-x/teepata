@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_family_0379",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我照例去菜市場買菜。那個……好像有看到阿母喜歡吃的魚，不過記不太清楚是不是昨天才買的。 回家後就幫囝仔準備早餐，然後去診所拿藥。欸，應該沒有忘記吃藥吧？ 嗯，應該是有的。",
+  "marked_transcript": "嗯，今天早上我照例去菜市場買菜。那個……好像有看到阿母喜歡吃的魚，不過記不太清楚是不是昨天才買的。[停頓] 回家後就幫囝仔準備早餐，然後去診所拿藥。欸，應該沒有忘記吃藥吧？[停頓] 嗯，應該是有的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我照例去菜市場買菜。那個……好像有看到阿母喜歡吃的魚，不過記不太清楚是不是昨天才買的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 708
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後就幫囝仔準備早餐，然後去診所拿藥。欸，應該沒有忘記吃藥吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 735
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是有的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1443,
+    "chinese_char_count": 77
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5 very mild: coherent narrative with one instance of uncertainty about recent purchase and medication, minimal hesitation markers."
+}

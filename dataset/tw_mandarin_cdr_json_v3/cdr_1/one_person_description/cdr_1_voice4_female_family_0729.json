@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice4_female_family_0729",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……早上起來，先幫阿母拿藥。欸，那個藥瓶好像放在哪裡了？ 啊，找到了，在碗櫃第二層。然後去菜市場買些青菜，囝仔說想吃魚湯。 記得是昨天還是前天的事？反正就是這兩天。回家後就煮飯，簡單吃一點。",
+  "marked_transcript": "嗯……早上起來，先幫阿母拿藥。欸，那個藥瓶好像放在哪裡了？[停頓] 啊，找到了，在碗櫃第二層。然後去菜市場買些青菜，囝仔說想吃魚湯。[長停頓] 記得是昨天還是前天的事？反正就是這兩天。回家後就煮飯，簡單吃一點。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早上起來，先幫阿母拿藥。欸，那個藥瓶好像放在哪裡了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 710
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，找到了，在碗櫃第二層。然後去菜市場買些青菜，囝仔說想吃魚湯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1697
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得是昨天還是前天的事？反正就是這兩天。回家後就煮飯，簡單吃一點"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2407,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個'), mild memory uncertainty (yesterday vs. day before), and one pause for retrieval, but remains coherent and on topic regarding daily routine."
+}

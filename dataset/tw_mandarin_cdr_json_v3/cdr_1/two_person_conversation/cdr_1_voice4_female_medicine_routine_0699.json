@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_1_voice4_female_medicine_routine_0699",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早餐吃了什麼？\n患者：嗯…… 好像是稀飯， 還有小魚乾。欸，是昨天還是前天啊？ 記不太清楚了。\n訪談者：那藥有吃嗎？\n患者：有啊， 早上那個白色圓片， 應該是降血壓的。阿母說要準時拿藥。",
+  "marked_transcript": "訪談者：早餐吃了什麼？\n患者：嗯…… [停頓] 好像是稀飯，[長停頓] 還有小魚乾。欸，是昨天還是前天啊？[吸氣] 記不太清楚了。\n訪談者：那藥有吃嗎？\n患者：有啊，[嘆氣] 早上那個白色圓片，[停頓] 應該是降血壓的。阿母說要準時拿藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 666
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1188
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有小魚乾。欸，是昨天還是前天啊？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 383
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥有吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1116
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上那個白色圓片"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 803
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是降血壓的。阿母說要準時拿藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4156,
+    "chinese_char_count": 72
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Clear word-finding difficulty with brief pauses and mild memory uncertainty regarding timing. Speaker remains on topic but shows hesitation."
+}

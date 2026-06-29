@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice4_female_clinic_0681",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿母，現在幾點了？\n患者：嗯...那個...現在是早上喔。應該差不多八點多。\n訪談者：好的，今天是星期幾呢？\n患者：星期...欸，星期幾啊？好像是禮拜二吧？或者是禮拜三？好像有吃藥了，應該是昨天來的。\n訪談者：沒關係，我們慢慢來。今天為什麼來到診所這裡？\n患者：因為那個...最近頭比較不舒服，想要拿點藥。啊，對啦，就是頭痛嘛。然後阿母說要來看看。\n訪談者：好的，了解。那您今天早餐有吃什麼呢？\n患者：早餐...嗯...我記得我有吃稀飯，還有小菜。好像還有一個蛋。欸，我不太確定喔。",
+  "marked_transcript": "訪談者：陳阿母，現在幾點了？\n患者：嗯 [停頓] 那個...現在是早上喔。應該差不多八點多。\n訪談者：好的，今天是星期幾呢？\n患者：星期 [長停頓] 欸，星期幾啊？好像是禮拜二吧？或者是禮拜三？好像有吃藥了，應該是昨天來的。\n訪談者：沒關係，我們慢慢來。今天為什麼來到診所這裡？\n患者：因為那個...最近頭比較不舒服，想要拿點藥。啊 [嘆氣]，對啦，就是頭痛嘛。然後阿母說要來看看。\n訪談者：好的，了解。那您今天早餐有吃什麼呢？\n患者：早餐 [停頓] 嗯...我記得我有吃稀飯，還有小菜。好像還有一個蛋。欸，我不太確定喔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿母，現在幾點了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個...現在是早上喔。應該差不多八點多。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期...欸，星期幾啊？好像是禮拜二吧？或者是禮拜三？好像有吃藥了，應該是昨天來的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢來。今天為什麼來到診所這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為那個...最近頭比較不舒服，想要拿點藥。啊，對啦，就是頭痛嘛。然後阿母說要來看看。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，了解。那您今天早餐有吃什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐...嗯...我記得我有吃稀飯，還有小菜。好像還有一個蛋。欸，我不太確定喔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3300,
+    "chinese_char_count": 184
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 2,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

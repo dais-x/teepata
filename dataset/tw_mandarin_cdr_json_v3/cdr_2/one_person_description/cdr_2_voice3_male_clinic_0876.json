@@ -1,0 +1,165 @@
+{
+  "sample_id": "cdr_2_voice3_male_clinic_0876",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "醫生啊…… 我那個藥丸…… 早上有吃嗎？\n好像有喔…… 不對，應該是下午吧。\n阿母叫我來的…… 還是囝仔送來？記不得了。\n這個診所…… 我好像昨天才來過？\n反正藥要拿…… 對，就是那個紅色的瓶子。\n嗯…… 謝謝你喔。",
+  "marked_transcript": "醫生啊…… [停頓] 我那個藥丸…… [停頓] 早上有吃嗎？[長停頓]\n好像有喔…… [停頓] 不對，應該是下午吧。[嘆氣]\n阿母叫我來的…… [停頓] 還是囝仔送來？記不得了。[咳嗽]\n這個診所…… [停頓] 我好像昨天才來過？[長停頓]\n反正藥要拿…… [停頓] 對，就是那個紅色的瓶子。[吸氣]\n嗯…… [停頓] 謝謝你喔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 873
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我那個藥丸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 803
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上有吃嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1323
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有喔……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 819
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是下午吧"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1016
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母叫我來的……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 853
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是囝仔送來？記不得了"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 487
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 765
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我好像昨天才來過？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1390
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正藥要拿……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 772
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那個紅色的瓶子"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 630
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 895
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "謝謝你喔"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 9,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 10626,
+    "chinese_char_count": 73
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 9
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Confusion on time (morning/afternoon), visitor identity, and visit frequency. Fragmented recall with natural Taiwanese oral markers."
+}

@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_daily_life_0349",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……應該是禮拜三吧， 我記得昨天是星期二。\n訪談者：那您今天來這裡是為了什麼事呢？\n患者：欸……我想一下，好像是來拿藥， 對，去診所拿藥。",
+  "marked_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……應該是禮拜三吧，[停頓] 我記得昨天是星期二。\n訪談者：那您今天來這裡是為了什麼事呢？\n患者：欸……我想一下，好像是來拿藥，[長停頓] 對，去診所拿藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是禮拜三吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 724
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得昨天是星期二"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天來這裡是為了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……我想一下，好像是來拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1413
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，去診所拿藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2137,
+    "chinese_char_count": 66
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent with one hesitation and minor uncertainty about the day, using natural Taiwanese Mandarin markers."
+}

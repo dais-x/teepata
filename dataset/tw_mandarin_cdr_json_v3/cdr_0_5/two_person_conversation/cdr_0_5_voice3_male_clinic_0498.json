@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_clinic_0498",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：現在幾點了？\n患者：嗯……應該是下午兩點左右吧，我想一下。\n訪談者：那您記得早餐吃了什麼嗎？\n患者：喔，好像是稀飯跟蛋。欸，我好像不太記得了，可能是昨天吃的。\n訪談者：好的，沒關係。您有帶藥來嗎？\n患者：有啊，拿藥包在這裡。不過那個……嗯，應該有吃吧。",
+  "marked_transcript": "訪談者：現在幾點了？\n患者：嗯……應該是下午兩點左右吧，我想一下。\n訪談者：那您記得早餐吃了什麼嗎？\n患者：喔，好像是稀飯跟蛋。欸，我好像不太記得了，可能是昨天吃的。\n訪談者：好的，沒關係。您有帶藥來嗎？\n患者：有啊，拿藥包在這裡。不過那個……嗯，應該有吃吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在幾點了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是下午兩點左右吧，我想一下"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得早餐吃了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，好像是稀飯跟蛋。欸，我好像不太記得了，可能是昨天吃的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，沒關係。您有帶藥來嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，拿藥包在這裡。不過那個……嗯，應該有吃吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 99
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5 very mild: coherent but subtle hesitation on time and memory recall, one small uncertainty about medication."
+}

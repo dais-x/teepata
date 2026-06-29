@@ -1,0 +1,123 @@
+{
+  "sample_id": "cdr_1_voice3_male_family_0755",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：您好，請問今天幾號？\n患者：嗯...今天啊，我想想喔，應該是五月吧。對，好像是五月初。\n訪談者：好的，那您早上吃了什麼早餐呢？\n患者：早餐...呃，有喝牛奶，還有吃麵包啦。那個...好像是吐司。欸，不太確定是不是吐司了，可能是饅頭？\n訪談者：沒關係，慢慢說。那昨天下午您做什麼了呢？\n患者：昨天啊...我去拿藥。去診所拿藥。然後回來的時候，在菜市場看到囝仔在玩水。\n訪談者：喔，囝仔是在玩水嗎？\n患者：對啦，水花飛飛的。啊，我想起來了，我好像還買了青菜回去。嗯...應該是這樣沒錯吧。",
+  "marked_transcript": "訪談者：您好，請問今天幾號？\n患者：[停頓] 嗯...今天啊，[長停頓] 我想想喔，應該是五月吧。對，好像是五月初。\n訪談者：好的，那您早上吃了什麼早餐呢？\n患者：[停頓] 早餐...呃，有喝牛奶，還有吃麵包啦。那個...[停頓] 好像是吐司。欸，不太確定是不是吐司了，可能是饅頭？\n訪談者：沒關係，慢慢說。那昨天下午您做什麼了呢？\n患者：昨天啊...我去拿藥。去診所拿藥。然後回來的時候，在菜市場看到囝仔在玩水。\n訪談者：喔，囝仔是在玩水嗎？\n患者：對啦，水花飛飛的。[停頓] 啊，我想起來了，我好像還買了青菜回去。嗯...應該是這樣沒錯吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天啊，我想想喔，應該是五月吧。對，好像是五月初。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，有喝牛奶，還有吃麵包啦。那個...好像是吐司。欸，不太確定是不是吐司了，可能是饅頭？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢說。那昨天下午您做什麼了呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...我去拿藥。去診所拿藥。然後回來的時候，在菜市場看到囝仔在玩水。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，囝仔是在玩水嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 350
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對啦，水花飛飛的。啊，我想起來了，我好像還買了青菜回去。嗯...應該是這樣沒錯吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 185
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

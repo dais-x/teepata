@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0791",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "嗯，早上起來後，我通常會先去菜市場買點青菜。 那個……好像是昨天跟阿母講過要買豆腐，但現在記不太清楚了。欸，應該是有去拿藥吧？ 診所那邊的醫生有交代過時間。啊，對了，囝仔們都在上班，家裡只有我一個人在。 這樣說來，今天好像還要去公園走走。",
+  "marked_transcript": "嗯，早上起來後，我通常會先去菜市場買點青菜。[停頓] 那個……好像是昨天跟阿母講過要買豆腐，但現在記不太清楚了。欸，應該是有去拿藥吧？[長停頓] 診所那邊的醫生有交代過時間。啊，對了，囝仔們都在上班，家裡只有我一個人在。[吸氣] 這樣說來，今天好像還要去公園走走。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來後，我通常會先去菜市場買點青菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 641
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……好像是昨天跟阿母講過要買豆腐，但現在記不太清楚了。欸，應該是有去拿藥吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1638
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊的醫生有交代過時間。啊，對了，囝仔們都在上班，家裡只有我一個人在"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 578
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這樣說來，今天好像還要去公園走走"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2857,
+    "chinese_char_count": 100
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild simulation: Shows word-finding difficulty ('好像是', '記不太清楚'), mild repetition of checking memory, and one orientation uncertainty about the tofu. Natural pauses included without fragmentation."
+}

@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice1_male_clinic_0800",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我照常去菜市場買菜。 不過……那個，我好像忘了要買什麼了。欸，應該是豆腐吧？啊，不對，是魚。 診所那邊的藥，我記得是要吃兩顆，還是三顆呢？我想一下……對，醫生說早上吃一顆就好。囝仔常提醒我，但我有時候真的記不得。 總之，今天還算順利啦。",
+  "marked_transcript": "嗯，今天早上我照常去菜市場買菜。[停頓] 不過……那個，我好像忘了要買什麼了。欸，應該是豆腐吧？啊，不對，是魚。[長停頓] 診所那邊的藥，我記得是要吃兩顆，還是三顆呢？我想一下……對，醫生說早上吃一顆就好。囝仔常提醒我，但我有時候真的記不得。[嘆氣] 總之，今天還算順利啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我照常去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 816
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過……那個，我好像忘了要買什麼了。欸，應該是豆腐吧？啊，不對，是魚"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1452
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊的藥，我記得是要吃兩顆，還是三顆呢？我想一下……對，醫生說早上吃一顆就好。囝仔常提醒我，但我有時候真的記不得"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 865
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總之，今天還算順利啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3133,
+    "chinese_char_count": 99
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgetting item, unsure of pill count) and mild repetition. Speech remains coherent with occasional pauses and self-correction."
+}

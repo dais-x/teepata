@@ -1,0 +1,140 @@
+{
+  "sample_id": "cdr_3_voice3_male_medicine_routine_0983",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯…… 不知道…… 好像…… 星期一？\n訪談者：現在在哪裡？\n患者： 這裡…… 診所…… 拿藥……\n訪談者：為什麼來這裡？\n患者：嗯…… 忘記了…… 頭暈…… 記得要買菜……",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯…… [停頓] 不知道…… [長停頓] 好像…… 星期一？\n訪談者：現在在哪裡？\n患者：[嘆氣] 這裡…… [吸氣] 診所…… [停頓] 拿藥……\n訪談者：為什麼來這裡？\n患者：嗯…… [咳嗽] 忘記了…… 頭暈…… [長停頓] 記得要買菜……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 887
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1311
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像…… 星期一？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在在哪裡？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1267
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 524
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 786
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥……"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 772
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了…… 頭暈……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1155
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得要買菜……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6702,
+    "chinese_char_count": 57
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 3,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 3 severe: fragmented answers, orientation confusion (day/place), word-finding failure, irrelevant topic shift."
+}

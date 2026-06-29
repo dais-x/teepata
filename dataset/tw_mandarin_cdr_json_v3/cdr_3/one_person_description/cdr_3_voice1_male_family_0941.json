@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_3_voice1_male_family_0941",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "嗯……早上……起床。阿母……在嗎？ 欸……菜市場……忘記路了。 拿藥……診所……那裡。 囝仔……回來沒有？ 那個……什麼時間……記不得。 嗯……對不起。 阿母……餓不餓？ 忘記了……真的忘記。",
+  "marked_transcript": "嗯……早上……起床。阿母……在嗎？[停頓] 欸……菜市場……忘記路了。[長停頓] 拿藥……診所……那裡。[吸氣] 囝仔……回來沒有？[停頓] 那個……什麼時間……記不得。[嘆氣] 嗯……對不起。[停頓] 阿母……餓不餓？[長停頓] 忘記了……真的忘記。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早上……起床。阿母……在嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 741
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……菜市場……忘記路了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1512
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥……診所……那裡"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 423
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔……回來沒有？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 805
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……什麼時間……記不得"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 839
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……對不起"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 802
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……餓不餓？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1439
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了……真的忘記"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6561,
+    "chinese_char_count": 54
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 3 severe: fragmented sentences, frequent word-finding failure, orientation confusion regarding time and location, repetitive simple phrases, and excessive pauses indicating poor recall."
+}

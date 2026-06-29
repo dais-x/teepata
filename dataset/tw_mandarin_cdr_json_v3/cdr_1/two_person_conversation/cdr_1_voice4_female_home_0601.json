@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_voice4_female_home_0601",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：早上吃什麼？\n患者：嗯， 好像是稀飯……欸，不對，應該是麵包吧。 阿母有煮蛋。\n訪談者：昨天家裡有什麼事嗎？\n患者： 兒子回來過……對，他帶了禮物。那個……是什麼來著？ 好像是水果。\n訪談者：藥吃了嗎？\n患者：吃了啊，早上那顆白色…… 忘記放哪裡了，等一下再找。",
+  "marked_transcript": "訪談者：早上吃什麼？\n患者：嗯，[停頓] 好像是稀飯……欸，不對，應該是麵包吧。[長停頓] 阿母有煮蛋。\n訪談者：昨天家裡有什麼事嗎？\n患者：[嘆氣] 兒子回來過……對，他帶了禮物。那個……是什麼來著？[吸氣] 好像是水果。\n訪談者：藥吃了嗎？\n患者：吃了啊，早上那顆白色……[停頓] 忘記放哪裡了，等一下再找。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 658
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯……欸，不對，應該是麵包吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1514
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母有煮蛋"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有什麼事嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "兒子回來過……對，他帶了禮物。那個……是什麼來著？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 516
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是水果"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥吃了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃了啊，早上那顆白色……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 687
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記放哪裡了，等一下再找"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4196,
+    "chinese_char_count": 96
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (bread vs porridge, white pill), mild repetition of checking facts, and one orientation error regarding medication location. Speech remains coherent with only two pauses and natural hesitation markers."
+}

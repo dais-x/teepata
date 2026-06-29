@@ -1,0 +1,162 @@
+{
+  "sample_id": "cdr_3_voice4_female_real_home_0079",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "home",
+  "task_type": "home_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "home_activity_recall",
+    "prompt": "你平常在家裡一天大概會做哪些事情？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 0,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "家務或休息",
+      "用餐",
+      "看電視或散步",
+      "時間順序"
+    ],
+    "steps_mentioned": 1,
+    "sequence_error_count": 2,
+    "memory_gap_count": 5
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯那個，在家裡啊。就是那個...洗衣服啦。還有呃吃飯。對，吃飯。然後看電視？好像有看電視。但是忘記了。忘記接下來做什麼。就坐著。不知道。那個東西叫什麼想不起來。散步？不記得有沒有去散步。反正...就這樣吧。",
+  "marked_transcript": "嗯 [停頓] 那個，在家裡啊。就是 [停頓] 那個...洗衣服啦。還有 呃 吃飯。對，吃飯。然後 [停頓] 看電視？好像有看電視。但是 [長停頓] 忘記了。忘記接下來做什麼。就 [停頓] 坐著。不知道。那個東西叫什麼 [長停頓] 想不起來。散步？不記得有沒有去散步。反正...就這樣吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，在家裡啊。就是"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...洗衣服啦。還有"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃飯。對，吃飯。然後"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "看電視？好像有看電視。但是"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了。忘記接下來做什麼。就"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "坐著。不知道。那個東西叫什麼"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想不起來。散步？不記得有沒有去散步。反正...就這樣吧。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "cdr_3_voice4_female_real_home_0079.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 9,
+    "pause_count": 4,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 6.2,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 4,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 6.2,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 1.9,
+      "filled_pause_count": 10,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 4,
+      "circumlocution_count": 1,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 6
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 5,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true
+  }
+}

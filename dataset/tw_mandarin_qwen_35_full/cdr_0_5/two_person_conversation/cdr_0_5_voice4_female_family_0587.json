@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_family_0587",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，您好。今天我們簡單聊幾句話。\n患者：欸，你好啊。沒問題啦。\n訪談者：那請問一下，今天是幾號呢？\n患者：嗯...我想一下喔。好像是...十號？還是十一號？有點忘記了。\n訪談者：沒關係，慢慢來。那您記得昨天吃了什麼嗎？\n患者：昨天啊...我記得有吃菜市場買的菜。青菜、豆腐...還有魚啦。那個味道還記得的。\n訪談者：很好喔。那您今天早上有沒有出門呢？\n患者：有去啦。要去拿藥，診所那邊。嗯...是去拿感冒藥嗎？還是什麼藥來著...想不太起來了。\n訪談者：沒關係，那先這樣就好。謝謝您配合。",
+  "marked_transcript": "訪談者：阿姨，您好。今天我們簡單聊幾句話。[停頓]\n患者：欸，你好啊。沒問題啦。\n訪談者：那請問一下，今天是幾號呢？\n患者：嗯...[停頓]我想一下喔。好像是...十號？還是十一號？有點忘記了。[長停頓]\n訪談者：沒關係，慢慢來。那您記得昨天吃了什麼嗎？\n患者：昨天啊...我記得有吃菜市場買的菜。青菜、豆腐...還有魚啦。那個味道還記得的。\n訪談者：很好喔。那您今天早上有沒有出門呢？\n患者：有去啦。要去拿藥，診所那邊。[吸氣]嗯...是去拿感冒藥嗎？還是什麼藥來著...想不太起來了。[停頓]\n訪談者：沒關係，那先這樣就好。謝謝您配合。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，您好。今天我們簡單聊幾句話。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，你好啊。沒問題啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那請問一下，今天是幾號呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下喔。好像是...十號？還是十一號？有點忘記了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢來。那您記得昨天吃了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...我記得有吃菜市場買的菜。青菜、豆腐...還有魚啦。那個味道還記得的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好喔。那您今天早上有沒有出門呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有去啦。要去拿藥，診所那邊。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...是去拿感冒藥嗎？還是什麼藥來著...想不太起來了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那先這樣就好。謝謝您配合。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4000,
+    "chinese_char_count": 185
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

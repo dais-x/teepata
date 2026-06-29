@@ -1,0 +1,127 @@
+{
+  "sample_id": "cdr_1_voice4_female_clinic_0729",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨您好，今天天氣不錯喔。請問您知道今天是幾月幾號嗎？\n患者：欸，今天是...嗯...好像是五月底吧。哎呀，記不太清楚了。\n訪談者：沒關係，那您早餐吃了什麼呢？\n患者：呃...我早上有去菜市場買東西，然後煮了稀飯...還有滷蛋。\n訪談者：很好喔。那請問您剛才提到要去哪裡拿藥？\n患者：拿藥喔...對啊，昨天阿母叫我來這裡拿藥，是那個血壓的藥啦。\n訪談者：沒錯，這裡就是診所。那您記得昨天吃了幾顆嗎？\n患者：一顆...應該是兩顆吧？哎呀，我忘記了。\n訪談者：沒關係，我們慢慢來。",
+  "marked_transcript": "訪談者：阿姨您好，今天天氣不錯喔。請問您知道今天是幾月幾號嗎？\n患者：欸，今天是...[停頓] 嗯...好像是五月底吧。哎呀，記不太清楚了。\n訪談者：沒關係，那您早餐吃了什麼呢？\n患者：呃...我早上有去菜市場買東西，然後煮了稀飯...還有滷蛋。\n訪談者：很好喔。那請問您剛才提到要去哪裡拿藥？\n患者：[長停頓] 拿藥喔...對啊，昨天阿母叫我來這裡拿藥，是那個血壓的藥啦。\n訪談者：沒錯，這裡就是診所。那您記得昨天吃了幾顆嗎？\n患者：一顆...[停頓] 應該是兩顆吧？哎呀，我忘記了。\n訪談者：沒關係，我們慢慢來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨您好，今天天氣不錯喔。請問您知道今天是幾月幾號嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，今天是..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像是五月底吧。哎呀，記不太清楚了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您早餐吃了什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...我早上有去菜市場買東西，然後煮了稀飯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有滷蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好喔。那請問您剛才提到要去哪裡拿藥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥喔...對啊，昨天阿母叫我來這裡拿藥，是那個血壓的藥啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，這裡就是診所。那您記得昨天吃了幾顆嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "一顆..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是兩顆吧？哎呀，我忘記了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢來。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2750,
+    "chinese_char_count": 183
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

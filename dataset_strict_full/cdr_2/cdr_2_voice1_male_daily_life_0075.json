@@ -1,0 +1,106 @@
+{
+  "sample_id": "cdr_2_voice1_male_daily_life_0075",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天早上的時候，我本來要去公園走走啦嗯...那個路好像有點遠，呃，想說要不要騎腳踏車過去。可是啊，那個腳踏車的鑰匙...叫什麼來著？放在哪裡了？忘記放哪邊了。然後我就坐在那裡，嗯，一直想，一直想不起來。後來就覺得算了啦，不去了吧。反正家裡也有事情要做嘛。呃，對不對？哎呀，我剛剛在想什麼？好像是要去公園，可是又忘了為什麼要去。那個...就是說，早上啊，本來打算出去走走，結果呢嗯...忘記帶鑰匙了。不是，是找不到鑰匙啦。",
+  "marked_transcript": "今天早上的時候，我本來要去公園走走啦 [停頓] 嗯...那個路好像有點遠，呃，想說要不要騎腳踏車過去。可是啊，那個腳踏車的鑰匙...叫什麼來著？放在哪裡了？忘記放哪邊了。 [長停頓] 然後我就坐在那裡，嗯，一直想，一直想不起來。後來就覺得算了啦，不去了吧。反正家裡也有事情要做嘛。呃，對不對？哎呀，我剛剛在想什麼？好像是要去公園，可是又忘了為什麼要去。那個...就是說，早上啊，本來打算出去走走，結果呢 [停頓] 嗯...忘記帶鑰匙了。不是，是找不到鑰匙啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上的時候，我本來要去公園走走啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個路好像有點遠，呃，想說要不要騎腳踏車過去。可是啊，那個腳踏車的鑰匙...叫什麼來著？放在哪裡了？忘記放哪邊了。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後我就坐在那裡，嗯，一直想，一直想不起來。後來就覺得算了啦，不去了吧。反正家裡也有事情要做嘛。呃，對不對？哎呀，我剛剛在想什麼？好像是要去公園，可是又忘了為什麼要去。那個...就是說，早上啊，本來打算出去走走，結果呢"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...忘記帶鑰匙了。不是，是找不到鑰匙啦。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.9,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.9,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.8,
+      "filled_pause_count": 7,
+      "restart_count": 1
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 5,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 7
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.65,
+      "coherence_score": 0.48,
+      "memory_gap_count": 3,
+      "orientation_error_count": 3
+    }
+  }
+}

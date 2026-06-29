@@ -1,0 +1,131 @@
+{
+  "sample_id": "cdr_2_voice3_male_market_0840",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號啊？\n患者：嗯……好像是…… 五月，對不對？欸，我記不太清了。\n訪談者：那我們現在在哪裡呢？\n患者：在菜市場啊， 來拿藥的……還是買菜的？ 哎呀，我想一下。\n訪談者：為什麼今天會過來這裡？\n患者：嗯……因為阿母說要帶我去。 但是我不記得是去看醫生，還是去…… 忘記了啦。",
+  "marked_transcript": "訪談者：今天幾號啊？\n患者：嗯……好像是……[停頓] 五月，對不對？欸，我記不太清了。[長停頓]\n訪談者：那我們現在在哪裡呢？\n患者：在菜市場啊，[嘆氣] 來拿藥的……還是買菜的？[吸氣] 哎呀，我想一下。\n訪談者：為什麼今天會過來這裡？\n患者：嗯……因為阿母說要帶我去。[停頓] 但是我不記得是去看醫生，還是去……[長停頓] 忘記了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 798
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "五月，對不對？欸，我記不太清了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1186
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在菜市場啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1372
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來拿藥的……還是買菜的？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 474
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我想一下"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼今天會過來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……因為阿母說要帶我去"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 892
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是我不記得是去看醫生，還是去……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1633
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6355,
+    "chinese_char_count": 103
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "Moderate dementia markers: fragmented recall, time/place confusion, repetition of uncertainty phrases, and need for support to complete thoughts."
+}

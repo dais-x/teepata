@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0685",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "欸，我早上起來之後呢， 先去診所拿藥。那個…… 好像是吃兩顆，一顆在早上一顆在晚飯前。不過有時候會忘記是不是已經吃了， 然後就再確認一下。阿母說要記得，但最近總是記不太清楚。 嗯，大概就是這樣啦。",
+  "marked_transcript": "欸，我早上起來之後呢，[停頓] 先去診所拿藥。那個…… [吸氣] 好像是吃兩顆，一顆在早上一顆在晚飯前。不過有時候會忘記是不是已經吃了，[長停頓] 然後就再確認一下。阿母說要記得，但最近總是記不太清楚。[嘆氣] 嗯，大概就是這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我早上起來之後呢"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 673
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "先去診所拿藥。那個……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 784
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是吃兩顆，一顆在早上一顆在晚飯前。不過有時候會忘記是不是已經吃了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1548
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後就再確認一下。阿母說要記得，但最近總是記不太清楚"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 835
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，大概就是這樣啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3840,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '好像是'), mild repetition of checking medication, one memory uncertainty about taking pills. Contains natural pauses and Taiwanese colloquialisms like '阿母' without excessive fragmentation."
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_home_0439",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯...我想想看，好像是上個月的尾巴吧。\n訪談者：那現在是在哪裡呢？\n患者：那個應該是在家裡啊，對不起我有點忘記了。\n訪談者：為什麼來這裡呢？\n患者：是啊，因為要拿藥嘛，醫生說要定期看診拿藥的。\n訪談者：最近發生了一些什麼事嗎？\n患者：好像沒有特別的事情啦...哦，對喔，我們家隔壁的老張搬家了。",
+  "marked_transcript": "訪談者：今天是幾月幾號？[停頓]\n患者：嗯...我想想看，好像是上個月的尾巴吧。[長停頓]\n訪談者：那現在是在哪裡呢？\n患者：那個應該是在家裡啊，對不起我有點忘記了。\n訪談者：為什麼來這裡呢？\n患者：是啊，因為要拿藥嘛，醫生說要定期看診拿藥的。[停頓]\n訪談者：最近發生了一些什麼事嗎？\n患者：好像沒有特別的事情啦...哦，對喔，我們家隔壁的老張搬家了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想想看，好像是上個月的尾巴吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個應該是在家裡啊，對不起我有點忘記了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是啊，因為要拿藥嘛，醫生說要定期看診拿藥的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近發生了一些什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像沒有特別的事情啦...哦，對喔，我們家隔壁的老張搬家了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1200,
+    "chinese_char_count": 129
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

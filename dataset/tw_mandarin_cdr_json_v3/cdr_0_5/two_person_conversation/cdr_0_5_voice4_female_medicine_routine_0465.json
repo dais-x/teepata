@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_medicine_routine_0465",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您今天早上吃什麼早餐？\n患者：嗯，就是白粥跟鹹菜， 好像還有個蛋。\n訪談者：那上週阿嬤生日有去參加嗎？\n患者：欸，應該是去了， 但我不太記得有沒有帶禮物。",
+  "marked_transcript": "訪談者：您今天早上吃什麼早餐？\n患者：嗯，就是白粥跟鹹菜，[停頓] 好像還有個蛋。\n訪談者：那上週阿嬤生日有去參加嗎？\n患者：欸，應該是去了，[停頓] 但我不太記得有沒有帶禮物。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您今天早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，就是白粥跟鹹菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 673
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有個蛋"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那上週阿嬤生日有去參加嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是去了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 718
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但我不太記得有沒有帶禮物"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1391,
+    "chinese_char_count": 64
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5 very mild: coherent narrative with subtle hesitation on specific details (gift) and one small uncertainty, minimal pauses."
+}

@@ -1,0 +1,143 @@
+{
+  "sample_id": "cdr_3_voice4_female_real_family_0110",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "family",
+  "task_type": "family_event_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "val"
+  },
+  "interviewer": null,
+  "split": "val",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "family_event_recall",
+    "prompt": "你可以說一下最近一次跟家人吃飯或聊天的情形嗎？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 0,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "人物",
+      "地點",
+      "活動",
+      "時間或順序"
+    ],
+    "steps_mentioned": 1,
+    "sequence_error_count": 3,
+    "memory_gap_count": 6
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯... 最近一次跟家人吃飯，是說那個...呃，上個月吧？好像是有去阿嬤家。對，阿嬤家。然後有吃什麼呢？忘記了，想不起來那個菜色。大概有幾個人？嗯...記得有爸爸、媽媽，還有我。地點是在阿嬤家客廳。活動就是吃飯聊天。不過時間有點忘了，是星期幾也記不太清楚。呃...好像是有去拜訪，然後就吃午飯。對，應該是這樣。",
+  "marked_transcript": "嗯... 最近一次跟家人吃飯，是說那個... [停頓] 呃，上個月吧？好像是有去阿嬤家。對，阿嬤家。 [長停頓] 然後有吃什麼呢？忘記了，想不起來那個菜色。大概有幾個人？嗯... [停頓] 記得有爸爸、媽媽，還有我。地點是在阿嬤家客廳。活動就是吃飯聊天。 [長停頓] 不過時間有點忘了，是星期幾也記不太清楚。呃... [停頓] 好像是有去拜訪，然後就吃午飯。對，應該是這樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯... 最近一次跟家人吃飯，是說那個..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.9
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，上個月吧？好像是有去阿嬤家。對，阿嬤家。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後有吃什麼呢？忘記了，想不起來那個菜色。大概有幾個人？嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得有爸爸、媽媽，還有我。地點是在阿嬤家客廳。活動就是吃飯聊天。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過時間有點忘了，是星期幾也記不太清楚。呃..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是有去拜訪，然後就吃午飯。對，應該是這樣。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "cdr_3_voice4_female_real_family_0110_patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 3,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 6.0,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 6.0,
+      "silence_ratio": 0.15,
+      "speech_rate_target_cps": 1.8,
+      "filled_pause_count": 8,
+      "restart_count": 3
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 8
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 6,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "sample_id": "cdr_1_voice1_male_clinic_0183",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你平常在家都怎麼安排一天？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯...我早上都會去公園走走啦，然後回家吃早餐。中午嘛，就是簡單煮點麵條。下午有時候會看電視，但常常忘記關掉。晚上就睡覺了。"
+    }
+  ],
+  "spoken_transcript": "嗯...我早上都會去公園走走啦，然後回家吃早餐。中午嘛，就是簡單煮點麵條。下午有時候會看電視，但常常忘記關掉。晚上就睡覺了。",
+  "marked_transcript": "嗯...我早上都會去公園走走啦，然後回家吃早餐。 [停頓] 中午嘛，就是簡單煮點麵條。 [長停頓] 下午有時候會看電視，但常常忘記關掉。 [停頓] 晚上就睡覺了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我早上都會去公園走走啦，然後回家吃早餐。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "中午嘛，就是簡單煮點麵條。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "下午有時候會看電視，但常常忘記關掉。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "晚上就睡覺了。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你平常在家都怎麼安排一天？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我早上都會去公園走走啦，然後回家吃早餐。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "中午嘛，就是簡單煮點麵條。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "下午有時候會看電視，但常常忘記關掉。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "晚上就睡覺了。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.9,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 2.9,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 2,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

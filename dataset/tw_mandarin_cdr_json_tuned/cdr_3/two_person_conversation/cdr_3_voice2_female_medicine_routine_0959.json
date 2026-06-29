@@ -1,0 +1,121 @@
+{
+  "sample_id": "cdr_3_voice2_female_medicine_routine_0959",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，現在是幾點鐘了？\n患者：嗯...幾點？喔...下午。\n訪談者：對，那是星期幾？\n患者：星期...五？不對，好像是...禮拜四。欸，我忘記了啦。\n訪談者：沒關係。那我們現在在哪裡呢？\n患者：這裡...診所。啊，不是，是菜市場。家裡喔？不確定。\n訪談者：好的，那您剛才吃藥了嗎？\n患者：藥...嗯，吃了嗎？好像有拿。阿母說要吃的。\n訪談者：那是什麼藥呢？\n患者：那個...白色的，圓的。糖丸？不對，是藥。記不得名字了。欸，頭昏。",
+  "marked_transcript": "訪談者：阿姨，現在是幾點鐘了？\n[停頓]\n患者：嗯...[長停頓]幾點？喔...下午。\n訪談者：對，那是星期幾？\n[停頓]\n患者：星期...五？不對，好像是...禮拜四。欸，我忘記了啦。\n訪談者：沒關係。那我們現在在哪裡呢？\n[長停頓]\n患者：這裡...診所。啊，不是，是菜市場。家裡喔？不確定。\n訪談者：好的，那您剛才吃藥了嗎？\n[吸氣]\n患者：藥...嗯，吃了嗎？好像有拿。阿母說要吃的。\n訪談者：那是什麼藥呢？\n[停頓]\n患者：那個...白色的，圓的。糖丸？不對，是藥。記不得名字了。欸，頭昏。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿姨，現在是幾點鐘了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...幾點？喔...下午。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：對，那是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：星期...五？不對，好像是...禮拜四。欸，我忘記了啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒關係。那我們現在在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：這裡...診所。啊，不是，是菜市場。家裡喔？不確定。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那您剛才吃藥了嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：藥...嗯，吃了嗎？好像有拿。阿母說要吃的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那是什麼藥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：那個...白色的，圓的。糖丸？不對，是藥。記不得名字了。欸，頭昏。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3700,
+    "chinese_char_count": 145
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 6,
+    "word_finding_count": 7,
+    "orientation_error_count": 3,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.78,
+    "coherence_score": 0.25,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

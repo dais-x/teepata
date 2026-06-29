@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_voice4_female_home_0041",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯，應該是十月十五號，禮拜二。\n訪談者：我們現在在哪裡？\n患者：欸，當然是在家裡呀，客廳嘛。\n訪談者：為什麼會來這裡坐著呢？\n患者：啊，因為剛吃完午飯，想休息一下，順便看看電視。",
+  "marked_transcript": "訪談者：今天是幾月幾號？\n患者：嗯，應該是十月十五號，禮拜二。\n訪談者：我們現在在哪裡？\n患者：欸，當然是在家裡呀，客廳嘛。\n訪談者：為什麼會來這裡坐著呢？\n患者：啊，因為剛吃完午飯，想休息一下，順便看看電視。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是十月十五號，禮拜二"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，當然是在家裡呀，客廳嘛"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼會來這裡坐著呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，因為剛吃完午飯，想休息一下，順便看看電視"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0 normal: coherent answers, accurate orientation to time/place/person/reason, minimal hesitation markers [停頓], no memory errors or disorientation."
+}

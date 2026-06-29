@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice1_male_family_0711",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上好，阿伯。今天早上吃什麼早餐？\n受訪者： 嗯...早、早上啊，我有吃麵包，還有喝豆漿。\n訪談者：喔，有喝豆漿啊。那昨天家裡有什麼特別的事情嗎？\n受訪者：欸... 昨天咧，囝仔有來拜訪啦，不過我不記得是星期幾了，好像是週三？或者可能是週二。\n訪談者：好，那您有在吃藥嗎？今天的藥吃了沒？\n受訪者： 藥啊...那個藥名我想一下。喔對，血壓藥。我有拿、拿藥去診所拿的，昨天有吃喔。\n訪談者：好的，那您記得我剛才跟您說要記住的東西是什麼嗎？\n受訪者：記住的東西...嗯，好像是...那個紅色的小盒子？還是白色的？哎呀， 我忘記了啦。\n訪談者：沒關係。那今天早上您出門了嗎？\n受訪者：有，有去菜市場買菜，然後就回家了。",
+  "marked_transcript": "訪談者：早上好，阿伯。今天早上吃什麼早餐？\n受訪者： [停頓] 嗯...早、早上啊，我有吃麵包，還有喝豆漿。\n訪談者：喔，有喝豆漿啊。那昨天家裡有什麼特別的事情嗎？\n受訪者：欸... [長停頓] 昨天咧，囝仔有來拜訪啦，不過我不記得是星期幾了，好像是週三？或者可能是週二。\n訪談者：好，那您有在吃藥嗎？今天的藥吃了沒？\n受訪者： [嘆氣] 藥啊...那個藥名我想一下。喔對，血壓藥。我有拿、拿藥去診所拿的，昨天有吃喔。\n訪談者：好的，那您記得我剛才跟您說要記住的東西是什麼嗎？\n受訪者：記住的東西...嗯，好像是...那個紅色的小盒子？還是白色的？哎呀， [停頓] 我忘記了啦。\n訪談者：沒關係。那今天早上您出門了嗎？\n受訪者：有，有去菜市場買菜，然後就回家了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：早上好，阿伯。今天早上吃什麼早餐？\n受訪者："
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯...早、早上啊，我有吃麵包，還有喝豆漿。\n訪談者：喔，有喝豆漿啊。那昨天家裡有什麼特別的事情嗎？\n受訪者：欸..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "昨天咧，囝仔有來拜訪啦，不過我不記得是星期幾了，好像是週三？或者可能是週二。\n訪談者：好，那您有在吃藥嗎？今天的藥吃了沒？\n受訪者："
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "藥啊...那個藥名我想一下。喔對，血壓藥。我有拿、拿藥去診所拿的，昨天有吃喔。\n訪談者：好的，那您記得我剛才跟您說要記住的東西是什麼嗎？\n受訪者：記住的東西...嗯，好像是...那個紅色的小盒子？還是白色的？哎呀，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我忘記了啦。\n訪談者：沒關係。那今天早上您出門了嗎？\n受訪者：有，有去菜市場買菜，然後就回家了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 236
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 3,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

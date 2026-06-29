@@ -1,0 +1,121 @@
+{
+  "sample_id": "cdr_0_voice2_female_medicine_routine_0145",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：妳今天早餐吃了什麼？\n患者：嗯，我吃的是牛奶跟土司。\n訪談者：最近有沒有發生什麼家庭事件啊？\n患者：喔，好像上禮拜我們全家去菜市場買東西了。\n訪談者：你昨天有吃藥嗎？\n患者：對呀，我去診所拿藥之後就吃了。\n訪談者：我之前問妳要記得的事情還有什麼呢？\n患者：那個我想一下...啊，應該是說我要去銀行領錢的。\n訪談者：今天早上發生了什麼事嗎？\n患者：昨天晚上嘛，我就看了電視然後休息了。",
+  "marked_transcript": "訪談者：妳今天早餐吃了什麼？[停頓]\n患者：嗯，我吃的是牛奶跟土司。\n訪談者：最近有沒有發生什麼家庭事件啊？[長停頓]\n患者：喔，好像上禮拜我們全家去菜市場買東西了。\n訪談者：你昨天有吃藥嗎？\n患者：對呀，我去診所拿藥之後就吃了。\n訪談者：我之前問妳要記得的事情還有什麼呢？[停頓]\n患者：那個我想一下...啊，應該是說我要去銀行領錢的。\n訪談者：今天早上發生了什麼事嗎？\n患者：昨天晚上嘛，我就看了電視然後休息了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我吃的是牛奶跟土司。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近有沒有發生什麼家庭事件啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，好像上禮拜我們全家去菜市場買東西了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你昨天有吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對呀，我去診所拿藥之後就吃了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我之前問妳要記得的事情還有什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個我想一下...啊，應該是說我要去銀行領錢的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上發生了什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天晚上嘛，我就看了電視然後休息了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 5,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3700,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_2_voice4_female_market_0917",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，您好。請問今天是幾號喔？\n患者：欸...今天啊...我想一下...好像是十三...呃...十三號？\n訪談者：沒錯，是九月十三號。那現在我們在哪裡呢？\n患者：嗯...這裡...這裡嘛...菜市場啦。對，就是那個賣菜的。\n訪談者：對，是在菜市場附近。為什麼今天會來這裡呢？\n患者：來這裡...啊，不對...我是來說藥的。去診所拿藥喔...\n[停頓]...還有，阿母叫我買一點水果。\n訪談者：好的，記得要帶發票回去跟阿母說嗎？\n患者：發票？嗯...好像有拿...但我不確定放在哪裡。那個袋子裡吧...",
+  "marked_transcript": "訪談者：阿姨，您好。請問今天是幾號喔？\n患者：欸...今天啊...我想一下...好像是十三...呃...十三號？\n[停頓]\n訪談者：沒錯，是九月十三號。那現在我們在哪裡呢？\n患者：嗯...這裡...這裡嘛...菜市場啦。對，就是那個賣菜的。\n訪談者：對，是在菜市場附近。為什麼今天會來這裡呢？\n患者：來這裡...啊，不對...我是來說藥的。去診所拿藥喔...\n[嘆氣]\n[停頓]...還有，阿母叫我買一點水果。\n訪談者：好的，記得要帶發票回去跟阿母說嗎？\n患者：發票？嗯...好像有拿...但我不確定放在哪裡。那個袋子裡吧...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，您好。請問今天是幾號喔？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸...今天啊...我想一下...好像是十三...呃...十三號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，是九月十三號。那現在我們在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...這裡...這裡嘛...菜市場啦。對，就是那個賣菜的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，是在菜市場附近。為什麼今天會來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來這裡...啊，不對...我是來說藥的。去診所拿藥喔..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...還有，阿母叫我買一點水果。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，記得要帶發票回去跟阿母說嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "發票？嗯...好像有拿...但我不確定放在哪裡。那個袋子裡吧..."
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2650,
+    "chinese_char_count": 170
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.42,
+    "coherence_score": 0.58,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

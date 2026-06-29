@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_1_voice1_male_medicine_routine_0663",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃了什麼？\n患者：嗯……我記得有吃粥， 還有鹹菜。欸，好像是昨天吃的？ 記不太清楚了。\n訪談者：那藥丸呢？早上吃過了嗎？\n患者：有啊， 放在那個紅色的盒子裡……應該是兩顆吧？ 我拿給阿母看過了。",
+  "marked_transcript": "訪談者：今天早上吃了什麼？\n患者：嗯……我記得有吃粥，[停頓] 還有鹹菜。欸，好像是昨天吃的？[嘆氣] 記不太清楚了。\n訪談者：那藥丸呢？早上吃過了嗎？\n患者：有啊，[長停頓] 放在那個紅色的盒子裡……應該是兩顆吧？[吸氣] 我拿給阿母看過了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我記得有吃粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 878
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有鹹菜。欸，好像是昨天吃的？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1319
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥丸呢？早上吃過了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1619
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "放在那個紅色的盒子裡……應該是兩顆吧？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 633
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我拿給阿母看過了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4449,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('紅色的盒子'), mild memory uncertainty about timing, and slight repetition, but remains coherent."
+}

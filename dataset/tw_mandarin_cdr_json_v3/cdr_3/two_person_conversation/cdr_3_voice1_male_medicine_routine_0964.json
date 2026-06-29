@@ -1,0 +1,181 @@
+{
+  "sample_id": "cdr_3_voice1_male_medicine_routine_0964",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：你昨天吃什麼早餐？\n患者：嗯…… 那個…… 粥，好像是。\n訪談者：你兒子來過嗎？\n患者： 誰？ 囝仔…… 我不記得了。欸，他應該有。\n訪談者：你的藥吃了嗎？\n患者：藥…… 啊，對，藥。 在盒子裡。\n訪談者：什麼時候吃的？\n患者：早上…… 還是晚上？ 我忘了。 應該是早上。",
+  "marked_transcript": "訪談者：你昨天吃什麼早餐？\n患者：嗯……[停頓] 那個……[長停頓] 粥，好像是。[嘆氣]\n訪談者：你兒子來過嗎？\n患者：[咳嗽] 誰？[吸氣] 囝仔……[停頓] 我不記得了。欸，他應該有。\n訪談者：你的藥吃了嗎？\n患者：藥……[長停頓] 啊，對，藥。[停頓] 在盒子裡。\n訪談者：什麼時候吃的？\n患者：早上……[吸氣] 還是晚上？[停頓] 我忘了。[嘆氣] 應該是早上。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你昨天吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 624
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1210
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥，好像是"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 820
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你兒子來過嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 374
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 703
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 659
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我不記得了。欸，他應該有"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你的藥吃了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1526
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對，藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 827
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在盒子裡"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "什麼時候吃的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 544
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是晚上？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 663
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我忘了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1360
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是早上"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 17,
+    "pause_event_count": 6,
+    "sigh_event_count": 2,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 9310,
+    "chinese_char_count": 88
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 3 severe simulation: fragmented sentences, frequent word-finding pauses (停頓，長停頓), orientation confusion regarding time and events, repeated simple phrases, and emotional markers like sighing."
+}

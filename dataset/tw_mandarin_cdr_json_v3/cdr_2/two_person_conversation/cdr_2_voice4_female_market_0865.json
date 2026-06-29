@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_2_voice4_female_market_0865",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯……今天是星期幾啊。 好像是星期二？欸，不對，應該是星期三吧。 我記不太清楚了。\n訪談者：我們現在在哪裡？\n患者：在這裡喔。 這裡是菜市場，對嗎？阿母以前常帶我來買菜的地方……嗯，好像是這裡沒錯啦。\n訪談者：你為什麼來這裡？\n患者：因為要拿藥啊。 診所說要開藥給我。欸，不過我好像忘了是哪一天來的了。",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯……今天是星期幾啊。[停頓] 好像是星期二？欸，不對，應該是星期三吧。[停頓] 我記不太清楚了。\n訪談者：我們現在在哪裡？\n患者：在這裡喔。[長停頓] 這裡是菜市場，對嗎？阿母以前常帶我來買菜的地方……嗯，好像是這裡沒錯啦。\n訪談者：你為什麼來這裡？\n患者：因為要拿藥啊。[嘆氣] 診所說要開藥給我。欸，不過我好像忘了是哪一天來的了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天是星期幾啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是星期二？欸，不對，應該是星期三吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 812
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在這裡喔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1554
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是菜市場，對嗎？阿母以前常帶我來買菜的地方……嗯，好像是這裡沒錯啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為要拿藥啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所說要開藥給我。欸，不過我好像忘了是哪一天來的了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4517,
+    "chinese_char_count": 128
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 3,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: noticeable memory gaps, time confusion (day), location recognition with hesitation, fragmented recall of purpose, needs support to confirm details."
+}

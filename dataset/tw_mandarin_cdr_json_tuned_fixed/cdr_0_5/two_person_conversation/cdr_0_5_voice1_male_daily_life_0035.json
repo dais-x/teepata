@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_daily_life_0035",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，早安。昨天早上您吃了什麼早餐？\n患者：欸，早啊。我記得是喝豆漿，還有吃一個蛋餅。\n訪談者：嗯，那有沒有去拿藥呢？\n患者：有啊，我去診所拿藥了。應該是有開降血壓的藥。\n訪談者：喔，那昨天家裡有什麼特別的事情發生嗎？\n患者：嗯...應該是阿母打電話來，問我身體好不好啦。\n訪談者：好，那您記得我們剛才講的哪一個重點嗎？\n患者：就是拿藥跟吃蛋餅嘛。啊對了，好像還有去菜市場買青菜。\n訪談者：對，就是這些。謝謝您。\n患者：不客气啦。",
+  "marked_transcript": "訪談者：老先生，早安。昨天早上您吃了什麼早餐？\n[停頓]\n患者：欸，早啊。我記得是喝豆漿，還有吃一個蛋餅。\n訪談者：嗯，那有沒有去拿藥呢？\n[吸氣]\n患者：有啊，我去診所拿藥了。應該是有開降血壓的藥。\n訪談者：喔，那昨天家裡有什麼特別的事情發生嗎？\n[停頓]\n患者：嗯...應該是阿母打電話來，問我身體好不好啦。\n訪談者：好，那您記得我們剛才講的哪一個重點嗎？\n[停頓]\n患者：就是拿藥跟吃蛋餅嘛。啊對了，好像還有去菜市場買青菜。\n訪談者：對，就是這些。謝謝您。\n患者：不客气啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，早安。昨天早上您吃了什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，早啊。我記得是喝豆漿，還有吃一個蛋餅。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，那有沒有去拿藥呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，我去診所拿藥了。應該是有開降血壓的藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那昨天家裡有什麼特別的事情發生嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...應該是阿母打電話來，問我身體好不好啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您記得我們剛才講的哪一個重點嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是拿藥跟吃蛋餅嘛。啊對了，好像還有去菜市場買青菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，就是這些。謝謝您。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不客气啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2200,
+    "chinese_char_count": 173
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.89,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

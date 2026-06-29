@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_voice1_male_clinic_0037",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，欸，今天來診所就是來看一點小毛病啦。其實也沒什麼大問題，就是最近天氣變冷，比較容易咳嗽而已。早上起來的時候會覺得喉嚨有點癢，咳咳咳...然後就吃點藥。平常我都有在吃那個降血壓的藥，還有維生素。啊，醫師說要定期回診，大概一個月來一次吧。喔，對啦，我也記得有拿藥單。嗯，反正就是老毛病嘛，不是什麼大問題。",
+  "marked_transcript": "[停頓] 嗯，欸，今天來診所就是來看一點小毛病啦。其實也沒什麼大問題，[停頓] 就是最近天氣變冷，比較容易咳嗽而已。早上起來的時候會覺得喉嚨有點癢，[長停頓] 咳咳咳...然後就吃點藥。平常我都有在吃那個降血壓的藥，還有維生素。啊，醫師說要定期回診，大概一個月來一次吧。喔，對啦，我也記得有拿藥單。嗯，反正就是老毛病嘛，不是什麼大問題。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，欸，今天來診所就是來看一點小毛病啦。其實也沒什麼大問題，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是最近天氣變冷，比較容易咳嗽而已。早上起來的時候會覺得喉嚨有點癢，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "咳咳咳...然後就吃點藥。平常我都有在吃那個降血壓的藥，還有維生素。啊，醫師說要定期回診，大概一個月來一次吧。喔，對啦，我也記得有拿藥單。嗯，反正就是老毛病嘛，不是什麼大問題。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2050,
+    "chinese_char_count": 130
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

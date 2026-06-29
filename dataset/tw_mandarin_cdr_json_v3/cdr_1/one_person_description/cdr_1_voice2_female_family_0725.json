@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice2_female_family_0725",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "嗯…… 今天要去診所拿藥。阿母講過，這個藥不能斷。但是那個…… 我記得是星期幾？好像是週三吧？欸，不太確定。囝仔還在睡，我就輕輕出門。醫生講過要飯後吃，嗯…… 好像還有點忘記怎麼吃。反正就是跟以前一樣嘛，應該沒問題。",
+  "marked_transcript": "嗯…… [停頓] 今天要去診所拿藥。阿母講過，這個藥不能斷。但是那個…… [停頓] 我記得是星期幾？好像是週三吧？欸，不太確定。囝仔還在睡，我就輕輕出門。醫生講過要飯後吃，嗯…… [嘆氣] 好像還有點忘記怎麼吃。反正就是跟以前一樣嘛，應該沒問題。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 767
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天要去診所拿藥。阿母講過，這個藥不能斷。但是那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 895
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得是星期幾？好像是週三吧？欸，不太確定。囝仔還在睡，我就輕輕出門。醫生講過要飯後吃，嗯……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1120
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有點忘記怎麼吃。反正就是跟以前一樣嘛，應該沒問題"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2782,
+    "chinese_char_count": 86
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: word-finding difficulty ('那個'), mild memory uncertainty (day of week), natural oral fillers. 3 markers used."
+}

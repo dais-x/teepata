@@ -1,0 +1,69 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0658",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我去菜市場買東西，那個阿母叫我幫她買點雞蛋跟豆漿。嗯...我走到那邊看到很多人在買菜，然後我就開始挑選要買的東西。我想一下，好像是應該是昨天媽媽說過要買些蔬菜來煮湯囉...",
+  "marked_transcript": "今天早上我去菜市場買東西，那個阿母叫我幫她買點雞蛋跟豆漿。嗯...[停頓]我走到那邊看到很多人在買菜，然後我就開始挑選要買的東西。我想一下，好像是應該是昨天媽媽說過要買些蔬菜來煮湯囉...[長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我去菜市場買東西，那個阿母叫我幫她買點雞蛋跟豆漿。嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我走到那邊看到很多人在買菜，然後我就開始挑選要買的東西。我想一下，好像是應該是昨天媽媽說過要買些蔬菜來煮湯囉..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

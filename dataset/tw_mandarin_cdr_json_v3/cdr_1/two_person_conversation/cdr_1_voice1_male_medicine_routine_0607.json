@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice1_male_medicine_routine_0607",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問您現在幾點了？\n患者：嗯…… 好像是下午， 兩點左右吧。應該是這個時間。\n訪談者：那您早上吃了什麼藥呢？\n患者：啊，那個降血壓的藥…… 我記得有吃，但好像忘了是幾顆。欸，我想想喔，應該是兩顆沒錯。\n訪談者：好的，那下午要去診所拿藥嗎？\n患者：對，要拿藥。 哎呀，我剛剛在想，是不是昨天已經去過了？記不太清楚了。",
+  "marked_transcript": "訪談者：請問您現在幾點了？\n患者：嗯…… 好像是下午，[停頓] 兩點左右吧。應該是這個時間。\n訪談者：那您早上吃了什麼藥呢？\n患者：啊，那個降血壓的藥…… [長停頓] 我記得有吃，但好像忘了是幾顆。欸，我想想喔，應該是兩顆沒錯。\n訪談者：好的，那下午要去診所拿藥嗎？\n患者：對，要拿藥。[嘆氣] 哎呀，我剛剛在想，是不是昨天已經去過了？記不太清楚了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您現在幾點了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 好像是下午"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 658
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "兩點左右吧。應該是這個時間"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早上吃了什麼藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，那個降血壓的藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1643
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得有吃，但好像忘了是幾顆。欸，我想想喔，應該是兩顆沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那下午要去診所拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，要拿藥"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1322
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我剛剛在想，是不是昨天已經去過了？記不太清楚了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3623,
+    "chinese_char_count": 123
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個降血壓的藥'), mild repetition of uncertainty ('好像是', '應該是'), and one orientation/memory error regarding the pharmacy visit. Natural pauses included."
+}

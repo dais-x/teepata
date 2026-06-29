@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice1_male_home_0780",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來之後，我先去把窗戶打開。 然後……那個，阿母說要我去菜市場買點青菜。欸，我好像記不得是昨天還是前天去的了。 應該是昨天吧？反正今天也要去拿藥，診所那邊開的。嗯，就這樣，沒什麼特別的事。",
+  "marked_transcript": "嗯，早上起來之後，我先去把窗戶打開。[停頓] 然後……那個，阿母說要我去菜市場買點青菜。欸，我好像記不得是昨天還是前天去的了。[長停頓] 應該是昨天吧？反正今天也要去拿藥，診所那邊開的。嗯，就這樣，沒什麼特別的事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來之後，我先去把窗戶打開"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後……那個，阿母說要我去菜市場買點青菜。欸，我好像記不得是昨天還是前天去的了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1341
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是昨天吧？反正今天也要去拿藥，診所那邊開的。嗯，就這樣，沒什麼特別的事"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2137,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows clear word-finding difficulty ('那個'), mild memory uncertainty regarding the day of market visit, and one orientation error (confusing yesterday/today). Speech remains coherent with minimal pauses."
+}

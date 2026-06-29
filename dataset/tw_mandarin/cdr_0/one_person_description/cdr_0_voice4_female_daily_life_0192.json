@@ -1,0 +1,65 @@
+{
+  "sample_id": "cdr_0_voice4_female_daily_life_0192",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我起來就先去上廁所，然後洗臉刷牙。嗯，洗完之後我就準備早餐，昨晚有買菜市場的雞蛋跟米飯。然後我去診所拿藥，醫生說要記得每天吃三次藥。",
+  "marked_transcript": "[停頓]今天早上我起來就先去上廁所，然後洗臉刷牙。嗯[停頓]，洗完之後我就準備早餐，昨晚有買菜市場的雞蛋跟米飯。然後我去診所拿藥，醫生說要記得每天吃三次藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我起來就先去上廁所，然後洗臉刷牙。嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "，洗完之後我就準備早餐，昨晚有買菜市場的雞蛋跟米飯。然後我去診所拿藥，醫生說要記得每天吃三次藥。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 600,
+    "chinese_char_count": 63
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

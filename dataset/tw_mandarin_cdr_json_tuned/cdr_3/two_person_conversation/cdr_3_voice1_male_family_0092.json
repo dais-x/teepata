@@ -1,0 +1,159 @@
+{
+  "sample_id": "cdr_3_voice1_male_family_0092",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，今天早餐吃什麼？\n患者：嗯...早...早上。粥啦。\n訪談者：有喝牛奶嗎？\n患者：好像有...欸，記不得了。\n訪談者：昨天家裡有什麼事嗎？\n患者：囝仔...來。阿母在。菜市場。\n訪談者：藥有拿了嗎？\n患者：拿、拿藥。診所。\n訪談者：早上還是晚上去的？\n患者：嗯...早...早上。\n訪談者：記得我跟你說什麼事嗎？\n患者：什麼？忘記了。那個...人。",
+  "marked_transcript": "訪談者：阿伯，今天早餐吃什麼？\n患者：嗯 [停頓] ...早 [停頓] ...早上。粥啦。\n訪談者：有喝牛奶嗎？\n患者：好像有...欸 [長停頓] ，記不得了。\n訪談者：昨天家裡有什麼事嗎？\n患者：囝仔 [吸氣] ...來。阿母在。菜市場。\n訪談者：藥有拿了嗎？\n患者：拿、拿藥 [嘆氣] 。診所。\n訪談者：早上還是晚上去的？\n患者：嗯...早 [停頓] ...早上。\n訪談者：記得我跟你說什麼事嗎？\n患者：什麼？忘記了。那個...人 [長停頓] 。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，今天早餐吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早...早上。粥啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有喝牛奶嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有...欸，記不得了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有什麼事嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔...來。阿母在。菜市場。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥有拿了嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿、拿藥。診所。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上還是晚上去的？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早...早上。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得我跟你說什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "什麼？忘記了。那個...人。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 10,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6550,
+    "chinese_char_count": 116
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 2,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.32,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 10
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

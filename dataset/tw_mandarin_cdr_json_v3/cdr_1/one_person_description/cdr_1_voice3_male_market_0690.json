@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0690",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天去菜市場買菜。我想一下……那個蔬菜攤位在哪裡？好像是在左邊吧。啊，對，就是那裡。我記得阿母常來這裡拿藥，不過現在是我自己來。欸，那個番茄好像有點不新鮮了。 我應該多問問老闆價錢才對。嗯，買完東西就回家煮飯給囝仔吃。",
+  "marked_transcript": "嗯，今天去菜市場買菜。我想一下……那個蔬菜攤位在哪裡？好像是在左邊吧。啊，對，就是那裡。我記得阿母常來這裡拿藥，不過現在是我自己來。欸，那個番茄好像有點不新鮮了。[停頓] 我應該多問問老闆價錢才對。嗯，買完東西就回家煮飯給囝仔吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天去菜市場買菜。我想一下……那個蔬菜攤位在哪裡？好像是在左邊吧。啊，對，就是那裡。我記得阿母常來這裡拿藥，不過現在是我自己來。欸，那個番茄好像有點不新鮮了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 760
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我應該多問問老闆價錢才對。嗯，買完東西就回家煮飯給囝仔吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 760,
+    "chinese_char_count": 94
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Clear word-finding difficulty ('想一下', '那個'), mild memory uncertainty about location, one orientation error (confusing mother's routine with own), natural pauses, mostly coherent daily life description."
+}

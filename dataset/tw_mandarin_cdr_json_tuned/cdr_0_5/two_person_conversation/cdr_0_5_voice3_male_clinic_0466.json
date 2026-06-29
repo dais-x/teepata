@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_clinic_0466",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，請問您今天早上吃了什麼？\n患者：呃，吃了一個蛋，還有喝牛奶。好像還有一杯豆漿。\n訪談者：喔，那昨天家裡有沒有發生什麼特別的事情呢？\n患者：昨天啊...[停頓]應該是阿母打電話來，說囝仔要回來了啦。不過我記不太清楚是幾點打來的。\n訪談者：那您有按時吃藥嗎？\n患者：有啊，早上那一顆有拿。下午那顆...好像也吃了，對不對？欸，應該沒錯啦。\n訪談者：好的。那醫生交代您要記住的事情是什麼？\n患者：喔，是要記得下週二來復診。還有那個...藥要放在冰箱旁邊的抽屜。應該是這樣沒錯吧。\n訪談者：沒問題，我們待會再確認一下。",
+  "marked_transcript": "訪談者：早安，請問您今天早上吃了什麼？\n患者：呃，吃了一個蛋，還有喝牛奶。好像還有一杯豆漿。\n訪談者：喔，那昨天家裡有沒有發生什麼特別的事情呢？\n患者：昨天啊... [停頓] 應該是阿母打電話來，說囝仔要回來了啦。不過我記不太清楚是幾點打來的。\n訪談者：那您有按時吃藥嗎？\n患者：有啊，早上那一顆有拿。下午那顆...好像也吃了，對不對？欸，應該沒錯啦。\n訪談者：好的。那醫生交代您要記住的事情是什麼？\n患者：喔，是要記得下週二來復診。還有那個...藥要放在冰箱旁邊的抽屜。應該是這樣沒錯吧。\n訪談者：沒問題，我們待會再確認一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，請問您今天早上吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，吃了一個蛋，還有喝牛奶。好像還有一杯豆漿。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那昨天家裡有沒有發生什麼特別的事情呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...應該是阿母打電話來，說囝仔要回來了啦。不過我記不太清楚是幾點打來的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您有按時吃藥嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上那一顆有拿。下午那顆...好像也吃了，對不對？欸，應該沒錯啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那醫生交代您要記住的事情是什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，是要記得下週二來復診。還有那個...藥要放在冰箱旁邊的抽屜。應該是這樣沒錯吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒問題，我們待會再確認一下。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 208
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

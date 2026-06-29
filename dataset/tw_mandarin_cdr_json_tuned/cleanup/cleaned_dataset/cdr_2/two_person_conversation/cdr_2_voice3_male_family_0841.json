@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_2_voice3_male_family_0841",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：爸，早餐吃了什麼？\n受訪者：嗯...早上啊，有吃。好像是稀飯，還是麵線喔。 呃...對，麵線啦，加一點蛋花。\n訪談者：那你記得昨天家裡發生什麼事嗎？\n受訪者：昨天？欸...我忘記了。應該是阿母去菜市場吧。 訪談者：有沒吃藥呢？\n受訪者：藥？喔，拿藥。早上有拿。診所的醫生說要一天一次嘛。 但是有點記不清楚是上午還是下午了。\n訪談者：好，那請問我剛剛叫你要記得的事情是什麼嗎？\n受訪者：記得的事情...那個...應該是去看囝仔吧。 訪談者：對啊。那你今天早上幾點起床的？\n受訪者：早上...七點？還是六點半喔。 反正就是早上的時候啦。",
+  "marked_transcript": "訪談者：爸，早餐吃了什麼？\n受訪者：嗯...早上啊，有吃。好像是稀飯，還是麵線喔。 [停頓] 呃...對，麵線啦，加一點蛋花。\n訪談者：那你記得昨天家裡發生什麼事嗎？\n受訪者：昨天？欸...我忘記了。應該是阿母去菜市場吧。 [長停頓] 訪談者：有沒吃藥呢？\n受訪者：藥？喔，拿藥。早上有拿。診所的醫生說要一天一次嘛。 [嘆氣] 但是有點記不清楚是上午還是下午了。\n訪談者：好，那請問我剛剛叫你要記得的事情是什麼嗎？\n受訪者：記得的事情...那個...應該是去看囝仔吧。 [停頓] 訪談者：對啊。那你今天早上幾點起床的？\n受訪者：早上...七點？還是六點半喔。 [咳嗽] 反正就是早上的時候啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：爸，早餐吃了什麼？\n受訪者：嗯...早上啊，有吃。好像是稀飯，還是麵線喔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "呃...對，麵線啦，加一點蛋花。\n訪談者：那你記得昨天家裡發生什麼事嗎？\n受訪者：昨天？欸...我忘記了。應該是阿母去菜市場吧。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：有沒吃藥呢？\n受訪者：藥？喔，拿藥。早上有拿。診所的醫生說要一天一次嘛。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "但是有點記不清楚是上午還是下午了。\n訪談者：好，那請問我剛剛叫你要記得的事情是什麼嗎？\n受訪者：記得的事情...那個...應該是去看囝仔吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：對啊。那你今天早上幾點起床的？\n受訪者：早上...七點？還是六點半喔。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "反正就是早上的時候啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 202
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 4,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

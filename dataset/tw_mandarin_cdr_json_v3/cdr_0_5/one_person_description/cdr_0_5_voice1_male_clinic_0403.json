@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_clinic_0403",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我照常去菜市場買菜。那個……好像忘記要帶錢包了，不過還好有拿手機支付。 然後順路來診所拿藥，阿母說最近天氣冷要多穿點。欸，醫生，這個藥是飯前吃還是飯後呢？我想一下……應該是飯後吧。",
+  "marked_transcript": "嗯，今天早上我照常去菜市場買菜。那個……好像忘記要帶錢包了，不過還好有拿手機支付。[停頓] 然後順路來診所拿藥，阿母說最近天氣冷要多穿點。欸，醫生，這個藥是飯前吃還是飯後呢？我想一下……應該是飯後吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我照常去菜市場買菜。那個……好像忘記要帶錢包了，不過還好有拿手機支付"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 717
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後順路來診所拿藥，阿母說最近天氣冷要多穿點。欸，醫生，這個藥是飯前吃還是飯後呢？我想一下……應該是飯後吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 717,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5表現：語句流暢，僅在回憶細節時出現輕微停頓與不確定感（如忘記帶錢包、記不清服藥時間），無嚴重失憶或邏輯斷裂。"
+}

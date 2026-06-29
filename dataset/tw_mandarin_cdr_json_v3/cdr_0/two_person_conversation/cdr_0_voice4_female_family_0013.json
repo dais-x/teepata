@@ -1,0 +1,100 @@
+{
+  "sample_id": "cdr_0_voice4_female_family_0013",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是幾月幾號？現在在哪裡？\n患者：嗯，今天是五月二十號。 這裡是我家附近的診所啦。\n訪談者：那中午跟誰一起吃飯呢？吃了什麼？\n患者：跟我阿母在菜市場附近吃的，有炒飯跟湯。欸，味道我還記得很清楚。\n訪談者：平常藥都是自己吃嗎？\n患者：對啊，我會自己拿藥，按照時間吃。 嗯，都沒有問題。",
+  "marked_transcript": "訪談者：請問今天是幾月幾號？現在在哪裡？\n患者：嗯，今天是五月二十號。[停頓] 這裡是我家附近的診所啦。\n訪談者：那中午跟誰一起吃飯呢？吃了什麼？\n患者：跟我阿母在菜市場附近吃的，有炒飯跟湯。欸，味道我還記得很清楚。\n訪談者：平常藥都是自己吃嗎？\n患者：對啊，我會自己拿藥，按照時間吃。[停頓] 嗯，都沒有問題。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是幾月幾號？現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天是五月二十號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 829
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是我家附近的診所啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那中午跟誰一起吃飯呢？吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "跟我阿母在菜市場附近吃的，有炒飯跟湯。欸，味道我還記得很清楚"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "平常藥都是自己吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對啊，我會自己拿藥，按照時間吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 742
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，都沒有問題"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1571,
+    "chinese_char_count": 118
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0 normal response. Coherent orientation and memory recall with minimal natural pauses."
+}

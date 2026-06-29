@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice4_female_daily_life_0629",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，你昨天早餐吃了什麼？\n患者：欸……我記得有喝豆漿。 還有煎蛋。應該是兩個吧。\n訪談者：那你有吃藥嗎？最近身體還好？\n患者：有啊，出門前吃過。那個……降血壓的。 哎呀，忘記藥名了。不過醫生講要每天吃。\n訪談者：那你昨天有去診所嗎？\n患者：有啊，去拿藥。好像是我阿母陪我去的。 對，是阿母。",
+  "marked_transcript": "訪談者：早安，你昨天早餐吃了什麼？\n患者：欸……我記得有喝豆漿。[停頓] 還有煎蛋。應該是兩個吧。\n訪談者：那你有吃藥嗎？最近身體還好？\n患者：有啊，出門前吃過。那個……降血壓的。[長停頓] 哎呀，忘記藥名了。不過醫生講要每天吃。\n訪談者：那你昨天有去診所嗎？\n患者：有啊，去拿藥。好像是我阿母陪我去的。[吸氣] 對，是阿母。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，你昨天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……我記得有喝豆漿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 768
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有煎蛋。應該是兩個吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你有吃藥嗎？最近身體還好？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，出門前吃過。那個……降血壓的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1230
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，忘記藥名了。不過醫生講要每天吃"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你昨天有去診所嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，去拿藥。好像是我阿母陪我去的"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 693
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，是阿母"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2691,
+    "chinese_char_count": 113
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Mild word-finding difficulty (circumlocution for medicine name), slight memory uncertainty (quantity, medication name), natural pauses [停頓][長停頓][吸氣]. Taiwanese Mandarin style preserved."
+}

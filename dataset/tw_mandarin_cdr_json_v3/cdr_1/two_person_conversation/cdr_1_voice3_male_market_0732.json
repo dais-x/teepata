@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0732",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早點吃了什麼？\n患者：嗯，那個……好像是稀飯。欸，到底是什麼粥啊？ 記不太清楚了，反正就是熱的。\n訪談者：昨天阿嬤有來家裡嗎？\n患者：阿嬤？應該是來了吧。 哎呀，我好像又忘了，她是不是帶了菜市場買的魚？\n訪談者：藥有拿了嗎？\n患者：有拿啊，在桌上。 對，就是那瓶白色的，嗯……應該是昨天的藥。\n訪談者：好的，謝謝你。",
+  "marked_transcript": "訪談者：早點吃了什麼？\n患者：嗯，那個……好像是稀飯。欸，到底是什麼粥啊？[停頓] 記不太清楚了，反正就是熱的。\n訪談者：昨天阿嬤有來家裡嗎？\n患者：阿嬤？應該是來了吧。[長停頓] 哎呀，我好像又忘了，她是不是帶了菜市場買的魚？\n訪談者：藥有拿了嗎？\n患者：有拿啊，在桌上。[吸氣] 對，就是那瓶白色的，嗯……應該是昨天的藥。\n訪談者：好的，謝謝你。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早點吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個……好像是稀飯。欸，到底是什麼粥啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 787
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了，反正就是熱的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天阿嬤有來家裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿嬤？應該是來了吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1146
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我好像又忘了，她是不是帶了菜市場買的魚？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥有拿了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿啊，在桌上"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 555
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那瓶白色的，嗯……應該是昨天的藥"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝你"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2488,
+    "chinese_char_count": 121
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('到底是什麼粥'), mild repetition of forgetting, and slight memory uncertainty about the event and medicine bottle color. Speech remains coherent with only 2 pauses."
+}

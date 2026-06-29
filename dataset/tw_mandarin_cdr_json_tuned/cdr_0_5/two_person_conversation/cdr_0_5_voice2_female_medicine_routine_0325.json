@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_medicine_routine_0325",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿姨，今天早上的早餐吃了什麼？\n患者：嗯...我記得有喝粥，還有煎蛋啦。那個青菜好像也有吃一點。\n訪談者：那昨天家裡有什麼特別的事情發生嗎？\n患者：欸，阿母打電話來問說囝仔回來了沒有。應該是上週末的事吧？喔對，是上週六。\n訪談者：好，那您今天的藥有拿了嗎？\n患者：有啊，早上去診所拿的。那個降血壓的藥，還有一個是...嗯，我想一下，好像是護胃的？對，就是那個。\n訪談者：那今天早上出門前，有沒有發生什麼特別的事？\n患者：好像沒啥事啦，我就去菜市場買點菜，然後就回家吃藥了。應該是這樣沒錯吧？",
+  "marked_transcript": "訪談者：陳阿姨，今天早上的早餐吃了什麼？\n患者：嗯 [停頓] 我記得有喝粥，還有煎蛋啦。那個青菜好像也有吃一點。\n訪談者：那昨天家裡有什麼特別的事情發生嗎？\n患者：欸，阿母打電話來問說囝仔回來了沒有。應該是上週末的事吧？喔對，是上週六。\n訪談者：好，那您今天的藥有拿了嗎？\n患者：有啊，早上去診所拿的。那個降血壓的藥 [停頓] 還有一個是...嗯 [長停頓] 我想一下，好像是護胃的？對，就是那個。\n訪談者：那今天早上出門前，有沒有發生什麼特別的事？\n患者：好像沒啥事啦，我就去菜市場買點菜，然後就回家吃藥了。應該是這樣沒錯吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：陳阿姨，今天早上的早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯 我記得有喝粥，還有煎蛋啦。那個青菜好像也有吃一點。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那昨天家裡有什麼特別的事情發生嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，阿母打電話來問說囝仔回來了沒有。應該是上週末的事吧？喔對，是上週六。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好，那您今天的藥有拿了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有啊，早上去診所拿的。那個降血壓的藥 還有一個是...嗯 我想一下，好像是護胃的？對，就是那個。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那今天早上出門前，有沒有發生什麼特別的事？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：好像沒啥事啦，我就去菜市場買點菜，然後就回家吃藥了。應該是這樣沒錯吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 202
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

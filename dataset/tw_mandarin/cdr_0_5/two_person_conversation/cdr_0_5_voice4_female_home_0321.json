@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_home_0321",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪問者：今天早上的早餐吃了什麼？\n患者：嗯...那個，我好像吃的是稀飯，配上幾塊豆腐乳。\n訪問者：最近有發生什麼家庭活動嗎？\n患者：我想一下...好像是上個禮拜我們去菜市場買了些東西回來準備過節的。\n訪問者：你記得上次拿藥是哪一天嗎？\n患者：這個嘛，我有點忘記了。應該是上週三吧。\n訪問者：昨天或今天早上有發生什麼事嗎？\n患者：昨天啊...嗯，好像有個醫生過來家裡看我爸的病。",
+  "marked_transcript": "訪問者：今天早上的早餐吃了什麼？[停頓]\n患者：嗯...那個，我好像吃的是稀飯，配上幾塊豆腐乳。\n訪問者：最近有發生什麼家庭活動嗎？\n患者：我想一下...好像是上個禮拜我們去菜市場買了些東西回來準備過節的。\n訪問者：你記得上次拿藥是哪一天嗎？[停頓]\n患者：這個嘛，我有點忘記了。應該是上週三吧。\n訪問者：昨天或今天早上有發生什麼事嗎？\n患者：昨天啊...嗯，好像有個醫生過來家裡看我爸的病。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上的早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個，我好像吃的是稀飯，配上幾塊豆腐乳。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近有發生什麼家庭活動嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下...好像是上個禮拜我們去菜市場買了些東西回來準備過節的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得上次拿藥是哪一天嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個嘛，我有點忘記了。應該是上週三吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天或今天早上有發生什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...嗯，好像有個醫生過來家裡看我爸的病。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 151
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

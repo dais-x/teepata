@@ -1,0 +1,91 @@
+{
+  "sample_id": "cdr_1_voice3_male_clinic_0045",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯...那個，我早上起來啊，先吃個早餐。煮稀飯嘛，還有配點鹹菜啦。然後去診所拿藥，對，就是那邊的藥。欸...藥名記不太清楚了，好像是治療頭暈的？應該是吧。喔對了，下午要去公園走走，跟老鄰居聊天咧。啊，今天好像不是星期二？有點忘記了。嗯，大概就是這樣子。",
+  "marked_transcript": "[嘆氣] 嗯...[停頓] 那個，我早上起來啊，先吃個早餐。煮稀飯嘛，還有配點鹹菜啦。然後去診所拿藥，對，就是那邊的藥。欸...[停頓] 藥名記不太清楚了，好像是治療頭暈的？應該是吧。喔對了，下午要去公園走走，跟老鄰居聊天咧。啊，今天好像不是星期二？[長停頓][吸氣] 有點忘記了。嗯，大概就是這樣子。",
+  "event_script": [
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，我早上起來啊，先吃個早餐。煮稀飯嘛，還有配點鹹菜啦。然後去診所拿藥，對，就是那邊的藥。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥名記不太清楚了，好像是治療頭暈的？應該是吧。喔對了，下午要去公園走走，跟老鄰居聊天咧。啊，今天好像不是星期二？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有點忘記了。嗯，大概就是這樣子。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4600,
+    "chinese_char_count": 101
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

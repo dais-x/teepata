@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice2_female_daily_life_0095",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：妳今天早餐吃了什麼？\n患者：嗯，我吃了一碗稀飯跟一些小菜。\n訪談者：最近家裡有發生什麼事嗎？\n患者：喔，我們上個周末去郊遊了，大家都很開心。\n訪談者：妳記得要吃藥的時間嗎？\n患者：記得，我每天早上和晚上都會拿藥來吃的。\n訪談者：我昨天問妳要記住的是什麼呢？\n患者：那個，好像是要說一個故事吧，我想想...\n訪談者：那妳今天早上做了什麼事？\n患者：啊，昨天我去菜市場買了一些蔬菜和水果。",
+  "marked_transcript": "訪談者：妳今天早餐吃了什麼？[停頓]\n患者：嗯，我吃了一碗稀飯跟一些小菜。\n訪談者：最近家裡有發生什麼事嗎？\n患者：喔，我們上個周末去郊遊了，大家都很開心。\n訪談者：妳記得要吃藥的時間嗎？[停頓]\n患者：記得，我每天早上和晚上都會拿藥來吃的。\n訪談者：我昨天問妳要記住的是什麼呢？\n患者：那個，好像是要說一個故事吧，我想想...[長停頓]\n訪談者：那妳今天早上做了什麼事？\n患者：啊，昨天我去菜市場買了一些蔬菜和水果。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我吃了一碗稀飯跟一些小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我們上個周末去郊遊了，大家都很開心。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳記得要吃藥的時間嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得，我每天早上和晚上都會拿藥來吃的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我昨天問妳要記住的是什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，好像是要說一個故事吧，我想想..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那妳今天早上做了什麼事？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，昨天我去菜市場買了一些蔬菜和水果。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2400,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_2_voice3_male_clinic_0881",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生您好，請問今天是幾號？\n患者：呃...幾號啊...我想一下...好像是十月吧。應該是十月初。\n訪談者：好的，那您現在在什麼地方呢？\n患者：在這裡喔，這裡是...診所啦，對，就是拿藥的地方。欸，我剛剛好像是在那裡，那個菜市場附近？\n訪談者：沒關係，我們現在就是在診所。先生，請問為什麼今天來看診呢？\n患者：看、看病啊。身體不舒服嘛。嗯...記不得是哪裡了。好像是頭暈，還是腳痠？哎呀，想不起來。\n訪談者：好的，那您最近有沒有發生什麼特別的事情？\n患者：特別的事...欸，我孫子好像有來看過。喔不對，是上個月吧？還是上上個月？忘了。反正就是家裡的事嘛。",
+  "marked_transcript": "訪談者：先生您好，請問今天是幾號？\n患者：呃 [停頓] 幾號啊...我想一下 [長停頓] ...好像是十月吧。應該是十月初。\n訪談者：好的，那您現在在什麼地方呢？\n患者：在這裡喔，這裡是...診所啦，對，就是拿藥的地方。欸，我剛剛好像是在那裡，那個菜市場附近？\n訪談者：沒關係，我們現在就是在診所。先生，請問為什麼今天來看診呢？\n患者：看、看病啊 [嘆氣] 。身體不舒服嘛。嗯...記不得是哪裡了。好像是頭暈，還是腳痠？哎呀，想不起來。\n訪談者：好的，那您最近有沒有發生什麼特別的事情？\n患者：特別的事...欸，我孫子好像有來看過。喔不對，是上個月吧？還是上上個月？忘了。反正就是家裡的事嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：先生您好，請問今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：呃 幾號啊...我想一下 ...好像是十月吧。應該是十月初。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那您現在在什麼地方呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：在這裡喔，這裡是...診所啦，對，就是拿藥的地方。欸，我剛剛好像是在那裡，那個菜市場附近？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒關係，我們現在就是在診所。先生，請問為什麼今天來看診呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：看、看病啊 身體不舒服嘛。嗯...記不得是哪裡了。好像是頭暈，還是腳痠？哎呀，想不起來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那您最近有沒有發生什麼特別的事情？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：特別的事...欸，我孫子好像有來看過。喔不對，是上個月吧？還是上上個月？忘了。反正就是家裡的事嘛。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2800,
+    "chinese_char_count": 213
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 1,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

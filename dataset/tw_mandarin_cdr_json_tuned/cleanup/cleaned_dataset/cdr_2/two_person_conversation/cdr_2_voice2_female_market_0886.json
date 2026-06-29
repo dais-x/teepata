@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0886",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，請問今天是幾月幾號啊？\n受訪者：嗯 好像是...五月底吧。哎唷，我忘記了啦。 訪談者：沒關係，那我們現在是在哪裡呢？\n受訪者：在菜市場啊，對不對？那個 我來拿藥的。欸，不是拿藥，是買菜... 訪談者：喔，是來買菜的呀。那您記得昨天做了什麼事嗎？\n受訪者：昨天...昨天我去看囝仔。然後...然後阿母叫我回來。 訪談者：好的，那您現在幾點了？\n受訪者：幾點啊 好像是下午三點？還是四點？記不太清楚了啦。",
+  "marked_transcript": "訪談者：阿姨，請問今天是幾月幾號啊？\n受訪者：嗯 [停頓] 好像是...五月底吧。哎唷，我忘記了啦。 [停頓] 訪談者：沒關係，那我們現在是在哪裡呢？\n受訪者：在菜市場啊，對不對？那個 [停頓] 我來拿藥的。欸，不是拿藥，是買菜... [長停頓] 訪談者：喔，是來買菜的呀。那您記得昨天做了什麼事嗎？\n受訪者：昨天...昨天我去看囝仔。然後...然後阿母叫我回來。 [嘆氣] 訪談者：好的，那您現在幾點了？\n受訪者：幾點啊 [停頓] 好像是下午三點？還是四點？記不太清楚了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，請問今天是幾月幾號啊？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是...五月底吧。哎唷，我忘記了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：沒關係，那我們現在是在哪裡呢？\n受訪者：在菜市場啊，對不對？那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 950
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我來拿藥的。欸，不是拿藥，是買菜..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：喔，是來買菜的呀。那您記得昨天做了什麼事嗎？\n受訪者：昨天...昨天我去看囝仔。然後...然後阿母叫我回來。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：好的，那您現在幾點了？\n受訪者：幾點啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是下午三點？還是四點？記不太清楚了啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5250,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

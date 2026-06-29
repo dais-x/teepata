@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice3_male_clinic_0014",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾日？\n患者：嗯，現在是九月二十一號。\n訪談者：你的生日在哪個月份呢？\n患者：我生日在一月十二號。\n訪談者：你現在住在哪裡啊？\n患者：我在台北市居住啦。\n訪談者：你在這裡認識很久的朋友有誰嗎？\n患者：那個，我有一個朋友叫做阿明，我們已經認識十年了。\n訪談者：請描述一下你家附近的菜市場是什麼樣子的呢？\n患者：啊，我家附近有很多攤販，每天早上都很熱鬧，很多人來買東西。",
+  "marked_transcript": "訪談者：今天是幾月幾日？[停頓]\n患者：嗯，現在是九月二十一號。\n訪談者：你的生日在哪個月份呢？\n患者：我生日在一月十二號。\n訪談者：你現在住在哪裡啊？[長停頓]\n患者：我在台北市居住啦。\n訪談者：你在這裡認識很久的朋友有誰嗎？\n患者：那個，我有一個朋友叫做阿明，我們已經認識十年了。\n訪談者：請描述一下你家附近的菜市場是什麼樣子的呢？[吸氣]\n患者：啊，我家附近有很多攤販，每天早上都很熱鬧，很多人來買東西。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾日？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，現在是九月二十一號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你的生日在哪個月份呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我生日在一月十二號。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你現在住在哪裡啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在台北市居住啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你在這裡認識很久的朋友有誰嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，我有一個朋友叫做阿明，我們已經認識十年了。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請描述一下你家附近的菜市場是什麼樣子的呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，我家附近有很多攤販，每天早上都很熱鬧，很多人來買東西。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 157
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.03,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

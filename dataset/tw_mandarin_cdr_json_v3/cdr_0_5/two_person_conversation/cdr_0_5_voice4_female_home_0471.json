@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_home_0471",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：早餐吃了什麼？\n患者：嗯，有吃粥……那個，好像還有個蛋。 應該是這樣的。\n訪談者：昨天妹妹有打電話來嗎？\n患者：欸，有啊，她問我最近身體好不好。 我想一下，好像是上禮拜五吧？",
+  "marked_transcript": "訪談者：早餐吃了什麼？\n患者：嗯，有吃粥……那個，好像還有個蛋。[停頓] 應該是這樣的。\n訪談者：昨天妹妹有打電話來嗎？\n患者：欸，有啊，她問我最近身體好不好。[吸氣] 我想一下，好像是上禮拜五吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，有吃粥……那個，好像還有個蛋"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是這樣的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天妹妹有打電話來嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，有啊，她問我最近身體好不好"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 503
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，好像是上禮拜五吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1403,
+    "chinese_char_count": 69
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent with subtle hesitation (那個, 好像) and one uncertainty about date; minimal markers [停頓], [吸氣]; no major memory loss."
+}

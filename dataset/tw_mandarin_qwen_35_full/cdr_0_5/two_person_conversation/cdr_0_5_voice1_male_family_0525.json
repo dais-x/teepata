@@ -1,0 +1,128 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_family_0525",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，我們現在開始問幾個問題。請問今天是幾月幾號？\n患者：嗯...那個，好像是五月二十五號吧。\n訪談者：好，那您記得今天星期幾嗎？\n患者：喔，禮拜五嘛，對不對？應該是。\n訪談者：沒錯。那您剛才吃早餐了沒有？吃了什麼呢？\n患者：有啊，吃了粥啦，還有小菜。欸，是阿母煮的。那個...菜市場買的青菜。\n訪談者：很好。那您記得昨天中午吃了什麼嗎？\n患者：昨天中午...我想一下...好像是麵線糊？還是水餃？哎呀，記不太清楚了，好像有吃麵。對，應該是麵線啦。\n訪談者：沒關係，差不多就好。最後問一個，您現在人在哪裡呢？\n患者：在家啊，客廳嘛。就在這裡跟您聊天啊。",
+  "marked_transcript": "訪談者：您好，我們現在開始問幾個問題。請問今天是幾月幾號？\n患者：嗯 [停頓] 那個，好像是五月二十五號吧。\n訪談者：好，那您記得今天星期幾嗎？\n患者：喔，禮拜五嘛，對不對？應該是。\n訪談者：沒錯。那您剛才吃早餐了沒有？吃了什麼呢？\n患者：有啊，吃了粥啦，還有小菜。欸，是阿母煮的。那個 [停頓] 菜市場買的青菜。\n訪談者：很好。那您記得昨天中午吃了什麼嗎？\n患者：昨天中午...我想一下 [長停頓] 好像是麵線糊？還是水餃？哎呀，記不太清楚了，好像有吃麵。對，應該是麵線啦。\n訪談者：沒關係，差不多就好。最後問一個，您現在人在哪裡呢？\n患者：在家啊，客廳嘛。就在這裡跟您聊天啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，我們現在開始問幾個問題。請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，好像是五月二十五號吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您記得今天星期幾嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，禮拜五嘛，對不對？應該是。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯。那您剛才吃早餐了沒有？吃了什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，吃了粥啦，還有小菜。欸，是阿母煮的。那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場買的青菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那您記得昨天中午吃了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天中午...我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是麵線糊？還是水餃？哎呀，記不太清楚了，好像有吃麵。對，應該是麵線啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，差不多就好。最後問一個，您現在人在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在家啊，客廳嘛。就在這裡跟您聊天啊。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2750,
+    "chinese_char_count": 213
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

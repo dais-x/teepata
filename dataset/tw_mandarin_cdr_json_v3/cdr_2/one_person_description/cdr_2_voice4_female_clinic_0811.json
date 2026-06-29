@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice4_female_clinic_0811",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "欸，我昨天有去診所拿藥。 是那個降血壓的藥，嗯…… 醫生說要每天吃。 可是…… 我好像忘記帶藥盒出來了？ 阿母，你記得嗎？ 應該是在床頭櫃啦…… 還是廚房？ 哎呀，記不得了。 反正明天再去拿就好。",
+  "marked_transcript": "欸，我昨天有去診所拿藥。[停頓] 是那個降血壓的藥，嗯…… 醫生說要每天吃。[長停頓] 可是…… 我好像忘記帶藥盒出來了？[嘆氣] 阿母，你記得嗎？[吸氣] 應該是在床頭櫃啦…… 還是廚房？[停頓] 哎呀，記不得了。[長停頓] 反正明天再去拿就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我昨天有去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 776
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是那個降血壓的藥，嗯…… 醫生說要每天吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1490
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是…… 我好像忘記帶藥盒出來了？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1337
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母，你記得嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 513
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在床頭櫃啦…… 還是廚房？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 813
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1518
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正明天再去拿就好"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6447,
+    "chinese_char_count": 72
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "Moderate dementia (CDR 2) simulation featuring fragmented recall of medication location, time confusion between yesterday and today, repetition of the clinic visit topic, and reliance on family member for verification. Uses natural Taiwanese Mandarin particles like '欸' and '阿母'. Includes appropriate pauses to simulate cognitive search difficulty."
+}

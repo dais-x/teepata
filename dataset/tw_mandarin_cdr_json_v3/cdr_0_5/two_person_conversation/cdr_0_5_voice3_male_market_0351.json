@@ -1,0 +1,81 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0351",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天是星期幾？\n患者：嗯……應該是星期二吧，我想一下。 對，是星期二。\n訪談者：我們現在在哪裡啊？\n患者：欸，這裡是菜市場嘛，對不對？好像沒錯。",
+  "marked_transcript": "訪談者：今天是星期幾？\n患者：嗯……應該是星期二吧，我想一下。[停頓] 對，是星期二。\n訪談者：我們現在在哪裡啊？\n患者：欸，這裡是菜市場嘛，對不對？好像沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是星期二吧，我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 881
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，是星期二"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，這裡是菜市場嘛，對不對？好像沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 881,
+    "chinese_char_count": 56
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0.5: 輕微猶豫與短暫思考，語意仍清晰完整"
+}

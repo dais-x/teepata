@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_3_voice1_male_daily_life_0081",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生，現在是什麼日子？\n患者：日...日期咧。嗯...是星期幾？\n訪談者：今天是禮拜幾？\n患者：星期...星期...欸，忘記了。\n訪談者：好，那我們現在在哪裡呢？\n患者：這裡...診所。來拿藥的啦。\n訪談者：對，你是來拿什麼藥？\n患者：藥...阿母给的。那個...頭暈的藥。\n訪談者：喔，是頭暈的藥啊。\n患者：嗯...好像是。記不得了。",
+  "marked_transcript": "訪談者：先生，現在是什麼日子？[停頓]\n患者：日...日期咧。嗯...是星期幾？[長停頓]\n訪談者：今天是禮拜幾？\n患者：星期...星期...欸，忘記了。[吸氣]\n訪談者：好，那我們現在在哪裡呢？\n患者：這裡...診所。來拿藥的啦。\n訪談者：對，你是來拿什麼藥？\n患者：藥...阿母给的。那個...頭暈的藥。\n訪談者：喔，是頭暈的藥啊。\n患者：嗯...好像是。記不得了。[嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "先生，現在是什麼日子？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "日...日期咧。嗯...是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是禮拜幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期...星期...欸，忘記了。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡...診所。來拿藥的啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，你是來拿什麼藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥...阿母给的。那個...頭暈的藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，是頭暈的藥啊。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像是。記不得了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3700,
+    "chinese_char_count": 110
+  },
+  "impairment_features": {
+    "hesitation_count": 14,
+    "repetition_count": 7,
+    "word_finding_count": 6,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

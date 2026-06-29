@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice4_female_medicine_routine_0612",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯，我想一下...好像是6月12日吧。\n訪談者：現在在哪裡？\n患者：在診所啦，應該是來拿藥的。\n訪談者：為什麼會來這裡？\n患者：那個，要拿藥嘛，醫生說我最近有點不舒服。\n訪談者：昨天有做什麼事情呢？\n患者：好像去菜市場買了點東西，記不得其他啦。",
+  "marked_transcript": "訪談者：今天幾號？[停頓]\n患者：嗯，我想一下...好像是6月12日吧。\n訪談者：現在在哪裡？[長停頓]\n患者：在診所啦，應該是來拿藥的。\n訪談者：為什麼會來這裡？\n患者：那個，要拿藥嘛，醫生說我最近有點不舒服。\n訪談者：昨天有做什麼事情呢？\n患者：好像去菜市場買了點東西，記不得其他啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下...好像是6月12日吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1300
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所啦，應該是來拿藥的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼會來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，要拿藥嘛，醫生說我最近有點不舒服。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有做什麼事情呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像去菜市場買了點東西，記不得其他啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3000,
+    "chinese_char_count": 101
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.23,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

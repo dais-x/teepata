@@ -1,0 +1,81 @@
+{
+  "sample_id": "cdr_0_voice3_male_medicine_routine_0019",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我早上有喝牛奶，還有吃兩個蛋。 然後去菜市場買了一些青菜。\n訪談者：家裡最近有什麼特別的事嗎？\n患者：啊，昨天小孫子來家裡玩，我們一起看電視。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我早上有喝牛奶，還有吃兩個蛋。[停頓] 然後去菜市場買了一些青菜。\n訪談者：家裡最近有什麼特別的事嗎？\n患者：啊，昨天小孫子來家裡玩，我們一起看電視。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我早上有喝牛奶，還有吃兩個蛋"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 735
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後去菜市場買了一些青菜"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家裡最近有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，昨天小孫子來家裡玩，我們一起看電視"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 735,
+    "chinese_char_count": 73
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0 normal speaker, coherent memory recall with minimal pauses and natural Taiwanese Mandarin style."
+}

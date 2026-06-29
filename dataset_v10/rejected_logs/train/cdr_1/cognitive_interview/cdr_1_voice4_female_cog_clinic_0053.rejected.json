@@ -1,0 +1,1940 @@
+{
+  "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+  "cdr": "1",
+  "task_group": "cognitive_interview",
+  "scenario": "clinic",
+  "task_plan": {
+    "task_group": "cognitive_interview",
+    "task_type": "cognitive_interview",
+    "prompt_sequence": [
+      "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。",
+      "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？",
+      "剛剛那三個東西，你還記得是哪三個嗎？"
+    ],
+    "expected_items": [
+      "鑰匙",
+      "蘋果",
+      "火車"
+    ],
+    "orientation_questions": [
+      "星期幾",
+      "上午或下午",
+      "所在地方"
+    ],
+    "max_score": 9,
+    "scoring_method": "orientation_plus_delayed_recall_speech_score"
+  },
+  "speaker": {
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": 1,
+      "errors": [
+        "CDR 1 cognitive_interview total pause duration is too high"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 5,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 3,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯... 那個，是... 是鑰匙、蘋果，還有... 火車。對吧？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "呃... 今天是禮拜五，應該是早上，我們在醫院看診啦。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我想想... 嗯... 好像是... 忘記了，不記得是啥了。"
+          }
+        ],
+        "spoken_transcript": "嗯...那個，是...是鑰匙、蘋果，還有...火車。對吧？ 呃... 今天是禮拜五，應該是早上，我們在醫院看診啦。那個... 我想想... 嗯... 好像是...忘記了，不記得是啥了。",
+        "marked_transcript": "嗯... [停頓] 那個，是... [停頓] 是鑰匙、蘋果，還有... [停頓] 火車。對吧？ 呃... 今天是禮拜五，應該是早上，我們在醫院看診啦。 [長停頓] 那個... 我想想... 嗯... 好像是... [停頓] 忘記了，不記得是啥了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個，是..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "是鑰匙、蘋果，還有..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.7
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "火車。對吧？ 呃... 今天是禮拜五，應該是早上，我們在醫院看診啦。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想想... 嗯... 好像是..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.9
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了，不記得是啥了。"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個，是... 是鑰匙、蘋果，還有... 火車。對吧？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 今天是禮拜五，應該是早上，我們在醫院看診啦。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想想... 嗯... 好像是... 忘記了，不記得是啥了。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 6,
+          "pause_count": 4,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 5.5,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 5.5,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.2,
+            "filled_pause_count": 4,
+            "restart_count": 2
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "errors": [
+        "spoken_transcript should match the joined patient answers in conversation_context",
+        "pause event 1 duration 0.2 outside 0.3-1.5",
+        "pause event 5 duration 0.2 outside 0.3-1.5"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 5,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 2,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 1,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [
+            "鑰匙"
+          ],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個...我記得是鑰匙，還有...嗯，水果？不是，是蘋果吧。然後是...那個車。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "今天是星期二，對不對？應該是早上吧。我們在醫院看診的地方。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個...我忘記了，想不起來，好像有鑰匙，還有...呃，那個水果和車？"
+          }
+        ],
+        "spoken_transcript": "那個...我記得是鑰匙，還有嗯，水果？不是，是蘋果吧。然後是那個車。今天是星期二，對不對？應該是早上吧。我們在醫院看診的地方。那個...我忘記了，想不起來，好像有鑰匙，還有呃，那個水果和車？",
+        "marked_transcript": "那個...我記得是鑰匙，還有 [停頓] 嗯，水果？不是，是蘋果吧。然後是 [停頓] 那個車。今天是星期二，對不對？應該是早上吧。我們在醫院看診的地方。 [停頓] 那個...我忘記了，想不起來，好像有鑰匙，還有 [停頓] 呃，那個水果和車？",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我記得是鑰匙，還有"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，水果？不是，是蘋果吧。然後是"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.3
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個車。今天是星期二，對不對？應該是早上吧。我們在醫院看診的地方。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我忘記了，想不起來，好像有鑰匙，還有"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.3
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，那個水果和車？"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我記得是鑰匙，還有...嗯，水果？不是，是蘋果吧。然後是...那個車。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "今天是星期二，對不對？應該是早上吧。我們在醫院看診的地方。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我忘記了，想不起來，好像有鑰匙，還有...呃，那個水果和車？"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 4,
+          "long_pause_count": 0,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 1.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 0,
+            "total_pause_duration_sec": 1.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 4,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 3,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 3,
+      "errors": [
+        "acoustic_fluency.speech_rate_target_cps=4.5 outside allowed range [3.0, 4.0]"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 4,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 2,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯... 那個... 鑰匙、蘋果... 呃，好像還有個什麼車？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "今天是禮拜五吧？應該是早上。我們在醫院看診啦，對不對？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我想一下... 呃... 忘記了，想不起來是啥了。"
+          }
+        ],
+        "spoken_transcript": "嗯...那個... 鑰匙、蘋果...呃，好像還有個什麼車？今天是禮拜五吧？應該是早上。我們在醫院看診啦，對不對？那個... 我想一下...呃... 忘記了，想不起來是啥了。",
+        "marked_transcript": "嗯... [停頓] 那個... 鑰匙、蘋果... [停頓] 呃，好像還有個什麼車？今天是禮拜五吧？應該是早上。我們在醫院看診啦，對不對？ [長停頓] 那個... 我想一下... [停頓] 呃... 忘記了，想不起來是啥了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 鑰匙、蘋果..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，好像還有個什麼車？今天是禮拜五吧？應該是早上。我們在醫院看診啦，對不對？"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 2.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想一下..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 忘記了，想不起來是啥了。"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 鑰匙、蘋果... 呃，好像還有個什麼車？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "今天是禮拜五吧？應該是早上。我們在醫院看診啦，對不對？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想一下... 呃... 忘記了，想不起來是啥了。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 4.0,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 4.0,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 4.5,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 2,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 4,
+      "errors": [
+        "spoken_transcript should match the joined patient answers in conversation_context",
+        "CDR 1 cognitive_interview total pause duration is too high"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 4,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 2,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個...我記得是...嗯，好像是鑰匙、還有蘋果..."
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "今天是禮拜五吧？應該是早上。我們在醫院啦。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "呃...我忘記了...想不起來是甚麼東西了。"
+          }
+        ],
+        "spoken_transcript": "那個我記得是嗯，好像是鑰匙、還有蘋果。今天是禮拜五吧？應該是早上。我們在醫院啦。呃...我忘記了想不起來是甚麼東西了",
+        "marked_transcript": "那個 [停頓] 我記得是 [停頓] 嗯，好像是鑰匙、還有蘋果。今天是禮拜五吧？應該是早上。我們在醫院啦。 [長停頓] 呃...我忘記了 [停頓] 想不起來是甚麼東西了",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我記得是"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯，好像是鑰匙、還有蘋果。今天是禮拜五吧？應該是早上。我們在醫院啦。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃...我忘記了"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "想不起來是甚麼東西了"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我記得是...嗯，好像是鑰匙、還有蘋果..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "今天是禮拜五吧？應該是早上。我們在醫院啦。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃...我忘記了...想不起來是甚麼東西了。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 6.1,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 6.1,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 5,
+      "errors": [
+        "spoken_transcript should match the joined patient answers in conversation_context",
+        "long_pause event 3 duration 1.2 outside 1.5-4.5"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 5,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 3,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "好，我聽到了，是...那個...鑰匙、蘋果，還有火...火車？對吧？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯...應該是星期三吧。現在是早上，在醫院的診間裡。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個...我忘了...想不起來是什麼了。"
+          }
+        ],
+        "spoken_transcript": "好，我聽到了，是那個... 鑰匙、蘋果，還有火火車？對吧？嗯...應該是星期三吧。現在是早上，在醫院的診間裡。那個...我忘了...想不起來是什麼了。",
+        "marked_transcript": "好，我聽到了，是 [停頓] 那個... 鑰匙、蘋果，還有火 [長停頓] 火車？對吧？嗯...應該是星期三吧。現在是早上，在醫院的診間裡。 [停頓] 那個...我忘了...想不起來是什麼了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好，我聽到了，是"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.3
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 鑰匙、蘋果，還有火"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "火車？對吧？嗯...應該是星期三吧。現在是早上，在醫院的診間裡。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我忘了...想不起來是什麼了。"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "好，我聽到了，是...那個...鑰匙、蘋果，還有火...火車？對吧？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯...應該是星期三吧。現在是早上，在醫院的診間裡。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個...我忘了...想不起來是什麼了。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 4,
+          "pause_count": 2,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 1.9,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 2,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 1.9,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.25,
+            "coherence_score": 0.75,
+            "memory_gap_count": 1,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 6,
+      "errors": [
+        "spoken_transcript should match the joined patient answers in conversation_context"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 5,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 3,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我想想，是鑰匙、蘋果，還有... 呃，好像是火車的車？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯... 今天是禮拜五吧，應該是上午，我們在醫院。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我忘記了，想不起來是啥..."
+          }
+        ],
+        "spoken_transcript": "那個我想想，是鑰匙、蘋果，還有呃，好像是火車的車？嗯... 今天是禮拜五吧，應該是上午，我們在醫院。那個我忘記了，想不起來是啥...",
+        "marked_transcript": "那個 [停頓] 我想想，是鑰匙、蘋果，還有 [停頓] 呃，好像是火車的車？ [長停頓] 嗯... 今天是禮拜五吧，應該是上午，我們在醫院。 [停頓] 那個 [停頓] 我忘記了，想不起來是啥...",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我想想，是鑰匙、蘋果，還有"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃，好像是火車的車？"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 今天是禮拜五吧，應該是上午，我們在醫院。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "我忘記了，想不起來是啥..."
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想想，是鑰匙、蘋果，還有... 呃，好像是火車的車？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 今天是禮拜五吧，應該是上午，我們在醫院。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我忘記了，想不起來是啥..."
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 6,
+          "pause_count": 4,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 3.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 4,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 3.8,
+            "silence_ratio": 0.08,
+            "speech_rate_target_cps": 3.5,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 1,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 7,
+      "errors": [
+        "spoken_transcript should match the joined patient answers in conversation_context",
+        "long_pause event 3 duration 1.2 outside 1.5-4.5"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 5,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 3,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 0,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯... 那個... 鑰匙、蘋果、火... 火車。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "呃... 應該是星期三吧，早上啦。我們在醫院看診。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我忘記了... 想不起來是啥。"
+          }
+        ],
+        "spoken_transcript": "嗯... 那個... 鑰匙、蘋果、火火車。呃... 應該是星期三吧，早上啦。我們在醫院看診。那個... 我忘記了... 想不起來是啥。",
+        "marked_transcript": "嗯... 那個... 鑰匙、蘋果、火 [停頓] 火車。呃... 應該是星期三吧，早上啦。我們在醫院看診。 [長停頓] 那個... 我忘記了... 想不起來是啥。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 鑰匙、蘋果、火"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.6
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "火車。呃... 應該是星期三吧，早上啦。我們在醫院看診。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我忘記了... 想不起來是啥。"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 鑰匙、蘋果、火... 火車。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 應該是星期三吧，早上啦。我們在醫院看診。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我忘記了... 想不起來是啥。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 3,
+          "pause_count": 1,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 1.8,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 1,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 1.8,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.5,
+            "filled_pause_count": 4,
+            "restart_count": 1
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 1,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.7,
+            "memory_gap_count": 2,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    },
+    {
+      "attempt": 8,
+      "errors": [
+        "CDR 1 cognitive_interview total pause duration is too high"
+      ],
+      "json_or_raw": {
+        "sample_id": "cdr_1_voice4_female_cog_clinic_0053",
+        "cdr_level": 1,
+        "cdr_label": "mild",
+        "task_group": "cognitive_interview",
+        "scenario": "clinic",
+        "task_type": "cognitive_interview",
+        "interaction_type": "two_person_conversation",
+        "picture_reference": null,
+        "speaker": {
+          "speaker_id": "voice4_female",
+          "voice_id": "voice4_female",
+          "speaker_group": "older_female_clear",
+          "gender": "female",
+          "description": "清楚自然的台灣華語女性長輩聲音。",
+          "split": "train"
+        },
+        "interviewer": {
+          "speaker_id": "interviewer_neutral",
+          "voice_id": "interviewer_neutral",
+          "speaker_group": "interviewer"
+        },
+        "split": "train",
+        "speech_cognitive_task": {
+          "task_group": "cognitive_interview",
+          "task_type": "cognitive_interview",
+          "prompt": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。 / 你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？ / 剛剛那三個東西，你還記得是哪三個嗎？",
+          "scoring_method": "orientation_plus_delayed_recall_speech_score",
+          "score": 6,
+          "max_score": 9,
+          "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+          "expected_items": [
+            "鑰匙",
+            "蘋果",
+            "火車"
+          ],
+          "orientation_questions": [
+            "星期幾",
+            "上午或下午",
+            "所在地方"
+          ],
+          "subtasks": {
+            "immediate_repetition": {
+              "score": 3,
+              "max_score": 3
+            },
+            "orientation": {
+              "score": 2,
+              "max_score": 3
+            },
+            "delayed_recall": {
+              "score": 1,
+              "max_score": 3
+            }
+          },
+          "patient_recalled_items": [
+            "蘋果"
+          ],
+          "orientation_correct_count": 2,
+          "orientation_error_count": 1
+        },
+        "conversation_context": [
+          {
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "speaker": "patient",
+            "text": "嗯... 那個... 是鑰匙、蘋果還有... 呃... 火車的對吧？"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "speaker": "patient",
+            "text": "今天是禮拜五。應該是早上，我們在醫院看診。"
+          },
+          {
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "speaker": "patient",
+            "text": "那個... 我想想... 忘記了，好像有蘋果，另外兩個就不太記得了。"
+          }
+        ],
+        "spoken_transcript": "嗯...那個... 是鑰匙、蘋果還有...呃... 火車的對吧？今天是禮拜五。應該是早上，我們在醫院看診。那個... 我想想...忘記了，好像有蘋果，另外兩個就不太記得了。",
+        "marked_transcript": "嗯... [停頓] 那個... 是鑰匙、蘋果還有... [停頓] 呃... 火車的對吧？今天是禮拜五。應該是早上，我們在醫院看診。 [長停頓] 那個... 我想想... [停頓] 忘記了，好像有蘋果，另外兩個就不太記得了。",
+        "event_script": [
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.8
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 是鑰匙、蘋果還有..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 1.2
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "呃... 火車的對吧？今天是禮拜五。應該是早上，我們在醫院看診。"
+          },
+          {
+            "type": "long_pause",
+            "duration_sec": 3.0
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想想..."
+          },
+          {
+            "type": "pause",
+            "duration_sec": 1.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "忘記了，好像有蘋果，另外兩個就不太記得了。"
+          }
+        ],
+        "full_conversation_event_script": [
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "嗯... 那個... 是鑰匙、蘋果還有... 呃... 火車的對吧？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "今天是禮拜五。應該是早上，我們在醫院看診。"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.4
+          },
+          {
+            "type": "speech",
+            "speaker": "interviewer",
+            "text": "剛剛那三個東西，你還記得是哪三個嗎？"
+          },
+          {
+            "type": "pause",
+            "duration_sec": 0.5
+          },
+          {
+            "type": "speech",
+            "speaker": "patient",
+            "text": "那個... 我想想... 忘記了，好像有蘋果，另外兩個就不太記得了。"
+          }
+        ],
+        "audio_outputs": {
+          "training_audio": "patient_only.wav",
+          "demo_audio": "full_conversation.wav"
+        },
+        "event_stats": {
+          "speech_event_count": 5,
+          "pause_count": 3,
+          "long_pause_count": 1,
+          "silence_count": 0,
+          "sigh_count": 0,
+          "cough_count": 0,
+          "total_pause_duration_sec": 6.5,
+          "total_silence_duration_sec": 0.0
+        },
+        "impairment_features": {
+          "acoustic_fluency": {
+            "pause_count": 3,
+            "long_pause_count": 1,
+            "total_pause_duration_sec": 6.5,
+            "silence_ratio": 0.05,
+            "speech_rate_target_cps": 3.8,
+            "filled_pause_count": 4,
+            "restart_count": 0
+          },
+          "linguistic_impairment": {
+            "word_finding_count": 0,
+            "vague_reference_count": 2,
+            "circumlocution_count": 0,
+            "word_repetition_count": 0,
+            "phrase_repetition_count": 0,
+            "self_correction_count": 1,
+            "sentence_fragment_count": 3
+          },
+          "cognitive_task_performance": {
+            "key_information_units_mentioned": null,
+            "key_information_units_total": null,
+            "missing_key_information_count": null,
+            "incorrect_detail_count": 0,
+            "topic_drift_score": 0.35,
+            "coherence_score": 0.72,
+            "memory_gap_count": 1,
+            "orientation_error_count": 1
+          }
+        },
+        "repair_log": {
+          "spoken_transcript_rebuilt_from_event_script": true,
+          "marked_transcript_rebuilt_from_event_script": true,
+          "feature_counts_repaired": true
+        }
+      }
+    }
+  ]
+}

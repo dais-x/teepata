@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_0_voice1_male_home_0266",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：現在是幾月？\n患者：是十月啦。\n訪談者：今天是星期幾呢？\n患者：好像是週三，我想一下啊...\n訪談者：你住在哪裡？\n患者：我住在台北市囝仔區嘛。\n訪談者：可以告訴我你的電話號碼嗎？\n患者：嗯...我的手機號碼是09xx-xxxxxxx。\n訪談者：昨天吃了什麼早餐呢？\n患者：昨晚吃的是蛋餅跟牛奶啊。",
+  "marked_transcript": "訪談者：現在是幾月？[停頓]\n患者：是十月啦。[長停頓]\n訪談者：今天是星期幾呢？\n患者：好像是週三，我想一下啊... [嘆氣]\n訪談者：你住在哪裡？\n患者：我住在台北市囝仔區嘛。\n訪談者：可以告訴我你的電話號碼嗎？[咳嗽]\n患者：嗯...我的手機號碼是09xx-xxxxxxx。[吸氣]\n訪談者：昨天吃了什麼早餐呢？\n患者：昨晚吃的是蛋餅跟牛奶啊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在是幾月？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是十月啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是週三，我想一下啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你住在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我住在台北市囝仔區嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "可以告訴我你的電話號碼嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我的手機號碼是09xx-xxxxxxx。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天吃了什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨晚吃的是蛋餅跟牛奶啊。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 106
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.95,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

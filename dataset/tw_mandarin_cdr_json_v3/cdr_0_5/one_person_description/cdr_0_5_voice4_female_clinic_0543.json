@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_clinic_0543",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我平常早上起來，會先去菜市場買些青菜。欸，今天好像有點忘記帶錢包了，不過沒關係，診所就在附近，等一下再去拿藥就好。那個……我記得阿母以前也是這樣，走來走去記不得東西。 應該沒問題啦。",
+  "marked_transcript": "嗯，我平常早上起來，會先去菜市場買些青菜。欸，今天好像有點忘記帶錢包了，不過沒關係，診所就在附近，等一下再去拿藥就好。那個……我記得阿母以前也是這樣，走來走去記不得東西。[停頓] 應該沒問題啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我平常早上起來，會先去菜市場買些青菜。欸，今天好像有點忘記帶錢包了，不過沒關係，診所就在附近，等一下再去拿藥就好。那個……我記得阿母以前也是這樣，走來走去記不得東西"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 641
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒問題啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 641,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Coherent narrative with subtle hesitation ('好像有點忘記', '那個'), one minor uncertainty about wallet, and a brief memory association to mother. Uses natural Taiwanese Mandarin markers sparingly."
+}

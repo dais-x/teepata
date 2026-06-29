@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_2_voice4_female_market_0855",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯…… 早上要去菜市場， 買些青菜。欸，今天星期幾？好像是週三…… 不對，應該是週五吧。阿母昨天說要帶囝仔去…… 可是囝仔在學校喔。我要買什麼呢？ 青菜…… 紅蘿蔔。還有魚…… 那邊的魚比較新鮮。錢包…… 欸，錢包在哪裡？好像放口袋裡了…… 還是放在桌上？記不得了。算了，先回去拿藥。 嗯，診所醫生說要定期吃…… 那個藥。",
+  "marked_transcript": "嗯…… 早上要去菜市場，[停頓] 買些青菜。欸，今天星期幾？好像是週三…… [停頓] 不對，應該是週五吧。阿母昨天說要帶囝仔去…… [長停頓] 可是囝仔在學校喔。我要買什麼呢？[停頓] 青菜…… 紅蘿蔔。還有魚…… [停頓] 那邊的魚比較新鮮。錢包…… [嘆氣] 欸，錢包在哪裡？好像放口袋裡了…… [長停頓] 還是放在桌上？記不得了。算了，先回去拿藥。[咳嗽] 嗯，診所醫生說要定期吃…… [停頓] 那個藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 早上要去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 718
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "買些青菜。欸，今天星期幾？好像是週三……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 807
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是週五吧。阿母昨天說要帶囝仔去……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1288
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是囝仔在學校喔。我要買什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 695
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "青菜…… 紅蘿蔔。還有魚……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那邊的魚比較新鮮。錢包……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1205
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，錢包在哪裡？好像放口袋裡了……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1129
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是放在桌上？記不得了。算了，先回去拿藥"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 727
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，診所醫生說要定期吃……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 701
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 8091,
+    "chinese_char_count": 116
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 2 moderate features: time confusion (day of week), item repetition (vegetables, fish), word retrieval difficulty, emotional markers."
+}

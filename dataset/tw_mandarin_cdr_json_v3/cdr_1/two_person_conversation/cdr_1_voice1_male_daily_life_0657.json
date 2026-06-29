@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_1_voice1_male_daily_life_0657",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯……應該是五號吧， 對不對？我記得好像是這個月。\n訪談者：那您早上吃了什麼？\n患者： 欸，我想一下……好像有喝粥。菜市場買的菜， 拿藥之後吃的。\n訪談者：請問您的名字是怎麼寫的？\n患者：我記得……是張文華沒錯啦。那個字， 等一下，好像是華，還是花？",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯……應該是五號吧，[停頓] 對不對？我記得好像是這個月。\n訪談者：那您早上吃了什麼？\n患者：[嘆氣] 欸，我想一下……好像有喝粥。菜市場買的菜，[停頓] 拿藥之後吃的。\n訪談者：請問您的名字是怎麼寫的？\n患者：我記得……是張文華沒錯啦。那個字，[長停頓] 等一下，好像是華，還是花？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是五號吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 863
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對不對？我記得好像是這個月"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早上吃了什麼？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1388
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我想一下……好像有喝粥。菜市場買的菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 723
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥之後吃的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您的名字是怎麼寫的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得……是張文華沒錯啦。那個字"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1247
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "等一下，好像是華，還是花？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4221,
+    "chinese_char_count": 102
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: word-finding difficulty, brief repetition, mild memory uncertainty."
+}

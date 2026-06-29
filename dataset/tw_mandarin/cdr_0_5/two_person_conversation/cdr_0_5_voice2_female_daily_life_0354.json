@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_daily_life_0354",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，你今天早上幾點起床的呀？\n患者：嗯... 我那個好像六點半吧...\n訪談者：那你現在有沒有吃早餐啊？\n患者：喔... 嗯... 我記得應該是有吃的。\n訪談者：那你在菜市場買菜的時候，會不會遇到熟人呢？\n患者：咧... 有點忘記了... 那個時候好像有遇到隔壁的阿姨啦。",
+  "marked_transcript": "訪談者：阿母，你今天早上幾點起床的呀？ [停頓] 患者：嗯... 我那個好像六點半吧... [長停頓] 訪談者：那你現在有沒有吃早餐啊？ [停頓] 患者：喔... 嗯... 我記得應該是有吃的。 [嘆氣] 訪談者：那你在菜市場買菜的時候，會不會遇到熟人呢？ [停頓] 患者：咧... 有點忘記了... 那個時候好像有遇到隔壁的阿姨啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿母，你今天早上幾點起床的呀？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯... 我那個好像六點半吧..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你現在有沒有吃早餐啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔... 嗯... 我記得應該是有吃的。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你在菜市場買菜的時候，會不會遇到熟人呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "咧... 有點忘記了... 那個時候好像有遇到隔壁的阿姨啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4500,
+    "chinese_char_count": 100
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

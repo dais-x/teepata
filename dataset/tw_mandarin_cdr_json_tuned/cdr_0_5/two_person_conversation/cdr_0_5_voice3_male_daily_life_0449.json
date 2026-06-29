@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0449",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早上一起來有吃什麼？\n患者：嗯...欸，我記得有喝粥啦。好像還有煎蛋，不過那個蛋好像有點焦了。\n訪談者：喔，那藥有照常吃嗎？\n患者：有啊，早上有去診所拿藥，然後回來就吃了。應該沒忘。\n訪談者：昨天家裡有沒有發生什麼特別的事？\n患者：啊...昨天囝仔他們有打電話來，說禮拜六要回來看阿母。應該是禮拜六吧，我記不太清楚是週五還是週六了。\n訪談者：那今天早上有出門嗎？\n患者：有喔，去菜市場買菜，順便跟鄰居聊了一下。沒什麼特別的事啦。",
+  "marked_transcript": "訪談者：阿伯，早上一起來有吃什麼？\n患者：嗯 [停頓] 欸，我記得有喝粥啦 [停頓] 好像還有煎蛋，不過那個蛋好像有點焦了。\n訪談者：喔，那藥有照常吃嗎？\n患者：有啊，早上有去診所拿藥，然後回來就吃了。應該沒忘。\n訪談者：昨天家裡有沒有發生什麼特別的事？\n患者：啊 [停頓] 昨天囝仔他們有打電話來，說禮拜六要回來看阿母 [長停頓] 應該是禮拜六吧，我記不太清楚是週五還是週六了。\n訪談者：那今天早上有出門嗎？\n患者：有喔，去菜市場買菜，順便跟鄰居聊了一下。沒什麼特別的事啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿伯，早上一起來有吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯 欸，我記得有喝粥啦 好像還有煎蛋，不過那個蛋好像有點焦了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，那藥有照常吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有啊，早上有去診所拿藥，然後回來就吃了。應該沒忘。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：昨天家裡有沒有發生什麼特別的事？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：啊 昨天囝仔他們有打電話來，說禮拜六要回來看阿母 應該是禮拜六吧，我記不太清楚是週五還是週六了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那今天早上有出門嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有喔，去菜市場買菜，順便跟鄰居聊了一下。沒什麼特別的事啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2700,
+    "chinese_char_count": 178
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

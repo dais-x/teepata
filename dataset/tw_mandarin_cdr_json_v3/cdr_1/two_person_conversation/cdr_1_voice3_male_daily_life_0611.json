@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0611",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是幾月幾號？\n患者：嗯……那個，好像是九月吧。 哎呀，我記不太清楚了，可能是八月末。\n訪談者：那我們現在是在哪裡呢？\n患者：欸，這裡是診所對不對？ 我來拿藥的，阿母之前有交代過要來。\n訪談者：您最近身體感覺如何？\n患者：嗯……好像還不錯啦。 只是頭有點暈，應該沒大礙吧？",
+  "marked_transcript": "訪談者：請問今天是幾月幾號？\n患者：嗯……那個，好像是九月吧。[停頓] 哎呀，我記不太清楚了，可能是八月末。\n訪談者：那我們現在是在哪裡呢？\n患者：欸，這裡是診所對不對？[吸氣] 我來拿藥的，阿母之前有交代過要來。\n訪談者：您最近身體感覺如何？\n患者：嗯……好像還不錯啦。[停頓] 只是頭有點暈，應該沒大礙吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個，好像是九月吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 761
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我記不太清楚了，可能是八月末"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，這裡是診所對不對？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 427
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我來拿藥的，阿母之前有交代過要來"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您最近身體感覺如何？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像還不錯啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 825
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "只是頭有點暈，應該沒大礙吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2013,
+    "chinese_char_count": 110
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '好像是'), mild memory uncertainty on date, one orientation error (month confusion), and slight repetition. Speech remains coherent with natural pauses."
+}

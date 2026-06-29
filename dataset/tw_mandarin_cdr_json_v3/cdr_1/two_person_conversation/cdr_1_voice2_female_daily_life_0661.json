@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0661",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我想一下…… 好像是稀飯配鹹魚。欸，不對，好像有吃一顆蛋。\n訪談者：那昨天家裡有什麼特別的事嗎？\n患者：啊，昨天…… 喔對，兒子打電話來。應該是說要來看我。記不得是星期幾了……",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我想一下…… [停頓] 好像是稀飯配鹹魚。欸，不對，好像有吃一顆蛋。\n訪談者：那昨天家裡有什麼特別的事嗎？\n患者：啊，昨天…… [長停頓] 喔對，兒子打電話來。應該是說要來看我。記不得是星期幾了……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 643
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯配鹹魚。欸，不對，好像有吃一顆蛋"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，昨天……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1636
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對，兒子打電話來。應該是說要來看我。記不得是星期幾了……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2279,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Mild word-finding difficulty and memory uncertainty with natural pauses, but still coherent."
+}

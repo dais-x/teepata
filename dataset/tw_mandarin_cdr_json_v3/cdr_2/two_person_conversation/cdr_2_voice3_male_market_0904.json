@@ -1,0 +1,146 @@
+{
+  "sample_id": "cdr_2_voice3_male_market_0904",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，你早上吃什麼？\n患者：嗯……那個……好像是粥。欸，是什麼米煮的？ 記不得了。應該是白粥啦。\n訪談者：那你昨天家裡有發生什麼事嗎？\n患者：昨天……啊，對喔， 好像有去診所拿藥。是阿母要我去的。嗯， 可是我不記得是什麼藥了。應該是胃藥吧？\n訪談者：你記得要去哪裡拿藥嗎？\n患者：拿藥的地方…… 就是那個菜市場旁邊的診所。欸，對不對啊？ 我想一下……好像是對的。\n訪談者：那你要記住明天早上要吃藥喔。\n患者：嗯，好。 明天……是星期幾？哎呀，我記不得日期了。囝仔會告訴我嗎？",
+  "marked_transcript": "訪談者：阿伯，你早上吃什麼？\n患者：嗯……那個……好像是粥。欸，是什麼米煮的？[停頓] 記不得了。應該是白粥啦。\n訪談者：那你昨天家裡有發生什麼事嗎？\n患者：昨天……啊，對喔，[長停頓] 好像有去診所拿藥。是阿母要我去的。嗯，[吸氣] 可是我不記得是什麼藥了。應該是胃藥吧？\n訪談者：你記得要去哪裡拿藥嗎？\n患者：拿藥的地方……[嘆氣] 就是那個菜市場旁邊的診所。欸，對不對啊？[停頓] 我想一下……好像是對的。\n訪談者：那你要記住明天早上要吃藥喔。\n患者：嗯，好。[長停頓] 明天……是星期幾？哎呀，我記不得日期了。囝仔會告訴我嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……好像是粥。欸，是什麼米煮的？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 643
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了。應該是白粥啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你昨天家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天……啊，對喔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1694
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有去診所拿藥。是阿母要我去的。嗯"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 398
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是我不記得是什麼藥了。應該是胃藥吧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得要去哪裡拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥的地方……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1317
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是那個菜市場旁邊的診所。欸，對不對啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 668
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下……好像是對的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你要記住明天早上要吃藥喔"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，好"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1503
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "明天……是星期幾？哎呀，我記不得日期了。囝仔會告訴我嗎？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6223,
+    "chinese_char_count": 181
+  },
+  "impairment_features": {
+    "hesitation_count": 13,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: Fragmented recall regarding breakfast details and medication names. Confusion about time (day of week) and place verification. Repetition of 'remember' and filler words like 'um', 'ah'. Requires interviewer support to clarify context."
+}

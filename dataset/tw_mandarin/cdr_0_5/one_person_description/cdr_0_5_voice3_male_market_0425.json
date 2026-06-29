@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0425",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "今天我去菜市場買東西，那個要先想一下到底要買什麼。我想應該是蔬菜和肉，還有幾樣其他的東西。嗯...這個肉要去那家店買，因為他們的肉比較新鮮嘛。然後我還要買一些水果，好像昨天忘了買蘋果了。",
+  "marked_transcript": "[停頓]今天我去菜市場買東西，那個要先想一下到底要買什麼[長停頓][嘆氣]我想應該是蔬菜和肉，還有幾樣其他的東西[停頓]嗯...這個肉要去那家店買，因為他們的肉比較新鮮嘛[停頓]然後我還要買一些水果，好像昨天忘了買蘋果了",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天我去菜市場買東西，那個要先想一下到底要買什麼。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想應該是蔬菜和肉，還有幾樣其他的東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...這個肉要去那家店買，因為他們的肉比較新鮮嘛[停頓]然後我還要買一些水果，好像昨天忘了買蘋果了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2700,
+    "chinese_char_count": 82
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

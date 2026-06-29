@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0478",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：先生您好，請問您現在是在哪裡呢？\n患者：欸，在菜市場啦，我剛來買東西。\n訪談者：喔，那今天是星期幾啊？\n患者：嗯...今天應該是週三吧，我想一下，好像沒錯咧。\n訪談者：好，那您早上有吃早餐嗎？\n患者：有啊，有吃一碗麵線，很熱的。\n訪談者：那您記得昨天吃了什麼藥嗎？\n患者：那個...血壓藥，我有拿喔，應該有吃啦。",
+  "marked_transcript": "訪談者：先生您好，請問您現在是在哪裡呢？\n患者：欸，[停頓] 在菜市場啦，我剛來買東西。\n訪談者：喔，那今天是星期幾啊？\n患者：嗯...[長停頓] 今天應該是週三吧，[吸氣] 我想一下，好像沒錯咧。\n訪談者：好，那您早上有吃早餐嗎？\n患者：有啊，有吃一碗麵線，很熱的。\n訪談者：那您記得昨天吃了什麼藥嗎？\n患者：那個...[停頓] 血壓藥，我有拿喔，應該有吃啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：先生您好，請問您現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，[停頓] 在菜市場啦，我剛來買東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，那今天是星期幾啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...[長停頓] 今天應該是週三吧，[吸氣] 我想一下，好像沒錯咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好，那您早上有吃早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：有啊，有吃一碗麵線，很熱的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那您記得昨天吃了什麼藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：那個...[停頓] 血壓藥，我有拿喔，應該有吃啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2950,
+    "chinese_char_count": 120
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

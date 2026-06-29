@@ -1,0 +1,132 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_market_0569",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早安喔。今天早餐吃的什麼？\n患者：嗯...早啊。早餐喔，我記得是吃稀飯啦，還有那個鹹蛋。\n訪談者：有喝牛奶嗎？\n患者：牛奶...我想一下，好像沒有耶。就只是茶而已。\n訪談者：昨天家裡有什麼特別的事情嗎？\n患者：特別的事...欸，好像沒什麼特別咧。就是囝仔回來看我啦。\n訪談者：對，你現在有在吃什麼藥？\n患者：藥？那個...早上要吃的，降血壓的。還有...喔，忘記叫什麼了，好像是補血的吧。\n訪談者：好，那我們等一下再確認。剛才問你昨天囝仔幾點來的，你記得嗎？",
+  "marked_transcript": "[停頓] 訪談者：阿伯，早安喔。今天早餐吃的什麼？\n患者：[吸氣] 嗯...早啊。[停頓] 早餐喔，我記得是吃稀飯啦，還有那個鹹蛋。\n訪談者：有喝牛奶嗎？\n患者：[長停頓] 牛奶...我想一下，好像沒有耶。就只是茶而已。\n訪談者：昨天家裡有什麼特別的事情嗎？\n患者：特別的事...欸，[停頓] 好像沒什麼特別咧。就是囝仔回來看我啦。\n訪談者：對，你現在有在吃什麼藥？\n患者：藥？那個...早上要吃的，降血壓的。還有...喔，忘記叫什麼了，好像是補血的吧。\n訪談者：好，那我們等一下再確認。剛才問你昨天囝仔幾點來的，你記得嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早安喔。今天早餐吃的什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早啊。早餐喔，我記得是吃稀飯啦，還有那個鹹蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有喝牛奶嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "牛奶...我想一下，好像沒有耶。就只是茶而已。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "特別的事...欸，好像沒什麼特別咧。就是囝仔回來看我啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，你現在有在吃什麼藥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥？那個...早上要吃的，降血壓的。還有...喔，忘記叫什麼了，好像是補血的吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那我們等一下再確認。剛才問你昨天囝仔幾點來的，你記得嗎？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 8,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5400,
+    "chinese_char_count": 177
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 8
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

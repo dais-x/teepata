@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_family_0401",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：老先生，我們來聊一下今天早上吃了什麼早餐。\n患者：嗯，就是稀飯啦，還有小菜。那個...好像是鹹魚還是豆乾，我記不太清楚，應該是豆乾吧。\n訪談者：好，那昨天家裡有什麼特別的事情發生嗎？\n患者：欸，昨天啊...應該是阿母來診所看我，然後拿藥回來。囝仔也打電話來說明天要過來吃飯。\n訪談者：您現在在吃什麼藥呢？記得要按時吃喔。\n患者：喔對，我有吃降血壓的藥和糖尿病的藥。早上吃完稀飯就吞了。\n訪談者：那今天早上有做什麼特別的事情嗎？\n患者：沒有啦，就是去菜市場買點青菜，然後回來休息一下。啊...大概是九點多吧，時間有點忘了。\n訪談者：好的，謝謝您。",
+  "marked_transcript": "訪談者：老先生，我們來聊一下今天早上吃了什麼早餐。\n患者：嗯 [停頓]，就是稀飯啦，還有小菜。那個 [停頓]...好像是鹹魚還是豆乾，我記不太清楚，應該是豆乾吧。\n訪談者：好，那昨天家裡有什麼特別的事情發生嗎？\n患者：欸 [嘆氣]，昨天啊...應該是阿母來診所看我，然後拿藥回來。囝仔也打電話來說明天要過來吃飯。\n訪談者：您現在在吃什麼藥呢？記得要按時吃喔。\n患者：喔對，我有吃降血壓的藥和糖尿病的藥。早上吃完稀飯就吞了。\n訪談者：那今天早上有做什麼特別的事情嗎？\n患者：沒有啦，就是去菜市場買點青菜，然後回來休息一下。啊 [停頓]...大概是九點多吧，時間有點忘了。\n訪談者：好的，謝謝您。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，我們來聊一下今天早上吃了什麼早餐。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，就是稀飯啦，還有小菜。那個...好像是鹹魚還是豆乾，我記不太清楚，應該是豆乾吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那昨天家裡有什麼特別的事情發生嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，昨天啊...應該是阿母來診所看我，然後拿藥回來。囝仔也打電話來說明天要過來吃飯。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在在吃什麼藥呢？記得要按時吃喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對，我有吃降血壓的藥和糖尿病的藥。早上吃完稀飯就吞了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天早上有做什麼特別的事情嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒有啦，就是去菜市場買點青菜，然後回來休息一下。啊...大概是九點多吧，時間有點忘了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2000,
+    "chinese_char_count": 223
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

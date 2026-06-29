@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice1_male_daily_life_0645",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我每天早上都是先起床，然後去菜市場買菜。 那個……最近好像記不太清楚要買什麼魚了，應該是黃魚吧？欸，對不對啊？反正就是去診所拿藥，阿母常說不能忘記吃。 回家後就煮點稀飯，囝仔們都不在家，一個人吃也還好啦。",
+  "marked_transcript": "嗯，我每天早上都是先起床，然後去菜市場買菜。[停頓] 那個……最近好像記不太清楚要買什麼魚了，應該是黃魚吧？欸，對不對啊？反正就是去診所拿藥，阿母常說不能忘記吃。[長停頓] 回家後就煮點稀飯，囝仔們都不在家，一個人吃也還好啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我每天早上都是先起床，然後去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 846
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……最近好像記不太清楚要買什麼魚了，應該是黃魚吧？欸，對不對啊？反正就是去診所拿藥，阿母常說不能忘記吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1480
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後就煮點稀飯，囝仔們都不在家，一個人吃也還好啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2326,
+    "chinese_char_count": 88
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (uncertainty about fish type), mild repetition of checking memory, and one orientation/memory error regarding family presence. Natural pauses included without fragmentation."
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0511",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天幾號啊？\n患者：嗯，讓我一下...應該是這個月五號吧。\n訪談者：今天是星期幾呢？\n患者：喔，星期五。對啦，昨天是星期四嘛。\n訪談者：那您怎麼來的這裡？\n患者：欸，是我阿母帶我來拿藥的啦。因為最近頭有點暈...\n訪談者：那我們現在在哪裡呀？\n患者：這裡喔...好像是那間診所沒錯。我記得上次也是在這邊看醫生。",
+  "marked_transcript": "訪談者：今天幾號啊？\n患者：嗯，[停頓] 讓我一下...應該是這個月五號吧。\n訪談者：今天是星期幾呢？\n患者：喔，星期五。對啦，昨天是星期四嘛。\n訪談者：那您怎麼來的這裡？\n患者：欸，[嘆氣] 是我阿母帶我來拿藥的啦。因為最近頭有點暈...\n訪談者：那我們現在在哪裡呀？\n患者：這裡喔...[停頓] 好像是那間診所沒錯。[吸氣] 我記得上次也是在這邊看醫生。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，是我阿母帶我來拿藥的啦。因為最近頭有點暈..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡喔...好像是那間診所沒錯。我記得上次也是在這邊看醫生。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2700,
+    "chinese_char_count": 121
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

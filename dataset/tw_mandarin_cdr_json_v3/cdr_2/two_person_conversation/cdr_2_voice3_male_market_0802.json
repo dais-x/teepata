@@ -1,0 +1,154 @@
+{
+  "sample_id": "cdr_2_voice3_male_market_0802",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯…… 今天是…… 週三嗎？ 欸，不對，好像是週四。 哎呀，我記不太清楚了。\n訪談者：我們現在在哪裡？\n患者：這裡啊…… 是菜市場沒錯吧？ 對，來拿藥的。 剛才忘了要買什麼了。\n訪談者：你為什麼來這裡？\n患者：因為…… 頭暈，要去診所拿藥。欸，我是不是已經吃過了？ 記不得了……",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯…… 今天是…… [停頓] 週三嗎？[停頓] 欸，不對，好像是週四。[長停頓] 哎呀，我記不太清楚了。\n訪談者：我們現在在哪裡？\n患者：這裡啊…… [吸氣] 是菜市場沒錯吧？[停頓] 對，來拿藥的。[嘆氣] 剛才忘了要買什麼了。\n訪談者：你為什麼來這裡？\n患者：因為…… [長停頓] 頭暈，要去診所拿藥。欸，我是不是已經吃過了？[停頓] 記不得了……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 今天是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 829
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "週三嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 793
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，不對，好像是週四"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1484
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 391
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是菜市場沒錯吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 876
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，來拿藥的"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 936
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "剛才忘了要買什麼了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "頭暈，要去診所拿藥。欸，我是不是已經吃過了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 660
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 7425,
+    "chinese_char_count": 106
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "Moderate dementia (CDR 2) simulation showing fragmented recall, time/place confusion, repetition, and need for support with natural Taiwanese Mandarin oral markers."
+}

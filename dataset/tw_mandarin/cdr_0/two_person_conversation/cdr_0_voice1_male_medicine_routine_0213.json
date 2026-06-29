@@ -1,0 +1,95 @@
+{
+  "sample_id": "cdr_0_voice1_male_medicine_routine_0213",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上有吃早餐嗎？\n患者：嗯，有啦。吃了煎蛋和稀飯。\n訪談者：最近家裡發生什麼事情沒有？\n患者：好像上個禮拜我女兒回來探望我了，還帶了一些新衣服給我。\n訪談者：你記得自己要吃什麼藥嗎？\n患者：應該是早上九點吃一片，晚上九點再吃一片。\n訪談者：昨天發生了什麼事呢？\n患者：昨天啊，我去診所拿藥回來，然後就回家看電視。",
+  "marked_transcript": "訪談者：早上有吃早餐嗎？[停頓]\n患者：嗯，有啦。吃了煎蛋和稀飯。\n訪談者：最近家裡發生什麼事情沒有？\n患者：好像上個禮拜我女兒回來探望我了，還帶了一些新衣服給我。\n訪談者：你記得自己要吃什麼藥嗎？\n患者：應該是早上九點吃一片，晚上九點再吃一片。\n訪談者：昨天發生了什麼事呢？\n患者：昨天啊，我去診所拿藥回來，然後就回家看電視。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上有吃早餐嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，有啦。吃了煎蛋和稀飯。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡發生什麼事情沒有？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像上個禮拜我女兒回來探望我了，還帶了一些新衣服給我。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得自己要吃什麼藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是早上九點吃一片，晚上九點再吃一片。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天發生了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊，我去診所拿藥回來，然後就回家看電視。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 400,
+    "chinese_char_count": 131
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

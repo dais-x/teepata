@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0313",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天我去菜市場買東西，那個早上起來先去洗個澡，然後就準備去市場。到了市場以後，看到好多賣水果的攤子，我就想一下要買什麼好呢？啊！好像應該是買香蕉和蘋果吧。還有那個藥房在市場裡頭，記得要去拿藥。",
+  "marked_transcript": "今天我去菜市場買東西，[停頓] 那個早上起來先去洗個澡，然後就準備去市場。到了市場以後，看到好多賣水果的攤子，我就想一下要買什麼好呢？啊！好像應該是買香蕉和蘋果吧。還有那個藥房在市場裡頭，[長停頓] 記得要去拿藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天我去菜市場買東西"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個早上起來先去洗個澡，然後就準備去市場。到了市場以後，看到好多賣水果的攤子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我就想一下要買什麼好呢？啊！好像應該是買香蕉和蘋果吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有那個藥房在市場裡頭，記得要去拿藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 86
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

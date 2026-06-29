@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_daily_life_0364",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我起來後，先去廁所，然後那個洗臉。嗯，接著就是準備早餐囉。阿母叫我起床吃飯，我就去做菜，想一下要做什麼好呢？應該是煎個蛋吧，再來煮個粥，啊，好像還有剩一些昨晚的炒青菜可以熱一熱。嗯，那個我還要去拿藥，醫生說要每天早上吃兩顆。後來我去診所拿藥，看到鄰居也在那裡等。",
+  "marked_transcript": "[停頓]今天早上我起來後，先去廁所，然後那個洗臉。[停頓]嗯，接著就是準備早餐囉。阿母叫我起床吃飯，我就去做菜，想一下要做什麼好呢？應該是煎個蛋吧，再來煮個粥，啊，好像還有剩一些昨晚的炒青菜可以熱一熱。[長停頓][嘆氣]嗯，那個我還要去拿藥，醫生說要每天早上吃兩顆。後來我去診所拿藥，看到鄰居也在那裡等。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我起來後，先去廁所，然後那個洗臉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，接著就是準備早餐囉。阿母叫我起床吃飯，我就去做菜，想一下要做什麼好呢？應該是煎個蛋吧，再來煮個粥，啊，好像還有剩一些昨晚的炒青菜可以熱一熱。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個我還要去拿藥，醫生說要每天早上吃兩顆。後來我去診所拿藥，看到鄰居也在那裡等。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3500,
+    "chinese_char_count": 118
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

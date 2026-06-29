@@ -1,0 +1,125 @@
+{
+  "sample_id": "cdr_2_voice2_female_real_home_0139",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "task_group": "real_life_scenarios",
+  "scenario": "home",
+  "task_type": "home_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "val"
+  },
+  "interviewer": null,
+  "split": "val",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "home_activity_recall",
+    "prompt": "你平常在家裡一天大概會做哪些事情？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 1,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "家務或休息",
+      "用餐",
+      "看電視或散步",
+      "時間順序"
+    ],
+    "steps_mentioned": 2,
+    "sequence_error_count": 1,
+    "memory_gap_count": 2
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯平常在家裡，早上起來先呃，先整理一下房間啦。然後吃早餐，那個忘記了中間有做什麼。下午就坐著看電視，好像有去公園走走，但是不記得有沒有帶東西出去。晚上大概也是看電視吧，或者聽廣播？總之就是這些事情。",
+  "marked_transcript": "嗯 [停頓] 平常在家裡，早上起來先 [長停頓] 呃，先整理一下房間啦。然後吃早餐，那個 [停頓] 忘記了中間有做什麼。下午就坐著看電視，好像有去公園走走，但是不記得有沒有帶東西出去。晚上大概也是看電視吧，或者聽廣播？總之就是這些事情。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.3
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "平常在家裡，早上起來先"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，先整理一下房間啦。然後吃早餐，那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了中間有做什麼。下午就坐著看電視，好像有去公園走走，但是不記得有沒有帶東西出去。晚上大概也是看電視吧，或者聽廣播？總之就是這些事情。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.2,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 2.2,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 0,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.52,
+      "coherence_score": 0.48,
+      "memory_gap_count": 2,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": false,
+    "feature_counts_repaired": true
+  }
+}

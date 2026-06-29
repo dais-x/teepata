@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_2_voice4_female_medicine_routine_0843",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯……今天是……欸，好像是週三？ 不對，我想想……應該是週四吧。\n訪談者：那我們現在在哪裡呢？\n患者：這裡啊……是診所沒錯。 阿母常帶我來拿藥的。那個……是看什麼病的？ 記不得了。\n訪談者：您為什麼今天過來？\n患者：嗯，因為醫生說要開新的藥。 對，就是這個藥。欸，剛才講到哪裡了？",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯……今天是……欸，好像是週三？[停頓] 不對，我想想……應該是週四吧。[長停頓]\n訪談者：那我們現在在哪裡呢？\n患者：這裡啊……是診所沒錯。[嘆氣] 阿母常帶我來拿藥的。那個……是看什麼病的？[吸氣] 記不得了。\n訪談者：您為什麼今天過來？\n患者：嗯，因為醫生說要開新的藥。[停頓] 對，就是這個藥。欸，剛才講到哪裡了？[長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天是……欸，好像是週三？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，我想想……應該是週四吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1568
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊……是診所沒錯"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 909
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母常帶我來拿藥的。那個……是看什麼病的？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 419
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您為什麼今天過來？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，因為醫生說要開新的藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 755
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是這個藥。欸，剛才講到哪裡了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1106
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 5457,
+    "chinese_char_count": 112
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: noticeable memory gaps regarding day and reason, fragmented recall with repetition of 'medicine', requires support to maintain conversation flow."
+}

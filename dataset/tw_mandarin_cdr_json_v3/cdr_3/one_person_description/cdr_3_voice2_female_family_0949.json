@@ -1,0 +1,151 @@
+{
+  "sample_id": "cdr_3_voice2_female_family_0949",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯…… 早上。 阿母…… 拿藥。 診所…… 那個…… 囝仔呢？ 記不得。 菜市場…… 好像…… 嗯。 回家。 吃飯。 忘記。",
+  "marked_transcript": "嗯…… 早上。[停頓] 阿母…… [長停頓] 拿藥。[吸氣] 診所…… [停頓] 那個…… 囝仔呢？[嘆氣] 記不得。[停頓] 菜市場…… [長停頓] 好像…… 嗯。[咳嗽] 回家。[停頓] 吃飯。[停頓] 忘記。[長停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 早上"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 715
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1311
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 487
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 809
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個…… 囝仔呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1325
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 610
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1109
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像…… 嗯"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 592
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 667
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 688
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1108
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 8,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 9421,
+    "chinese_char_count": 29
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 8
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 3 severe: Fragmented sentences, frequent word-finding failures ('那個', '記不得'), orientation confusion (asking about children), repeated simple phrases, and excessive pauses indicating poor recall."
+}

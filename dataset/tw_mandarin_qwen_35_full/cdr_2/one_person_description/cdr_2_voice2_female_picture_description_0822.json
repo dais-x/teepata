@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_2_voice2_female_picture_description_0822",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話，一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。畫面裡有幾個人和物品，每個人都在做不同的事情。"
+  },
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯...這裡是客廳。阿公坐在沙發上，那個...看相簿啦。旁邊有眼鏡，還有一杯茶。[停頓] 喔，小孩坐在地毯玩積木，很多積木散開來。媽媽在窗邊...好像在講電話。欸，一隻貓跳到茶几旁，好像要碰倒茶杯。牆上有時鐘...還有照片。窗外是下午。很多人...都在做不同事。",
+  "marked_transcript": "嗯...這裡是客廳。阿公坐在沙發上，那個...看相簿啦。[停頓] 旁邊有眼鏡，還有一杯茶。[長停頓] 喔，小孩坐在地毯玩積木，很多積木散開來。媽媽在窗邊...好像在講電話。欸，一隻貓跳到茶几旁，好像要碰倒茶杯。牆上有時鐘...還有照片。[嘆氣] 窗外是下午。很多人...都在做不同事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...這裡是客廳。阿公坐在沙發上，那個...看相簿啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "旁邊有眼鏡，還有一杯茶。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，小孩坐在地毯玩積木，很多積木散開來。媽媽在窗邊...好像在講電話。欸，一隻貓跳到茶几旁，好像要碰倒茶杯。牆上有時鐘...還有照片。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1100
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "窗外是下午。很多人...都在做不同事。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 98
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_3_voice4_female_home_0017",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個我早上有吃藥，呃忘記是什麼藥了...就是那個白色的，圓形的...哎呀，想不起來名字啦...然後呢，我去公園走走，但是好像忘了帶鑰匙...嗯不對，是昨天才拿的...現在不知道在哪裡...唉記性真的變差很多，連自己住哪裡都覺得有點模糊...",
+  "marked_transcript": "那個 [停頓] 我早上有吃藥，呃 [停頓] 忘記是什麼藥了...就是那個白色的，圓形的...哎呀，想不起來名字啦...然後呢，我去公園走走，但是好像忘了帶鑰匙... [停頓] 嗯 [停頓] 不對，是昨天才拿的...現在不知道在哪裡...唉 [長停頓] 記性真的變差很多，連自己住哪裡都覺得有點模糊...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我早上有吃藥，呃"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記是什麼藥了...就是那個白色的，圓形的...哎呀，想不起來名字啦...然後呢，我去公園走走，但是好像忘了帶鑰匙..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，是昨天才拿的...現在不知道在哪裡...唉"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記性真的變差很多，連自己住哪裡都覺得有點模糊..."
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 4,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.3,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 4,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.3,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 6,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 3,
+      "circumlocution_count": 2,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 9
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.82,
+      "coherence_score": 0.24,
+      "memory_gap_count": 3,
+      "orientation_error_count": 3
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0601",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：阿母，妳今天幾月幾號喔？ 受訪者：嗯……今天是幾號咧？好像是十月，對，十月。日期我記不太清楚。\n訪談者：那現在我們是在哪裡呢？ 受訪者：欸，這裡是……診所啦，來拿藥的。應該是今天才剛來的。\n訪談者：好，那妳為什麼會來這裡呢？\n受訪者：因為阿公說我有高血壓要吃藥嘛。早上有吃過一顆，後來忘記名字了，大概是那個降血壓的藥丸。 訪談者：喔，記得是今天早上吃的嗎？\n受訪者：對，早上……嗯，早餐吃完之後就吃了。好像還跟鄰居講了一句話，忘記講什麼了。\n訪談者：好的，那今天天氣如何呢？ 受訪者：天氣？好像是晴天啦，因為我有看到太陽。不過有點悶悶的。\n訪談者：謝謝妳的配合，阿母。",
+  "marked_transcript": "訪談者：阿母，妳今天幾月幾號喔？ [停頓] 受訪者：嗯……今天是幾號咧？好像是十月，對，十月。日期我記不太清楚。\n訪談者：那現在我們是在哪裡呢？ [長停頓] 受訪者：欸，這裡是……診所啦，來拿藥的。應該是今天才剛來的。\n訪談者：好，那妳為什麼會來這裡呢？\n受訪者：因為阿公說我有高血壓要吃藥嘛。早上有吃過一顆，後來忘記名字了，大概是那個降血壓的藥丸。 [吸氣] 訪談者：喔，記得是今天早上吃的嗎？\n受訪者：對，早上……嗯，早餐吃完之後就吃了。好像還跟鄰居講了一句話，忘記講什麼了。\n訪談者：好的，那今天天氣如何呢？ [停頓] 受訪者：天氣？好像是晴天啦，因為我有看到太陽。不過有點悶悶的。\n訪談者：謝謝妳的配合，阿母。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿母，妳今天幾月幾號喔？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：嗯……今天是幾號咧？好像是十月，對，十月。日期我記不太清楚。\n訪談者：那現在我們是在哪裡呢？"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "受訪者：欸，這裡是……診所啦，來拿藥的。應該是今天才剛來的。\n訪談者：好，那妳為什麼會來這裡呢？\n受訪者：因為阿公說我有高血壓要吃藥嘛。早上有吃過一顆，後來忘記名字了，大概是那個降血壓的藥丸。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，記得是今天早上吃的嗎？\n受訪者：對，早上……嗯，早餐吃完之後就吃了。好像還跟鄰居講了一句話，忘記講什麼了。\n訪談者：好的，那今天天氣如何呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：天氣？好像是晴天啦，因為我有看到太陽。不過有點悶悶的。\n訪談者：謝謝妳的配合，阿母。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 228
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

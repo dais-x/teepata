@@ -1,0 +1,158 @@
+{
+  "sample_id": "cdr_3_voice3_male_clinic_0978",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯…… 幾號……啊，是星期幾？ 星期……欸，忘記了。\n訪談者：這裡是什麼地方？\n患者： 這裡……診所？ 對，拿藥。 拿什麼藥？\n訪談者：為什麼來這裡？\n患者： 頭昏……不舒服。 好像……忘記了。\n訪談者：你最近有吃什麼？\n患者：嗯……菜市場……囝仔買的菜。 記不得。",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯……[停頓] 幾號……啊，是星期幾？[長停頓] 星期……欸，忘記了。\n訪談者：這裡是什麼地方？\n患者：[咳嗽] 這裡……診所？[吸氣] 對，拿藥。[停頓] 拿什麼藥？\n訪談者：為什麼來這裡？\n患者：[嘆氣] 頭昏……不舒服。[長停頓] 好像……忘記了。\n訪談者：你最近有吃什麼？\n患者：嗯……菜市場……囝仔買的菜。[停頓] [停頓] 記不得。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 868
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號……啊，是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1690
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期……欸，忘記了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "這裡是什麼地方？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 720
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡……診所？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 639
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 714
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿什麼藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1146
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "頭昏……不舒服"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1631
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……忘記了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你最近有吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……菜市場……囝仔買的菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 867
+    },
+    {
+      "type": "pause",
+      "duration_ms": 648
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 8923,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 4,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR3: severe impairment. Patient shows disorientation to date and place, word-finding difficulties (e.g., '星期……欸，忘記了'), fragmented sentences, and repetition of simple phrases ('拿藥', '記不得'). Frequent pauses and markers like [停頓], [長停頓], [嘆氣] reflect cognitive decline."
+}

@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice1_male_family_0838",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯…… 今天早上起來，阿母有叫我吃藥。 好像是七點半？還是八點？欸…… 記不得了。 我拿藥去診所，那個醫生說要每天吃兩次。 囝仔呢？好像去學校了…… 菜市場今天人很多，我買了一些青菜。 回家後…… 嗯，然後呢？我忘記做什麼了。 應該是看電視吧？還是睡覺？欸，那個時間點有點亂。",
+  "marked_transcript": "嗯…… 今天早上起來，阿母有叫我吃藥。[停頓] 好像是七點半？還是八點？欸…… 記不得了。[長停頓] 我拿藥去診所，那個醫生說要每天吃兩次。[嘆氣] 囝仔呢？好像去學校了…… [吸氣] 菜市場今天人很多，我買了一些青菜。[停頓] 回家後…… 嗯，然後呢？我忘記做什麼了。[長停頓] 應該是看電視吧？還是睡覺？欸，那個時間點有點亂。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 今天早上起來，阿母有叫我吃藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 644
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是七點半？還是八點？欸…… 記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1291
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我拿藥去診所，那個醫生說要每天吃兩次"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1241
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔呢？好像去學校了……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 579
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場今天人很多，我買了一些青菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 885
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後…… 嗯，然後呢？我忘記做什麼了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1668
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是看電視吧？還是睡覺？欸，那個時間點有點亂"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6308,
+    "chinese_char_count": 104
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate level showing fragmented recall, time confusion (7:30 vs 8:00), repetition of uncertainty markers, and need for support to complete the narrative."
+}

@@ -1,0 +1,168 @@
+{
+  "sample_id": "cdr_3_voice1_male_home_0999",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：現在幾號啊？\n患者：幾……幾號？ 嗯……好像是…… 記不得。\n訪談者：我們在哪裡？\n患者：這裡…… 家？欸，是家嗎？ 不知道了。\n訪談者：為什麼在這裡？\n患者：因為……因為…… 那個……拿藥？ 不對。記不得。\n訪談者：今天星期幾？\n患者：星期…… 五？六？嗯……好像是…… 忘記了。",
+  "marked_transcript": "訪談者：現在幾號啊？\n患者：幾……幾號？[停頓] 嗯……好像是……[長停頓] 記不得。\n訪談者：我們在哪裡？\n患者：這裡……[嘆氣] 家？欸，是家嗎？[吸氣] [停頓] 不知道了。\n訪談者：為什麼在這裡？\n患者：因為……因為……[咳嗽] 那個……拿藥？[長停頓] 不對。記不得。\n訪談者：今天星期幾？\n患者：星期……[停頓] 五？六？嗯……好像是……[嘆氣] 忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾……幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 698
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1428
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "家？欸，是家嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 392
+    },
+    {
+      "type": "pause",
+      "duration_ms": 649
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼在這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為……因為……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 435
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……拿藥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對。記不得"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 873
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "五？六？嗯……好像是……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 807
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 5,
+    "sigh_event_count": 2,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 8258,
+    "chinese_char_count": 86
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 5,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Severe dementia (CDR 3) with fragmented speech, frequent word-finding failures, orientation loss, and repeated simple phrases."
+}

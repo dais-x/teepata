@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice3_male_clinic_0799",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "欸，醫生，我早上起來，那個……嗯，記得要去菜市場買菜。但是好像忘了要帶什麼錢包， 還是拿錯了？反正後來有去診所拿藥，應該沒問題。 最近記性有點差，囝仔常提醒我。",
+  "marked_transcript": "欸，醫生，我早上起來，那個……嗯，記得要去菜市場買菜。但是好像忘了要帶什麼錢包，[停頓] 還是拿錯了？反正後來有去診所拿藥，應該沒問題。[嘆氣] 最近記性有點差，囝仔常提醒我。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，醫生，我早上起來，那個……嗯，記得要去菜市場買菜。但是好像忘了要帶什麼錢包"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 711
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是拿錯了？反正後來有去診所拿藥，應該沒問題"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1392
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "最近記性有點差，囝仔常提醒我"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2103,
+    "chinese_char_count": 65
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '忘了'), mild memory uncertainty, and one repetition of checking the wallet. Speech remains coherent with minimal pauses."
+}

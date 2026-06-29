@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_1_voice1_male_clinic_0622",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，今天是哪一天？\n患者：嗯...我想一下...\n訪談者：您現在在哪裡呢？\n患者：那個，應該是在診所...\n訪談者：為什麼來這裡呢？\n患者：因為身體不舒服嘛，要拿藥。\n訪談者：您最近有發生什麼特別的事情嗎？\n患者：啊...好像沒有啦...",
+  "marked_transcript": "訪談者：老先生，今天是哪一天？[停頓]800ms\n患者：嗯...我想一下...[長停頓]1200ms\n訪談者：您現在在哪裡呢？\n患者：那個，應該是在診所...\n訪談者：為什麼來這裡呢？\n患者：因為身體不舒服嘛，要拿藥。\n訪談者：您最近有發生什麼特別的事情嗎？[停頓]600ms\n患者：啊...好像沒有啦...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，今天是哪一天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，應該是在診所..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為身體不舒服嘛，要拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您最近有發生什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊...好像沒有啦..."
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2600,
+    "chinese_char_count": 87
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

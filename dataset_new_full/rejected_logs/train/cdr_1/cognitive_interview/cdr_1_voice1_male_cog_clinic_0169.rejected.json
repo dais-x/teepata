@@ -1,0 +1,42 @@
+{
+  "sample_id": "cdr_1_voice1_male_cog_clinic_0169",
+  "cdr": "1",
+  "task_group": "cognitive_interview",
+  "scenario": "clinic",
+  "task_plan": {
+    "task_group": "cognitive_interview",
+    "task_type": "cognitive_interview",
+    "prompt_sequence": [
+      "我等一下會請你記三個東西：鑰匙、蘋果、火車。你先跟著說一次。",
+      "你知道今天大概是星期幾嗎？現在大概是上午還是下午？我們現在是在什麼地方？",
+      "剛剛那三個東西，你還記得是哪三個嗎？"
+    ],
+    "expected_items": [
+      "鑰匙",
+      "蘋果",
+      "火車"
+    ],
+    "orientation_questions": [
+      "星期幾",
+      "上午或下午",
+      "所在地方"
+    ],
+    "max_score": 9,
+    "scoring_method": "orientation_plus_delayed_recall_speech_score"
+  },
+  "speaker": {
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。"
+  },
+  "split": "train",
+  "rejected_attempts": [
+    {
+      "attempt": "exception",
+      "errors": [
+        "'NoneType' object is not iterable"
+      ]
+    }
+  ]
+}

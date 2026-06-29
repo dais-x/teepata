@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0382",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯，我想一下...好像是八月二十三日吧。\n訪談者：你現在住在哪裡呢？\n患者：那個我住在台北市的家裡啦。有時候會去菜市場買點東西。\n訪談者：可以跟我說說最近發生的一件事情嗎？\n患者：喔，最近啊...那天我去診所拿藥，醫生說我需要多休息。\n訪談者：那你平常是怎麼安排一天的時間呢？\n患者：那個嘛，早上起來先去菜市場買點東西，然後回家做早餐。午餐跟晚餐就吃些簡單的，晚上嘛就是看看電視。",
+  "marked_transcript": "訪談者：今天是幾月幾號？\n[停頓]\n患者：嗯，我想一下...好像是八月二十三日吧。\n[長停頓]\n訪談者：你現在住在哪裡呢？\n患者：那個我住在台北市的家裡啦。有時候會去菜市場買點東西。\n訪談者：可以跟我說說最近發生的一件事情嗎？\n患者：喔，最近啊...那天我去診所拿藥，醫生說我需要多休息。\n[停頓]\n訪談者：那你平常是怎麼安排一天的時間呢？\n患者：那個嘛，早上起來先去菜市場買點東西，然後回家做早餐。午餐跟晚餐就吃些簡單的，晚上嘛就是看看電視。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下...好像是八月二十三日吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你現在住在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個我住在台北市的家裡啦。有時候會去菜市場買點東西。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "可以跟我說說最近發生的一件事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，最近啊...那天我去診所拿藥，醫生說我需要多休息。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你平常是怎麼安排一天的時間呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個嘛，早上起來先去菜市場買點東西，然後回家做早餐。午餐跟晚餐就吃些簡單的，晚上嘛就是看看電視。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1700,
+    "chinese_char_count": 169
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.83,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

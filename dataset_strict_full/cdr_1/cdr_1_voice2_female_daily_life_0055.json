@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0055",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天天氣還不錯喔，我剛剛有去公園走走啦。嗯，那個...公園那邊的樹木都長得很好。我想一下，好像是三個月前去的吧？不過時間有點久遠了。記得那時候還遇到老鄰居，我們聊了一下。嗯呃，叫什麼名字來著？想不起來了。反正就是很開心的一天。",
+  "marked_transcript": "今天天氣還不錯喔，我剛剛有去公園走走啦。 [停頓] 嗯，那個...公園那邊的樹木都長得很好。 [停頓] 我想一下，好像是三個月前去的吧？不過時間有點久遠了。記得那時候還遇到老鄰居，我們聊了一下。 嗯 呃，叫什麼名字來著？想不起來了。反正就是很開心的一天。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天天氣還不錯喔，我剛剛有去公園走走啦。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個...公園那邊的樹木都長得很好。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，好像是三個月前去的吧？不過時間有點久遠了。記得那時候還遇到老鄰居，我們聊了一下。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，叫什麼名字來著？想不起來了。反正就是很開心的一天。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 5,
+    "pause_count": 2,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.0,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 2.0,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 3.6,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 3,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 3
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

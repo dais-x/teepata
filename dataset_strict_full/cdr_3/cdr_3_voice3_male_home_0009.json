@@ -1,0 +1,115 @@
+{
+  "sample_id": "cdr_3_voice3_male_home_0009",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個我每天早上起來，呃，先刷牙，然後嗯，吃早餐。可是今天忘記了，到底是煮粥還是麵條...啊對，是蛋餅啦。那個東西叫什麼來著？好像有放蔥花。然後我去客廳坐一下，想說看電視，但是不知道怎麼開那個遙控器。呃，就是那個按鈕，按下去沒反應。我想了一下，可能是電池沒電了。嗯，換個新的就好。可是現在找不到新的在哪裡... 忘記放在哪裡了。啊，對了，我兒子昨天有來過，他幫我修好那個東西。不過我也忘了他是怎麼修的。",
+  "marked_transcript": "那個 [停頓] 我每天早上起來，呃，先刷牙，然後 [停頓] 嗯，吃早餐。可是今天忘記了，到底是煮粥還是麵條...啊對，是蛋餅啦。那個東西叫什麼來著？好像有放蔥花。 [長停頓] 然後我去客廳坐一下，想說看電視，但是不知道怎麼開那個遙控器。呃，就是那個按鈕，按下去沒反應。我想了一下，可能是電池沒電了。嗯，換個新的就好。 [停頓] 可是現在找不到新的在哪裡... 忘記放在哪裡了。啊，對了，我兒子昨天有來過，他幫我修好那個東西。不過我也忘了他是怎麼修的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我每天早上起來，呃，先刷牙，然後"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，吃早餐。可是今天忘記了，到底是煮粥還是麵條...啊對，是蛋餅啦。那個東西叫什麼來著？好像有放蔥花。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 3.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後我去客廳坐一下，想說看電視，但是不知道怎麼開那個遙控器。呃，就是那個按鈕，按下去沒反應。我想了一下，可能是電池沒電了。嗯，換個新的就好。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是現在找不到新的在哪裡... 忘記放在哪裡了。啊，對了，我兒子昨天有來過，他幫我修好那個東西。不過我也忘了他是怎麼修的。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 5,
+    "pause_count": 3,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 6.0,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 6.0,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 10,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 6
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.3,
+      "memory_gap_count": 3,
+      "orientation_error_count": 4
+    }
+  }
+}

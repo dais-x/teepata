@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice1_male_medicine_routine_0823",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來，阿母叫我吃藥。欸，我那個藥瓶…… 好像放在哪裡了？ 啊，對，在廚房那個櫃子。拿藥的時候， 總是忘記幾點吃。昨天也是這樣， 後來才想起來是下午。現在要記得很清楚，不然會弄錯時間。 診所的醫生說要定時，但…… 我還是常常搞混。囝仔幫我拿藥，不然我可能會忘記。",
+  "marked_transcript": "嗯，早上起來，阿母叫我吃藥。欸，我那個藥瓶…… [停頓] 好像放在哪裡了？[長停頓] 啊，對，在廚房那個櫃子。拿藥的時候，[嘆氣] 總是忘記幾點吃。昨天也是這樣，[吸氣] 後來才想起來是下午。現在要記得很清楚，不然會弄錯時間。[停頓] 診所的醫生說要定時，但…… [長停頓] 我還是常常搞混。囝仔幫我拿藥，不然我可能會忘記。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來，阿母叫我吃藥。欸，我那個藥瓶……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 847
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像放在哪裡了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1599
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對，在廚房那個櫃子。拿藥的時候"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 816
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總是忘記幾點吃。昨天也是這樣"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 353
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來才想起來是下午。現在要記得很清楚，不然會弄錯時間"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 872
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所的醫生說要定時，但……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1664
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我還是常常搞混。囝仔幫我拿藥，不然我可能會忘記"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6151,
+    "chinese_char_count": 106
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall of medicine location, time confusion (yesterday vs. now), and repetition about forgetting doses. Uses natural Taiwanese Mandarin markers like '阿母', '囝仔' and appropriate pauses to simulate cognitive decline."
+}

@@ -1,0 +1,155 @@
+{
+  "sample_id": "cdr_3_voice1_male_family_0999",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生，你早上吃了什麼早餐？\n患者：嗯……吃……吃那個……粥。\n訪談者：喔，粥啊。有喝牛奶嗎？\n患者：牛奶……沒有……好像……忘記了。\n訪談者：那昨天家裡有什麼事情發生嗎？\n患者：昨天……昨天……阿母……來過嗎？\n訪談者：對，你記得嗎？\n患者：喔……記不得咧。那個……藥……吃了沒有？\n訪談者：我們等一下要去拿藥。\n患者：拿藥……拿藥……喔。今天……是星期幾？\n訪談者：今天是週三。\n患者：週三……嗯……不對，好像是週四……欸，我忘記了。",
+  "marked_transcript": "訪談者：先生，你早上吃了什麼早餐？\n[停頓]\n患者：嗯……吃……吃那個……粥。\n[長停頓]\n訪談者：喔，粥啊。有喝牛奶嗎？\n[吸氣]\n患者：牛奶……沒有……好像……忘記了。\n[咳嗽]\n訪談者：那昨天家裡有什麼事情發生嗎？\n[停頓]\n患者：昨天……昨天……阿母……來過嗎？\n[長停頓]\n訪談者：對，你記得嗎？\n[嘆氣]\n患者：喔……記不得咧。那個……藥……吃了沒有？\n[停頓]\n訪談者：我們等一下要去拿藥。\n[吸氣]\n患者：拿藥……拿藥……喔。今天……是星期幾？\n[長停頓]\n訪談者：今天是週三。\n[停頓]\n患者：週三……嗯……不對，好像是週四……欸，我忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "先生，你早上吃了什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……吃……吃那個……粥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，粥啊。有喝牛奶嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "牛奶……沒有……好像……忘記了。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天家裡有什麼事情發生嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天……昨天……阿母……來過嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，你記得嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔……記不得咧。那個……藥……吃了沒有？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們等一下要去拿藥。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥……拿藥……喔。今天……是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是週三。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "週三……嗯……不對，好像是週四……欸，我忘記了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 8850,
+    "chinese_char_count": 143
+  },
+  "impairment_features": {
+    "hesitation_count": 14,
+    "repetition_count": 7,
+    "word_finding_count": 6,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.72,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

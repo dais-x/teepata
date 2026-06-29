@@ -1,0 +1,155 @@
+{
+  "sample_id": "cdr_2_voice1_male_home_0831",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：現在是幾點鐘？\n患者：嗯……我想一下……好像是下午， 不對，應該是早上吧？欸，我記不太清楚了。\n訪談者：那我們現在在哪裡呢？\n患者：在家啊…… 在客廳沒錯， 可是剛剛好像去過診所拿藥……\n訪談者：您今天早餐吃了什麼？\n患者：有吃粥， 還有鹹菜…… 那個囝仔說要帶我去菜市場，但我忘了。\n訪談者：那您的孩子叫什麼名字？\n患者：阿明，對不對？ 欸，好像是大兒子， 記不得小兒子的名字了。",
+  "marked_transcript": "訪談者：現在是幾點鐘？\n患者：嗯……我想一下……好像是下午，[停頓] 不對，應該是早上吧？欸，我記不太清楚了。\n訪談者：那我們現在在哪裡呢？\n患者：在家啊……[長停頓] 在客廳沒錯，[嘆氣] 可是剛剛好像去過診所拿藥……\n訪談者：您今天早餐吃了什麼？\n患者：有吃粥，[吸氣] 還有鹹菜……[停頓] 那個囝仔說要帶我去菜市場，但我忘了。\n訪談者：那您的孩子叫什麼名字？\n患者：阿明，對不對？[長停頓] 欸，好像是大兒子，[咳嗽] 記不得小兒子的名字了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在是幾點鐘？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我想一下……好像是下午"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 683
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是早上吧？欸，我記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在家啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1677
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在客廳沒錯"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1046
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是剛剛好像去過診所拿藥……"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有吃粥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 640
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有鹹菜……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 799
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個囝仔說要帶我去菜市場，但我忘了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您的孩子叫什麼名字？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿明，對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1653
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像是大兒子"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 519
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得小兒子的名字了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7017,
+    "chinese_char_count": 145
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate simulation with fragmented recall, time/place confusion, repetition of 'forgetting', and reliance on family support cues."
+}

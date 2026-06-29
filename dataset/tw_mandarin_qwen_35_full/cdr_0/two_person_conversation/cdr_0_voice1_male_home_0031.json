@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice1_male_home_0031",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天幾月幾號？\n患者：嗯，應該是十月五號。星期五。\n訪談者：好的，那您現在人在哪裡呢？\n患者：我在這裡啊，就是家裡客廳嘛。\n訪談者：喔，那是因為什麼原因來這裡的呀？\n患者：啊，對啦，我是來拿藥的。之前醫生開給我的那個降血壓藥快沒了，所以過來拿一下。\n訪談者：好的，那您今天早上做了些什麼事呢？\n患者：嗯...早上起來先跟阿母問好，然後去菜市場買點青菜，回來吃個早餐，就差不多這樣。",
+  "marked_transcript": "訪談者：您好，請問今天幾月幾號？\n患者：[停頓] 嗯，應該是十月五號。星期五。\n訪談者：好的，那您現在人在哪裡呢？\n患者：我在這裡啊，就是家裡客廳嘛。\n訪談者：喔，那是因為什麼原因來這裡的呀？\n患者：啊，對啦，我是來拿藥的。之前醫生開給我的那個降血壓藥快沒了，所以過來拿一下。\n訪談者：好的，那您今天早上做了些什麼事呢？\n患者：嗯...[吸氣] 早上起來先跟阿母問好，然後去菜市場買點青菜，回來吃個早餐，就差不多這樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是十月五號。星期五。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您現在人在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在這裡啊，就是家裡客廳嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那是因為什麼原因來這裡的呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對啦，我是來拿藥的。之前醫生開給我的那個降血壓藥快沒了，所以過來拿一下。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您今天早上做了些什麼事呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早上起來先跟阿母問好，然後去菜市場買點青菜，回來吃個早餐，就差不多這樣。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 159
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

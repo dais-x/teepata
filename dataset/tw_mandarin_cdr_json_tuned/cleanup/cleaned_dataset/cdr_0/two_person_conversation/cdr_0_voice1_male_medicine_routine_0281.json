@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_0_voice1_male_medicine_routine_0281",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳先生， 今天星期幾啊？\n受訪者：今天是星期三喔。\n訪談者：好，那現在是在哪裡呢？\n受訪者：我在這裡看診，就是這家診所啦。\n訪談者：對，那為什麼來這裡呢？\n受訪者：我平常有在吃高血壓的藥， 今天剛好拿藥，所以順便過來一下。\n訪談者：喔，好，那最近生活都還好吧？\n受訪者：嗯， 還好啊，早上有去公園走走，後來就回來煮飯。",
+  "marked_transcript": "訪談者：陳先生， [停頓] 今天星期幾啊？\n受訪者：今天是星期三喔。\n訪談者：好，那現在是在哪裡呢？\n受訪者：我在這裡看診，就是這家診所啦。\n訪談者：對，那為什麼來這裡呢？\n受訪者：我平常有在吃高血壓的藥， [停頓] 今天剛好拿藥，所以順便過來一下。\n訪談者：喔，好，那最近生活都還好吧？\n受訪者：嗯， [吸氣] 還好啊，早上有去公園走走，後來就回來煮飯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：陳先生，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "今天星期幾啊？\n受訪者：今天是星期三喔。\n訪談者：好，那現在是在哪裡呢？\n受訪者：我在這裡看診，就是這家診所啦。\n訪談者：對，那為什麼來這裡呢？\n受訪者：我平常有在吃高血壓的藥，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "今天剛好拿藥，所以順便過來一下。\n訪談者：喔，好，那最近生活都還好吧？\n受訪者：嗯，"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "還好啊，早上有去公園走走，後來就回來煮飯。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 126
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "normal"
+}

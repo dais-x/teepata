@@ -1,0 +1,127 @@
+{
+  "sample_id": "cdr_2_voice3_male_market_0818",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，阿伯，您昨天早上吃什麼早餐？\n患者：嗯... 早餐喔。我想一下。好像是白飯。還有一塊魚。\n訪談者：是喔。那今天有沒有去拿藥？\n患者：拿藥。對，有去診所。醫生說要每天吃三次。啊，是兩次還是三次啦？\n訪談者：您記得昨天家裡有什麼事情嗎？\n患者：欸... 昨天的事。囝仔有來喔。好像沒來咧。我忘記了。\n訪談者：那您記不記得今天早上幾點起床的？\n患者：起床啊。早上。太陽出來。大概是七點吧。不太確定。",
+  "marked_transcript": "訪談者：早啊，阿伯，您昨天早上吃什麼早餐？\n患者：嗯 [停頓]... 早餐喔。我想一下 [長停頓]。好像是白飯。還有一塊魚。\n訪談者：是喔。那今天有沒有去拿藥？\n患者：拿藥。對，有去診所。醫生說要每天吃三次。啊，是兩次還是三次啦？\n訪談者：您記得昨天家裡有什麼事情嗎？\n患者：欸 [停頓]... 昨天的事。囝仔有來喔。好像沒來咧。我忘記了。\n訪談者：那您記不記得今天早上幾點起床的？\n患者：起床啊。早上。太陽出來 [停頓]。大概是七點吧。不太確定。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早啊，阿伯，您昨天早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "... 早餐喔。我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是白飯。還有一塊魚。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "是喔。那今天有沒有去拿藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥。對，有去診所。醫生說要每天吃三次。啊，是兩次還是三次啦？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您記得昨天家裡有什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "... 昨天的事。囝仔有來喔。好像沒來咧。我忘記了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記不記得今天早上幾點起床的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "起床啊。早上。太陽出來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "大概是七點吧。不太確定。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3000,
+    "chinese_char_count": 154
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.55,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

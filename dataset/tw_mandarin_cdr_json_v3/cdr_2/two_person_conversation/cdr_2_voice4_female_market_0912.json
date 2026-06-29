@@ -1,0 +1,150 @@
+{
+  "sample_id": "cdr_2_voice4_female_market_0912",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上吃什麼呢？\n患者：嗯……早餐啊，我想一下。好像是米苔目，還是麵線？ 欸，阿母昨天有煮菜市場買的那種肉羹。\n訪談者：那昨天家裡有什麼事嗎？\n患者：什麼事……哦對，囝仔的生日！ 應該是上禮拜吧，還是前幾天？ 記不得那個日期了。\n訪談者：藥有在吃嗎？\n患者：有啊，每天拿藥。 血壓藥跟糖尿病……嗯，好像都有吃。 但有時候會忘記要幾點吃。\n訪談者：那記得明天要去哪裡嗎？\n患者：明天……診所看醫生？ 還是去銀行？欸，我記不清了。",
+  "marked_transcript": "訪談者：早上吃什麼呢？\n患者：嗯……早餐啊，我想一下。好像是米苔目，還是麵線？[停頓] 欸，阿母昨天有煮菜市場買的那種肉羹。[長停頓]\n訪談者：那昨天家裡有什麼事嗎？\n患者：什麼事……哦對，囝仔的生日！[嘆氣] 應該是上禮拜吧，還是前幾天？[停頓] 記不得那個日期了。\n訪談者：藥有在吃嗎？\n患者：有啊，每天拿藥。[吸氣] 血壓藥跟糖尿病……嗯，好像都有吃。[長停頓] 但有時候會忘記要幾點吃。\n訪談者：那記得明天要去哪裡嗎？\n患者：明天……診所看醫生？[咳嗽] 還是去銀行？欸，我記不清了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上吃什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早餐啊，我想一下。好像是米苔目，還是麵線？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 884
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，阿母昨天有煮菜市場買的那種肉羹"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1663
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天家裡有什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "什麼事……哦對，囝仔的生日！"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1055
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是上禮拜吧，還是前幾天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 648
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得那個日期了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥有在吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，每天拿藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 586
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "血壓藥跟糖尿病……嗯，好像都有吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1204
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但有時候會忘記要幾點吃"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那記得明天要去哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "明天……診所看醫生？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 761
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是去銀行？欸，我記不清了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6801,
+    "chinese_char_count": 163
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 2 moderate: fragmented recall of breakfast, confusion about recent event timing (birthday), medication routine uncertainty, mild time/place disorientation."
+}

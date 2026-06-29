@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_2_voice4_female_daily_life_0888",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問您現在是幾點鐘？\n患者：嗯…… 這個…… 好像是下午，欸， 應該是三點吧？啊不對…… 記不得了。訪談者：那今天是星期幾呢？\n患者：星期…… 好像是有在過節…… 嗯，對不起，我忘了。訪談者：您早上吃過飯了嗎？\n患者：有啊， 吃了點稀飯跟菜脯蛋。欸， 不過那個…… 是昨天還是今天呢？好像有點分不清了。訪談者：那您記得我們剛才聊到哪裡嗎？\n患者：嗯…… 時間啊…… 還有吃飯。對，就是這個。訪談者：好的，謝謝您的回答。",
+  "marked_transcript": "訪談者：請問您現在是幾點鐘？\n患者：嗯…… [停頓] 這個…… 好像是下午，欸，[長停頓] 應該是三點吧？啊不對…… [吸氣] 記不得了。訪談者：那今天是星期幾呢？\n患者：星期…… [停頓] 好像是有在過節…… [嘆氣] 嗯，對不起，我忘了。訪談者：您早上吃過飯了嗎？\n患者：有啊，[停頓] 吃了點稀飯跟菜脯蛋。欸，[長停頓] 不過那個…… 是昨天還是今天呢？好像有點分不清了。訪談者：那您記得我們剛才聊到哪裡嗎？\n患者：嗯…… [吸氣] [停頓] 時間啊…… 還有吃飯。對，就是這個。訪談者：好的，謝謝您的回答。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您現在是幾點鐘？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 805
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個…… 好像是下午，欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1184
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是三點吧？啊不對……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 677
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了。那今天是星期幾呢？。星期……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 874
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是有在過節……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1350
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，對不起，我忘了。您早上吃過飯了嗎？。有啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 678
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃了點稀飯跟菜脯蛋。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1384
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過那個…… 是昨天還是今天呢？好像有點分不清了。那您記得我們剛才聊到哪裡嗎？。嗯……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 392
+    },
+    {
+      "type": "pause",
+      "duration_ms": 758
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間啊…… 還有吃飯。對，就是這個。好的，謝謝您的回答"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 2,
+    "total_pause_ms": 8102,
+    "chinese_char_count": 152
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 3,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 2 moderate: noticeable memory loss, time confusion, repetition, fragmented recall with natural pauses and markers."
+}

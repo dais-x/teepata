@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice3_male_real_market_0015",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_type": "market_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 2,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "steps_mentioned": 2,
+    "sequence_error_count": 0,
+    "memory_gap_count": 3
+  },
+  "conversation_context": null,
+  "spoken_transcript": "嗯，去市場...就是那個，早上會先出門。然後到那裡，買菜啊、肉類...呃，忘記要帶錢包沒有？反正就是付錢，然後回家。但是中間好像忘了什麼步驟，記得是先去買東西，然後才...唉，不記得怎麼付錢了。總之就是買完東西就回家了。",
+  "marked_transcript": "嗯，去市場...就是那個，早上會先出門。 [長停頓] [停頓] 然後到那裡，買菜啊、肉類...呃，忘記要帶錢包沒有？反正就是付錢，然後回家。但是中間好像忘了什麼步驟，記得是先去買東西，然後才...唉，不記得怎麼付錢了。 [停頓] 總之就是買完東西就回家了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，去市場...就是那個，早上會先出門。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.9
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後到那裡，買菜啊、肉類...呃，忘記要帶錢包沒有？反正就是付錢，然後回家。但是中間好像忘了什麼步驟，記得是先去買東西，然後才...唉，不記得怎麼付錢了。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總之就是買完東西就回家了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.3,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.3,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 5,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 4,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 5
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 2,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.48,
+      "memory_gap_count": 3,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": false,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true
+  }
+}

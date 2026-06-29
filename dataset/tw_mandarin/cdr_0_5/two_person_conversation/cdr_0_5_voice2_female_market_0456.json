@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0456",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是星期幾呢？\n患者：嗯...我想想看，應該是週三吧。\n訪談者：你知道現在是哪一年嗎？\n患者：對啊，今年是2023年啦。那個我最近有去菜市場買東西，因為家裡的米快吃完了嘛。\n訪談者：你可以告訴我，你昨天吃了什麼嗎？\n患者：昨天啊...好像是麵條，然後還有個雞蛋飯吧，我想一下，對了，還有一杯牛奶。\n訪談者：好，現在我們來看張照片。你看這是誰的照片呢？\n患者：那個我不太確定是誰，應該是我的孫子囝仔嘛，但我有點忘記了。",
+  "marked_transcript": "訪談者：今天是星期幾呢？[停頓]\n患者：嗯...我想想看，應該是週三吧。[長停頓]\n訪談者：你知道現在是哪一年嗎？\n患者：對啊，今年是2023年啦。那個我最近有去菜市場買東西，因為家裡的米快吃完了嘛。\n訪談者：你可以告訴我，你昨天吃了什麼嗎？[停頓]\n患者：昨天啊...好像是麵條，然後還有個雞蛋飯吧，我想一下，對了，還有一杯牛奶。[嘆氣]\n訪談者：好，現在我們來看張照片。你看這是誰的照片呢？\n患者：那個我不太確定是誰，應該是我的孫子囝仔嘛，但我有點忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想想看，應該是週三吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你知道現在是哪一年嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對啊，今年是2023年啦。那個我最近有去菜市場買東西，因為家裡的米快吃完了嘛。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你可以告訴我，你昨天吃了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...好像是麵條，然後還有個雞蛋飯吧，我想一下，對了，還有一杯牛奶。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，現在我們來看張照片。你看這是誰的照片呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個我不太確定是誰，應該是我的孫子囝仔嘛，但我有點忘記了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2100,
+    "chinese_char_count": 167
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

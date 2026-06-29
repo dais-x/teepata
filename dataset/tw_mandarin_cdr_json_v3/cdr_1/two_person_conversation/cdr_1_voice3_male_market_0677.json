@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0677",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯……應該是週三吧， 欸，不對，好像是週二，我記不太清楚了。\n訪談者：那您記得昨天做了什麼事嗎？\n患者：昨天啊，我去菜市場買菜， 買了什麼魚呢？想不起來了。應該是鱈魚吧？\n訪談者：好的，那您現在要去哪裡拿藥？\n患者：拿藥？ 我記得要去診所，但不知道是哪一家了，好像就是家門口那間。\n訪談者：沒關係，我們慢慢說。",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯……應該是週三吧，[停頓] 欸，不對，好像是週二，我記不太清楚了。\n訪談者：那您記得昨天做了什麼事嗎？\n患者：昨天啊，我去菜市場買菜，[長停頓] 買了什麼魚呢？想不起來了。應該是鱈魚吧？[嘆氣]\n訪談者：好的，那您現在要去哪裡拿藥？\n患者：拿藥？[吸氣] 我記得要去診所，但不知道是哪一家了，好像就是家門口那間。\n訪談者：沒關係，我們慢慢說。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是週三吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 804
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，不對，好像是週二，我記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得昨天做了什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊，我去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1550
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "買了什麼魚呢？想不起來了。應該是鱈魚吧？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1195
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您現在要去哪裡拿藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 523
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得要去診所，但不知道是哪一家了，好像就是家門口那間"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢說"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4072,
+    "chinese_char_count": 131
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Patient shows word-finding difficulty (uncertain day, fish type), mild repetition of memory checking, and orientation uncertainty. Speech remains coherent with natural pauses."
+}

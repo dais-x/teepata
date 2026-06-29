@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_daily_life_0326",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳先生，你好。今天我們先聊一下日期跟地點喔。\n患者：欸，你好啊...[停頓]那個...今天是幾號咧？我忘記了啦。\n訪談者：沒關係，你記得是星期幾嗎？\n患者：嗯...應該是星期二吧？因為昨天我有去拿藥。不過...好像有點記不太清楚。\n訪談者：對的，沒錯。那你知道我們現在是在哪裡嗎？\n患者：這裡喔...我想一下。[停頓]啊！我記得來過一次，是這個診所嘛。對，就是這裡啦。\n訪談者：很好，你怎麼知道今天會來這裡呢？\n患者：[嘆氣]因為我的藥快吃完了，所以阿母叫我過來拿藥。欸...然後好像還有要問醫生一點事情。",
+  "marked_transcript": "訪談者：陳先生，你好。今天我們先聊一下日期跟地點喔。\n患者：欸，你好啊 [停頓] 那個...今天是幾號咧？我忘記了啦。\n訪談者：沒關係，你記得是星期幾嗎？\n患者：嗯...應該是星期二吧？因為昨天我有去拿藥。不過...[吸氣]好像有點記不太清楚。\n訪談者：對的，沒錯。那你知道我們現在是在哪裡嗎？\n患者：這裡喔...我想一下 [長停頓] 啊！我記得來過一次，是這個診所嘛。對，就是這裡啦。\n訪談者：很好，你怎麼知道今天會來這裡呢？\n患者：[嘆氣] 因為我的藥快吃完了，所以阿母叫我過來拿藥。欸...然後好像還有要問醫生一點事情。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳先生，你好。今天我們先聊一下日期跟地點喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，你好啊 那個...今天是幾號咧？我忘記了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，你記得是星期幾嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...應該是星期二吧？因為昨天我有去拿藥。不過... 好像有點記不太清楚。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對的，沒錯。那你知道我們現在是在哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡喔...我想一下 啊！我記得來過一次，是這個診所嘛。對，就是這裡啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好，你怎麼知道今天會來這裡呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為我的藥快吃完了，所以阿母叫我過來拿藥。欸...然後好像還有要問醫生一點事情。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3150,
+    "chinese_char_count": 193
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 2,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0850",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……今天要去菜市場買東西。 記得是早上，欸……好像是中午？ 阿母說要拿藥，但我不太確定是哪一種。 那個……醫生開的藥，放在哪裡了？ 好像是在客廳的抽屜裡？ 不對，可能是診所帶回來的。 囝仔啊，你記得我昨天有去過那裡嗎？ 嗯……記不得了。",
+  "marked_transcript": "嗯……今天要去菜市場買東西。[停頓] 記得是早上，欸……好像是中午？[長停頓] 阿母說要拿藥，但我不太確定是哪一種。[嘆氣] 那個……醫生開的藥，放在哪裡了？[停頓] 好像是在客廳的抽屜裡？[吸氣] 不對，可能是診所帶回來的。[長停頓] 囝仔啊，你記得我昨天有去過那裡嗎？[停頓] 嗯……記不得了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……今天要去菜市場買東西"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得是早上，欸……好像是中午？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥，但我不太確定是哪一種"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1274
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……醫生開的藥，放在哪裡了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 856
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是在客廳的抽屜裡？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 427
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，可能是診所帶回來的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1453
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔啊，你記得我昨天有去過那裡嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 612
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……記不得了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6913,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall regarding time (morning vs. noon) and medication location, with repetition of uncertainty markers like '好像' and '記不得'. Pauses indicate effort to retrieve information."
+}

@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_2_voice3_male_daily_life_0009",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "test"
+  },
+  "interviewer": null,
+  "split": "test",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天早上呃...我本來要去菜市場買東西，但是那個...忘記帶鑰匙了啦。後來就說，算了，不去了。其實我記得昨天有去過那裡，可是現在想不起來到底是星期幾了。嗯，對不對？然後我老婆說，哎呀，你怎麼這樣子。我就說，沒關係啦，反正家裡還有菜可以煮。那個... 不知道講什麼好。",
+  "marked_transcript": "今天早上 [停頓] 呃...我本來要去菜市場買東西，但是那個... [長停頓] 忘記帶鑰匙了啦。後來就說，算了，不去了。 [停頓] 其實我記得昨天有去過那裡，可是現在想不起來到底是星期幾了。 [長停頓] 嗯，對不對？然後我老婆說，哎呀，你怎麼這樣子。我就說，沒關係啦，反正家裡還有菜可以煮。 [停頓] 那個... 不知道講什麼好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.3
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...我本來要去菜市場買東西，但是那個..."
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記帶鑰匙了啦。後來就說，算了，不去了。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "其實我記得昨天有去過那裡，可是現在想不起來到底是星期幾了。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，對不對？然後我老婆說，哎呀，你怎麼這樣子。我就說，沒關係啦，反正家裡還有菜可以煮。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個... 不知道講什麼好。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 3,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 5.7,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 5.7,
+      "silence_ratio": 0.12,
+      "speech_rate_target_cps": 2.8,
+      "filled_pause_count": 6,
+      "restart_count": 1
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 3,
+      "circumlocution_count": 2,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 6
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.65,
+      "coherence_score": 0.48,
+      "memory_gap_count": 2,
+      "orientation_error_count": 2
+    }
+  }
+}

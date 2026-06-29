@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice3_male_medicine_routine_0157",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，阿伯。今天早餐吃了什麼？\n患者：早安喔！我早上有去菜市場買菜，然後回家煮稀飯，還有配個豆腐。\n訪談者：聽起來很清淡健康耶。家裡最近有什麼事嗎？\n患者：欸，沒有什麼特別的事啦。就是阿母昨天打電話來問說有沒有拿藥。\n訪談者：有去診所拿藥喔？記得是什麼藥嗎？\n患者：嗯...是那種降血壓的，每天都吃的。還有維他命。\n訪談者：好，那你能不能告訴我，今天早上出門前發生了什麼事？\n患者：喔對啊，我出門前還把垃圾帶下去丟了。然後就搭公車到診所去。\n訪談者：很好。最後，你要記得明天早上九點要回來抽血檢查。\n患者：好的，我知道了，我會準時到的啦。",
+  "marked_transcript": "訪談者：早啊，阿伯。今天早餐吃了什麼？\n[停頓]\n患者：早安喔！我早上有去菜市場買菜，然後回家煮稀飯，還有配個豆腐。\n訪談者：聽起來很清淡健康耶。家裡最近有什麼事嗎？\n患者：欸，沒有什麼特別的事啦。就是阿母昨天打電話來問說有沒有拿藥。\n[停頓]\n訪談者：有去診所拿藥喔？記得是什麼藥嗎？\n患者：嗯...是那種降血壓的，每天都吃的。還有維他命。\n訪談者：好，那你能不能告訴我，今天早上出門前發生了什麼事？\n[長停頓]\n患者：喔對啊，我出門前還把垃圾帶下去丟了。然後就搭公車到診所去。\n訪談者：很好。最後，你要記得明天早上九點要回來抽血檢查。\n患者：好的，我知道了，我會準時到的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早啊，阿伯。今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早安喔！我早上有去菜市場買菜，然後回家煮稀飯，還有配個豆腐。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "聽起來很清淡健康耶。家裡最近有什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，沒有什麼特別的事啦。就是阿母昨天打電話來問說有沒有拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有去診所拿藥喔？記得是什麼藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...是那種降血壓的，每天都吃的。還有維他命。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那你能不能告訴我，今天早上出門前發生了什麼事？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對啊，我出門前還把垃圾帶下去丟了。然後就搭公車到診所去。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。最後，你要記得明天早上九點要回來抽血檢查。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好的，我知道了，我會準時到的啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2550,
+    "chinese_char_count": 222
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

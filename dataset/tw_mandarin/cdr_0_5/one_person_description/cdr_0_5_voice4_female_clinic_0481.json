@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_clinic_0481",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天我去菜市場買菜，先去水果攤買些水果。嗯，我想一下，好像是買了三顆蘋果，兩根香蕉。然後再去肉攤，那個，買了一些豬肉，還有雞肉。啊，對了，還要去藥局拿藥。應該是早上八點過去的。",
+  "marked_transcript": "[停頓]今天我去菜市場買菜，先去水果攤買些水果[長停頓]嗯，我想一下，好像是買了三顆蘋果，兩根香蕉[停頓][嘆氣]然後再去肉攤，那個，買了一些豬肉，還有雞肉。啊，對了，還要去藥局拿藥。應該是早上八點過去的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天我去菜市場買菜，先去水果攤買些水果"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下，好像是買了三顆蘋果，兩根香蕉"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後再去肉攤，那個，買了一些豬肉，還有雞肉。啊，對了，還要去藥局拿藥。應該是早上八點過去的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2850,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 2,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

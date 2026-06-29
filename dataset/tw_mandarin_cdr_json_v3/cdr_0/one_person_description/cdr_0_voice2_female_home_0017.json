@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_0_voice2_female_home_0017",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我每天早上六點半起床，先喝一杯溫水。 然後去陽台澆花，今天天氣不錯，太陽很好。 吃完早餐後，我會去菜市場買些新鮮的蔬菜，阿母常說要吃得健康一點。 回到家就準備午餐，簡單炒個青菜和肉片就好。欸，你覺得今天的番茄看起來很紅吧？應該是昨天才摘的。",
+  "marked_transcript": "嗯，我每天早上六點半起床，先喝一杯溫水。[停頓] 然後去陽台澆花，今天天氣不錯，太陽很好。[吸氣] 吃完早餐後，我會去菜市場買些新鮮的蔬菜，阿母常說要吃得健康一點。[停頓] 回到家就準備午餐，簡單炒個青菜和肉片就好。欸，你覺得今天的番茄看起來很紅吧？應該是昨天才摘的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我每天早上六點半起床，先喝一杯溫水"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 652
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後去陽台澆花，今天天氣不錯，太陽很好"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 397
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃完早餐後，我會去菜市場買些新鮮的蔬菜，阿母常說要吃得健康一點"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 794
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回到家就準備午餐，簡單炒個青菜和肉片就好。欸，你覺得今天的番茄看起來很紅吧？應該是昨天才摘的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1843,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0 Normal: Coherent narrative about morning routine and market visit. No memory errors, no disorientation. Uses minimal natural pauses [停頓] and one breath [吸氣]. Contains typical Taiwanese markers like '阿母' and '菜市場'. Speech is fluent and logically structured."
+}

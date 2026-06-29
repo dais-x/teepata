@@ -1,0 +1,140 @@
+{
+  "sample_id": "cdr_2_voice1_male_home_0868",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯……那個……好像是五月吧， 不對，應該是六月？欸，我記不得了。\n訪談者：我們現在在哪裡呢？\n患者：這裡啊， 我家對吧？ 可是怎麼感覺有點陌生，是診所嗎？還是醫院？ 我想一下……應該是家裡沒錯。\n訪談者：你為什麼今天來這裡？\n患者：來拿藥？ 嗯，阿母叫我來的。 不對，是我自己來的，因為頭很暈。欸，到底是什麼事啊？",
+  "marked_transcript": "訪談者：今天是幾月幾號？\n患者：嗯……那個……好像是五月吧，[停頓] 不對，應該是六月？欸，我記不得了。[長停頓]\n訪談者：我們現在在哪裡呢？\n患者：這裡啊，[嘆氣] 我家對吧？[吸氣] 可是怎麼感覺有點陌生，是診所嗎？還是醫院？[停頓] 我想一下……應該是家裡沒錯。\n訪談者：你為什麼今天來這裡？\n患者：來拿藥？[咳嗽] 嗯，阿母叫我來的。[長停頓] 不對，是我自己來的，因為頭很暈。欸，到底是什麼事啊？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……好像是五月吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 878
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是六月？欸，我記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1475
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1355
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我家對吧？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 771
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是怎麼感覺有點陌生，是診所嗎？還是醫院？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 621
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下……應該是家裡沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼今天來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來拿藥？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 739
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，阿母叫我來的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1551
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，是我自己來的，因為頭很暈。欸，到底是什麼事啊？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7390,
+    "chinese_char_count": 128
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: patient shows fragmented recall, time/place confusion (May vs June, home vs clinic), repetition of thoughts, and needs support to complete answers. Natural oral markers included."
+}

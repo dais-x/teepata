@@ -1,0 +1,112 @@
+{
+  "sample_id": "cdr_1_voice2_female_home_0769",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天天氣還不錯喔，妳早上有吃早餐嗎？\n患者：嗯...有啊，我吃了白粥，還有...那個，鹹菜啦。\n訪談者：很好。那請問一下，今天是幾月幾號呢？\n患者：幾號喔...讓我講一下，好像是這個月的十號吧，還是十一號？記不太清楚了。\n訪談者：沒關係，慢慢想。妳昨天有去診所拿藥嗎？\n患者：有啊，我昨天有去。就是那個阿母常去的診所嘛，醫生給我開了一點...嗯...降血壓的藥。\n訪談者：好的。那妳平常早上會做什麼活動呢？\n患者：早上啊...我會去菜市場買菜，跟鄰居聊聊天，然後回家做家事。差不多就是這樣啦。\n訪談者：聽起來生活很有規律喔。",
+  "marked_transcript": "訪談者：今天天氣還不錯喔，妳早上有吃早餐嗎？\n患者：嗯 [停頓] 有啊，我吃了白粥，還有...那個，鹹菜啦。\n訪談者：很好。那請問一下，今天是幾月幾號呢？\n患者：幾號喔 [長停頓] 讓我講一下，好像是這個月的十號吧，還是十一號？記不太清楚了。\n訪談者：沒關係，慢慢想。妳昨天有去診所拿藥嗎？\n患者：有啊，我昨天有去。就是那個阿母常去的診所嘛，醫生給我開了一點...嗯 [停頓] 降血壓的藥。\n訪談者：好的。那妳平常早上會做什麼活動呢？\n患者：早上啊 [嘆氣] 我會去菜市場買菜，跟鄰居聊聊天，然後回家做家事。差不多就是這樣啦。\n訪談者：聽起來生活很有規律喔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天天氣還不錯喔，妳早上有吃早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 [停頓] 有啊，我吃了白粥，還有...那個，鹹菜啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那請問一下，今天是幾月幾號呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號喔 [長停頓] 讓我講一下，好像是這個月的十號吧，還是十一號？記不太清楚了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢想。妳昨天有去診所拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，我昨天有去。就是那個阿母常去的診所嘛，醫生給我開了一點...嗯 [停頓] 降血壓的藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那妳平常早上會做什麼活動呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上啊 [嘆氣] 我會去菜市場買菜，跟鄰居聊聊天，然後回家做家事。差不多就是這樣啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "聽起來生活很有規律喔。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3100,
+    "chinese_char_count": 204
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

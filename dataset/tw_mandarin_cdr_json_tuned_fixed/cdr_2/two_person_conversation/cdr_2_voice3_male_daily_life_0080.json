@@ -1,0 +1,127 @@
+{
+  "sample_id": "cdr_2_voice3_male_daily_life_0080",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿公，今天是幾號啊？\n患者：嗯...今天啊...好像星期二吧。欸不對，可能是星期三。\n訪談者：那我們現在是在哪裡呢？\n患者：這裡喔...診所啦。對，來拿藥的嘛。\n訪談者：為什麼會來這裡呢？\n患者：因為...頭有點暈啦。阿母叫我來的，然後去菜市場買菜回來就覺得不舒服。\n訪談者：那昨天做了什麼事呢？\n患者：昨天...昨天有看電視。嗯對，有打掃房間嘛。好像有...有跟鄰居聊天啦。",
+  "marked_transcript": "訪談者：阿公，今天是幾號啊？\n患者：嗯...今天啊...[停頓] 好像星期二吧。欸不對，可能是星期三。\n訪談者：那我們現在是在哪裡呢？\n患者：這裡喔...[停頓] 診所啦。對，來拿藥的嘛。\n訪談者：為什麼會來這裡呢？\n患者：因為...頭有點暈啦。[嘆氣] 阿母叫我來的，然後去菜市場買菜回來就覺得不舒服。\n訪談者：那昨天做了什麼事呢？\n患者：昨天...昨天有看電視。嗯對，有打掃房間嘛。好像有...[長停頓] 有跟鄰居聊天啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿公，今天是幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天啊..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像星期二吧。欸不對，可能是星期三。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡喔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所啦。對，來拿藥的嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼會來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為...頭有點暈啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母叫我來的，然後去菜市場買菜回來就覺得不舒服。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天做了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天...昨天有看電視。嗯對，有打掃房間嘛。好像有..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有跟鄰居聊天啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4250,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 4,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

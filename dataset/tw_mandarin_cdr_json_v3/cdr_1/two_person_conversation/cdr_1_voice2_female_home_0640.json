@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_1_voice2_female_home_0640",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上你吃了什麼？\n患者：嗯， 我好像吃了稀飯……欸，是白粥還是小米粥啊？ 記不太清楚了。應該是稀飯加個蛋吧。\n訪談者：那你有吃藥嗎？\n患者：有啊， 剛才就吃過了。那個降血壓的藥， 應該是在客廳桌上拿的。嗯……好像還有兩顆在盒子裡。",
+  "marked_transcript": "訪談者：今天早上你吃了什麼？\n患者：嗯，[停頓] 我好像吃了稀飯……欸，是白粥還是小米粥啊？[長停頓] 記不太清楚了。應該是稀飯加個蛋吧。\n訪談者：那你有吃藥嗎？\n患者：有啊，[嘆氣] 剛才就吃過了。那個降血壓的藥，[吸氣] 應該是在客廳桌上拿的。嗯……好像還有兩顆在盒子裡。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上你吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 840
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我好像吃了稀飯……欸，是白粥還是小米粥啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1298
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了。應該是稀飯加個蛋吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你有吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1176
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "剛才就吃過了。那個降血壓的藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 697
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在客廳桌上拿的。嗯……好像還有兩顆在盒子裡"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4011,
+    "chinese_char_count": 94
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: mild word-finding difficulty (uncertainty between porridge types), one memory uncertainty (medication location), and natural pauses without severe fragmentation."
+}

@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_market_0365",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾號？\n患者：嗯...今天喔，我想一下。好像是十月五號吧。對，應該是這禮拜。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：這裡啊...我來拿藥的嘛，就是這個診所啦。欸，不過我剛剛好像進錯門了，有點忘記是幾樓。\n訪談者：沒關係，這裡是二樓。那您今天為什麼過來呢？\n患者：喔對，我阿母叫我來拿藥，然後...那個，醫生說我要再吃兩週的藥。我想一下喔，應該是上禮拜五開的單子。\n訪談者：好的，明白了。",
+  "marked_transcript": "訪談者：您好，請問今天是幾號？\n患者：嗯 [停頓] 今天喔 [長停頓] 我想一下。好像是十月五號吧。對，應該是這禮拜。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：這裡啊 [嘆氣] ...我來拿藥的嘛，就是這個診所啦。欸，不過我剛剛好像進錯門了，有點忘記是幾樓。\n訪談者：沒關係，這裡是二樓。那您今天為什麼過來呢？\n患者：喔對，我阿母叫我來拿藥，然後 [停頓] 那個，醫生說我要再吃兩週的藥。我想一下喔，應該是上禮拜五開的單子。\n訪談者：好的，明白了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天喔"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下。好像是十月五號吧。對，應該是這禮拜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...我來拿藥的嘛，就是這個診所啦。欸，不過我剛剛好像進錯門了，有點忘記是幾樓。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，這裡是二樓。那您今天為什麼過來呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔對，我阿母叫我來拿藥，然後"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個，醫生說我要再吃兩週的藥。我想一下喔，應該是上禮拜五開的單子。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，明白了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 161
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

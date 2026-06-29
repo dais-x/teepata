@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0396",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天天氣不錯，您記得我們在哪裡嗎？\n患者：嗯，是在菜市場附近啦，那個……我想一下，好像剛才才到的。\n訪談者：那您早上吃了什麼呢？\n患者：啊，有吃粥，還有青菜。欸，具體是幾點記不太清楚了，應該是八點左右吧。\n訪談者：好的，那您平常會去哪裡拿藥？\n患者：就去診所啊，那個……我記得路，只是好像有點想不起來藥名了。",
+  "marked_transcript": "訪談者：今天天氣不錯，您記得我們在哪裡嗎？\n患者：嗯，是在菜市場附近啦，那個……我想一下，好像剛才才到的。\n訪談者：那您早上吃了什麼呢？\n患者：啊，有吃粥，還有青菜。欸，具體是幾點記不太清楚了，應該是八點左右吧。\n訪談者：好的，那您平常會去哪裡拿藥？\n患者：就去診所啊，那個……我記得路，只是好像有點想不起來藥名了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天天氣不錯，您記得我們在哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，是在菜市場附近啦，那個……我想一下，好像剛才才到的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早上吃了什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，有吃粥，還有青菜。欸，具體是幾點記不太清楚了，應該是八點左右吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您平常會去哪裡拿藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就去診所啊，那個……我記得路，只是好像有點想不起來藥名了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 125
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 profile: coherent speech with subtle hesitation and one minor memory uncertainty regarding time and medication name, using natural Taiwanese Mandarin fillers."
+}

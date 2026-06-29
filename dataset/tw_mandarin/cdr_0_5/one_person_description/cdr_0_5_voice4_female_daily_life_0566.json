@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_daily_life_0566",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "今天早上起來，先去浴室洗臉刷牙。然後就是準備早餐囉。煮個稀飯啦，煎個蛋，還有放些肉鬆在上面。嗯，那個菜市場裡頭有好多東西可以買，有時會去逛逛。啊，還有要記得吃藥哦。",
+  "marked_transcript": "今天早上起來，先去浴室洗臉刷牙。然後就是準備早餐囉[停頓]煮個稀飯啦，煎個蛋，還有放些肉鬆在上面[長停頓]嗯，那個菜市場裡頭有好多東西可以買[嘆氣]有時會去逛逛啊，還有要記得吃藥哦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起來，先去浴室洗臉刷牙。然後就是準備早餐囉"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "煮個稀飯啦，煎個蛋，還有放些肉鬆在上面"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個菜市場裡頭有好多東西可以買，有時會去逛逛啊，還有要記得吃藥哦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1700,
+    "chinese_char_count": 71
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

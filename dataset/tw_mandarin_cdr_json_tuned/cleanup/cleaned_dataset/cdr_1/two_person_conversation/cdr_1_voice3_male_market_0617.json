@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0617",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：早啊，阿伯。今天早上的早餐吃了什麼？\n受訪者：嗯 我記得有吃，好像是粥，還有蛋啦。\n訪談者：喔，那你有拿藥嗎？\n受訪者：對，有拿，去診所拿的，那個感冒藥... 訪談者：那昨天家裡有什麼特別的事嗎？\n受訪者：昨天啊... 好像囝仔來過，還是阿母來？有點忘記了。\n訪談者：沒關係，那這禮拜你有吃什麼藥？\n受訪者：嗯...那個降血壓的，還有那個... 心臟的藥。喔對，是早上吃的啦。",
+  "marked_transcript": "訪談者：早啊，阿伯。今天早上的早餐吃了什麼？\n受訪者：嗯 [停頓] 我記得有吃，好像是粥，還有蛋啦。\n訪談者：喔，那你有拿藥嗎？\n受訪者：對，有拿，去診所拿的，那個感冒藥... [長停頓] 訪談者：那昨天家裡有什麼特別的事嗎？\n受訪者：昨天啊... [嘆氣] 好像囝仔來過，還是阿母來？有點忘記了。\n訪談者：沒關係，那這禮拜你有吃什麼藥？\n受訪者：嗯...那個降血壓的，還有那個... [停頓] 心臟的藥。喔對，是早上吃的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：早啊，阿伯。今天早上的早餐吃了什麼？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我記得有吃，好像是粥，還有蛋啦。\n訪談者：喔，那你有拿藥嗎？\n受訪者：對，有拿，去診所拿的，那個感冒藥..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那昨天家裡有什麼特別的事嗎？\n受訪者：昨天啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像囝仔來過，還是阿母來？有點忘記了。\n訪談者：沒關係，那這禮拜你有吃什麼藥？\n受訪者：嗯...那個降血壓的，還有那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "心臟的藥。喔對，是早上吃的啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2800,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

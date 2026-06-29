@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_0_voice4_female_market_0208",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，今天天氣不錯。請問您現在是在哪裡呢？ 受訪者：喔，是這裡啊，我在菜市場附近啦。\n訪談者：對的，那今天是幾月幾號呢？ 受訪者：嗯，應該是今天吧，我看一下日曆，是八月八號。\n訪談者：很好。那您今天早上做了什麼事嗎？ 受訪者：有啊，我早上去拿了藥，然後去買菜。回來之後煮了粥，跟阿母一起吃的。\n訪談者：喔，聽起來很溫馨呢。那您記得昨天吃了什麼晚餐嗎？\n受訪者：昨天啊，我們去吃麵線糊，還有一碗魚湯，蠻好吃的。 訪談者：很棒，記性很好喔。最後請問一下，您的孩子叫什麼名字？\n受訪者：我的囝仔啊，大的叫志明，小的叫志強，都在台北工作啦。\n訪談者：謝謝您，今天聊得很愉快！",
+  "marked_transcript": "訪談者：早安，今天天氣不錯。請問您現在是在哪裡呢？ [停頓] 受訪者：喔，是這裡啊，我在菜市場附近啦。\n訪談者：對的，那今天是幾月幾號呢？ [吸氣] 受訪者：嗯，應該是今天吧，我看一下日曆，是八月八號。\n訪談者：很好。那您今天早上做了什麼事嗎？ [停頓] 受訪者：有啊，我早上去拿了藥，然後去買菜。回來之後煮了粥，跟阿母一起吃的。\n訪談者：喔，聽起來很溫馨呢。那您記得昨天吃了什麼晚餐嗎？\n受訪者：昨天啊，我們去吃麵線糊，還有一碗魚湯，蠻好吃的。 [停頓] 訪談者：很棒，記性很好喔。最後請問一下，您的孩子叫什麼名字？\n受訪者：我的囝仔啊，大的叫志明，小的叫志強，都在台北工作啦。\n訪談者：謝謝您，今天聊得很愉快！",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：早安，今天天氣不錯。請問您現在是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：喔，是這裡啊，我在菜市場附近啦。\n訪談者：對的，那今天是幾月幾號呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：嗯，應該是今天吧，我看一下日曆，是八月八號。\n訪談者：很好。那您今天早上做了什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "受訪者：有啊，我早上去拿了藥，然後去買菜。回來之後煮了粥，跟阿母一起吃的。\n訪談者：喔，聽起來很溫馨呢。那您記得昨天吃了什麼晚餐嗎？\n受訪者：昨天啊，我們去吃麵線糊，還有一碗魚湯，蠻好吃的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：很棒，記性很好喔。最後請問一下，您的孩子叫什麼名字？\n受訪者：我的囝仔啊，大的叫志明，小的叫志強，都在台北工作啦。\n訪談者：謝謝您，今天聊得很愉快！"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 230
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "normal"
+}

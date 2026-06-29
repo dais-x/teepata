@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0654",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾號？\n患者：嗯，我想一下……好像是五號吧。 應該沒錯，我記得昨天是四號。\n訪談者：那我們現在是在哪裡？\n患者：欸，這裡啊，就是診所嘛。 怎麼會忘記呢，平常都來拿藥的。",
+  "marked_transcript": "訪談者：今天是幾號？\n患者：嗯，我想一下……好像是五號吧。[停頓] 應該沒錯，我記得昨天是四號。\n訪談者：那我們現在是在哪裡？\n患者：欸，這裡啊，就是診所嘛。[嘆氣] 怎麼會忘記呢，平常都來拿藥的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下……好像是五號吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 870
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒錯，我記得昨天是四號"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，這裡啊，就是診所嘛"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1233
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "怎麼會忘記呢，平常都來拿藥的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2103,
+    "chinese_char_count": 69
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('我想一下'), mild memory uncertainty with self-correction, and one orientation slip regarding the date. Speech remains coherent and on topic."
+}

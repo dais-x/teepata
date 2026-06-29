@@ -1,0 +1,137 @@
+{
+  "sample_id": "cdr_1_voice3_male_clinic_0649",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：嗯……好像是十月吧。 不對，應該是九月，欸，我記不太清楚了。\n訪談者：沒關係。那您記得我們在哪裡嗎？\n患者：這裡是診所啊，剛剛拿藥的地方。 對，就是那裡，剛才還跟阿母講過呢。\n訪談者：好的。那我問個小問題，我剛說了三個詞：蘋果、書包、鑰匙。您能重複一次嗎？\n患者：蘋果…… 那個……書包。 第三個是什麼來著？好像是……鑰匙？對，應該是這個。\n訪談者：很好。最後問一下，您平常早上會做什麼事呢？\n患者：嗯，我會去菜市場買菜。 啊，或者是去公園走走。記不太清哪天了，但大概都是這樣吧。",
+  "marked_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：嗯……好像是十月吧。[停頓] 不對，應該是九月，欸，我記不太清楚了。\n訪談者：沒關係。那您記得我們在哪裡嗎？\n患者：這裡是診所啊，剛剛拿藥的地方。[吸氣] 對，就是那裡，剛才還跟阿母講過呢。\n訪談者：好的。那我問個小問題，我剛說了三個詞：蘋果、書包、鑰匙。您能重複一次嗎？\n患者：蘋果……[長停頓] 那個……書包。[嘆氣] 第三個是什麼來著？好像是……鑰匙？對，應該是這個。\n訪談者：很好。最後問一下，您平常早上會做什麼事呢？\n患者：嗯，我會去菜市場買菜。[停頓] 啊，或者是去公園走走。記不太清哪天了，但大概都是這樣吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是十月吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 812
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是九月，欸，我記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係。那您記得我們在哪裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是診所啊，剛剛拿藥的地方"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 377
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那裡，剛才還跟阿母講過呢"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那我問個小問題，我剛說了三個詞：蘋果、書包、鑰匙。您能重複一次嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "蘋果……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1505
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……書包"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1314
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "第三個是什麼來著？好像是……鑰匙？對，應該是這個"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。最後問一下，您平常早上會做什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我會去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，或者是去公園走走。記不太清哪天了，但大概都是這樣吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4799,
+    "chinese_char_count": 198
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild simulation: Shows word-finding pauses, mild uncertainty in date recall, and slight repetition of the third memory item. Speech remains coherent with natural Taiwanese Mandarin oral markers."
+}

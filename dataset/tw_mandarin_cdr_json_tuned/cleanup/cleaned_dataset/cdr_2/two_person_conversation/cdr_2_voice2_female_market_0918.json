@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0918",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，您好。請問今天星期幾？\n受訪者：嗯...今天是禮拜五嗎？還是禮拜六。 訪談者：再想想看喔，昨天是禮拜四。\n受訪者：喔對啦，應該是禮拜五沒錯。\n訪談者：好，那您早上去哪了呀？\n受訪者：我...我去菜市場。買菜。 訪談者：買了什麼菜呢？\n受訪者：青菜...還有魚。好像有豆腐。記不太清楚了啦。 訪談者：您記得早上幾點出門的嗎？\n受訪者：大概...九點多吧。或是十點？ 訪談者：那您有去診所拿藥嗎？\n受訪者：有啊，我有去看醫生。拿那個降血壓的藥。 訪談者：好的。那您記得現在是什麼地方嗎？\n受訪者：這是...菜市場啊。對啦，我在這裡等錢。 訪談者：好，謝謝您回答。",
+  "marked_transcript": "訪談者：阿姨，您好。請問今天星期幾？\n受訪者：嗯...今天是禮拜五嗎？還是禮拜六。 [停頓] 訪談者：再想想看喔，昨天是禮拜四。\n受訪者：喔對啦，應該是禮拜五沒錯。\n訪談者：好，那您早上去哪了呀？\n受訪者：我...我去菜市場。買菜。 [長停頓] 訪談者：買了什麼菜呢？\n受訪者：青菜...還有魚。好像有豆腐。記不太清楚了啦。 [嘆氣] 訪談者：您記得早上幾點出門的嗎？\n受訪者：大概...九點多吧。或是十點？ [停頓] 訪談者：那您有去診所拿藥嗎？\n受訪者：有啊，我有去看醫生。拿那個降血壓的藥。 [咳嗽] 訪談者：好的。那您記得現在是什麼地方嗎？\n受訪者：這是...菜市場啊。對啦，我在這裡等錢。 [吸氣] 訪談者：好，謝謝您回答。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，您好。請問今天星期幾？\n受訪者：嗯...今天是禮拜五嗎？還是禮拜六。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：再想想看喔，昨天是禮拜四。\n受訪者：喔對啦，應該是禮拜五沒錯。\n訪談者：好，那您早上去哪了呀？\n受訪者：我...我去菜市場。買菜。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：買了什麼菜呢？\n受訪者：青菜...還有魚。好像有豆腐。記不太清楚了啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：您記得早上幾點出門的嗎？\n受訪者：大概...九點多吧。或是十點？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那您有去診所拿藥嗎？\n受訪者：有啊，我有去看醫生。拿那個降血壓的藥。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：好的。那您記得現在是什麼地方嗎？\n受訪者：這是...菜市場啊。對啦，我在這裡等錢。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好，謝謝您回答。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 2800,
+    "chinese_char_count": 211
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.42,
+    "coherence_score": 0.55,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "very_slow"
+}

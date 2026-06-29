@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_0_voice4_female_market_0142",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：妳今天早飯吃什麼啊？\n患者：我吃了稀飯跟煎蛋。\n訪談者：最近家裡有發生什麼大事嗎？\n患者：嗯，我家裡就這樣啦，沒有特別的事情。\n訪談者：妳有在吃藥嗎？\n患者：有的，醫生開的藥我都記得拿去診所了。\n訪談者：之前我讓妳記住的是什麼東西呢？\n患者：啊，那個嘛，好像是筆和本子吧。\n訪談者：昨天或今天早上發生的事情有什麼印象嗎？\n患者：喔，昨天好像有跟阿母去菜市場買菜。",
+  "marked_transcript": "訪談者：妳今天早飯吃什麼啊？[停頓]\n患者：我吃了稀飯跟煎蛋。\n訪談者：最近家裡有發生什麼大事嗎？\n患者：嗯，我家裡就這樣啦，沒有特別的事情。\n訪談者：妳有在吃藥嗎？\n患者：有的，醫生開的藥我都記得拿去診所了。\n訪談者：之前我讓妳記住的是什麼東西呢？[停頓]\n患者：啊，那個嘛，好像是筆和本子吧。\n訪談者：昨天或今天早上發生的事情有什麼印象嗎？\n患者：喔，昨天好像有跟阿母去菜市場買菜。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早飯吃什麼啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我吃了稀飯跟煎蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡有發生什麼大事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我家裡就這樣啦，沒有特別的事情。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳有在吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有的，醫生開的藥我都記得拿去診所了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "之前我讓妳記住的是什麼東西呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，那個嘛，好像是筆和本子吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天或今天早上發生的事情有什麼印象嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，昨天好像有跟阿母去菜市場買菜。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 150
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

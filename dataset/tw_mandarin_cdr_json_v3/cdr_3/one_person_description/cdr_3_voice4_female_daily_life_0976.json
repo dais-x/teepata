@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_3_voice4_female_daily_life_0976",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯…… 早上…… 起床…… 阿母…… 那個…… 菜市場…… 拿藥…… 忘記了…… 欸…… 診所…… 囝仔…… 在哪裡…… 啊…… 不記得…… 嗯……",
+  "marked_transcript": "嗯…… 早上…… [停頓] 起床…… 阿母…… [長停頓] 那個…… 菜市場…… [吸氣] 拿藥…… [嘆氣] 忘記了…… 欸…… 診所…… [停頓] 囝仔…… 在哪裡…… [咳嗽] 啊…… [長停頓] 不記得…… 嗯……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 早上……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 685
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "起床…… 阿母……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1215
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個…… 菜市場……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 417
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 860
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了…… 欸…… 診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 681
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔…… 在哪裡……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 403
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1526
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不記得…… 嗯……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 5787,
+    "chinese_char_count": 30
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Severe dementia (CDR 3): fragmented sentences, frequent word-finding failures, orientation confusion regarding location and family, repeated simple phrases like 'remembered' or 'not remembered', and multiple pauses indicating cognitive breakdown."
+}

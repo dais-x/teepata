@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice3_male_family_0755",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：陳先生，今天我們隨便聊聊。首先請問一下，今天是幾月幾號啊？\n受訪者：嗯... 幾月啊？我想想喔。應該是五月吧，對，好像是五月。\n訪談者：沒錯，是五月。那您早上吃了什麼早餐呢？\n受訪者：早餐啊... 我有吃麵包，還有喝牛奶。不過好像還有一個蛋，還是沒有？有點記不太清楚了啦。\n訪談者：沒關係，我們再來想一下。今天早上有去拿藥嗎？\n受訪者：有去診所拿藥，對，昨天才去的。那個血壓藥，嗯... 應該是早上吃的吧。\n訪談者：好，那您記得昨天跟誰一起去菜市場嗎？\n受訪者：菜市場啊... 好像是我阿母陪我去的啦。她常陪我去買菜。欸，不過那天好像還有個什麼事情忘記了...\n訪談者：沒關係，慢慢想。那您現在覺得身體感覺怎麼樣呢？",
+  "marked_transcript": "訪談者：陳先生，今天我們隨便聊聊。首先請問一下，今天是幾月幾號啊？\n受訪者：嗯... [停頓] 幾月啊？我想想喔。應該是五月吧，對，好像是五月。\n訪談者：沒錯，是五月。那您早上吃了什麼早餐呢？\n受訪者：早餐啊... [嘆氣] 我有吃麵包，還有喝牛奶。不過好像還有一個蛋，還是沒有？有點記不太清楚了啦。\n訪談者：沒關係，我們再來想一下。今天早上有去拿藥嗎？\n受訪者：有去診所拿藥，對，昨天才去的。那個血壓藥，嗯... [停頓] 應該是早上吃的吧。\n訪談者：好，那您記得昨天跟誰一起去菜市場嗎？\n受訪者：菜市場啊... [吸氣] 好像是我阿母陪我去的啦。她常陪我去買菜。欸，不過那天好像還有個什麼事情忘記了...\n訪談者：沒關係，慢慢想。那您現在覺得身體感覺怎麼樣呢？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：陳先生，今天我們隨便聊聊。首先請問一下，今天是幾月幾號啊？\n受訪者：嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "幾月啊？我想想喔。應該是五月吧，對，好像是五月。\n訪談者：沒錯，是五月。那您早上吃了什麼早餐呢？\n受訪者：早餐啊..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我有吃麵包，還有喝牛奶。不過好像還有一個蛋，還是沒有？有點記不太清楚了啦。\n訪談者：沒關係，我們再來想一下。今天早上有去拿藥嗎？\n受訪者：有去診所拿藥，對，昨天才去的。那個血壓藥，嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "應該是早上吃的吧。\n訪談者：好，那您記得昨天跟誰一起去菜市場嗎？\n受訪者：菜市場啊..."
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好像是我阿母陪我去的啦。她常陪我去買菜。欸，不過那天好像還有個什麼事情忘記了...\n訪談者：沒關係，慢慢想。那您現在覺得身體感覺怎麼樣呢？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1300,
+    "chinese_char_count": 243
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

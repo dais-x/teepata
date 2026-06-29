@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_voice1_male_medicine_routine_0058",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "每天早上，我會先起床，然後去拿藥。那個醫生開的藥我都要記得吃喔。通常吃完早餐之後就會去診所拿藥，然後回來再看電視。",
+  "marked_transcript": "每天早上，我會先起床，然後去拿藥[停頓]。那個醫生開的藥我都要記得吃喔[長停頓]。通常吃完早餐之後就會去診所拿藥，然後回來再看電視。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "每天早上，我會先起床，然後去拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個醫生開的藥我都要記得吃喔"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "通常吃完早餐之後就會去診所拿藥，然後回來再看電視。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 51
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0547",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你早上吃什麼？\n患者：嗯， 我好像有吃粥欸…… 阿母說的那種。\n訪談者：那上禮拜阿嬤生日有去嗎？\n患者：有啊， 應該是有去， 菜市場那邊的餐廳。",
+  "marked_transcript": "訪談者：你早上吃什麼？\n患者：嗯，[停頓] 我好像有吃粥欸…… [長停頓] 阿母說的那種。\n訪談者：那上禮拜阿嬤生日有去嗎？\n患者：有啊，[停頓] 應該是有去，[吸氣] 菜市場那邊的餐廳。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 871
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我好像有吃粥欸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1401
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說的那種"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那上禮拜阿嬤生日有去嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 832
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是有去"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 608
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場那邊的餐廳"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3712,
+    "chinese_char_count": 56
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Subtle hesitation and mild uncertainty about breakfast details, but coherent recall of family event."
+}

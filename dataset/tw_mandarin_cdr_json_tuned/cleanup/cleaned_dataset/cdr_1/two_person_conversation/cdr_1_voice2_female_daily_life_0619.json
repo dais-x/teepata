@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0619",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，今天我們來聊聊您最近的生活狀況。首先請問一下，今天是幾號啊？\n受訪者：喔， 幾號...嗯，我想想，好像是五、十九號吧。\n訪談者：沒錯，是六月十九號。那您今天早上吃了什麼早餐呢？\n受訪者：早、早上有喝米湯，還有吃個蛋啦。\n訪談者：很好。那您平常有吃什麼藥嗎？記得要說一下喔。\n受訪者：有啊，那個降血壓的藥...呃， 我大概每天早上都拿藥，但是現在好像忘記是幾顆了。\n訪談者：沒關係，慢慢想。那最近有沒有去過菜市場呢？\n受訪者：有去過啦，上個禮拜去過欸，買了一些青菜。",
+  "marked_transcript": "訪談者：阿姨，今天我們來聊聊您最近的生活狀況。首先請問一下，今天是幾號啊？\n受訪者：喔， [停頓] 幾號...嗯，我想想，好像是五、十九號吧。\n訪談者：沒錯，是六月十九號。那您今天早上吃了什麼早餐呢？\n受訪者：早、早上有喝米湯，還有吃個蛋啦。\n訪談者：很好。那您平常有吃什麼藥嗎？記得要說一下喔。\n受訪者：有啊，那個降血壓的藥...呃， [停頓] 我大概每天早上都拿藥，但是現在好像忘記是幾顆了。\n訪談者：沒關係，慢慢想。那最近有沒有去過菜市場呢？\n受訪者：有去過啦，上個禮拜去過欸，買了一些青菜。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，今天我們來聊聊您最近的生活狀況。首先請問一下，今天是幾號啊？\n受訪者：喔，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "幾號...嗯，我想想，好像是五、十九號吧。\n訪談者：沒錯，是六月十九號。那您今天早上吃了什麼早餐呢？\n受訪者：早、早上有喝米湯，還有吃個蛋啦。\n訪談者：很好。那您平常有吃什麼藥嗎？記得要說一下喔。\n受訪者：有啊，那個降血壓的藥...呃，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "我大概每天早上都拿藥，但是現在好像忘記是幾顆了。\n訪談者：沒關係，慢慢想。那最近有沒有去過菜市場呢？\n受訪者：有去過啦，上個禮拜去過欸，買了一些青菜。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 188
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

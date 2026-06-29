@@ -1,0 +1,96 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0759",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：阿姨，請問今天是幾號啊？\n患者：今天...嗯...是禮拜幾喔？我記得好像是星期五吧。\n訪談者：對，是星期五。那妳知道我們現在在哪裡嗎？\n患者：在診所啦。我看那個牌子寫著，應該是這附近的診所嘛。為什麼我要來這裡呢？好像是要拿藥，還是來看醫生啊？有點記不得了。",
+  "marked_transcript": "訪談者：阿姨，請問今天是幾號啊？\n患者：今天 [停頓] 嗯...是禮拜幾喔？我記得好像是星期五吧。\n訪談者：對，是星期五。那妳知道我們現在在哪裡嗎？\n患者：在診所啦。我看那個牌子寫著，應該是這附近的診所嘛。為什麼我要來這裡呢？[長停頓] 好像是要拿藥，還是來看醫生啊？有點記不得了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，請問今天是幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...是禮拜幾喔？我記得好像是星期五吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，是星期五。那妳知道我們現在在哪裡嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所啦。我看那個牌子寫著，應該是這附近的診所嘛。為什麼我要來這裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是要拿藥，還是來看醫生啊？有點記不得了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3500,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

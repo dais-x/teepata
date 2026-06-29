@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_voice4_female_market_0283",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，今天是幾月幾號啊？\n患者：嗯，今天是九月份啦。\n訪談者：好的，那你最近有沒有去菜市場買東西呢？\n患者：喔，我昨天去買菜了，買了很多蔬菜和水果哦。\n訪談者：那你記得你家附近有哪幾間診所嗎？\n患者：應該是有一個在十字路口那邊，還有一個在社區裡面。\n訪談者：很好，最後一個問題，你可以描述一下你的早餐嗎？\n患者：那個嘛，我早餐通常吃稀飯和一些小菜，還有茶。",
+  "marked_transcript": "訪談者：阿母，今天是幾月幾號啊？[停頓]600毫秒\n患者：嗯，今天是九月份啦。\n訪談者：好的，那你最近有沒有去菜市場買東西呢？\n患者：喔，我昨天去買菜了，買了很多蔬菜和水果哦。\n訪談者：那你記得你家附近有哪幾間診所嗎？[停頓]800毫秒\n患者：應該是有一個在十字路口那邊，還有一個在社區裡面。\n訪談者：很好，最後一個問題，你可以描述一下你的早餐嗎？\n患者：那個嘛，我早餐通常吃稀飯和一些小菜，還有茶。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿母，今天是幾月幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天是九月份啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那你最近有沒有去菜市場買東西呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我昨天去買菜了，買了很多蔬菜和水果哦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你記得你家附近有哪幾間診所嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是有一個在十字路口那邊，還有一個在社區裡面。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好，最後一個問題，你可以描述一下你的早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個嘛，我早餐通常吃稀飯和一些小菜，還有茶。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1400,
+    "chinese_char_count": 149
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

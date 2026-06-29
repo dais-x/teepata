@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_2_voice4_female_family_0852",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯，早上起來，我記得要給囝仔準備早餐。 可是……那個鍋子好像放錯地方了。欸，阿母說今天要去菜市場買菜，但我不確定是星期幾。 啊，應該是週五吧？還是週六？記不太清楚了。 診所那邊的藥，我記得要拿，可是忘記帶健保卡沒有？嗯……想一下。 家裡那個舊相框，好像放在客廳櫃子裡，但現在找不到。 不管了，先去找阿母問看看。",
+  "marked_transcript": "嗯，早上起來，我記得要給囝仔準備早餐。[停頓] 可是……那個鍋子好像放錯地方了。欸，阿母說今天要去菜市場買菜，但我不確定是星期幾。[長停頓] 啊，應該是週五吧？還是週六？記不太清楚了。[嘆氣] 診所那邊的藥，我記得要拿，可是忘記帶健保卡沒有？嗯……想一下。[吸氣] 家裡那個舊相框，好像放在客廳櫃子裡，但現在找不到。[停頓] 不管了，先去找阿母問看看。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來，我記得要給囝仔準備早餐"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 866
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是……那個鍋子好像放錯地方了。欸，阿母說今天要去菜市場買菜，但我不確定是星期幾"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1594
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，應該是週五吧？還是週六？記不太清楚了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1156
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊的藥，我記得要拿，可是忘記帶健保卡沒有？嗯……想一下"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 593
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "家裡那個舊相框，好像放在客廳櫃子裡，但現在找不到"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 649
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不管了，先去找阿母問看看"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4858,
+    "chinese_char_count": 126
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall about dates and items, repetition of uncertainty markers, needs support to resolve confusion, but maintains coherent daily life context."
+}

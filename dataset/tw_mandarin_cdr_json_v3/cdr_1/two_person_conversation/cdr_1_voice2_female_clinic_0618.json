@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0618",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天是幾月幾號？\n患者：嗯…… 好像是五月吧， 我記不太清楚了。應該是這個月。\n訪談者：我們現在在哪裡呢？\n患者：欸…… 這裡是診所對不對？ 我是來拿藥的， 阿母說要來開藥。",
+  "marked_transcript": "訪談者：今天是幾月幾號？\n患者：嗯……[停頓] 好像是五月吧，[吸氣] 我記不太清楚了。應該是這個月。\n訪談者：我們現在在哪裡呢？\n患者：欸……[長停頓] 這裡是診所對不對？[嘆氣] 我是來拿藥的，[停頓] 阿母說要來開藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 830
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是五月吧"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 402
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記不太清楚了。應該是這個月"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1451
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是診所對不對？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 886
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我是來拿藥的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 858
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要來開藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4427,
+    "chinese_char_count": 67
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('好像是', '記不太清楚') and one orientation uncertainty (date), but remains coherent. Includes natural pauses and filler words without excessive fragmentation."
+}

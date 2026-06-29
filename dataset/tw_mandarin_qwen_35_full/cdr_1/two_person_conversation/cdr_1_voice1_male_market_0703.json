@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_voice1_male_market_0703",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早安喔。請問您今天早上吃什麼早餐？\n患者：嗯...啊...我早上有吃啦。應該是粥，對不對？欸，好像還有吃蛋。\n訪談者：那您家裡最近有什麼特別的事情嗎？\n患者：特別的事...那個...囝仔要結婚了啦。是下個月，應該沒錯吧？\n訪談者：喔，恭喜喔。那您有在吃什麼藥嗎？\n患者：藥啊...我記得有拿藥。去診所拿的。血壓藥，對不對？\n訪談者：好。那我問您一下，昨天早上發生了什麼事？\n患者：昨天...嗯...我去菜市場買菜。好像碰到阿母的朋友。\n訪談者：那您記得我們剛才說要記住的東西是什麼嗎？\n患者：啊...那個...好像是三號？還是五號？我忘記了啦。",
+  "marked_transcript": "訪談者：阿伯，早安喔。請問您今天早上吃什麼早餐？\n[停頓]\n患者：嗯...啊...我早上有吃啦。[長停頓] 應該是粥，對不對？欸，好像還有吃蛋。\n訪談者：那您家裡最近有什麼特別的事情嗎？\n患者：特別的事...那個...囝仔要結婚了啦。是下個月，應該沒錯吧？\n訪談者：喔，恭喜喔。那您有在吃什麼藥嗎？\n[嘆氣]\n患者：藥啊...我記得有拿藥。去診所拿的。血壓藥，對不對？\n訪談者：好。那我問您一下，昨天早上發生了什麼事？\n[停頓]\n患者：昨天...嗯...我去菜市場買菜。好像碰到阿母的朋友。\n訪談者：那您記得我們剛才說要記住的東西是什麼嗎？\n[長停頓]\n患者：啊...那個...好像是三號？還是五號？我忘記了啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿伯，早安喔。請問您今天早上吃什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...啊...我早上有吃啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是粥，對不對？欸，好像還有吃蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那您家裡最近有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：特別的事...那個...囝仔要結婚了啦。是下個月，應該沒錯吧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，恭喜喔。那您有在吃什麼藥嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：藥啊...我記得有拿藥。去診所拿的。血壓藥，對不對？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好。那我問您一下，昨天早上發生了什麼事？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：昨天...嗯...我去菜市場買菜。好像碰到阿母的朋友。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那您記得我們剛才說要記住的東西是什麼嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：啊...那個...好像是三號？還是五號？我忘記了啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5300,
+    "chinese_char_count": 205
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

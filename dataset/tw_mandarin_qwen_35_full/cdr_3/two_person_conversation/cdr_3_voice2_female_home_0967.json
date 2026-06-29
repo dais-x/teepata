@@ -1,0 +1,139 @@
+{
+  "sample_id": "cdr_3_voice2_female_home_0967",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾號啊？\n患者：嗯……幾號咧……好像是……十三號。\n訪談者：對，那現在是在哪裡呢？\n患者：這裡……這裡是家啦。阿母在……在家。欸，我記得好像……在診所拿過藥。\n訪談者：喔，你是來家裡休息嗎？\n患者：嗯……是啊……我是來……來這裡。對，來這裡。就是……那個地方……忘了。記不得為什麼來。好像是……因為頭痛。啊，不是，是忘記了。",
+  "marked_transcript": "訪談者：今天是幾號啊？\n患者：嗯……[停頓] 幾號咧……[長停頓] 好像是……[吸氣] 十三號。\n訪談者：對，那現在是在哪裡呢？\n患者：這裡……這裡是家啦。阿母在……在家。欸，我記得好像……[停頓] 在診所拿過藥。\n訪談者：喔，你是來家裡休息嗎？\n患者：嗯……是啊……我是來……[停頓] 來這裡。對，來這裡。就是……那個地方……[長停頓] 忘了。記不得為什麼來。好像是……因為頭痛。啊，不是，是忘記了。\n[嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：今天是幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號咧……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "十三號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：對，那現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：這裡……這裡是家啦。阿母在……在家。欸，我記得好像……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所拿過藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：喔，你是來家裡休息嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……是啊……我是來……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來這裡。對，來這裡。就是……那個地方……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘了。記不得為什麼來。好像是……因為頭痛。啊，不是，是忘記了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6700,
+    "chinese_char_count": 115
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 6,
+    "word_finding_count": 7,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.65,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

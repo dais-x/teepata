@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0029",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天早上的時候我本來要出門去菜市場買東西，但是走到門口就忘記帶鑰匙了。那個...呃，我想一下，到底是放在哪裡？好像是在客廳的桌子上，但我不太確定。然後我就回去找，結果發現桌上沒有，後來在沙發縫裡找到。不過那個東西叫什麼名字我一下子想不起來，反正就是開門用的。",
+  "marked_transcript": "今天早上的時候 [停頓] 我本來要出門去菜市場買東西，但是走到門口就忘記帶鑰匙了。那個...呃，我想一下，到底是放在哪裡？好像是在客廳的桌子上，但我不太確定。 [停頓] 然後我就回去找，結果發現桌上沒有，後來在沙發縫裡找到。不過那個東西叫什麼名字我一下子想不起來，反正就是開門用的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上的時候"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我本來要出門去菜市場買東西，但是走到門口就忘記帶鑰匙了。那個...呃，我想一下，到底是放在哪裡？好像是在客廳的桌子上，但我不太確定。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後我就回去找，結果發現桌上沒有，後來在沙發縫裡找到。不過那個東西叫什麼名字我一下子想不起來，反正就是開門用的。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 2,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 1.4,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 1.4,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 3,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 2,
+      "orientation_error_count": 2
+    }
+  }
+}

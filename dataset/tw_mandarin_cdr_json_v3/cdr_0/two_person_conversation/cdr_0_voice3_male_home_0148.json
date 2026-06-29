@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_0_voice3_male_home_0148",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我煮了粥，配了一點鹹菜。欸，好像還有個煎蛋。\n訪談者：家裡最近有什麼特別的事情嗎？\n患者：喔，對啊，週末阿母會過來坐一下，我們打算一起喝茶。應該是下禮拜三吧？",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我煮了粥，配了一點鹹菜。欸，好像還有個煎蛋。\n訪談者：家裡最近有什麼特別的事情嗎？\n患者：喔，對啊，週末阿母會過來坐一下，我們打算一起喝茶。應該是下禮拜三吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我煮了粥，配了一點鹹菜。欸，好像還有個煎蛋"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家裡最近有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，對啊，週末阿母會過來坐一下，我們打算一起喝茶。應該是下禮拜三吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 79
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0 normal response: coherent, accurate recall of breakfast and family plans. Minimal hesitation markers used naturally to reflect normal speech rhythm without cognitive decline."
+}

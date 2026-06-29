@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0757",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，阿伯，今天早餐吃了什麼？\n受訪者：欸，早餐喔... 有吃粥啦，還有茶葉蛋。 好像有喝豆漿。\n訪談者：那最近家裡有什麼特別的事情嗎？\n受訪者：特別的事嘛...昨天啊，囝仔他們來過，帶了菜市場買的菜。好像是上禮拜...\n訪談者：哦，上禮拜來的喔。那你今天的藥有吃嗎？\n受訪者： 有、有吃啦，剛剛拿完藥回來就吃了。那個... 好像是早上吃的吧。\n訪談者：好，那昨天發生什麼事記得嗎？\n受訪者：昨天啊...嗯，我去了公園走走嘛。後來去診所拿藥。欸， 記不太清楚了，好像也是這樣。",
+  "marked_transcript": "訪談者：早啊，阿伯，今天早餐吃了什麼？\n受訪者：欸，早餐喔... [停頓] 有吃粥啦，還有茶葉蛋。 [長停頓] 好像有喝豆漿。\n訪談者：那最近家裡有什麼特別的事情嗎？\n受訪者：特別的事嘛...昨天啊，囝仔他們來過，帶了菜市場買的菜。好像是上禮拜...\n訪談者：哦，上禮拜來的喔。那你今天的藥有吃嗎？\n受訪者： [嘆氣] 有、有吃啦，剛剛拿完藥回來就吃了。那個... [停頓] 好像是早上吃的吧。\n訪談者：好，那昨天發生什麼事記得嗎？\n受訪者：昨天啊...嗯，我去了公園走走嘛。後來去診所拿藥。欸， [停頓] 記不太清楚了，好像也是這樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：早啊，阿伯，今天早餐吃了什麼？\n受訪者：欸，早餐喔..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "有吃粥啦，還有茶葉蛋。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像有喝豆漿。\n訪談者：那最近家裡有什麼特別的事情嗎？\n受訪者：特別的事嘛...昨天啊，囝仔他們來過，帶了菜市場買的菜。好像是上禮拜...\n訪談者：哦，上禮拜來的喔。那你今天的藥有吃嗎？\n受訪者："
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "有、有吃啦，剛剛拿完藥回來就吃了。那個..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是早上吃的吧。\n訪談者：好，那昨天發生什麼事記得嗎？\n受訪者：昨天啊...嗯，我去了公園走走嘛。後來去診所拿藥。欸，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "記不太清楚了，好像也是這樣。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3700,
+    "chinese_char_count": 181
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "slow"
+}

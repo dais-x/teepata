@@ -1,0 +1,127 @@
+{
+  "sample_id": "cdr_1_voice1_male_medicine_routine_0796",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃什麼？\n患者：嗯……好像是白粥， 還有鹹菜。欸，我好像記得有吃一顆蛋， 不對，應該是昨天吃的。\n訪談者：那你有按時吃降血壓藥嗎？\n患者：有啊，早上吃過一次了。 那個白色的瓶子……對，在廚房櫃子裡。我想一下， 好像還有晚上的那一顆，記不太清楚了。\n訪談者：好的，那記得下午也要吃喔。\n患者：好，我記起來了。 應該不會忘記的。",
+  "marked_transcript": "訪談者：今天早上吃什麼？\n患者：嗯……好像是白粥，[停頓] 還有鹹菜。欸，我好像記得有吃一顆蛋，[長停頓] 不對，應該是昨天吃的。\n訪談者：那你有按時吃降血壓藥嗎？\n患者：有啊，早上吃過一次了。[吸氣] 那個白色的瓶子……對，在廚房櫃子裡。我想一下，[嘆氣] 好像還有晚上的那一顆，記不太清楚了。\n訪談者：好的，那記得下午也要吃喔。\n患者：好，我記起來了。[停頓] 應該不會忘記的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是白粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 828
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有鹹菜。欸，我好像記得有吃一顆蛋"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1156
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是昨天吃的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你有按時吃降血壓藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上吃過一次了"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 582
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個白色的瓶子……對，在廚房櫃子裡。我想一下"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 935
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有晚上的那一顆，記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那記得下午也要吃喔"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好，我記起來了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 862
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該不會忘記的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4363,
+    "chinese_char_count": 130
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (white bottle), mild repetition, and memory uncertainty about meal details, but remains coherent and on topic."
+}

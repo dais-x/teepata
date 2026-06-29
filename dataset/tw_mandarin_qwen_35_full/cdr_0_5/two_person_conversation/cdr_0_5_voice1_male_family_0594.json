@@ -1,0 +1,123 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_family_0594",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，今天幾號啊？\n患者：嗯...今天喔，好像是十五號啦。應該是禮拜三吧。\n訪談者：好的，那我們現在在哪裡呢？\n患者：在醫院啊，來拿藥的嘛。欸，好像有點忘記是哪家診所了，不過差不多就是那個附近。\n訪談者：對，是來複診的，對嗎？\n患者：對對，阿母叫我來的啦。最近頭比較昏，想說來看看醫生有沒有什麼要注意的。\n訪談者：好的，那您今天感覺如何呢？\n患者：嗯...还好啦，就是有點累。我想一下喔，昨天好像有去菜市場買菜，然後回來煮飯吃。",
+  "marked_transcript": "訪談者：阿伯，今天幾號啊？\n患者：[停頓] 嗯...今天喔，[停頓] 好像是十五號啦。應該是禮拜三吧。\n訪談者：好的，那我們現在在哪裡呢？\n患者：在醫院啊，來拿藥的嘛。欸，[吸氣] 好像有點忘記是哪家診所了，不過差不多就是那個附近。\n訪談者：對，是來複診的，對嗎？\n患者：對對，阿母叫我來的啦。最近頭比較昏，想說來看看醫生有沒有什麼要注意的。\n訪談者：好的，那您今天感覺如何呢？\n患者：[嘆氣] 嗯...还好啦，就是有點累。我想一下喔，昨天好像有去菜市場買菜，然後回來煮飯吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿伯，今天幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...今天喔，好像是十五號啦。應該是禮拜三吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那我們現在在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：在醫院啊，來拿藥的嘛。欸，好像有點忘記是哪家診所了，不過差不多就是那個附近。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：對，是來複診的，對嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：對對，阿母叫我來的啦。最近頭比較昏，想說來看看醫生有沒有什麼要注意的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，那您今天感覺如何呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯...还好啦，就是有點累。我想一下喔，昨天好像有去菜市場買菜，然後回來煮飯吃。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4500,
+    "chinese_char_count": 171
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

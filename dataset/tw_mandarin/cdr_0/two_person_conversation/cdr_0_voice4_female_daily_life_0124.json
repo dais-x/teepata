@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice4_female_daily_life_0124",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：妳今天早餐吃了什麼？\n患者：嗯，我早上吃了稀飯和一顆水煮蛋。\n訪談者：最近家裡有沒有發生什麼大事？\n患者：啊，好像沒有特別的事情。我們上個星期去菜市場買了一些水果。\n訪談者：妳每天吃藥嗎？\n患者：是的，我每天都需要拿藥到診所去看醫生。今天早上我也拿了幾種藥來吃。\n訪談者：昨天有什麼事情發生呢？\n患者：我想一下...昨天我和兒子去超市買了一些生活用品。",
+  "marked_transcript": "訪談者：妳今天早餐吃了什麼？[停頓]\n患者：嗯，我早上吃了稀飯和一顆水煮蛋。\n訪談者：最近家裡有沒有發生什麼大事？\n患者：啊，好像沒有特別的事情。我們上個星期去菜市場買了一些水果。\n訪談者：妳每天吃藥嗎？[停頓]\n患者：是的，我每天都需要拿藥到診所去看醫生。今天早上我也拿了幾種藥來吃。\n訪談者：昨天有什麼事情發生呢？\n患者：我想一下...昨天我和兒子去超市買了一些生活用品。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我早上吃了稀飯和一顆水煮蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡有沒有發生什麼大事？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，好像沒有特別的事情。我們上個星期去菜市場買了一些水果。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳每天吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是的，我每天都需要拿藥到診所去看醫生。今天早上我也拿了幾種藥來吃。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有什麼事情發生呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下...昨天我和兒子去超市買了一些生活用品。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1700,
+    "chinese_char_count": 149
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

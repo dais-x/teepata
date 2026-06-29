@@ -1,0 +1,100 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_home_0410",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，阿公。今天早餐吃了什麼？\n患者：嗯……有喝豆漿，配饅頭。 好像還有鹹菜，記不太清幾樣了。\n訪談者：喔，那藥有吃嗎？早上那個降血壓的。\n患者：有啊，剛吃完不久。欸，應該是九點左右吧？ 時間有點模糊。\n訪談者：沒關係。囝仔昨天有來視訊嗎？\n患者：有啊，阿孫說要回來過年。希望他順利啦。",
+  "marked_transcript": "訪談者：早安，阿公。今天早餐吃了什麼？\n患者：嗯……有喝豆漿，配饅頭。[停頓] 好像還有鹹菜，記不太清幾樣了。\n訪談者：喔，那藥有吃嗎？早上那個降血壓的。\n患者：有啊，剛吃完不久。欸，應該是九點左右吧？[長停頓] 時間有點模糊。\n訪談者：沒關係。囝仔昨天有來視訊嗎？\n患者：有啊，阿孫說要回來過年。希望他順利啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，阿公。今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……有喝豆漿，配饅頭"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有鹹菜，記不太清幾樣了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那藥有吃嗎？早上那個降血壓的"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，剛吃完不久。欸，應該是九點左右吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1264
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間有點模糊"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係。囝仔昨天有來視訊嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，阿孫說要回來過年。希望他順利啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1917,
+    "chinese_char_count": 112
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0.5: Coherent recall with minor hesitation on details (breakfast items, medicine time). Uses natural Taiwanese Mandarin particles."
+}

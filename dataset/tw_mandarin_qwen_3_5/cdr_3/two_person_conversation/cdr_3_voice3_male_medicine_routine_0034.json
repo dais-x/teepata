@@ -1,0 +1,155 @@
+{
+  "sample_id": "cdr_3_voice3_male_medicine_routine_0034",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，你好。現在是什麼時間？\n患者：嗯……是……那個……早上。\n訪談者：對喔，這是早上。你記得今天是幾號嗎？\n患者：幾……幾號啊……我忘了。\n訪談者：沒關係，我們慢慢講。你在這裡是為了做什麼呢？\n患者：來拿藥……對，拿藥。因為我身體不好，常常要去診所。\n訪談者：喔，原來是這樣。你記得你的家人在哪裡嗎？\n患者：阿母……嗯，阿母她……她在裡面休息。\n訪談者：現在是在醫院或診所喔。\n患者：對……這裡……診所。",
+  "marked_transcript": "訪談者：老先生，你好。現在是什麼時間？\n患者：[停頓] 嗯……是……那個……早上。\n訪談者：對喔，這是早上。你記得今天是幾號嗎？\n患者：幾……幾號啊……我忘了。\n訪談者：沒關係，我們慢慢講。你在這裡是為了做什麼呢？\n患者：來拿藥……對，[停頓] 拿藥。因為我身體不好，常常要去診所。\n訪談者：喔，原來是這樣。你記得你的家人在哪裡嗎？\n患者：阿母……嗯，[長停頓] 阿母她……她在裡面休息。\n訪談者：現在是在醫院或診所喔。\n患者：對……這裡……診所。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，你好。現在是什麼時間？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……是……那個……早上。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對喔，這是早上。你記得今天是幾號嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾……幾號啊……我忘了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢講。你在這裡是為了做什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來拿藥……對，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥。因為我身體不好，常常要去診所。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，原來是這樣。你記得你的家人在哪裡嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……嗯，"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1400
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母她……她在裡面休息。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在是在醫院或診所喔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對……這裡……診所。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 9,
+    "sigh_event_count": 2,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 9500,
+    "chinese_char_count": 147
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 6,
+    "word_finding_count": 8,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.72,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 9
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

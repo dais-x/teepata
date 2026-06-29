@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0449",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你今天早飯吃了什麼？\n患者：那個...嗯，我好像吃麥片啊。\n訪談者：最近有什麼家庭活動嗎？\n患者：喔，對了，上個週末我們全家去菜市場買菜，然後一起去公園散散步。\n訪談者：你記得自己要吃藥嗎？\n患者：應該是吧，我每天都要拿藥的嘛。昨天我去診所拿藥了。\n訪談者：之前跟你說過的一件事情，你能回想起來嗎？\n患者：我想一下...好像是跟鄰居聊天的事情吧。\n訪談者：那你今天早上有做什麼事呢？\n患者：嗯...有點忘記了，好像就是在家裡整理雜物。",
+  "marked_transcript": "訪談者：你今天早飯吃了什麼？[停頓]\n患者：那個...嗯，我好像吃麥片啊。\n訪談者：最近有什麼家庭活動嗎？\n患者：喔，對了，上個週末我們全家去菜市場買菜，然後一起去公園散散步。\n訪談者：你記得自己要吃藥嗎？[停頓]\n患者：應該是吧，我每天都要拿藥的嘛。昨天我去診所拿藥了。\n訪談者：之前跟你說過的一件事情，你能回想起來嗎？\n患者：我想一下...好像是跟鄰居聊天的事情吧。\n訪談者：那你今天早上有做什麼事呢？[停頓]\n患者：嗯...有點忘記了，好像就是在家裡整理雜物。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你今天早飯吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...嗯，我好像吃麥片啊。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近有什麼家庭活動嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，對了，上個週末我們全家去菜市場買菜，然後一起去公園散散步。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得自己要吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是吧，我每天都要拿藥的嘛。昨天我去診所拿藥了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "之前跟你說過的一件事情，你能回想起來嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下...好像是跟鄰居聊天的事情吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你今天早上有做什麼事呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...有點忘記了，好像就是在家裡整理雜物。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2600,
+    "chinese_char_count": 175
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

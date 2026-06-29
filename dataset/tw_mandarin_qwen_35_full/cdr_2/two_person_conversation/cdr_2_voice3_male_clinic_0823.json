@@ -1,0 +1,137 @@
+{
+  "sample_id": "cdr_2_voice3_male_clinic_0823",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾月幾號啊？\n患者：嗯……是……好像是五月喔。\n訪談者：那現在我們是在哪裡呢？\n患者：在……診所啦。對，拿藥的。\n訪談者：您今天為什麼來這裡呀？\n患者：因為……頭會痛嘛。然後要拿藥。\n訪談者：好的，那昨天吃了什麼早餐呢？\n患者：呃……好像有吃粥。還是麵包？哎呀記不得了啦。\n訪談者：沒關係，慢慢說就好。\n患者：欸，對啊，就是那個……菜市場買的。",
+  "marked_transcript": "訪談者：您好，請問今天是幾月幾號啊？\n患者：嗯……[停頓] 是……好像是五月喔。\n訪談者：那現在我們是在哪裡呢？\n患者：在……[長停頓] 診所啦。對，拿藥的。\n訪談者：您今天為什麼來這裡呀？\n患者：因為……頭會痛嘛。然後要拿藥。\n訪談者：好的，那昨天吃了什麼早餐呢？\n患者：呃……好像有吃粥。還是麵包？哎呀記不得了啦。\n訪談者：沒關係，慢慢說就好。\n患者：欸，對啊，就是那個……[停頓] 菜市場買的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾月幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……是……好像是五月喔。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那現在我們是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在……診所啦。對，拿藥的。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 280
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您今天為什麼來這裡呀？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 350
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為……頭會痛嘛。然後要拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 320
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那昨天吃了什麼早餐呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃……好像有吃粥。還是麵包？哎呀記不得了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 290
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢說就好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 380
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，對啊，就是那個……菜市場買的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 9,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3620,
+    "chinese_char_count": 133
+  },
+  "impairment_features": {
+    "hesitation_count": 11,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.45,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 9
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

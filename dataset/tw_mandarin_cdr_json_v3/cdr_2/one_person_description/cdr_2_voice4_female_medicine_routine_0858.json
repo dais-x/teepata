@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice4_female_medicine_routine_0858",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，每天早上我都會去診所拿藥。 阿母說要記得吃，但是……那個，到底是幾點？欸，我想一下，好像是早餐後？ 不對，昨天好像也是這樣。 唉，記不得了。反正就是那個紅色的瓶子， 對，拿藥回來就放在桌上。 但是今天……好像少了一顆？還是多一顆？ 哎呀，搞不清楚了。阿母會幫我看的吧？ 嗯，應該是這樣沒錯。",
+  "marked_transcript": "嗯，每天早上我都會去診所拿藥。[停頓] 阿母說要記得吃，但是……那個，到底是幾點？欸，我想一下，好像是早餐後？[長停頓] 不對，昨天好像也是這樣。[嘆氣] 唉，記不得了。反正就是那個紅色的瓶子，[吸氣] 對，拿藥回來就放在桌上。[停頓] 但是今天……好像少了一顆？還是多一顆？[長停頓] 哎呀，搞不清楚了。阿母會幫我看的吧？[停頓] 嗯，應該是這樣沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，每天早上我都會去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 760
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要記得吃，但是……那個，到底是幾點？欸，我想一下，好像是早餐後？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1497
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，昨天好像也是這樣"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1201
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "唉，記不得了。反正就是那個紅色的瓶子"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，拿藥回來就放在桌上"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 658
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是今天……好像少了一顆？還是多一顆？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，搞不清楚了。阿母會幫我看的吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 780
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是這樣沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 7002,
+    "chinese_char_count": 114
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Moderate dementia (CDR 2) speech showing fragmented recall, time confusion regarding medication timing, repetition of uncertainty ('好像是', '記不得'), and reliance on family support. Includes natural pauses and markers appropriate for moderate severity."
+}

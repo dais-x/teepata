@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice3_male_home_0274",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生您好，今天天氣不錯吧？\n患者：是啊，陽光蠻好的，剛剛還去陽台收衣服。\n訪談者：那您記得今天是幾號嗎？\n患者：應該是十一號喔，禮拜二沒錯。\n訪談者：沒錯。那今天早上吃什麼呢？\n患者：早餐吃粥配醬菜，後來有去看診所拿藥。\n訪談者：喔，看診是去哪裡呢？\n患者：就是社區診所啊，就在巷子口那裡，很熟悉的。\n訪談者：好的，那您中午打算做什麼？\n患者：我通常會去菜市場買些青菜，然後回家煮湯喝。",
+  "marked_transcript": "訪談者：老先生您好，今天天氣不錯吧？\n[停頓]\n患者：是啊，陽光蠻好的，剛剛還去陽台收衣服。\n訪談者：那您記得今天是幾號嗎？\n患者：應該是十一號喔，禮拜二沒錯。\n訪談者：沒錯。那今天早上吃什麼呢？\n[吸氣]\n患者：早餐吃粥配醬菜，後來有去看診所拿藥。\n訪談者：喔，看診是去哪裡呢？\n患者：就是社區診所啊，就在巷子口那裡，很熟悉的。\n訪談者：好的，那您中午打算做什麼？\n[停頓]\n患者：我通常會去菜市場買些青菜，然後回家煮湯喝。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生您好，今天天氣不錯吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "是啊，陽光蠻好的，剛剛還去陽台收衣服。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得今天是幾號嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是十一號喔，禮拜二沒錯。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯。那今天早上吃什麼呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐吃粥配醬菜，後來有去看診所拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，看診是去哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是社區診所啊，就在巷子口那裡，很熟悉的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您中午打算做什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我通常會去菜市場買些青菜，然後回家煮湯喝。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

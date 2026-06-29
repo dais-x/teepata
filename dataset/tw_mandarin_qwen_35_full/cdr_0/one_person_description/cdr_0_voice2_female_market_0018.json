@@ -1,0 +1,87 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0018",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我去菜市場。那裡人蠻多的啦，我買了一些青菜和魚。阿母說今天有新鮮的土雞，但我沒買，因為價錢有點貴。然後我也跟隔壁攤位的阿姨聊了一下，她问我最近身體好不好。我告訴她還不錯，就是腿有時會痠痠的，不過沒關係，走走路就好了。回家後煮個簡單的午餐就對了。",
+  "marked_transcript": "[嘆氣]嗯，今天早上我去菜市場。[停頓]那裡人蠻多的啦，我買了一些青菜和魚。阿母說今天有新鮮的土雞，但我沒買，因為價錢有點貴。然後我也跟隔壁攤位的阿姨聊了一下，她问我最近身體好不好。[吸氣]我告訴她還不錯，就是腿有時會痠痠的，不過沒關係，走走路就好了。[長停頓]回家後煮個簡單的午餐就對了。",
+  "event_script": [
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我去菜市場。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那裡人蠻多的啦，我買了一些青菜和魚。阿母說今天有新鮮的土雞，但我沒買，因為價錢有點貴。然後我也跟隔壁攤位的阿姨聊了一下，她问我最近身體好不好。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我告訴她還不錯，就是腿有時會痠痠的，不過沒關係，走走路就好了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後煮個簡單的午餐就對了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3750,
+    "chinese_char_count": 114
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

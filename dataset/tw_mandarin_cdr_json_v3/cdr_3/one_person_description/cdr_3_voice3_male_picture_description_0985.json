@@ -1,0 +1,142 @@
+{
+  "sample_id": "cdr_3_voice3_male_picture_description_0985",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話，一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。畫面裡有幾個人和物品，每個人都在做不同的事情。"
+  },
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "阿公…… 坐著。 那個…… 茶…… 杯。 小孩…… 積木…… 玩。 貓…… 跳……",
+  "marked_transcript": "阿公…… [停頓] 坐著。[長停頓] 那個…… [吸氣] 茶…… [咳嗽] 杯。[停頓] 小孩…… [嘆氣] 積木…… [長停頓] 玩。[停頓] 貓…… [長停頓] 跳……",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿公……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 781
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "坐著"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1398
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 630
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "茶……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 617
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "杯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "小孩……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 908
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "積木……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1146
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "玩"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 684
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "貓……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1604
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "跳……"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 8559,
+    "chinese_char_count": 15
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR3 severe: fragmented phrases, frequent pauses (9 markers), word-finding difficulty ('那個', '茶杯'), repetition of simple nouns."
+}

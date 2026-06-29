@@ -1,0 +1,135 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0762",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早上吃什麼早餐？\n患者：嗯…… 好像是稀飯啦， 菜市場買的青菜， 配蛋。欸，應該是這樣沒錯。\n訪談者：那上週兒子回來，有發生什麼事嗎？\n患者：啊…… 兒子回來過， 忘記帶什麼禮物了， 好像是玩具車？記不太清， 不好意思。",
+  "marked_transcript": "訪談者：阿伯，早上吃什麼早餐？\n患者：嗯…… [停頓] 好像是稀飯啦，[長停頓] 菜市場買的青菜，[吸氣] 配蛋。欸，應該是這樣沒錯。\n訪談者：那上週兒子回來，有發生什麼事嗎？\n患者：啊…… [嘆氣] 兒子回來過，[停頓] 忘記帶什麼禮物了，[長停頓] 好像是玩具車？記不太清，[咳嗽] 不好意思。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1345
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場買的青菜"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 474
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "配蛋。欸，應該是這樣沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那上週兒子回來，有發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "兒子回來過"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 871
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記帶什麼禮物了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1331
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是玩具車？記不太清"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 676
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不好意思"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6448,
+    "chinese_char_count": 85
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Clear word-finding difficulty with '好像是' and '忘記', one orientation/memory uncertainty about the gift, but context remains understandable. Minimal markers used to reflect early stage."
+}

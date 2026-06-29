@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0788",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我去菜市場買菜。那個……欸，我記得要拿藥的，好像是去診所拿？ 啊對，然後在市場看到阿母，囝仔也在。我想一下，昨天好像有下雨？ 記不得是星期幾了。不過菜都買好了，回家煮飯。",
+  "marked_transcript": "嗯，今天早上我去菜市場買菜。那個……欸，我記得要拿藥的，好像是去診所拿？[停頓] 啊對，然後在市場看到阿母，囝仔也在。我想一下，昨天好像有下雨？[長停頓] 記不得是星期幾了。不過菜都買好了，回家煮飯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我去菜市場買菜。那個……欸，我記得要拿藥的，好像是去診所拿？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 678
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對，然後在市場看到阿母，囝仔也在。我想一下，昨天好像有下雨？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1565
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得是星期幾了。不過菜都買好了，回家煮飯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2243,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('好像是去診所拿'), one orientation/memory error (day of week), and mild repetition. Speech remains coherent with natural pauses."
+}

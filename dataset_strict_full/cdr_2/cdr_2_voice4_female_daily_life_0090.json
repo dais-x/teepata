@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_2_voice4_female_daily_life_0090",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個...我早上有去公園走走呃，大概走了一個小時左右吧回來之後就吃個飯，嗯，好像忘了吃什麼菜了，只記得有青菜啦下午嘛，我就在客廳看電視，嗯，不知道是幾點鐘開始的，反正就是看完一集劇情那個東西忘記叫什麼名字了，對不對？好像是要去買藥，但是又忘記要去哪裡買",
+  "marked_transcript": "那個...我早上有去公園走走 [停頓] 呃，大概走了一個小時左右吧 [長停頓] 回來之後就吃個飯，嗯，好像忘了吃什麼菜了，只記得有青菜啦 [停頓] 下午嘛，我就在客廳看電視，嗯，不知道是幾點鐘開始的，反正就是看完一集劇情 [長停頓] 那個東西忘記叫什麼名字了，對不對？ [停頓] 好像是要去買藥，但是又忘記要去哪裡買",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我早上有去公園走走"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，大概走了一個小時左右吧"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回來之後就吃個飯，嗯，好像忘了吃什麼菜了，只記得有青菜啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "下午嘛，我就在客廳看電視，嗯，不知道是幾點鐘開始的，反正就是看完一集劇情"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個東西忘記叫什麼名字了，對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是要去買藥，但是又忘記要去哪裡買"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 6,
+    "pause_count": 3,
+    "long_pause_count": 2,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 5.7,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 2,
+      "total_pause_duration_sec": 5.7,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 7,
+      "restart_count": 1
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 4
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.49,
+      "memory_gap_count": 2,
+      "orientation_error_count": 2
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_0_voice2_female_clinic_0101",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾號？\n患者：今天是十月十五號，星期二。\n訪談者：那您現在人在哪裡呢？\n患者：我在這裡的診所啊，剛剛來拿藥。\n訪談者：好的，那我問您幾個字，請您記住。蘋果、桌子、貓，等下我會再問。\n患者：好，我記住了，蘋果、桌子、貓。\n訪談者：謝謝，那您昨天晚餐吃了什麼？\n患者：昨天晚餐吃的是滷肉飯，還有青菜湯。\n訪談者：最後請您把剛才那三個詞複誦一次。\n患者：蘋果、桌子、貓。",
+  "marked_transcript": "訪談者：您好，請問今天是幾號？\n患者：今天是十月十五號，星期二。\n訪談者：那您現在人在哪裡呢？\n患者：我在這裡的診所啊，剛剛來拿藥。\n訪談者：好的，那我問您幾個字，請您記住。蘋果、桌子、貓，等下我會再問。\n患者：好，我記住了，蘋果、桌子、貓。\n訪談者：謝謝，那您昨天晚餐吃了什麼？\n患者：昨天晚餐吃的是滷肉飯，還有青菜湯。\n訪談者：最後請您把剛才那三個詞複誦一次。\n患者：蘋果、桌子、貓。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是十月十五號，星期二"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您現在人在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在這裡的診所啊，剛剛來拿藥"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我問您幾個字，請您記住。蘋果、桌子、貓，等下我會再問"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好，我記住了，蘋果、桌子、貓"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "謝謝，那您昨天晚餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天晚餐吃的是滷肉飯，還有青菜湯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最後請您把剛才那三個詞複誦一次"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "蘋果、桌子、貓"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 148
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0 normal transcript with coherent answers, accurate orientation, and no significant memory deficits. Minimal pauses used to simulate natural speech flow."
+}

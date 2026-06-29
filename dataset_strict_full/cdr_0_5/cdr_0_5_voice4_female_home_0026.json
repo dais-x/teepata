@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_home_0026",
+  "cdr_level": "0.5",
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "今天天氣不錯，我打算去公園走走，順便買點菜回家煮飯。嗯，那個...我記得昨天有看到鄰居阿美姐，她好像要去市場。不過我不太確定是星期幾了，可能是週三吧？",
+  "marked_transcript": "今天天氣不錯， [停頓] 我打算去公園走走， [長停頓] 順便買點菜回家煮飯。嗯，那個...我記得昨天有看到鄰居阿美姐，她好像要去市場。不過我不太確定是星期幾了，可能是週三吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天天氣不錯，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我打算去公園走走，"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "順便買點菜回家煮飯。嗯，那個...我記得昨天有看到鄰居阿美姐，她好像要去市場。不過我不太確定是星期幾了，可能是週三吧？"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 1,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.3,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.3,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 4.2,
+      "filled_pause_count": 2,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 0,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.15,
+      "coherence_score": 0.85,
+      "memory_gap_count": 0,
+      "orientation_error_count": 1
+    }
+  }
+}

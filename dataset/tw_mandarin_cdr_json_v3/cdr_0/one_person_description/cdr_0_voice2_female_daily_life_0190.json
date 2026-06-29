@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_voice2_female_daily_life_0190",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，我早上起來先開窗通風，然後去菜市場買點新鮮蔬菜。回來之後煮個簡單的早餐，順便幫阿母拿藥。下午就在家裡看看書，或者跟鄰居聊聊天。日子過得平平順順的，沒什麼特別的事。",
+  "marked_transcript": "嗯，我早上起來先開窗通風，然後去[停頓]菜市場買點新鮮蔬菜。回來之後煮個簡單的早餐，順便幫阿母拿藥。下午就在家裡看看書，或者跟鄰居聊聊天。日子過得平平順順的，沒什麼特別的事。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我早上起來先開窗通風，然後去"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 727
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場買點新鮮蔬菜。回來之後煮個簡單的早餐，順便幫阿母拿藥。下午就在家裡看看書，或者跟鄰居聊聊天。日子過得平平順順的，沒什麼特別的事"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 727,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0 normal profile: coherent narrative, accurate temporal orientation, minimal pauses [停頓], no memory errors or hesitation markers."
+}

@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice2_female_family_0634",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "嗯，每天早上我都會去菜市場買菜。 今天好像忘記帶錢包了，欸，應該有放在桌上才對。 後來阿母幫我拿出來，我才記得要去診所拿藥。囝仔也在那邊等我，我們一起回家吃早餐。",
+  "marked_transcript": "嗯，每天早上我都會去菜市場買菜。[停頓] 今天好像忘記帶錢包了，欸，應該有放在桌上才對。[長停頓] 後來阿母幫我拿出來，我才記得要去診所拿藥。囝仔也在那邊等我，我們一起回家吃早餐。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，每天早上我都會去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 639
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天好像忘記帶錢包了，欸，應該有放在桌上才對"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1402
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來阿母幫我拿出來，我才記得要去診所拿藥。囝仔也在那邊等我，我們一起回家吃早餐"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2041,
+    "chinese_char_count": 70
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgetting wallet), mild repetition of checking memory, and one orientation error regarding location. Speech remains coherent with natural pauses."
+}

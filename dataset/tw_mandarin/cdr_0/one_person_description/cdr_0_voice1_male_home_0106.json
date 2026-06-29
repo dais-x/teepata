@@ -1,0 +1,88 @@
+{
+  "sample_id": "cdr_0_voice1_male_home_0106",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "今天早上起來，我去菜市場買點東西。先去攤販挑選蔬果，然後再去肉攤買些肉。回家後開始準備早餐，煮碗稀飯配上小菜。",
+  "marked_transcript": "今天早上起來[停頓]我去菜市場買點東西[停頓]先去攤販挑選蔬果[長停頓]然後再去肉攤買些肉[咳嗽]回家後開始準備早餐[吸氣]煮碗稀飯配上小菜。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我去菜市場買點東西"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "先去攤販挑選蔬果"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後再去肉攤買些肉"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家後開始準備早餐煮碗稀飯配上小菜"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 1,
+    "breath_event_count": 0,
+    "total_pause_ms": 1900,
+    "chinese_char_count": 49
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

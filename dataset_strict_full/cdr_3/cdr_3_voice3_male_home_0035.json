@@ -1,0 +1,134 @@
+{
+  "sample_id": "cdr_3_voice3_male_home_0035",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "name": "phone_mic_degraded",
+    "description": "手機麥克風品質，略微壓縮。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個...我昨天去市場買菜，呃，好像是有買魚，但是忘記叫什麼魚了。嗯然後回家煮飯，嗯，那個鍋子在哪裡？我想想，對不起，我忘了。早上起來的時候，太陽很大，現在幾點了？不記得。那個水壺，哎呀，不知道怎麼講，就是喝水用的那個東西。啊！對了，是茶壺。可是放哪裡呢？忘記了，放在桌子下面嗎？還是櫃子裡？嗯...我想不起來。昨天吃什麼？呃，好像有吃肉，但是忘記是什麼肉了。",
+  "marked_transcript": "那個 [停頓] ...我昨天去市場買菜，呃，好像是有買魚，但是忘記叫什麼魚了。 嗯 然後回家煮飯，嗯，那個鍋子在哪裡？我想想，對不起，我忘了。 [停頓] 早上起來的時候，太陽很大，現在幾點了？不記得。 [停頓] 那個水壺，哎呀，不知道怎麼講，就是喝水用的那個東西。啊！對了，是茶壺。可是放哪裡呢？忘記了，放在桌子下面嗎？還是櫃子裡？ [停頓] 嗯... [長停頓] 我想不起來。昨天吃什麼？呃，好像有吃肉，但是忘記是什麼肉了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...我昨天去市場買菜，呃，好像是有買魚，但是忘記叫什麼魚了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後回家煮飯，嗯，那個鍋子在哪裡？我想想，對不起，我忘了。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上起來的時候，太陽很大，現在幾點了？不記得。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個水壺，哎呀，不知道怎麼講，就是喝水用的那個東西。啊！對了，是茶壺。可是放哪裡呢？忘記了，放在桌子下面嗎？還是櫃子裡？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯..."
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想不起來。昨天吃什麼？呃，好像有吃肉，但是忘記是什麼肉了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 8,
+    "pause_count": 4,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 5.1,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 4,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 5.1,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 10,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 5,
+      "vague_reference_count": 3,
+      "circumlocution_count": 4,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 2,
+      "self_correction_count": 1,
+      "sentence_fragment_count": 7
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 5,
+      "orientation_error_count": 3
+    }
+  }
+}

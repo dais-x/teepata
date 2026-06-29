@@ -1,0 +1,142 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0750",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，早安。請問今天是幾月幾號？\n患者：嗯……是幾號啊？我想一下喔。\n訪談者：沒關係，慢慢想。\n患者：應該是今天吧？對不對？好像是一月……還是二月？欸，我記不清了啦。\n訪談者：沒問題。那我們現在是在哪裡呢？\n患者：這裡……是診所啊。對喔，來拿藥的嘛。\n訪談者：沒錯，你為什麼今天過來呢？\n患者：嗯……是因為頭有點暈啦，然後想說來給醫生看一下。大概是一週前開始不舒服吧？\n訪談者：好的，記得很清楚喔。\n患者：欸……好像還有別的，想一下，那個……菜市場走路的時候，腳有點軟啦。\n訪談者：好的，謝謝你。",
+  "marked_transcript": "訪談者：阿母，早安。請問今天是幾月幾號？\n患者：嗯……是幾號啊？[停頓] 我想一下喔。\n訪談者：沒關係，慢慢想。\n患者：應該是今天吧？[長停頓] 對不對？好像是一月……還是二月？欸，我記不清了啦。\n訪談者：沒問題。那我們現在是在哪裡呢？\n患者：這裡……是診所啊。對喔，來拿藥的嘛。\n訪談者：沒錯，你為什麼今天過來呢？\n患者：嗯……[嘆氣] 是因為頭有點暈啦，然後想說來給醫生看一下。大概是一週前開始不舒服吧？\n訪談者：好的，記得很清楚喔。\n患者：欸……好像還有別的，[吸氣] 想一下，那個……菜市場走路的時候，腳有點軟啦。\n訪談者：好的，謝謝你。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：阿母，早安。請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……是幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：我想一下喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒關係，慢慢想。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：應該是今天吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：對不對？好像是一月……還是二月？欸，我記不清了啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒問題。那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：這裡……是診所啊。對喔，來拿藥的嘛。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：沒錯，你為什麼今天過來呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：是因為頭有點暈啦，然後想說來給醫生看一下。大概是一週前開始不舒服吧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，記得很清楚喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸……好像還有別的，"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：想一下，那個……菜市場走路的時候，腳有點軟啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好的，謝謝你。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3150,
+    "chinese_char_count": 189
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

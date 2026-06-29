@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_medicine_routine_0428",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：那個...好像是四月二十八日吧，我想一下...\n訪談者：你在哪兒啊？\n患者：應該是在診所啦，我來拿藥的。\n訪談者：你為什麼會來這裡呢？\n患者：嗯，因為醫生叫我過來拿藥嘛，最近身體不大好。\n訪談者：那你這幾天有什麼特別的事情嗎？\n患者：那個...好像沒有啥特別的事情，就是每天去菜市場買點東西。",
+  "marked_transcript": "訪談者：今天幾號？\n患者：那個...好像是四月二十八日吧，我想一下...\n[停頓]500ms\n訪談者：你在哪兒啊？\n患者：應該是在診所啦，我來拿藥的。\n訪談者：你為什麼會來這裡呢？\n患者：嗯，因為醫生叫我過來拿藥嘛，最近身體不大好。\n[停頓]800ms\n訪談者：那你這幾天有什麼特別的事情嗎？\n患者：那個...好像沒有啥特別的事情，就是每天去菜市場買點東西。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...好像是四月二十八日吧，我想一下..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你在哪兒啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在診所啦，我來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼會來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，因為醫生叫我過來拿藥嘛，最近身體不大好。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你這幾天有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...好像沒有啥特別的事情，就是每天去菜市場買點東西。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1300,
+    "chinese_char_count": 123
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

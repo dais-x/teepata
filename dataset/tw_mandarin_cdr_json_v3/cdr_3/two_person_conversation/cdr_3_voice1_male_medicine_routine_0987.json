@@ -1,0 +1,191 @@
+{
+  "sample_id": "cdr_3_voice1_male_medicine_routine_0987",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… 粥…… 忘記了。\n訪談者：昨天有誰來看你嗎？\n患者：阿母…… 欸，不記得了。\n訪談者：藥呢？早上吃藥了嗎？\n患者：藥…… 在桌上…… 好像沒拿。\n訪談者：那現在幾點了？\n患者：時間…… 記不得。 應該…… 中午吧。\n訪談者：你記得要去診所嗎？\n患者：診所…… 對，拿藥…… 忘記了。",
+  "marked_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… [停頓] 粥…… [長停頓] 忘記了。[嘆氣]\n訪談者：昨天有誰來看你嗎？\n患者：阿母…… [吸氣] 欸，不記得了。\n訪談者：藥呢？早上吃藥了嗎？\n患者：藥…… [咳嗽] 在桌上…… [停頓] 好像沒拿。[長停頓]\n訪談者：那現在幾點了？\n患者：時間…… [停頓] 記不得。[嘆氣] 應該…… 中午吧。\n訪談者：你記得要去診所嗎？\n患者：診所…… [停頓] 對，拿藥…… [長停頓] 忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 821
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1699
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1294
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有誰來看你嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 610
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，不記得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥呢？早上吃藥了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 749
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在桌上……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 690
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像沒拿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1692
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那現在幾點了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 688
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 931
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該…… 中午吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得要去診所嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1496
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 19,
+    "pause_event_count": 7,
+    "sigh_event_count": 2,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 11323,
+    "chinese_char_count": 99
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "Severe dementia (CDR 3) simulation featuring fragmented speech, frequent word-finding failures, orientation confusion regarding time and location, and inability to recall recent events or routine tasks. Speaker uses natural pauses and filler words typical of Taiwanese Mandarin oral style."
+}

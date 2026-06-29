@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_voice2_female_daily_life_0084",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：您好，請問您今天記得是什麼日期嗎？\n患者：嗯，今天是星期二。\n訪談者：那這裡是哪裡呢？\n患者：喔，我記得是這裡的診所啦。\n訪談者：對的。那您為什麼會來這裡呢？\n患者：啊，因為我最近有點頭暈，所以拿藥來看看。",
+  "marked_transcript": "訪談者：您好，請問您今天記得是什麼日期嗎？\n患者：嗯，[停頓] 今天是星期二。\n訪談者：那這裡是哪裡呢？\n患者：喔，我記得是這裡的診所啦。\n訪談者：對的。那您為什麼會來這裡呢？\n患者：啊，因為我最近有點頭暈，所以拿藥來看看。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問您今天記得是什麼日期嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是星期二。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那這裡是哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我記得是這裡的診所啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對的。那您為什麼會來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，因為我最近有點頭暈，所以拿藥來看看。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 600,
+    "chinese_char_count": 84
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0368",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是幾號？\n患者：嗯……我想一下， 好像是十一月十一號吧。\n訪談者：那您來菜市場是要做什麼呢？\n患者：欸，買菜啊。 順便去診所拿藥。",
+  "marked_transcript": "訪談者：請問今天是幾號？\n患者：嗯……我想一下，[長停頓] 好像是十一月十一號吧。\n訪談者：那您來菜市場是要做什麼呢？\n患者：欸，買菜啊。[停頓] 順便去診所拿藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1590
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是十一月十一號吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您來菜市場是要做什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，買菜啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 825
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "順便去診所拿藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2415,
+    "chinese_char_count": 55
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 特徵：語句基本連貫，僅有輕微停頓與猶豫，無嚴重記憶缺失。"
+}

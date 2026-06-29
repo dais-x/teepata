@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0584",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上我都會去菜市場買菜。 那個……好像是今天要去拿藥，欸，應該是昨天就該去了。 阿母說要記得跟診所講一聲。",
+  "marked_transcript": "嗯，早上我都會去菜市場買菜。[停頓] 那個……好像是今天要去拿藥，欸，應該是昨天就該去了。[停頓] 阿母說要記得跟診所講一聲。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上我都會去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 849
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……好像是今天要去拿藥，欸，應該是昨天就該去了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 869
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要記得跟診所講一聲"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1718,
+    "chinese_char_count": 45
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 very mild: coherent narrative with one instance of uncertainty about medication timing and a single hesitation marker."
+}

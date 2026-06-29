@@ -1,0 +1,116 @@
+{
+  "sample_id": "cdr_1_voice3_male_medicine_routine_0152",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "name": "phone_mic_degraded",
+    "description": "手機麥克風品質，略微壓縮。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你平常藥都是什麼時候吃？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯……我記得是早上跟晚上啦，不過有時候會忘記，大概就飯後吧。"
+    }
+  ],
+  "spoken_transcript": "嗯……我記得是早上跟晚上啦，不過有時候會忘記，大概就飯後吧。",
+  "marked_transcript": "嗯 [停頓] ……我記得是早上跟晚上啦，不過有時候會忘記，大概就飯後吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "……我記得是早上跟晚上啦，不過有時候會忘記，大概就飯後吧。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你平常藥都是什麼時候吃？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我記得是早上跟晚上啦，不過有時候會忘記，大概就飯後吧。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 2,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.5,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.5,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.2,
+      "filled_pause_count": 2,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.32,
+      "coherence_score": 0.75,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

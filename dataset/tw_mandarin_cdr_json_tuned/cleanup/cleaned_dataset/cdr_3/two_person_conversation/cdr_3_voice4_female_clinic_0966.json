@@ -1,0 +1,123 @@
+{
+  "sample_id": "cdr_3_voice4_female_clinic_0966",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，現在是幾點鐘呢？\n受訪者：嗯 時間喔。好像是早上啦。 訪談者：那是早上還是晚上呢？\n受訪者：早、早上。對呀，早上。 訪談者：您記得今天是幾號嗎？\n受訪者：幾號... 幾號咧？忘記了。記不得喔。 訪談者：那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所啊。拿藥的。 訪談者：您記得昨天吃了什麼嗎？\n受訪者：昨天？好像吃菜市場買的魚啦。肉也有吧？ 訪談者：那您家裡現在有誰在陪著您呢？\n受訪者：家裡... 阿母咧？不對，阿母不在。囝仔喔。",
+  "marked_transcript": "訪談者：阿姨，現在是幾點鐘呢？\n受訪者：嗯 [停頓] 時間喔。好像是早上啦。 [長停頓] 訪談者：那是早上還是晚上呢？\n受訪者：早、早上。對呀，早上。 [停頓] 訪談者：您記得今天是幾號嗎？\n受訪者：幾號... [停頓] 幾號咧？忘記了。記不得喔。 [咳嗽] 訪談者：那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所啊。拿藥的。 [吸氣] 訪談者：您記得昨天吃了什麼嗎？\n受訪者：昨天？好像吃菜市場買的魚啦。肉也有吧？ [長停頓] 訪談者：那您家裡現在有誰在陪著您呢？\n受訪者：家裡... 阿母咧？不對，阿母不在。囝仔喔。 [嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，現在是幾點鐘呢？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "時間喔。好像是早上啦。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那是早上還是晚上呢？\n受訪者：早、早上。對呀，早上。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：您記得今天是幾號嗎？\n受訪者：幾號..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "幾號咧？忘記了。記不得喔。"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所啊。拿藥的。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：您記得昨天吃了什麼嗎？\n受訪者：昨天？好像吃菜市場買的魚啦。肉也有吧？"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那您家裡現在有誰在陪著您呢？\n受訪者：家裡... 阿母咧？不對，阿母不在。囝仔喔。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 300
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4500,
+    "chinese_char_count": 166
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 4,
+    "word_finding_count": 6,
+    "orientation_error_count": 3,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.29,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "very_slow"
+}

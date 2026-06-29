@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_1_voice2_female_family_0042",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，現在幾點了？\n患者：嗯……喔，現在……應該是下午。對，下午。\n訪談者：那今天是星期幾呢？\n患者：星期……星期幾啊？我想一下。好像是禮拜五？還是禮拜四啦。\n訪談者：沒关系，那我們今天是在哪裡呢？\n患者：這裡是……家裡嘛。阿母在這裡休息。\n訪談者：好喔。那阿姨最近有去診所拿藥嗎？\n患者：有啊，昨天才去的。醫生說那個血壓還要再量一下。嗯，差不多就是這樣啦。",
+  "marked_transcript": "訪談者：阿姨，現在幾點了？\n患者：[停頓] 嗯……喔，現在……應該是下午。對，下午。\n訪談者：那今天是星期幾呢？\n患者：星期……星期幾啊？[長停頓] 我想一下。好像是禮拜五？還是禮拜四啦。\n訪談者：沒关系，那我們今天是在哪裡呢？\n患者：這裡是……家裡嘛。阿母在這裡休息。\n訪談者：好喔。那阿姨最近有去診所拿藥嗎？\n患者：有啊，昨天才去的。[停頓] 醫生說那個血壓還要再量一下。嗯，差不多就是這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，現在幾點了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……喔，現在……應該是下午。對，下午。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天是星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期……星期幾啊？我想一下。好像是禮拜五？還是禮拜四啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒关系，那我們今天是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是……家裡嘛。阿母在這裡休息。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好喔。那阿姨最近有去診所拿藥嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，昨天才去的。醫生說那個血壓還要再量一下。嗯，差不多就是這樣啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 7,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 138
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

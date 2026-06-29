@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_voice4_female_market_0050",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天星期幾？\n患者：今天是星期五，我們剛剛去菜市場買菜。\n訪談者：您記得剛才我問了什麼嗎？\n患者：記得啊，你問現在是星期幾。我剛跟鄰居阿母聊過天，她說下午要去診所拿藥。\n訪談者：那您今天中午吃了些什麼呢？\n患者：我吃的是滷肉飯，還有一碗湯，很香。",
+  "marked_transcript": "訪談者：請問今天星期幾？\n患者：今天是星期五，我們剛剛去菜市場買菜。\n訪談者：您記得剛才我問了什麼嗎？\n患者：記得啊，你問現在是星期幾。我剛跟鄰居阿母聊過天，她說下午要去診所拿藥。\n訪談者：那您今天中午吃了些什麼呢？\n患者：我吃的是滷肉飯，還有一碗湯，很香。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是星期五，我們剛剛去菜市場買菜"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您記得剛才我問了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得啊，你問現在是星期幾。我剛跟鄰居阿母聊過天，她說下午要去診所拿藥"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天中午吃了些什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我吃的是滷肉飯，還有一碗湯，很香"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 106
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0 normal profile: coherent responses, accurate orientation (day of week), clear episodic memory recall without hesitation or false denials. No markers used except natural flow."
+}

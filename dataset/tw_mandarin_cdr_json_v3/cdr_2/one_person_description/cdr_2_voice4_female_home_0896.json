@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_2_voice4_female_home_0896",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……早上起來，阿母想說要去菜市場買點青菜。 可是那個時間……好像是幾點來著？欸，記不得了。 然後拿藥的時候，診所的醫生有講過要每天吃兩次。 但是今天好像……忘記帶錢包了。 囝仔說等一下會幫我買菜，應該沒問題吧？ 啊，那個時鐘……是不是壞掉了？怎麼指針不動了。 反正先回家再說好了。",
+  "marked_transcript": "嗯……早上起來，阿母想說要去菜市場買點青菜。[停頓] 可是那個時間……好像是幾點來著？欸，記不得了。[長停頓] 然後拿藥的時候，診所的醫生有講過要每天吃兩次。[停頓] 但是今天好像……忘記帶錢包了。[嘆氣] 囝仔說等一下會幫我買菜，應該沒問題吧？[吸氣] 啊，那個時鐘……是不是壞掉了？怎麼指針不動了。[長停頓] 反正先回家再說好了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早上起來，阿母想說要去菜市場買點青菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是那個時間……好像是幾點來著？欸，記不得了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1253
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後拿藥的時候，診所的醫生有講過要每天吃兩次"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 691
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是今天好像……忘記帶錢包了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 836
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔說等一下會幫我買菜，應該沒問題吧？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 633
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，那個時鐘……是不是壞掉了？怎麼指針不動了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1529
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "反正先回家再說好了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 5738,
+    "chinese_char_count": 113
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall about time and forgotten wallet, mild confusion regarding the clock, requires support from family. Natural pauses included."
+}

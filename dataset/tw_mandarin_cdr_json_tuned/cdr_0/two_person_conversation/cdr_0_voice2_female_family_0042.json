@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_0_voice2_female_family_0042",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "family",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天幾月幾號？星期幾呢？\n患者：今天是八月十五號，星期五。\n訪談者：好的。那我們現在在哪裡啊？\n患者：我們是在家裡啦，就是我在客廳這邊坐著。\n訪談者：嗯，為什麼會來這裡啊？\n患者：哦，我兒子叫我過來，因為他最近要出國，想跟我講一下家裡的事情。\n訪談者：這樣喔。那昨天早上做了什麼事呢？\n患者：昨天早上有去菜市場買菜，回來之後煮了個飯，還有拿藥吃。\n訪談者：謝謝您配合。",
+  "marked_transcript": "[吸氣] 訪談者：您好，請問今天幾月幾號？星期幾呢？[停頓]\n患者：今天是八月十五號，星期五。\n訪談者：好的。那我們現在在哪裡啊？\n患者：我們是在家裡啦，就是我在客廳這邊坐著。\n訪談者：嗯，為什麼會來這裡啊？\n患者：哦，我兒子叫我過來，因為他最近要出國，想跟我講一下家裡的事情。\n訪談者：這樣喔。那昨天早上做了什麼事呢？\n患者：昨天早上有去菜市場買菜，回來之後煮了個飯，還有拿藥吃。[吸氣]\n訪談者：謝謝您配合。",
+  "event_script": [
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天幾月幾號？星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是八月十五號，星期五。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那我們現在在哪裡啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我們是在家裡啦，就是我在客廳這邊坐著。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，為什麼會來這裡啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦，我兒子叫我過來，因為他最近要出國，想跟我講一下家裡的事情。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "這樣喔。那昨天早上做了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天早上有去菜市場買菜，回來之後煮了個飯，還有拿藥吃。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "謝謝您配合。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 2,
+    "total_pause_ms": 1700,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

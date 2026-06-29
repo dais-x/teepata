@@ -1,0 +1,72 @@
+{
+  "sample_id": "cdr_0_voice1_male_medicine_routine_0011",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我吃了白粥跟蛋。欸，好像是昨天跟阿母去菜市場買菜的。\n訪談者：最近家裡有什麼特別的事嗎？\n患者：沒有特別的事，就是平常一樣。啊，對啦，我記得早上有拿藥，應該沒忘。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，我吃了白粥跟蛋。欸，好像是昨天跟阿母去菜市場買菜的。\n訪談者：最近家裡有什麼特別的事嗎？\n患者：沒有特別的事，就是平常一樣。啊，對啦，我記得早上有拿藥，應該沒忘。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我吃了白粥跟蛋。欸，好像是昨天跟阿母去菜市場買菜的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒有特別的事，就是平常一樣。啊，對啦，我記得早上有拿藥，應該沒忘"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0 normal: coherent narrative, accurate memory recall, minimal hesitation markers."
+}

@@ -1,0 +1,104 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_medicine_routine_0519",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，你好。今天幾號？\n患者：今天是五月的十九號。\n訪談者：喔，好。那我們現在是在哪裡呢？\n患者：欸，應該是在診所啦，來拿藥的。\n訪談者：對，你是因為什麼事情來的？\n患者：嗯，就是那個...最近頭有點暈，醫生說要開點藥給我吃。然後今天剛好是五號來複診。欸好像不是五號喔，應該是十九號吧。\n訪談者：沒關係啦，我們慢慢講。那昨天你有吃早餐嗎？\n患者：有啊，早上有喝豆漿跟蛋餅，然後就去菜市場買菜了。",
+  "marked_transcript": "訪談者：老先生，你好。今天幾號？\n患者：今天是五月的十九號。\n訪談者：喔，好。那我們現在是在哪裡呢？\n患者：欸，[停頓] 應該是在診所啦，來拿藥的。\n訪談者：對，你是因為什麼事情來的？\n患者：嗯，就是那個...最近頭有點暈，醫生說要開點藥給我吃。然後今天剛好是五號來複診。欸好像不是五號喔，[停頓] 應該是十九號吧。\n訪談者：沒關係啦，我們慢慢講。那昨天你有吃早餐嗎？\n患者：有啊，早上有喝豆漿跟蛋餅，然後就去菜市場買菜了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老先生，你好。今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是五月的十九號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，好。那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是在診所啦，來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，你是因為什麼事情來的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，就是那個...最近頭有點暈，醫生說要開點藥給我吃。然後今天剛好是五號來複診。欸好像不是五號喔，"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是十九號吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係啦，我們慢慢講。那昨天你有吃早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上有喝豆漿跟蛋餅，然後就去菜市場買菜了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 160
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

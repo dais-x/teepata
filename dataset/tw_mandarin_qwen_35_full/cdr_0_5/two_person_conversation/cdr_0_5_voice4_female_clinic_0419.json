@@ -1,0 +1,116 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_clinic_0419",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：陳阿母，您好。今天幾號了？\n患者：嗯...那個，好像是五月的時候。\n訪談者：五月喔。那今天是星期幾呢？\n患者：欸，我想一下...應該是星期四吧？不太確定咧。\n訪談者：沒關係，我們慢慢來。您今天為什麼到診所來呢？\n患者：啊對，拿藥啦。阿母最近頭有點昏，醫生說要開點藥吃。\n訪談者：好的，是頭暈喔。那今天早上有做什麼特別的事嗎？\n患者：嗯...早上去菜市場買菜，然後回來煮飯。好像還有看電視，啊不，可能是昨天看的啦。\n訪談者：沒關係，慢慢講。",
+  "marked_transcript": "訪談者：陳阿母，您好。今天幾號了？\n患者：嗯...[停頓]那個，好像是五月的時候。\n訪談者：五月喔。那今天是星期幾呢？\n患者：欸，我想一下...[停頓][長停頓]應該是星期四吧？不太確定咧。\n訪談者：沒關係，我們慢慢來。您今天為什麼到診所來呢？\n患者：啊對，拿藥啦。阿母最近頭有點昏，醫生說要開點藥吃。\n訪談者：好的，是頭暈喔。那今天早上有做什麼特別的事嗎？\n患者：嗯...[停頓]早上去菜市場買菜，然後回來煮飯。好像還有看電視，啊不，可能是昨天看的啦。\n訪談者：沒關係，慢慢講。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "陳阿母，您好。今天幾號了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個，好像是五月的時候。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "五月喔。那今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我想一下...應該是星期四吧？不太確定咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢來。您今天為什麼到診所來呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對，拿藥啦。阿母最近頭有點昏，醫生說要開點藥吃。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，是頭暈喔。那今天早上有做什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早上去菜市場買菜，然後回來煮飯。好像還有看電視，啊不，可能是昨天看的啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢講。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2650,
+    "chinese_char_count": 170
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

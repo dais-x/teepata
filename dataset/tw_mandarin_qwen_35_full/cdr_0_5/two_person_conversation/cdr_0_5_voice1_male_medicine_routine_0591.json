@@ -1,0 +1,124 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_medicine_routine_0591",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，今天早點吃什麼？\n患者：嗯...欸，那個，我記得有喝米湯啦。還有吃一顆蛋。\n訪談者：喔，好喔。那昨天家裡有發生什麼事嗎？\n患者：啊昨天...我想一下...好像阿母有來診所看我咧。應該是有。\n訪談者：有看醫生嗎？\n患者：有看醫師，拿藥啦。不過那個藥名我記不太起來了，是說那種白色的錠劑。\n訪談者：喔，那請問你現在在吃哪一種藥呢？\n患者：就是...阿，忘記了，好像是降血壓的藥。應該是早上吃一次吧？",
+  "marked_transcript": "訪談者：阿伯，今天早點吃什麼？[停頓]\n患者：嗯...欸，那個，我記得有喝米湯啦。還有吃一顆蛋。\n訪談者：喔，好喔。那昨天家裡有發生什麼事嗎？\n患者：啊昨天...我想一下...好像阿母有來診所看我咧。應該是有。\n訪談者：有看醫生嗎？[停頓]\n患者：有看醫師，拿藥啦。不過那個藥名我記不太起來了，是說那種白色的錠劑。\n訪談者：喔，那請問你現在在吃哪一種藥呢？\n患者：就是...阿，忘記了，好像是降血壓的藥。[長停頓] 應該是早上吃一次吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，今天早點吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...欸，那個，我記得有喝米湯啦。還有吃一顆蛋。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，好喔。那昨天家裡有發生什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊昨天...我想一下...好像阿母有來診所看我咧。應該是有。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有看醫生嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有看醫師，拿藥啦。不過那個藥名我記不太起來了，是說那種白色的錠劑。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那請問你現在在吃哪一種藥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是...阿，忘記了，好像是降血壓的藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是早上吃一次吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5400,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

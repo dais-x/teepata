@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_market_0552",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上啊……我還是習慣去菜市場。 那邊的蔬菜比較新鮮，阿母也喜歡吃。那個……記得今天要買什麼嗎？好像是要買豆腐跟瘦肉。欸， 那個名字有點忘記了，不過沒關係，再問一下老闆就好啦。反正就是走走逛逛，順便跟鄰居聊聊天。",
+  "marked_transcript": "嗯，早上啊……我還是習慣去菜市場。[停頓] 那邊的蔬菜比較新鮮，阿母也喜歡吃。那個……記得今天要買什麼嗎？好像是要買豆腐跟瘦肉。欸，[停頓] 那個名字有點忘記了，不過沒關係，再問一下老闆就好啦。反正就是走走逛逛，順便跟鄰居聊聊天。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上啊……我還是習慣去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 812
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那邊的蔬菜比較新鮮，阿母也喜歡吃。那個……記得今天要買什麼嗎？好像是要買豆腐跟瘦肉。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 648
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個名字有點忘記了，不過沒關係，再問一下老闆就好啦。反正就是走走逛逛，順便跟鄰居聊聊天"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1460,
+    "chinese_char_count": 89
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 特徵：語句大致連貫，偶有停頓與輕微記憶不確定性（如忘記物品名稱），無嚴重失憶或邏輯混亂，符合極輕度認知障礙表現。"
+}

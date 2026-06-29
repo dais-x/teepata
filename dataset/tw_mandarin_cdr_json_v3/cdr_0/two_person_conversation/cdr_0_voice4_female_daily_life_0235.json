@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_voice4_female_daily_life_0235",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，今天早餐吃了什麼？\n患者：嗯，我早上吃了一個蛋餅，還有喝一點豆漿。 對，是附近那家老店。\n訪談者：很好。上週末家裡有發生什麼特別的事嗎？\n患者：欸，上週末啊…… 應該是阿強回來拜壽吧？好像全家都聚在一起吃飯。",
+  "marked_transcript": "訪談者：早安，今天早餐吃了什麼？\n患者：嗯，我早上吃了一個蛋餅，還有喝一點豆漿。[停頓] 對，是附近那家老店。\n訪談者：很好。上週末家裡有發生什麼特別的事嗎？\n患者：欸，上週末啊…… [吸氣] 應該是阿強回來拜壽吧？好像全家都聚在一起吃飯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我早上吃了一個蛋餅，還有喝一點豆漿"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 689
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，是附近那家老店"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。上週末家裡有發生什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，上週末啊……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 665
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是阿強回來拜壽吧？好像全家都聚在一起吃飯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1354,
+    "chinese_char_count": 88
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0: coherent speech, accurate recall of breakfast and family event, minimal hesitation."
+}

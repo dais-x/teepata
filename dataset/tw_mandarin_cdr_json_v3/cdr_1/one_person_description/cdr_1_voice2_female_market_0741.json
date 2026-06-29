@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0741",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天去菜市場買菜。 好像……那個蔬菜攤位在哪裡？欸，記得昨天在那邊。 阿母要拿藥，診所的醫師說要吃飯後再吃。 啊，我剛剛想說要去哪一家店……應該是那家熟悉的。囝仔在等我回家煮飯呢。",
+  "marked_transcript": "嗯，今天去菜市場買菜。[停頓] 好像……那個蔬菜攤位在哪裡？欸，記得昨天在那邊。[吸氣] 阿母要拿藥，診所的醫師說要吃飯後再吃。[長停頓] 啊，我剛剛想說要去哪一家店……應該是那家熟悉的。囝仔在等我回家煮飯呢。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 753
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……那個蔬菜攤位在哪裡？欸，記得昨天在那邊"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 653
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母要拿藥，診所的醫師說要吃飯後再吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1444
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，我剛剛想說要去哪一家店……應該是那家熟悉的。囝仔在等我回家煮飯呢"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2850,
+    "chinese_char_count": 75
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (where is the stall), mild repetition of location, and brief memory uncertainty about shop name. Still coherent with daily life context."
+}

@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_2_voice2_female_clinic_0828",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……我昨天來這裡拿藥， 好像是那個降血壓的。欸……醫生，我現在是在診所對不對？ 啊，我想起來了，是隔壁王先生的診所。 然後我早上有吃早餐， 喝了一碗稀飯， 還有煎蛋。不過我記不得幾點了…… 應該是中午吧？阿母叫我回去吃飯，但我好像忘了帶鑰匙。 那個……醫生，我的藥瓶呢？",
+  "marked_transcript": "嗯……我昨天來這裡拿藥，[停頓] 好像是那個降血壓的。欸……醫生，我現在是在診所對不對？[長停頓] 啊，我想起來了，是隔壁王先生的診所。[嘆氣] 然後我早上有吃早餐，[停頓] 喝了一碗稀飯，[吸氣] 還有煎蛋。不過我記不得幾點了……[停頓] 應該是中午吧？阿母叫我回去吃飯，但我好像忘了帶鑰匙。[長停頓] 那個……醫生，我的藥瓶呢？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……我昨天來這裡拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 855
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是那個降血壓的。欸……醫生，我現在是在診所對不對？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1544
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，我想起來了，是隔壁王先生的診所"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1139
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "然後我早上有吃早餐"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 889
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喝了一碗稀飯"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 789
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有煎蛋。不過我記不得幾點了……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 648
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是中午吧？阿母叫我回去吃飯，但我好像忘了帶鑰匙"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1640
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……醫生，我的藥瓶呢？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 7504,
+    "chinese_char_count": 106
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "Moderate dementia (CDR-2) simulation featuring fragmented recall, time/place confusion, and repetition typical of daily clinic interactions."
+}

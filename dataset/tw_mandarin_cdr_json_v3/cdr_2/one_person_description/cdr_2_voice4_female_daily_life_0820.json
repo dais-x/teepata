@@ -1,0 +1,147 @@
+{
+  "sample_id": "cdr_2_voice4_female_daily_life_0820",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我起來， 好像去菜市場買菜， 但是記不得是星期幾了。 阿母說要拿藥， 欸，藥瓶在哪裡呢？ 應該是放在客廳吧…… 哎呀，我剛才明明看到它的。 後來去診所，醫生問我幾歲了， 我想了一下，好像說錯了吧？ 囝仔們都笑我記性不好。 不過回家後，我有吃藥，應該沒忘記。",
+  "marked_transcript": "嗯，今天早上我起來，[停頓] 好像去菜市場買菜，[吸氣] 但是記不得是星期幾了。[長停頓] 阿母說要拿藥，[咳嗽] 欸，藥瓶在哪裡呢？[停頓] 應該是放在客廳吧…… [嘆氣] 哎呀，我剛才明明看到它的。[停頓] 後來去診所，醫生問我幾歲了，[吸氣] 我想了一下，好像說錯了吧？[長停頓] 囝仔們都笑我記性不好。[停頓] 不過回家後，我有吃藥，應該沒忘記。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我起來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 851
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像去菜市場買菜"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 585
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是記不得是星期幾了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1272
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 725
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，藥瓶在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 780
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是放在客廳吧……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 973
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，我剛才明明看到它的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 671
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來去診所，醫生問我幾歲了"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 718
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想了一下，好像說錯了吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1659
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔們都笑我記性不好"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過回家後，我有吃藥，應該沒忘記"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 9084,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall of time and location, repetition about medicine, mild confusion about age, requires context to understand. Includes natural pauses and markers."
+}

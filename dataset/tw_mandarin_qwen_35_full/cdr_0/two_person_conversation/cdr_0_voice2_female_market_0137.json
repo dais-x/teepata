@@ -1,0 +1,89 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0137",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨您好，現在是幾月幾號呢？\n患者：嗯...今天是十月十五號啦。\n訪談者：喔，對的。那我們現在是在哪裡呢？\n患者：這裡就是菜市場阿，我們平常都會來買東西啊。\n訪談者：好，那您今天為什麼會過來呢？\n患者：我是要拿藥，然後順便來跟阿母講說，中午要一起吃飯啦。\n訪談者：好的，明白了。",
+  "marked_transcript": "訪談者：阿姨您好，現在是幾月幾號呢？\n[停頓]\n患者：嗯...今天是十月十五號啦。\n訪談者：喔，對的。那我們現在是在哪裡呢？\n患者：這裡就是菜市場阿，我們平常都會來買東西啊。\n訪談者：好，那您今天為什麼會過來呢？\n[停頓]\n患者：我是要拿藥，然後順便來跟阿母講說，中午要一起吃飯啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨您好，現在是幾月幾號呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天是十月十五號啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，對的。那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡就是菜市場阿，我們平常都會來買東西啊。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您今天為什麼會過來呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我是要拿藥，然後順便來跟阿母講說，中午要一起吃飯啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1300,
+    "chinese_char_count": 112
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

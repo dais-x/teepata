@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0693",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問現在是幾月幾號？\n患者：嗯...這個...好像是三月份。喔不對，應該是四月吧。\n訪談者：那今天是星期幾呢？\n患者：今天啊...我想一下...禮拜五對不對？啊不是，禮拜四啦。\n訪談者：您現在人在哪裡？為什麼來這裡？\n患者：欸，我在診所啦。拿藥的嘛。阿母叫我來的，說要拿糖尿病的藥。\n訪談者：那您早上吃了什麼早餐？\n患者：早點...呃...好像是稀飯，還有那個菜市場買的鹹蛋。對，就是鹹蛋。",
+  "marked_transcript": "訪談者：請問現在是幾月幾號？\n患者：嗯...[停頓] 這個...好像是三月份。[嘆氣] 喔不對，應該是四月吧。\n訪談者：那今天是星期幾呢？\n患者：今天啊...[吸氣] 我想一下...禮拜五對不對？[長停頓] 啊不是，禮拜四啦。\n訪談者：您現在人在哪裡？為什麼來這裡？\n患者：欸，我在診所啦。拿藥的嘛。阿母叫我來的，說要拿糖尿病的藥。\n訪談者：那您早上吃了什麼早餐？\n患者：早點...呃...[停頓] 好像是稀飯，還有那個菜市場買的鹹蛋。對，就是鹹蛋。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問現在是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...這個...好像是三月份。喔不對，應該是四月吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天啊...我想一下...禮拜五對不對？啊不是，禮拜四啦。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在人在哪裡？為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我在診所啦。拿藥的嘛。阿母叫我來的，說要拿糖尿病的藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您早上吃了什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早點...呃...好像是稀飯，還有那個菜市場買的鹹蛋。對，就是鹹蛋。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 146
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

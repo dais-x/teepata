@@ -1,0 +1,78 @@
+{
+  "sample_id": "cdr_0_voice2_female_daily_life_0204",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上起床後，我先去洗臉刷牙。然後就吃早餐，飯碗裡有雞蛋和麵包。吃完早飯後我就準備出去買菜啦。菜市場有很多人，阿母常說要去那邊看看新鮮的蔬菜水果。",
+  "marked_transcript": "今天早上起床後[停頓]，我先去洗臉刷牙。然後就吃早餐[長停頓]，飯碗裡有雞蛋和麵包。吃完早飯後我就準備出去買菜啦[嘆氣]。菜市場有很多人，阿母常說要去那邊看看新鮮的蔬菜水果。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起床後"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我先去洗臉刷牙。然後就吃早餐，飯碗裡有雞蛋和麵包。吃完早飯後我就準備出去買菜啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場有很多人，阿母常說要去那邊看看新鮮的蔬菜水果"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2650,
+    "chinese_char_count": 67
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

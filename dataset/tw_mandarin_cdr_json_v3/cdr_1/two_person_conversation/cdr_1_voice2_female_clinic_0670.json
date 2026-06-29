@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0670",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯……那個……好像是粥， 還是麵包？欸，我想一下，應該是米漿配蛋餅啦。\n訪談者：最近家裡有發生什麼特別的事嗎？\n患者：啊，對喔！ 昨天阿孫回來，我們去菜市場買菜。 不過……好像還有誰來過？記不得了。\n訪談者：那您今天的藥有拿了嗎？\n患者：有拿，在桌上。 應該是紅色的瓶子和白色的，嗯，對，沒錯。",
+  "marked_transcript": "訪談者：早安，您今天早餐吃了什麼？\n患者：嗯……那個……好像是粥，[停頓] 還是麵包？欸，我想一下，應該是米漿配蛋餅啦。\n訪談者：最近家裡有發生什麼特別的事嗎？\n患者：啊，對喔！[吸氣] 昨天阿孫回來，我們去菜市場買菜。[長停頓] 不過……好像還有誰來過？記不得了。\n訪談者：那您今天的藥有拿了嗎？\n患者：有拿，在桌上。[嘆氣] 應該是紅色的瓶子和白色的，嗯，對，沒錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，您今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……好像是粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 834
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是麵包？欸，我想一下，應該是米漿配蛋餅啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡有發生什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對喔！"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 368
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天阿孫回來，我們去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過……好像還有誰來過？記不得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天的藥有拿了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿，在桌上"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1006
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是紅色的瓶子和白色的，嗯，對，沒錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3608,
+    "chinese_char_count": 126
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (uncertainty between porridge/bread), mild repetition, and one orientation/memory error regarding the visitor. Speech remains coherent with natural pauses."
+}

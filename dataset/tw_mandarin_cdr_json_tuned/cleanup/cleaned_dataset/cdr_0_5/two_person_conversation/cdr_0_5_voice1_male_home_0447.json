@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0447",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：早，阿伯，你昨天早餐吃了什麼？\n受訪者：欸，有、有吃啦。好像是白粥配小菜。 訪談者：那後來有沒有出門拿藥？\n受訪者：嗯……有去診所。不過我好像忘了是週幾去的。\n訪談者：喔，那家裡最近有什麼事情嗎？\n受訪者：啊，囝仔昨天打電話來，說要回來吃飯，對吧？應該沒錯。 訪談者：那你今天早上有沒有吃藥？\n受訪者：有啦，我有吃。那個……好像忘記吃哪一種了，不過應該沒關係啦。\n訪談者：好，謝謝你。",
+  "marked_transcript": "訪談者：早，阿伯，你昨天早餐吃了什麼？\n受訪者：欸，有、有吃啦。好像是白粥配小菜。 [停頓] 訪談者：那後來有沒有出門拿藥？\n受訪者：嗯……有去診所。不過我好像忘了是週幾去的。\n訪談者：喔，那家裡最近有什麼事情嗎？\n受訪者：啊，囝仔昨天打電話來，說要回來吃飯，對吧？應該沒錯。 [停頓] 訪談者：那你今天早上有沒有吃藥？\n受訪者：有啦，我有吃。那個……好像忘記吃哪一種了，不過應該沒關係啦。\n訪談者：好，謝謝你。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：早，阿伯，你昨天早餐吃了什麼？\n受訪者：欸，有、有吃啦。好像是白粥配小菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那後來有沒有出門拿藥？\n受訪者：嗯……有去診所。不過我好像忘了是週幾去的。\n訪談者：喔，那家裡最近有什麼事情嗎？\n受訪者：啊，囝仔昨天打電話來，說要回來吃飯，對吧？應該沒錯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：那你今天早上有沒有吃藥？\n受訪者：有啦，我有吃。那個……好像忘記吃哪一種了，不過應該沒關係啦。\n訪談者：好，謝謝你。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 151
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 2,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "speech_rate_target": "slightly_slow"
+}

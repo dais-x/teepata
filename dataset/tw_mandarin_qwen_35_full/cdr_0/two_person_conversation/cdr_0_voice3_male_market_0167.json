@@ -1,0 +1,104 @@
+{
+  "sample_id": "cdr_0_voice3_male_market_0167",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問現在幾月幾號？是星期幾呢？\n患者：今天是四月十八號，星期五啦。\n訪談者：喔，對的。那我們現在是在哪裡呀？\n患者：在菜市場啊，我剛來買菜。\n訪談者：為什麼來這裡呢？\n患者：因為要拿藥嘛，順路就過來逛逛了。\n訪談者：好的，謝謝您配合。",
+  "marked_transcript": "訪談者：請問現在幾月幾號？是星期幾呢？\n患者：今天是四月十八號 [停頓] 星期五啦。\n訪談者：喔，對的。那我們現在是在哪裡呀？\n患者：在菜市場啊，我剛來買菜。\n訪談者：為什麼來這裡呢？\n患者：因為要拿藥嘛，順路就過來逛逛了 [吸氣]。\n訪談者：好的，謝謝您配合。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問現在幾月幾號？是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是四月十八號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期五啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，對的。那我們現在是在哪裡呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在菜市場啊，我剛來買菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為要拿藥嘛，順路就過來逛逛了"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您配合。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 94
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

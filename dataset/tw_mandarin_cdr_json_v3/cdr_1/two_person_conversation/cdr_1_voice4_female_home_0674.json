@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_1_voice4_female_home_0674",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：請問您現在幾點鐘了？\n患者：嗯，應該是下午…… 一點多吧。欸，不對，好像是兩點了。\n訪談者：那我們來聊聊今天早餐吃了什麼？\n患者：吃粥，還有小菜…… 那個鹹菜記得有放。好像還有蛋…… 哎呀，記不得了。\n訪談者：您家住在哪一區呢？\n患者：啊，我們住…… 大雅區沒錯啦。就是以前那條路。",
+  "marked_transcript": "訪談者：請問您現在幾點鐘了？\n患者：嗯，應該是下午…… [停頓] 一點多吧。欸，不對，好像是兩點了。\n訪談者：那我們來聊聊今天早餐吃了什麼？\n患者：吃粥，還有小菜…… [吸氣] 那個鹹菜記得有放。好像還有蛋…… 哎呀，記不得了。\n訪談者：您家住在哪一區呢？\n患者：啊，我們住…… [停頓] 大雅區沒錯啦。就是以前那條路。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您現在幾點鐘了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是下午……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 618
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "一點多吧。欸，不對，好像是兩點了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們來聊聊今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃粥，還有小菜……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 735
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個鹹菜記得有放。好像還有蛋…… 哎呀，記不得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您家住在哪一區呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，我們住……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 697
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "大雅區沒錯啦。就是以前那條路"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2050,
+    "chinese_char_count": 107
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: word-finding difficulty (記不得), mild repetition (好像是兩點了), and one orientation uncertainty. Natural pauses included."
+}

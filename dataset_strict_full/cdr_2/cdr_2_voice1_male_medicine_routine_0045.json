@@ -1,0 +1,143 @@
+{
+  "sample_id": "cdr_2_voice1_male_medicine_routine_0045",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "older_male",
+    "gender": "male",
+    "description": "台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "家人有沒有幫你整理藥盒？"
+    },
+    {
+      "speaker": "patient",
+      "text": "有啊那個...嗯，有時候我會忘記，不知道怎麼講，就是說，那個藥盒是放哪裡，然後想不起來要吃什麼時間吃。呃，反正就是大概記得有整理過，但是細節就是想不起來了。"
+    }
+  ],
+  "spoken_transcript": "有啊那個...嗯，有時候我會忘記，不知道怎麼講，就是說，那個藥盒是放哪裡，然後想不起來要吃什麼時間吃。呃，反正就是大概記得有整理過，但是細節就是想不起來了。",
+  "marked_transcript": "有啊 [停頓] 那個...嗯，有時候我會忘記，不知道怎麼講，就是說，那個藥盒是放哪裡，然後想不起來要吃什麼時間吃。 [長停頓] 呃，反正就是大概記得有整理過，但是細節就是想不起來了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...嗯，有時候我會忘記，不知道怎麼講，就是說，那個藥盒是放哪裡，然後想不起來要吃什麼時間吃。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，反正就是大概記得有整理過，但是細節就是想不起來了。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家人有沒有幫你整理藥盒？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...嗯，有時候我會忘記，不知道怎麼講，就是說，那個藥盒是放哪裡，然後想不起來要吃什麼時間吃。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.1
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，反正就是大概記得有整理過，但是細節就是想不起來了。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 1,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.7,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 2.7,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 2.6,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 3,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 3
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.48,
+      "memory_gap_count": 3,
+      "orientation_error_count": 1
+    }
+  }
+}

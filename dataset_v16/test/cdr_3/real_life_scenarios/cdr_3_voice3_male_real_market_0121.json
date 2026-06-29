@@ -1,0 +1,157 @@
+{
+  "sample_id": "cdr_3_voice3_male_real_market_0121",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "task_group": "real_life_scenarios",
+  "scenario": "market",
+  "task_type": "market_activity_recall",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "test"
+  },
+  "interviewer": null,
+  "split": "test",
+  "speech_cognitive_task": {
+    "task_group": "real_life_scenarios",
+    "task_type": "market_activity_recall",
+    "prompt": "你最近去市場或買東西時，通常會怎麼安排？",
+    "scoring_method": "expected_steps_and_sequence",
+    "score": 0,
+    "max_score": 4,
+    "score_interpretation": "speech-based cognitive task score, not clinical MMSE score",
+    "expected_steps": [
+      "出門",
+      "買東西",
+      "付錢",
+      "回家"
+    ],
+    "steps_mentioned": 1,
+    "sequence_error_count": 3,
+    "memory_gap_count": 4
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個我早上要去市場，嗯去買菜。對啊，就是買菜。那個忘記了啦。要付錢嗎？好像有付錢。回家...呃回家之後，就...就不記得要做什麼了。哎呀想不起來。",
+  "marked_transcript": "那個 [停頓] 我早上要去市場，嗯 [停頓] 去買菜。對啊，就是買菜。 [長停頓] 那個 [停頓] 忘記了啦。要付錢嗎？好像有付錢。 回家...呃 [停頓] 回家之後，就...就不記得要做什麼了。哎呀 [嘆氣] 想不起來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我早上要去市場，嗯"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "去買菜。對啊，就是買菜。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了啦。要付錢嗎？好像有付錢。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家...呃"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "回家之後，就...就不記得要做什麼了。哎呀"
+    },
+    {
+      "type": "sigh",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想不起來。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 8,
+    "pause_count": 4,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 1,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.0,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 4,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.0,
+      "silence_ratio": 0.08,
+      "speech_rate_target_cps": 1.6,
+      "filled_pause_count": 7,
+      "restart_count": 2
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 2,
+      "circumlocution_count": 2,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 5
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 2,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 4,
+      "orientation_error_count": 0
+    }
+  },
+  "repair_log": {
+    "spoken_transcript_rebuilt_from_event_script": true,
+    "marked_transcript_rebuilt_from_event_script": true,
+    "feature_counts_repaired": true
+  }
+}

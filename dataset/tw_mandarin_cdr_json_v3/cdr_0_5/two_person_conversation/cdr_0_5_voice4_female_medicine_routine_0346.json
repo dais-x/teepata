@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_medicine_routine_0346",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃什麼了？\n患者：嗯，有吃……那個，好像是稀飯加蛋。 欸，應該是這樣沒錯。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：啊，好像有去診所拿藥。 記不得是哪天了，應該就是上週末吧。",
+  "marked_transcript": "訪談者：今天早上吃什麼了？\n患者：嗯，有吃……那個，好像是稀飯加蛋。[停頓] 欸，應該是這樣沒錯。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：啊，好像有去診所拿藥。[長停頓] 記不得是哪天了，應該就是上週末吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃什麼了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，有吃……那個，好像是稀飯加蛋"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 723
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是這樣沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上週家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，好像有去診所拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1587
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得是哪天了，應該就是上週末吧"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2310,
+    "chinese_char_count": 74
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0.5 very mild: coherent narrative with minimal hesitation and one instance of temporal uncertainty regarding a routine event."
+}

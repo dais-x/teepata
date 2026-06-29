@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_2_voice3_male_family_0809",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯……早上起來，阿母有去菜市場買菜。那個……好像是昨天？還是前天？ 我記得囝仔有來過家裡，但時間記不清楚了。欸，藥盒呢？ 啊，對，診所拿的藥要記得吃。 今天天氣不錯，應該沒下雨吧？ 嗯……好像忘記幾點了。",
+  "marked_transcript": "嗯……早上起來，阿母有去菜市場買菜。那個……好像是昨天？還是前天？[停頓] 我記得囝仔有來過家裡，但時間記不清楚了。欸，藥盒呢？[長停頓] 啊，對，診所拿的藥要記得吃。[嘆氣] 今天天氣不錯，應該沒下雨吧？[停頓] 嗯……好像忘記幾點了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早上起來，阿母有去菜市場買菜。那個……好像是昨天？還是前天？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 866
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得囝仔有來過家裡，但時間記不清楚了。欸，藥盒呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1326
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對，診所拿的藥要記得吃"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1223
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天天氣不錯，應該沒下雨吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 753
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像忘記幾點了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4168,
+    "chinese_char_count": 78
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall of time (yesterday vs day before), repetition about medicine, and confusion regarding current time/place while maintaining coherent daily context."
+}

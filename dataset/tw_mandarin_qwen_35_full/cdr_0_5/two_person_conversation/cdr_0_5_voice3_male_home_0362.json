@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_home_0362",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，你今天早上吃什麼早餐？\n患者：嗯...讓我一下。喔，有吃稀飯啦，還有小菜。\n訪談者：家裡最近有什麼特別的事情嗎？\n患者：欸，好像阿母昨天來過，囝仔也打電話來了，不過我記不太清是什麼時間了。\n訪談者：那你今天的藥有吃嗎？\n患者：有啊，早上吃過了。那個...好像是八點左右吧？有點忘記了啦。\n訪談者：那你能記得我剛才跟你說的什麼事嗎？\n患者：嗯...好像是要記得下午要去拿藥對不對？\n訪談者：沒錯，那你昨天早上做了什麼呢？\n患者：昨天早上啊，我去菜市場買東西，然後順便去診所拿點藥。應該就是這樣吧？",
+  "marked_transcript": "訪談者：阿伯，你今天早上吃什麼早餐？\n[停頓]\n患者：嗯...讓我一下。\n[長停頓]\n喔，有吃稀飯啦，還有小菜。\n訪談者：家裡最近有什麼特別的事情嗎？\n患者：欸，好像阿母昨天來過，囝仔也打電話來了，不過我記不太清是什麼時間了。\n訪談者：那你今天的藥有吃嗎？\n[吸氣]\n患者：有啊，早上吃過了。那個...好像是八點左右吧？有點忘記了啦。\n訪談者：那你能記得我剛才跟你說的什麼事嗎？\n患者：嗯...好像是要記得下午要去拿藥對不對？\n訪談者：沒錯，那你昨天早上做了什麼呢？\n[嘆氣]\n患者：昨天早上啊，我去菜市場買東西，然後順便去診所拿點藥。應該就是這樣吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，你今天早上吃什麼早餐？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...讓我一下。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，有吃稀飯啦，還有小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家裡最近有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像阿母昨天來過，囝仔也打電話來了，不過我記不太清是什麼時間了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你今天的藥有吃嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上吃過了。那個...好像是八點左右吧？有點忘記了啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你能記得我剛才跟你說的什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像是要記得下午要去拿藥對不對？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，那你昨天早上做了什麼呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天早上啊，我去菜市場買東西，然後順便去診所拿點藥。應該就是這樣吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3250,
+    "chinese_char_count": 202
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

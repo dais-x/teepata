@@ -1,0 +1,92 @@
+{
+  "sample_id": "cdr_1_voice1_male_family_0041",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，您好。我們先聊一下今天的日期，您知道今天是幾月幾號嗎？\n受訪者：嗯... 今天是...好像是五月初吧。 喔不對，應該是四月底。\n訪談者：沒關係，那您今天早上吃了什麼早餐呢？\n受訪者：我...我記得有吃稀飯，還有那個蛋。對啦，就是煮得軟軟的蛋。欸，好像還有一個小菜...\n訪談者：那您最近有去診所拿藥嗎？記得是吃哪一種藥？\n受訪者：有去啊，昨天去的。拿的是...降血壓的藥，還有那個...什麼來著？ 好像是阿司匹靈啦。\n訪談者：好的。那您覺得最近身體狀況怎麼樣？有沒有哪裡不舒服？\n受訪者：嗯...差不多啦，就是頭有時候會暈一下。 沒那麼嚴重，應該沒什麼大問題吧。\n訪談者：謝謝您的回答。",
+  "marked_transcript": "訪談者：老先生，您好。我們先聊一下今天的日期，您知道今天是幾月幾號嗎？\n受訪者：嗯... [停頓] 今天是...好像是五月初吧。 [長停頓] 喔不對，應該是四月底。\n訪談者：沒關係，那您今天早上吃了什麼早餐呢？\n受訪者：我...我記得有吃稀飯，還有那個蛋。對啦，就是煮得軟軟的蛋。欸，好像還有一個小菜...\n訪談者：那您最近有去診所拿藥嗎？記得是吃哪一種藥？\n受訪者：有去啊，昨天去的。拿的是...降血壓的藥，還有那個...什麼來著？ [停頓] 好像是阿司匹靈啦。\n訪談者：好的。那您覺得最近身體狀況怎麼樣？有沒有哪裡不舒服？\n受訪者：嗯...差不多啦，就是頭有時候會暈一下。 [嘆氣] 沒那麼嚴重，應該沒什麼大問題吧。\n訪談者：謝謝您的回答。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：老先生，您好。我們先聊一下今天的日期，您知道今天是幾月幾號嗎？\n受訪者：嗯..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "今天是...好像是五月初吧。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "喔不對，應該是四月底。\n訪談者：沒關係，那您今天早上吃了什麼早餐呢？\n受訪者：我...我記得有吃稀飯，還有那個蛋。對啦，就是煮得軟軟的蛋。欸，好像還有一個小菜...\n訪談者：那您最近有去診所拿藥嗎？記得是吃哪一種藥？\n受訪者：有去啊，昨天去的。拿的是...降血壓的藥，還有那個...什麼來著？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是阿司匹靈啦。\n訪談者：好的。那您覺得最近身體狀況怎麼樣？有沒有哪裡不舒服？\n受訪者：嗯...差不多啦，就是頭有時候會暈一下。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒那麼嚴重，應該沒什麼大問題吧。\n訪談者：謝謝您的回答。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2600,
+    "chinese_char_count": 230
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "slow"
+}

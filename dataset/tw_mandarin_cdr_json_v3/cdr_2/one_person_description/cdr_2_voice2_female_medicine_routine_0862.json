@@ -1,0 +1,129 @@
+{
+  "sample_id": "cdr_2_voice2_female_medicine_routine_0862",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯……那個，我每天早上都要吃藥。 藥瓶在哪裡呢？欸，好像放在廚房， 哎呀，記不得了。 應該是昨天阿母幫我拿回來的。 那個白盒子跟綠瓶子， 對，就是那個。 喔，我想起來了，在冰箱旁邊的櫃子。 但是……到底是幾點吃？好像八點，又好像是九點？ 算了，先拿藥去診所問醫生好了。",
+  "marked_transcript": "嗯……那個，我每天早上都要吃藥。[停頓] 藥瓶在哪裡呢？欸，好像放在廚房，[長停頓] 哎呀，記不得了。[嘆氣] 應該是昨天阿母幫我拿回來的。[吸氣] 那個白盒子跟綠瓶子，[停頓] 對，就是那個。[咳嗽] 喔，我想起來了，在冰箱旁邊的櫃子。[停頓] 但是……到底是幾點吃？好像八點，又好像是九點？[長停頓] 算了，先拿藥去診所問醫生好了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個，我每天早上都要吃藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥瓶在哪裡呢？欸，好像放在廚房"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1533
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，記不得了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 990
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是昨天阿母幫我拿回來的"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 599
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個白盒子跟綠瓶子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 875
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是那個"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 705
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，我想起來了，在冰箱旁邊的櫃子"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 688
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "但是……到底是幾點吃？好像八點，又好像是九點？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1668
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "算了，先拿藥去診所問醫生好了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7854,
+    "chinese_char_count": 103
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 4,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall regarding medication location and time, repetition of uncertainty ('好像', '應該是'), needs support to resolve confusion, uses natural pauses and markers appropriately."
+}

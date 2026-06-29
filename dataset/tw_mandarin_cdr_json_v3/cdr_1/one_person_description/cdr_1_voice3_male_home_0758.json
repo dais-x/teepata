@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice3_male_home_0758",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上起床後，我還是照慣例去菜市場買菜。嗯……那個青菜好像有點貴了，我記不太清楚是昨天還是前天買的。 後來回家煮粥，阿母還在睡，我就先幫她倒杯熱水。欸，我剛剛想說要去診所拿藥，但忘記帶健保卡在家裡哪一個抽屜……應該是書房那個吧？ 啊，對，就是那裡。反正今天天氣不錯，等下再去拿也不遲。",
+  "marked_transcript": "今天早上起床後，我還是照慣例去菜市場買菜。嗯……那個青菜好像有點貴了，我記不太清楚是昨天還是前天買的。[停頓] 後來回家煮粥，阿母還在睡，我就先幫她倒杯熱水。欸，我剛剛想說要去診所拿藥，但忘記帶健保卡在家裡哪一個抽屜……應該是書房那個吧？[長停頓] 啊，對，就是那裡。反正今天天氣不錯，等下再去拿也不遲。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起床後，我還是照慣例去菜市場買菜。嗯……那個青菜好像有點貴了，我記不太清楚是昨天還是前天買的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 662
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "後來回家煮粥，阿母還在睡，我就先幫她倒杯熱水。欸，我剛剛想說要去診所拿藥，但忘記帶健保卡在家裡哪一個抽屜……應該是書房那個吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1687
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對，就是那裡。反正今天天氣不錯，等下再去拿也不遲"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2349,
+    "chinese_char_count": 122
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Shows clear word-finding difficulty ('那個', '記不太清楚'), mild repetition of checking memory, and one orientation error regarding the date of purchase. Speech remains coherent with natural pauses."
+}

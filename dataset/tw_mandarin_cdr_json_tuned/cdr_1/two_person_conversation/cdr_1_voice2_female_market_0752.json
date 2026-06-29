@@ -1,0 +1,126 @@
+{
+  "sample_id": "cdr_1_voice2_female_market_0752",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：嗯...今天啊，好像是十月。欸，應該是二十號吧？不太確定喔。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：這個嘛，我在菜市場啦，剛剛買菜回來。對咧，就是這裡的市場。\n訪談者：您為什麼會來這裡呢？\n患者：因為要拿藥啊，要去診所拿藥。不過我記得好像有吃過早飯了，欸...好像是還是沒吃？哎呀，記不得了。\n訪談者：那今天早餐吃了什麼？\n患者：早餐...嗯，我想一下喔。應該是有喝牛奶，還有吃吐司啦。不過那個...好像是昨天吃的吧？啊不對，是今天早上。",
+  "marked_transcript": "訪談者：您好，請問今天是幾月幾號？\n患者：嗯 [停頓] 今天啊，好像是十月。欸，應該是二十號吧？[長停頓] 不太確定喔。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：這個嘛 [嘆氣]，我在菜市場啦，剛剛買菜回來。對咧，就是這裡的市場。\n訪談者：您為什麼會來這裡呢？\n患者：因為要拿藥啊，要去診所拿藥。不過我記得好像有吃過早飯了，欸...好像是還是沒吃？哎呀，記不得了 [咳嗽]。\n訪談者：那今天早餐吃了什麼？\n患者：早餐...嗯，我想一下喔。應該是有喝牛奶，還有吃吐司啦。不過那個...好像是昨天吃的吧？啊不對，是今天早上。[吸氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天啊，好像是十月。欸，應該是二十號吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不太確定喔。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個嘛"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在菜市場啦，剛剛買菜回來。對咧，就是這裡的市場。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您為什麼會來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為要拿藥啊，要去診所拿藥。不過我記得好像有吃過早飯了，欸...好像是還是沒吃？哎呀，記不得了"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐...嗯，我想一下喔。應該是有喝牛奶，還有吃吐司啦。不過那個...好像是昨天吃的吧？啊不對，是今天早上。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 3800,
+    "chinese_char_count": 187
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0380",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：您好，請問一下現在是幾月幾號？\n患者：呃...今天是禮拜五嗎？欸，好像不是喔。我想一下，應該是這個月的二十五號吧。\n訪談者：那我們現在是在哪裡呢？\n患者：在這裡啊，我家裡嘛。就是那個，家裡客廳啦，沒問題啦。昨天我阿母有過來拿藥，然後就去菜市場買菜。\n訪談者：那你今天為什麼來這裡呢？\n患者：嗯...對喔，因為最近頭比較暈，所以醫生叫我回來複診一下。差不多這樣而已。\n訪談者：好的，謝謝您。",
+  "marked_transcript": "訪談者：您好，請問一下現在是幾月幾號？\n患者：呃 [停頓]...今天是禮拜五嗎？欸，好像不是喔 [長停頓]。我想一下，應該是這個月的二十五號吧。\n訪談者：那我們現在是在哪裡呢？\n患者：在這裡啊，我家裡嘛。就是那個 [停頓]，家裡客廳啦，沒問題啦。昨天我阿母有過來拿藥，然後就去菜市場買菜。\n訪談者：那你今天為什麼來這裡呢？\n患者：嗯 [嘆氣]...對喔，因為最近頭比較暈，所以醫生叫我回來複診一下。差不多這樣而已 [停頓]。\n訪談者：好的，謝謝您。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問一下現在是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...今天是禮拜五嗎？欸，好像不是喔。我想一下，應該是這個月的二十五號吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在這裡啊，我家裡嘛。就是那個，家裡客廳啦，沒問題啦。昨天我阿母有過來拿藥，然後就去菜市場買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你今天為什麼來這裡呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1100
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...對喔，因為最近頭比較暈，所以醫生叫我回來複診一下。差不多這樣而已。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 5050,
+    "chinese_char_count": 157
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

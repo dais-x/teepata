@@ -1,0 +1,102 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0176",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿嬤您好，現在幾點鐘了？\n患者：喔，現在是下午兩點多啦。\n訪談者：那今天是星期幾呢？\n患者：應該是週三吧，我剛剛有看日曆。\n訪談者：您現在在哪裡呢？\n患者：我在這裡的診所拿藥啊。最近身體稍微有一點不舒服，所以過來看看。\n訪談者：好的，謝謝您的配合。",
+  "marked_transcript": "[停頓] 訪談者：阿嬤您好，現在幾點鐘了？[吸氣]\n患者：喔，[停頓] 現在是下午兩點多啦。[長停頓]\n訪談者：那今天是星期幾呢？\n患者：應該是週三吧，我剛剛有看日曆。\n訪談者：您現在在哪裡呢？[停頓]\n患者：我在這裡的診所拿藥啊。最近身體稍微有一點不舒服，所以過來看看。\n訪談者：好的，謝謝您的配合。",
+  "event_script": [
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿嬤您好，現在幾點鐘了？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，現在是下午兩點多啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是週三吧，我剛剛有看日曆。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在這裡的診所拿藥啊。最近身體稍微有一點不舒服，所以過來看看。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您的配合。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2700,
+    "chinese_char_count": 102
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

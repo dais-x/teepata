@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_0_voice1_male_market_0189",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：阿伯，早啊。今天早餐吃什麼？\n患者：欸，早喔。我早上有去菜市場買東西，然後簡單煮個麵線。\n訪談者：好喔，那最近家裡有什麼事情嗎？\n患者：沒什麼特別的事情啦，就是囝仔上禮拜結婚，我們去吃喜酒。\n訪談者：恭喜恭喜。你有在吃什麼藥？\n患者：我有在吃降血壓的藥，還有那個心臟的藥，每天早晚各一次。\n訪談者：對喔，我剛剛跟你講的事情記得嗎？等一下要問你。\n患者：有聽啦，你講什麼？\n訪談者：沒關係，等一下再問。那昨天早上你有做什麼特別的事？\n患者：昨天啊，昨天我去診所拿藥，然後回來後就睡午覺，大概兩點才醒。",
+  "marked_transcript": "訪談者：阿伯，早啊。今天早餐吃什麼？[停頓]\n患者：欸，早喔。我早上有去菜市場買東西，然後簡單煮個麵線。\n訪談者：好喔，那最近家裡有什麼事情嗎？\n患者：沒什麼特別的事情啦，就是囝仔上禮拜結婚，我們去吃喜酒。\n訪談者：恭喜恭喜。你有在吃什麼藥？[嘆氣]\n患者：我有在吃降血壓的藥，還有那個心臟的藥，每天早晚各一次。\n訪談者：對喔，我剛剛跟你講的事情記得嗎？等一下要問你。\n患者：有聽啦，你講什麼？\n訪談者：沒關係，等一下再問。那昨天早上你有做什麼特別的事？[停頓]\n患者：昨天啊，昨天我去診所拿藥，然後回來後就睡午覺，大概兩點才醒。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早啊。今天早餐吃什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，早喔。我早上有去菜市場買東西，然後簡單煮個麵線。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好喔，那最近家裡有什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒什麼特別的事情啦，就是囝仔上禮拜結婚，我們去吃喜酒。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "恭喜恭喜。你有在吃什麼藥？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我有在吃降血壓的藥，還有那個心臟的藥，每天早晚各一次。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對喔，我剛剛跟你講的事情記得嗎？等一下要問你。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有聽啦，你講什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，等一下再問。那昨天早上你有做什麼特別的事？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊，昨天我去診所拿藥，然後回來後就睡午覺，大概兩點才醒。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2400,
+    "chinese_char_count": 205
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.95,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_2_voice2_female_family_0031",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "我昨天去公園呃，那個地方，忘記叫什麼名字了啦。然後有看到小朋友在玩，嗯，他們在玩球，但是我不記得是怎麼玩的。那個東西...就是說，我們家以前也有養過一隻狗，嗯，那隻狗很乖的，會聽話。可是後來...哎呀，我忘了，到底是哪一年？可能是去年吧。反正就是忘記了。",
+  "marked_transcript": "我昨天去公園 [停頓] 呃，那個地方，忘記叫什麼名字了啦。然後有看到小朋友在玩，嗯，他們在玩球，但是我不記得是怎麼玩的。那個東西...就是說，我們家以前也有養過一隻狗，嗯，那隻狗很乖的，會聽話。 [長停頓] 可是後來...哎呀，我忘了，到底是哪一年？可能是去年吧。反正就是忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我昨天去公園"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃，那個地方，忘記叫什麼名字了啦。然後有看到小朋友在玩，嗯，他們在玩球，但是我不記得是怎麼玩的。那個東西...就是說，我們家以前也有養過一隻狗，嗯，那隻狗很乖的，會聽話。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是後來...哎呀，我忘了，到底是哪一年？可能是去年吧。反正就是忘記了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 1,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.4,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 2.4,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.8,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 5
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.52,
+      "memory_gap_count": 3,
+      "orientation_error_count": 1
+    }
+  }
+}

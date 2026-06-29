@@ -1,0 +1,184 @@
+{
+  "sample_id": "cdr_3_voice4_female_clinic_0998",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你早上吃什麼？\n患者：嗯……那個…… 蛋…… 忘了。欸，是麵包嗎？\n訪談者：家裡最近有發生什麼事？\n患者： 阿母…… 去診所拿藥…… 對，拿藥。\n訪談者：你記得要吃哪種藥？\n患者：那個…… 白色的…… 記不得。欸，是早上吃嗎？\n訪談者：你今天幾歲了？\n患者： 老……老了。 好像八十…… 不對，七十？",
+  "marked_transcript": "訪談者：你早上吃什麼？\n患者：嗯……那個……[停頓] 蛋……[長停頓] 忘了。欸，是麵包嗎？[吸氣]\n訪談者：家裡最近有發生什麼事？\n患者：[嘆氣] 阿母……[停頓] 去診所拿藥……[停頓] 對，拿藥。\n訪談者：你記得要吃哪種藥？\n患者：那個……[咳嗽] 白色的……[長停頓] 記不得。欸，是早上吃嗎？[停頓]\n訪談者：你今天幾歲了？\n患者：[吸氣] 老……老了。[停頓] 好像八十……[停頓] 不對，七十？[嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 797
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "蛋……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1362
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘了。欸，是麵包嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 626
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家裡最近有發生什麼事？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1089
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 612
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "去診所拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 864
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，拿藥"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得要吃哪種藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 770
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "白色的……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1483
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得。欸，是早上吃嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 863
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你今天幾歲了？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 761
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "老……老了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 860
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像八十……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 828
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，七十？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1298
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 8,
+    "sigh_event_count": 2,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 12213,
+    "chinese_char_count": 96
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 8
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 3 severe patient shows fragmented speech, word-finding failure ('白色的……記不得'), orientation confusion (age), and repeated simple phrases. Uses natural pauses and markers to simulate cognitive decline."
+}

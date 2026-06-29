@@ -1,0 +1,161 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0002",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "家人有沒有幫你整理藥盒？"
+    },
+    {
+      "speaker": "patient",
+      "text": "有是有啦不過我記得好像是我先生幫我弄的，但是有時候他忙起來就忘了嗯...我也忘記他是哪一天放的那個藥盒啊，就是放在抽屜裡面。"
+    }
+  ],
+  "spoken_transcript": "有是有啦不過我記得好像是我先生幫我弄的，但是有時候他忙起來就忘了嗯...我也忘記他是哪一天放的那個藥盒啊，就是放在抽屜裡面。",
+  "marked_transcript": "有是有啦 [停頓] 不過我記得好像是我先生幫我弄的，但是有時候他忙起來就忘了 [停頓] 嗯...我也忘記他是哪一天放的 [長停頓] 那個藥盒啊，就是放在抽屜裡面。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有是有啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過我記得好像是我先生幫我弄的，但是有時候他忙起來就忘了"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我也忘記他是哪一天放的"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個藥盒啊，就是放在抽屜裡面。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家人有沒有幫你整理藥盒？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.4
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有是有啦"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過我記得好像是我先生幫我弄的，但是有時候他忙起來就忘了"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我也忘記他是哪一天放的"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個藥盒啊，就是放在抽屜裡面。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.3,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.3,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 1,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 1
+    }
+  }
+}

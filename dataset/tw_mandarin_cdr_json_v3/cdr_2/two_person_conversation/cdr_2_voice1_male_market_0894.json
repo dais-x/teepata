@@ -1,0 +1,140 @@
+{
+  "sample_id": "cdr_2_voice1_male_market_0894",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：阿伯，你今早吃什麼？\n患者：嗯……欸，那個……好像是粥啦 。還是麵包？ 我記不太清楚了，反正有喝湯。\n訪談者：那上週日家裡有什麼事嗎？\n患者：阿母……阿母生日？ 不對，應該是前幾天吧 。囝仔有沒有回來？我想一下……好像有，又好像沒有 。\n訪談者：你的藥帶了嗎？\n患者：藥？喔對，診所拿的藥 。放在哪裡？嗯……在包包裡？還是桌上？ 記不得囉。",
+  "marked_transcript": "訪談者：阿伯，你今早吃什麼？\n患者：嗯……欸，那個……好像是粥啦 [停頓]。還是麵包？[長停頓] 我記不太清楚了，反正有喝湯。\n訪談者：那上週日家裡有什麼事嗎？\n患者：阿母……阿母生日？[嘆氣] 不對，應該是前幾天吧 [吸氣]。囝仔有沒有回來？我想一下……好像有，又好像沒有 [停頓]。\n訪談者：你的藥帶了嗎？\n患者：藥？喔對，診所拿的藥 [長停頓]。放在哪裡？嗯……在包包裡？還是桌上？[咳嗽] 記不得囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，你今早吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……欸，那個……好像是粥啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 890
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是麵包？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1270
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記不太清楚了，反正有喝湯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那上週日家裡有什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母……阿母生日？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1176
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，應該是前幾天吧"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 430
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔有沒有回來？我想一下……好像有，又好像沒有"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 730
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你的藥帶了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥？喔對，診所拿的藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1205
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "放在哪裡？嗯……在包包裡？還是桌上？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 643
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得囉"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6344,
+    "chinese_char_count": 124
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate: Shows fragmented recall with time/place confusion, repetition of thoughts, and need for support. Uses natural pauses and markers to simulate cognitive decline while maintaining coherence."
+}

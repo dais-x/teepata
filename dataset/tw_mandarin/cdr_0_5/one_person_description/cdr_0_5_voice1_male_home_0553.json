@@ -1,0 +1,65 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_home_0553",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我去菜市場買菜，然後回家準備早餐。那個...我通常會煮稀飯，再配個小菜。嗯，好像還拿了一些水果回來，應該是去阿母那裡拿了些芒果。",
+  "marked_transcript": "[停頓]今天早上我去菜市場買菜，然後回家準備早餐。[長停頓]那個...我通常會煮稀飯，再配個小菜。嗯，好像還拿了一些水果回來，應該是去阿母那裡拿了些芒果。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "[停頓]今天早上我去菜市場買菜，然後回家準備早餐。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我通常會煮稀飯，再配個小菜。嗯，好像還拿了一些水果回來，應該是去阿母那裡拿了些芒果。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1000,
+    "chinese_char_count": 58
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

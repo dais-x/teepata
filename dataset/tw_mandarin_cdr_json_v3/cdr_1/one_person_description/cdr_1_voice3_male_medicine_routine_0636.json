@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_1_voice3_male_medicine_routine_0636",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，阿母每天早上都要拿藥。 那個……是降血壓的，放在客廳的小盒子裡。欸，我記得昨天有吃過，但今天好像忘記了？ 應該是要在早餐後吃的吧。啊，診所那邊說要定時吃，不然頭會暈。 囝仔有時會提醒我，但我還是容易搞混時間。 總之，藥還是要吃啦。",
+  "marked_transcript": "嗯，阿母每天早上都要拿藥。[停頓] 那個……是降血壓的，放在客廳的小盒子裡。欸，我記得昨天有吃過，但今天好像忘記了？[長停頓] 應該是要在早餐後吃的吧。啊，診所那邊說要定時吃，不然頭會暈。[嘆氣] 囝仔有時會提醒我，但我還是容易搞混時間。[吸氣] 總之，藥還是要吃啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，阿母每天早上都要拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 667
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……是降血壓的，放在客廳的小盒子裡。欸，我記得昨天有吃過，但今天好像忘記了？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1485
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是要在早餐後吃的吧。啊，診所那邊說要定時吃，不然頭會暈"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 957
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔有時會提醒我，但我還是容易搞混時間"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 433
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "總之，藥還是要吃啦"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3542,
+    "chinese_char_count": 96
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('那個', '好像'), one memory uncertainty about whether the pill was taken yesterday, and mild repetition of routine. Speech remains coherent with only two pauses and natural Taiwanese Mandarin markers."
+}

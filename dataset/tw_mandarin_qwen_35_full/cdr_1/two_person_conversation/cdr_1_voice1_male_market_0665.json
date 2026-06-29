@@ -1,0 +1,125 @@
+{
+  "sample_id": "cdr_1_voice1_male_market_0665",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早啊，您今天早餐吃了什麼？\n患者：嗯...那個，我好像有吃。是稀飯啦，還有小菜。\n訪談者：小菜是什麼？\n患者：菜市場買的那個，鹹魚啦，還是豆腐乾，記不太清楚咧。\n訪談者：喔，那您今天有拿藥嗎？\n患者：有啊，剛剛去診所拿的。血壓藥嘛，每天都要吃。\n訪談者：好，那昨天家裡有什麼特別的事情發生嗎？\n患者：昨天...嗯，阿母打電話來。囝仔好像要回來了啦，應該是明天吧。\n訪談者：是喔，那您有記住我剛剛問您的什麼事嗎？\n患者：啊？我剛剛聽到了什麼？哦，那個...早餐，稀飯，對不對？",
+  "marked_transcript": "訪談者：早啊，您今天早餐吃了什麼？\n[停頓] 患者：嗯...那個，我好像有吃。是稀飯啦，還有小菜。\n訪談者：小菜是什麼？\n[長停頓] 患者：菜市場買的那個，鹹魚啦，還是豆腐乾，記不太清楚咧。\n訪談者：喔，那您今天有拿藥嗎？\n[吸氣] 患者：有啊，剛剛去診所拿的。血壓藥嘛，每天都要吃。\n訪談者：好，那昨天家裡有什麼特別的事情發生嗎？\n[嘆氣] 患者：昨天...嗯，阿母打電話來。囝仔好像要回來了啦，應該是明天吧。\n訪談者：是喔，那您有記住我剛剛問您的什麼事嗎？\n[停頓] [咳嗽] 患者：啊？我剛剛聽到了什麼？哦，那個...早餐，稀飯，對不對？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早啊，您今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個，我好像有吃。是稀飯啦，還有小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "小菜是什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場買的那個，鹹魚啦，還是豆腐乾，記不太清楚咧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那您今天有拿藥嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，剛剛去診所拿的。血壓藥嘛，每天都要吃。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那昨天家裡有什麼特別的事情發生嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天...嗯，阿母打電話來。囝仔好像要回來了啦，應該是明天吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "是喔，那您有記住我剛剛問您的什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "cough",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊？我剛剛聽到了什麼？哦，那個...早餐，稀飯，對不對？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4900,
+    "chinese_char_count": 182
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

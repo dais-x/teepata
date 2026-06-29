@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_1_voice3_male_daily_life_0786",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問現在是幾點？\n患者：嗯，我想一下…… 好像是下午兩點吧？ 我記得剛才才剛吃完午飯。\n訪談者：那您昨天做了什麼特別的事嗎？\n患者：欸……昨天啊。 我有去菜市場買菜，然後回家煮麵吃。 不過好像忘了把水燒開這件事了。",
+  "marked_transcript": "訪談者：請問現在是幾點？\n患者：嗯，我想一下…… [停頓] 好像是下午兩點吧？[吸氣] 我記得剛才才剛吃完午飯。\n訪談者：那您昨天做了什麼特別的事嗎？\n患者：欸……昨天啊。[長停頓] 我有去菜市場買菜，然後回家煮麵吃。[嘆氣] 不過好像忘了把水燒開這件事了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問現在是幾點？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 660
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是下午兩點吧？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 677
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我記得剛才才剛吃完午飯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您昨天做了什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……昨天啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1402
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我有去菜市場買菜，然後回家煮麵吃"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1176
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過好像忘了把水燒開這件事了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3915,
+    "chinese_char_count": 87
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows mild word-finding difficulty ('我想一下'), slight memory uncertainty about time and specific details, but remains coherent and on topic with natural pauses."
+}

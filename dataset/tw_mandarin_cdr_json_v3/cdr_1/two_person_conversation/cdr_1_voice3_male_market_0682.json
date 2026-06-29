@@ -1,0 +1,132 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0682",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯…… 好像是稀飯，還有…… 那個蛋，對，煎蛋。欸，菜市場那邊的攤販有賣。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：啊…… 應該是阿母生日吧？ 嗯，我們去診所拿藥之後才回去的。好像有吃壽桃……\n訪談者：那藥名記得是什麼嗎？\n患者：那個…… 我想一下，好像是降血壓的，名字有點記不得，反正就是每天要吃的。\n訪談者：好的，謝謝你。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯…… [停頓] 好像是稀飯，還有…… [長停頓] 那個蛋，對，煎蛋。欸，菜市場那邊的攤販有賣。\n訪談者：上週家裡有什麼特別的事嗎？\n患者：啊…… [吸氣] 應該是阿母生日吧？[停頓] 嗯，我們去診所拿藥之後才回去的。好像有吃壽桃……\n訪談者：那藥名記得是什麼嗎？\n患者：那個…… [嘆氣] 我想一下，好像是降血壓的，名字有點記不得，反正就是每天要吃的。\n訪談者：好的，謝謝你。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 818
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是稀飯，還有……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1270
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個蛋，對，煎蛋。欸，菜市場那邊的攤販有賣"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上週家裡有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 703
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是阿母生日吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 827
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我們去診所拿藥之後才回去的。好像有吃壽桃……"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥名記得是什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1159
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，好像是降血壓的，名字有點記不得，反正就是每天要吃的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝你"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4777,
+    "chinese_char_count": 135
+  },
+  "impairment_features": {
+    "hesitation_count": 8,
+    "repetition_count": 1,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (pause before 'egg'), mild repetition ('好像', '嗯'), and slight memory uncertainty about medication name, but remains coherent and on topic."
+}

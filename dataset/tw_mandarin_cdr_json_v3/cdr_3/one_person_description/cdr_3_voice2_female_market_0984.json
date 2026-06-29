@@ -1,0 +1,138 @@
+{
+  "sample_id": "cdr_3_voice2_female_market_0984",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "那個…… 菜市場。菜…… 很多。阿母…… 哪裡？錢…… 不見。囝仔…… 誰？ 我…… 忘記。回家…… 不記得。 買菜。 魚。",
+  "marked_transcript": "那個…… [停頓] 菜市場。菜…… [停頓] 很多。阿母…… [長停頓] 哪裡？錢…… [嘆氣] 不見。囝仔…… [停頓] 誰？[咳嗽] 我…… 忘記。回家…… [吸氣] 不記得。[停頓] 買菜。[停頓] 魚。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "菜市場。菜……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 886
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "很多。阿母……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1584
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哪裡？錢……"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1172
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不見。囝仔……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 831
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 408
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我…… 忘記。回家……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 399
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不記得"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 713
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 601
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "魚"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7363,
+    "chinese_char_count": 29
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 3 severe level: fragmented sentences, orientation confusion (阿母/囝仔), word-finding pauses, repetition of market context. Taiwanese Mandarin style with markers."
+}

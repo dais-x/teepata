@@ -1,0 +1,81 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_daily_life_0557",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……應該是星期三吧，我想一下。\n訪談者：那您今天來這裡是為了什麼事呢？\n患者：欸，好像是要拿藥，但我不太確定是診所還是醫院。 哎呀，記不得了。",
+  "marked_transcript": "訪談者：請問今天是星期幾？\n患者：嗯……應該是星期三吧，我想一下。\n訪談者：那您今天來這裡是為了什麼事呢？\n患者：欸，好像是要拿藥，但我不太確定是診所還是醫院。[停頓] 哎呀，記不得了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是星期三吧，我想一下"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天來這裡是為了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，好像是要拿藥，但我不太確定是診所還是醫院"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 790
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，記不得了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 790,
+    "chinese_char_count": 70
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0.5: Coherent response with subtle hesitation and one minor uncertainty about location, using natural filler words."
+}

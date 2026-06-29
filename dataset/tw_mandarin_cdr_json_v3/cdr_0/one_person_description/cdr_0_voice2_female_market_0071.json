@@ -1,0 +1,84 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0071",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我去菜市場買菜， 阿母說要煮稀飯， 我買了新鮮的青菜和魚。嗯，然後去藥房拿藥， 醫生交代要按時吃。欸，回家後跟囝仔講今天天氣不錯。",
+  "marked_transcript": "今天早上我去菜市場買菜，[停頓] 阿母說要煮稀飯，[停頓] 我買了新鮮的青菜和魚。嗯，然後去藥房拿藥，[吸氣] 醫生交代要按時吃。欸，回家後跟囝仔講今天天氣不錯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上我去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 601
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要煮稀飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 734
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我買了新鮮的青菜和魚。嗯，然後去藥房拿藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 606
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生交代要按時吃。欸，回家後跟囝仔講今天天氣不錯"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1941,
+    "chinese_char_count": 58
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0 normal: coherent narrative, accurate details about daily routine (market, pharmacy), minimal pauses, no memory errors or disorientation."
+}

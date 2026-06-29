@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0005",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是星期幾？\n患者：嗯，今天好像是禮拜三。\n訪談者：妳現在在哪裡呢？\n患者：喔，在菜市場啊。\n訪談者：妳為什麼來這裡呢？\n患者：那個...我是來買菜的啦。\n訪談者：最近有發生什麼特別的事情嗎？\n患者：應該是沒有特別的事情吧。",
+  "marked_transcript": "[停頓]訪談者：今天是星期幾？[停頓]\n患者：嗯，今天好像是禮拜三。\n訪談者：妳現在在哪裡呢？[停頓]\n患者：喔，在菜市場啊。\n訪談者：妳為什麼來這裡呢？\n患者：那個...我是來買菜的啦。\n訪談者：最近有發生什麼特別的事情嗎？[停頓]\n患者：應該是沒有特別的事情吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天好像是禮拜三。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳現在在哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，在菜市場啊。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "妳為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我是來買菜的啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近有發生什麼特別的事情嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是沒有特別的事情吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1500,
+    "chinese_char_count": 89
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.02,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

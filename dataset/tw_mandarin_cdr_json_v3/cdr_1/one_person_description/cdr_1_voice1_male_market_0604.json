@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_1_voice1_male_market_0604",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "今天早上去菜市場，嗯……想買點青菜。阿母說今天有新鮮的魚，但那個攤位好像……記不得在哪邊了。欸，應該是左邊那家吧？ 對了，我還要拿藥，診所開的那種……啊，名字忘了。不過沒關係，醫生都記得。",
+  "marked_transcript": "今天早上去菜市場，嗯……想買點青菜。阿母說今天有新鮮的魚，但那個攤位好像……記不得在哪邊了。欸，應該是左邊那家吧？[停頓] 對了，我還要拿藥，診所開的那種……啊，名字忘了。不過沒關係，醫生都記得。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上去菜市場，嗯……想買點青菜。阿母說今天有新鮮的魚，但那個攤位好像……記不得在哪邊了。欸，應該是左邊那家吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 758
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對了，我還要拿藥，診所開的那種……啊，名字忘了。不過沒關係，醫生都記得"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 758,
+    "chinese_char_count": 75
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgot stall location and medicine name), mild repetition of checking memory, but remains coherent and oriented to the general task."
+}

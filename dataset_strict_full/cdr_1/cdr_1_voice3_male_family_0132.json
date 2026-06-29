@@ -1,0 +1,97 @@
+{
+  "sample_id": "cdr_1_voice3_male_family_0132",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "older_male_soft",
+    "gender": "male",
+    "description": "較柔和的台灣華語男性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "其實我平常早上起來之後呢嗯...就是會去公園走走。那個地方啊...叫什麼...好像是在中山北路那邊，對不對？然後有時候我會忘記帶鑰匙，想不起來放在哪裡了。不過大概下午兩點左右就會回家吃午飯。",
+  "marked_transcript": "其實我平常早上起來之後呢 [停頓] 嗯...就是會去公園走走。那個地方啊... [停頓] 叫什麼...好像是在中山北路那邊，對不對？然後有時候我會忘記帶鑰匙，想不起來放在哪裡了。不過大概下午兩點左右就會回家吃午飯。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "其實我平常早上起來之後呢"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...就是會去公園走走。那個地方啊..."
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "叫什麼...好像是在中山北路那邊，對不對？然後有時候我會忘記帶鑰匙，想不起來放在哪裡了。不過大概下午兩點左右就會回家吃午飯。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 2,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 2.0,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 2.0,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 4,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 3
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 2,
+      "orientation_error_count": 2
+    }
+  }
+}

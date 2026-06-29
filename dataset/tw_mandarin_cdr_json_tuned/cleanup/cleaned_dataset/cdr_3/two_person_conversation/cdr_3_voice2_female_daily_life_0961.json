@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_3_voice2_female_daily_life_0961",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，今天早餐吃什麼？\n受訪者：嗯 粥。白粥。\n訪談者：有配菜嗎？\n受訪者：菜...鹹蛋。那個...忘記了。 訪談者：昨天家裡發生什麼事？\n受訪者：昨天？喔 ...囝仔來。阿母...不在。\n訪談者：藥有吃嗎？\n受訪者：藥...藥瓶。在櫃子。拿、拿藥。 訪談者：記得我剛才講要記住什麼事嗎？\n受訪者：記住...什麼？嗯 ...菜市場。對，菜市場。\n訪談者：是上午還是下午去？\n受訪者：上...下。早上。應該是早上。 訪談者：那今天早上吃過藥了嗎？\n受訪者：吃了。沒...有。記不得。",
+  "marked_transcript": "訪談者：阿姨，今天早餐吃什麼？\n受訪者：嗯 [停頓] 粥。白粥。\n訪談者：有配菜嗎？\n受訪者：菜...鹹蛋。那個...忘記了。 [停頓] 訪談者：昨天家裡發生什麼事？\n受訪者：昨天？喔 [嘆氣] ...囝仔來。阿母...不在。\n訪談者：藥有吃嗎？\n受訪者：藥...藥瓶。在櫃子。拿、拿藥。 [長停頓] 訪談者：記得我剛才講要記住什麼事嗎？\n受訪者：記住...什麼？嗯 [咳嗽] ...菜市場。對，菜市場。\n訪談者：是上午還是下午去？\n受訪者：上...下。早上。應該是早上。 [吸氣] 訪談者：那今天早上吃過藥了嗎？\n受訪者：吃了。沒...有。記不得。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：阿姨，今天早餐吃什麼？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "粥。白粥。\n訪談者：有配菜嗎？\n受訪者：菜...鹹蛋。那個...忘記了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：昨天家裡發生什麼事？\n受訪者：昨天？喔"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "...囝仔來。阿母...不在。\n訪談者：藥有吃嗎？\n受訪者：藥...藥瓶。在櫃子。拿、拿藥。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：記得我剛才講要記住什麼事嗎？\n受訪者：記住...什麼？嗯"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 1400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "...菜市場。對，菜市場。\n訪談者：是上午還是下午去？\n受訪者：上...下。早上。應該是早上。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：那今天早上吃過藥了嗎？\n受訪者：吃了。沒...有。記不得。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 1950,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 5,
+    "word_finding_count": 7,
+    "orientation_error_count": 3,
+    "memory_error_count": 6,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.24,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

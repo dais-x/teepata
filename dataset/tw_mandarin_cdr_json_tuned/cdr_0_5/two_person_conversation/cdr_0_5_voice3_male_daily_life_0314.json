@@ -1,0 +1,117 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0314",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，早安喔。今天早上吃什麼早餐？\n患者：欸，早安。我啊...嗯，有喝牛奶，還有吃一顆蛋。\n訪談者：好的。那昨天家裡有什麼特別的事情嗎？\n患者：昨天啊...那個...好像囝仔打電話來，說要回來吃飯。\n訪談者：喔，囝仔要回來喔。那你今天的藥有拿嗎？\n患者：有拿啦，我早上有去診所拿藥，放在這裡。（拍拍口袋）\n訪談者：很好。那你有記得我叫你記住什麼事情嗎？\n患者：嗯...我想一下...啊對，是要記得下午要去菜市場買蔥。\n訪談者：對，就是要買蔥。那今天早上大概幾點起床的？\n患者：早上...應該是七點左右吧，不太確定，好像再晚一點。\n訪談者：沒關係啦，差不多就好。",
+  "marked_transcript": "訪談者：阿伯，早安喔。今天早上吃什麼早餐？\n患者：欸，早安。我啊...嗯 [停頓] ，有喝牛奶，還有吃一顆蛋。\n訪談者：好的。那昨天家裡有什麼特別的事情嗎？\n患者：昨天啊...那個 [停頓] ...好像囝仔打電話來，說要回來吃飯。\n訪談者：喔，囝仔要回來喔。那你今天的藥有拿嗎？\n患者：有拿啦，我早上有去診所拿藥，放在這裡。（拍拍口袋）\n訪談者：很好。那你有記得我叫你記住什麼事情嗎？\n患者：嗯...我想一下 [停頓] ...啊對，是要記得下午要去菜市場買蔥。\n訪談者：對，就是要買蔥。那今天早上大概幾點起床的？\n患者：早上...應該是七點左右吧 [長停頓] ，不太確定，好像再晚一點。\n訪談者：沒關係啦，差不多就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早安喔。今天早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，早安。我啊...嗯，有喝牛奶，還有吃一顆蛋。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那昨天家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊...那個，好像囝仔打電話來，說要回來吃飯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，囝仔要回來喔。那你今天的藥有拿嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿啦，我早上有去診所拿藥，放在這裡。（拍拍口袋）"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那你有記得我叫你記住什麼事情嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下，啊對，是要記得下午要去菜市場買蔥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，就是要買蔥。那今天早上大概幾點起床的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上...應該是七點左右吧，不太確定，好像再晚一點。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2200,
+    "chinese_char_count": 213
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

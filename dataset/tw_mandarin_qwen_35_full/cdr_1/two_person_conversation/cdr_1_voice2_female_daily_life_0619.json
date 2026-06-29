@@ -1,0 +1,111 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0619",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，阿嬤。今天我們來聊一下，請問現在是什麼日期？\n患者：嗯...今天是幾號咧？我想想喔...應該是五月中旬吧，五月十八日？不對，好像是十九日。\n[停頓]\n訪談者：沒關係，那您昨天早餐吃了什麼呢？\n患者：哦...昨天啊。我早上有去菜市場買東西啦。然後回家...吃了一個蛋，還有粥。應該是白粥配醬菜吧。\n[長停頓]\n[吸氣]\n訪談者：很好喔。那請問您現在住在哪裡呢？是在家裡嗎？\n患者：對啊，就住這裡嘛。我的家就在這個社區裡面。阿母以前也住這裡，不過她已經...走了很久了。\n[嘆氣]\n訪談者：沒關係，我們繼續聊。您記得今天星期幾嗎？\n患者：喔...今天是週三對不對？還是週四啊？哎呀，我記不太清楚了。應該是週三吧。\n[停頓]",
+  "marked_transcript": "訪談者：早安，阿嬤。今天我們來聊一下，請問現在是什麼日期？\n患者：嗯...今天是幾號咧？我想想喔...應該是五月中旬吧，五月十八日？不對，好像是十九日。\n[停頓]\n訪談者：沒關係，那您昨天早餐吃了什麼呢？\n患者：哦...昨天啊。我早上有去菜市場買東西啦。然後回家...吃了一個蛋，還有粥。應該是白粥配醬菜吧。\n[長停頓]\n[吸氣]\n訪談者：很好喔。那請問您現在住在哪裡呢？是在家裡嗎？\n患者：對啊，就住這裡嘛。我的家就在這個社區裡面。阿母以前也住這裡，不過她已經...走了很久了。\n[嘆氣]\n訪談者：沒關係，我們繼續聊。您記得今天星期幾嗎？\n患者：喔...今天是週三對不對？還是週四啊？哎呀，我記不太清楚了。應該是週三吧。\n[停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，阿嬤。今天我們來聊一下，請問現在是什麼日期？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天是幾號咧？我想想喔...應該是五月中旬吧，五月十八日？不對，好像是十九日。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您昨天早餐吃了什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哦...昨天啊。我早上有去菜市場買東西啦。然後回家...吃了一個蛋，還有粥。應該是白粥配醬菜吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好喔。那請問您現在住在哪裡呢？是在家裡嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對啊，就住這裡嘛。我的家就在這個社區裡面。阿母以前也住這裡，不過她已經...走了很久了。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們繼續聊。您記得今天星期幾嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔...今天是週三對不對？還是週四啊？哎呀，我記不太清楚了。應該是週三吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4500,
+    "chinese_char_count": 236
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

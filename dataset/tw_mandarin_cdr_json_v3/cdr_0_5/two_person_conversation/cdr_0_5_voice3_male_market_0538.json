@@ -1,0 +1,82 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_market_0538",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，吃了一個蛋，還有麵包。那個……好像是剛買的菜市場麵包。\n訪談者：上週家裡有發生什麼特別的事嗎？\n患者：啊，好像是我阿母的生日，我記不太清楚了。應該是上個禮拜吧。\n訪談者：最近藥有在吃嗎？\n患者：有啦，早上都有拿藥，應該沒忘記。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯，吃了一個蛋，還有麵包。那個……好像是剛買的菜市場麵包。\n訪談者：上週家裡有發生什麼特別的事嗎？\n患者：啊，好像是我阿母的生日，我記不太清楚了。應該是上個禮拜吧。\n訪談者：最近藥有在吃嗎？\n患者：有啦，早上都有拿藥，應該沒忘記。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，吃了一個蛋，還有麵包。那個……好像是剛買的菜市場麵包"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上週家裡有發生什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，好像是我阿母的生日，我記不太清楚了。應該是上個禮拜吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近藥有在吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啦，早上都有拿藥，應該沒忘記"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 0,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 0,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0.5: coherent speech with subtle hesitation (那個, 好像), one small memory gap regarding date, minimal markers."
+}

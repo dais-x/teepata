@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_market_0397",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老張，現在是幾月啊？\n患者：嗯...我想一下啦，好像是六月吧。\n訪談者：好，那你可以告訴我昨天吃了什麼早餐嗎？\n患者：那個...應該是吃稀飯跟菜市場買的豆腐乳啦。\n訪談者：你每天早上都會做些什麼事呢？\n患者：啊...我嘛，就會去診所拿藥，然後回家煮飯喲。\n訪談者：好的，那這個圖畫中有哪些東西呢？（假設有張圖片在桌上）",
+  "marked_transcript": "訪談者：老張，現在是幾月啊？\n患者：嗯...[停頓]我想一下啦，好像是六月吧。\n訪談者：好，那你可以告訴我昨天吃了什麼早餐嗎？\n患者：那個...[長停頓]應該是吃稀飯跟菜市場買的豆腐乳啦。\n訪談者：你每天早上都會做些什麼事呢？\n患者：啊...[嘆氣]我嘛，就會去診所拿藥，然後回家煮飯喲。\n訪談者：好的，那這個圖畫中有哪些東西呢？（假設有張圖片在桌上）",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "老張，現在是幾月啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下啦，好像是六月吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那你可以告訴我昨天吃了什麼早餐嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...應該是吃稀飯跟菜市場買的豆腐乳啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你每天早上都會做些什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊...我嘛，就會去診所拿藥，然後回家煮飯喲。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2900,
+    "chinese_char_count": 126
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

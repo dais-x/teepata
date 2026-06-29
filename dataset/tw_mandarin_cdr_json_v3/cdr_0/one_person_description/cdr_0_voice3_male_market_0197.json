@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_voice3_male_market_0197",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "早上起來，我先去菜市場買菜。嗯，今天魚很新鮮，我挑了兩條鮭魚回去煮湯。阿母說晚上要來家裡吃飯，所以我多買了點青菜。欸，那個診所的藥也該拿了，等下順路過去拿一下就好。 對，就是常去的這家，醫生人很好，每次都記得我的名字。",
+  "marked_transcript": "早上起來，我先去菜市場買菜。嗯，今天魚很新鮮，我挑了兩條鮭魚回去煮湯。阿母說晚上要來家裡吃飯，所以我多買了點青菜。欸，那個診所的藥也該拿了，等下順路過去拿一下就好。[停頓] 對，就是常去的這家，醫生人很好，每次都記得我的名字。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上起來，我先去菜市場買菜。嗯，今天魚很新鮮，我挑了兩條鮭魚回去煮湯。阿母說晚上要來家裡吃飯，所以我多買了點青菜。欸，那個診所的藥也該拿了，等下順路過去拿一下就好"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 727
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是常去的這家，醫生人很好，每次都記得我的名字"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 727,
+    "chinese_char_count": 94
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 0 normal: coherent narrative, accurate details about market and pharmacy routine, no memory errors or disorientation. Minimal markers used appropriately."
+}

@@ -1,0 +1,112 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_clinic_0349",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿嬤，早安喔。今天感覺怎樣？\n患者：早安，醫師。還好啊，就是稍微有一點點累。\n訪談者：好，那我們來聊一下早餐吃了什麼？\n患者：嗯...那個，我記得有喝豆漿。還有吃一個饅頭吧。\n訪談者：有吃菜嗎？\n患者：好像沒有啦，就只吃那些而已。欸，早上我本來想去菜市場看阿母，不過後來忘記去喔。\n訪談者：那今天有按时吃藥嗎？\n患者：有啊，早上拿過藥了。記得是那個降血壓的藥丸。\n訪談者：好的，那昨天家裡有沒有發生什麼特別的事情？\n患者：嗯...讓我一下喔。好像那天囝仔有打電話來，不過不確定是幾點啦。應該是禮拜五吧？\n訪談者：沒關係，大概記得就好。",
+  "marked_transcript": "訪談者：阿嬤，早安喔。今天感覺怎樣？\n患者：嗯 [停頓] 那個，我記得有喝豆漿。還有吃一個饅頭吧。\n訪談者：有吃菜嗎？\n患者：好像沒有啦，就只吃那些而已。欸 [吸氣] ，早上我本來想去菜市場看阿母，不過後來忘記去喔。\n訪談者：那今天有按时吃藥嗎？\n患者：有啊，早上拿過藥了。記得是那個降血壓的藥丸。\n訪談者：好的，那昨天家裡有沒有發生什麼特別的事情？\n患者：嗯 [停頓] 讓我一下喔 [嘆氣] 。好像那天囝仔有打電話來，不過不確定是幾點啦。應該是禮拜五吧？\n訪談者：沒關係，大概記得就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿嬤，早安喔。今天感覺怎樣？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 那個，我記得有喝豆漿。還有吃一個饅頭吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "有吃菜嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像沒有啦，就只吃那些而已。欸 早上我本來想去菜市場看阿母，不過後來忘記去喔。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天有按时吃藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，早上拿過藥了。記得是那個降血壓的藥丸。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那昨天家裡有沒有發生什麼特別的事情？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 讓我一下喔 好像那天囝仔有打電話來，不過不確定是幾點啦。應該是禮拜五吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，大概記得就好。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3000,
+    "chinese_char_count": 214
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

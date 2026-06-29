@@ -1,0 +1,128 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0747",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯，我想一下……好像是五號吧。 欸，應該是五號沒錯。\n訪談者：那您昨天做了什麼事呢？\n患者：啊，昨天去菜市場買菜。 對，買了青菜和魚。好像還有……記不得是什麼了。\n訪談者：家裡有幾口人？\n患者：我們家……嗯，應該是我、阿母，還有囝仔。 應該是三口人吧。\n訪談者：您現在要去哪裡？\n患者：去診所拿藥。 對，醫生說要定期來。",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯，我想一下……好像是五號吧。[停頓] 欸，應該是五號沒錯。\n訪談者：那您昨天做了什麼事呢？\n患者：啊，昨天去菜市場買菜。[長停頓] 對，買了青菜和魚。好像還有……記不得是什麼了。\n訪談者：家裡有幾口人？\n患者：我們家……嗯，應該是我、阿母，還有囝仔。[嘆氣] 應該是三口人吧。\n訪談者：您現在要去哪裡？\n患者：去診所拿藥。[吸氣] 對，醫生說要定期來。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下……好像是五號吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 626
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，應該是五號沒錯"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您昨天做了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，昨天去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1697
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，買了青菜和魚。好像還有……記不得是什麼了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "家裡有幾口人？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我們家……嗯，應該是我、阿母，還有囝仔"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1291
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是三口人吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您現在要去哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "去診所拿藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 437
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，醫生說要定期來"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4051,
+    "chinese_char_count": 127
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Patient shows word-finding difficulty ('記不得', '好像是'), mild repetition, and one orientation uncertainty. Speech remains coherent with natural pauses."
+}

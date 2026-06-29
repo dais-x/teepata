@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0633",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "早上啊，我還是照例去菜市場。嗯…… 那邊人很多，比較熱鬧。我想買點青菜，還有那個…… 魚片？好像是魚片。阿母以前常買這種。囝仔說要煮湯喝。 老了，記性不好，有時候會忘記東西在哪裡。不過還是記得路，不會迷路。回家煮給他們吃就好。",
+  "marked_transcript": "早上啊，我還是照例去菜市場。嗯…… [停頓] 那邊人很多，比較熱鬧。我想買點青菜，還有那個…… 魚片？好像是魚片。阿母以前常買這種。囝仔說要煮湯喝。[嘆氣] 老了，記性不好，有時候會忘記東西在哪裡。不過還是記得路，不會迷路。回家煮給他們吃就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上啊，我還是照例去菜市場。嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 698
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那邊人很多，比較熱鬧。我想買點青菜，還有那個…… 魚片？好像是魚片。阿母以前常買這種。囝仔說要煮湯喝"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1031
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "老了，記性不好，有時候會忘記東西在哪裡。不過還是記得路，不會迷路。回家煮給他們吃就好"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1729,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: word-finding hesitation (fish slice), mild memory uncertainty, natural pauses."
+}

@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_2_voice3_male_daily_life_0080",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：老先生，請問今天是星期幾啊？\n受訪者：嗯 星期幾喔... 好像是週三吧。欸不對，應該是週四啦。\n訪談者：好，那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所沒錯啦。對，拿藥的地方。\n訪談者：您為什麼來這裡呢？\n受訪者：來拿藥啊。那個... 阿母叫我來的，我記不太清楚是昨天還是今天來的。好像是有點頭暈。嗯...\n訪談者：那您早上有吃早餐嗎？\n受訪者：有吃啦。吃那個...粥。欸，好像是稀飯。對，稀飯。然後還有菜市場買的小菜。\n訪談者：好的，謝謝您。",
+  "marked_transcript": "訪談者：老先生，請問今天是星期幾啊？\n受訪者：嗯 [停頓] 星期幾喔... [長停頓] 好像是週三吧。欸不對，應該是週四啦。\n訪談者：好，那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所沒錯啦。對，拿藥的地方。\n訪談者：您為什麼來這裡呢？\n受訪者：來拿藥啊。那個... [嘆氣] 阿母叫我來的，我記不太清楚是昨天還是今天來的。好像是有點頭暈。嗯...\n訪談者：那您早上有吃早餐嗎？\n受訪者：有吃啦。吃那個...粥。欸，好像是稀飯。對，稀飯。然後還有菜市場買的小菜。\n訪談者：好的，謝謝您。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：老先生，請問今天是星期幾啊？\n受訪者：嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "星期幾喔..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是週三吧。欸不對，應該是週四啦。\n訪談者：好，那我們現在是在哪裡呢？\n受訪者：這裡...這裡是診所沒錯啦。對，拿藥的地方。\n訪談者：您為什麼來這裡呢？\n受訪者：來拿藥啊。那個..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿母叫我來的，我記不太清楚是昨天還是今天來的。好像是有點頭暈。嗯...\n訪談者：那您早上有吃早餐嗎？\n受訪者：有吃啦。吃那個...粥。欸，好像是稀飯。對，稀飯。然後還有菜市場買的小菜。\n訪談者：好的，謝謝您。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2100,
+    "chinese_char_count": 170
+  },
+  "impairment_features": {
+    "hesitation_count": 9,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.42,
+    "coherence_score": 0.58,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0382",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：王伯伯，今天幾號啊？\n患者：嗯...今天是八號嗎？還是七號？我想一下，應該是八號沒錯。\n訪談者：好，那您今天早上吃什麼早餐呢？\n患者：啊，早上吃了稀飯和蛋，還有小菜。欸，好像有喝豆漿？不太確定啦。\n訪談者：沒關係，大概記得就好。那您平常什麼時候去拿藥呢？\n患者：我是每天早上吃完藥才出門的，對不對？應該是這樣沒錯。\n訪談者：好的，謝謝您的配合。\n患者：嗯，不客氣啦。",
+  "marked_transcript": "訪談者：王伯伯，今天幾號啊？\n患者：嗯 [停頓]...今天是八號嗎？還是七號？[停頓]我想一下，應該是八號沒錯。\n訪談者：好，那您今天早上吃什麼早餐呢？\n患者：啊 [停頓] 早上吃了稀飯和蛋，還有小菜。欸，好像有喝豆漿？不太確定啦。\n訪談者：沒關係，大概記得就好。那您平常什麼時候去拿藥呢？\n患者：我是每天早上吃完藥才出門的，對不對？應該是這樣沒錯。\n訪談者：好的，謝謝您的配合。\n患者：嗯，不客氣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "王伯伯，今天幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天是八號嗎？還是七號？我想一下，應該是八號沒錯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那您今天早上吃什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊 早上吃了稀飯和蛋，還有小菜。欸，好像有喝豆漿？不太確定啦。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，大概記得就好。那您平常什麼時候去拿藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我是每天早上吃完藥才出門的，對不對？應該是這樣沒錯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 350
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您的配合。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，不客氣啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1400,
+    "chinese_char_count": 145
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

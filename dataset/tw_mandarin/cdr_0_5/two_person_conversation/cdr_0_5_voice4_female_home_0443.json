@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_home_0443",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號啊？\n患者：嗯，我想一下...那個，好像是五月九日吧。\n訪談者：你住哪裡呀？\n患者：我住在台北市大安區囝仔路，應該是這樣啦。\n訪談者：那你現在有沒有什麼要特別注意的健康問題呢？\n患者：有點忘記了...應該是最近醫生說我要拿藥，可是那個藥名我就想不起來咧。[停頓]\n訪談者：你昨天做了些什麼事情呀？\n患者：我昨天去了診所看病，然後就回家啦。",
+  "marked_transcript": "訪談者：今天幾號啊？[停頓]400ms\n患者：嗯，我想一下...那個，好像是五月九日吧。\n訪談者：你住哪裡呀？\n患者：我住在台北市大安區囝仔路，應該是這樣啦。\n訪談者：那你現在有沒有什麼要特別注意的健康問題呢？\n患者：有點忘記了...應該是最近醫生說我要拿藥，可是那個藥名我就想不起來咧。[長停頓]1000ms\n訪談者：你昨天做了些什麼事情呀？\n患者：我昨天去了診所看病，然後就回家啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我想一下...那個，好像是五月九日吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你住哪裡呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我住在台北市大安區囝仔路，應該是這樣啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你現在有沒有什麼要特別注意的健康問題呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有點忘記了...應該是最近醫生說我要拿藥，可是那個藥名我就想不起來咧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你昨天做了些什麼事情呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我昨天去了診所看病，然後就回家啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1400,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "sample_id": "cdr_3_voice2_female_home_0967",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，現在是幾號啊？\n患者：幾號...嗯...今天\n訪談者：今天是星期幾呢？\n患者：星期...欸...好像是禮拜一啦\n訪談者：喔，那我們現在在哪裡？\n患者：家裡...對咧，在厝內\n訪談者：為什麼來這裡呢？\n患者：拿藥...去診所...那個...\n訪談者：記得昨天做什麼嗎？\n患者：早上...看電視...有、有小孩",
+  "marked_transcript": "訪談者：阿母，現在是幾號啊？\n患者：[停頓] 幾號 [停頓] 嗯...今天\n訪談者：今天是星期幾呢？\n患者：星期 [長停頓] 欸...好像是禮拜一啦\n訪談者：喔，那我們現在在哪裡？\n患者：家裡 [停頓] 對咧，在厝內\n訪談者：為什麼來這裡呢？\n患者：拿藥 [停頓] 去診所 [嘆氣] 那個...\n訪談者：記得昨天做什麼嗎？\n患者：早上 [停頓] 看電視...有、有小孩",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿母，現在是幾號啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸...好像是禮拜一啦"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那我們現在在哪裡？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "家裡"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對咧，在厝內"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "去診所"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得昨天做什麼嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 550
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "看電視...有、有小孩"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 11,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 8250,
+    "chinese_char_count": 102
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.29,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 11
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

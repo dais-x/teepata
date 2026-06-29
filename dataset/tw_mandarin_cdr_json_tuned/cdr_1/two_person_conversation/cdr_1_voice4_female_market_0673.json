@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_1_voice4_female_market_0673",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿嬤，早安喔。現在是幾點鐘啊？\n患者：早...早安。嗯...現在好像是早上九點吧。\n訪談者：好的，那您今天早上吃了什麼早餐呢？\n患者：早餐啊...我記得有喝豆漿，還有吃一個煎蛋啦。不過好像還有一個包子...\n訪談者：嗯，那您最近有沒有去診所拿藥？\n患者：拿藥喔...對，我有去。昨天才去的嘛。好像是拿高血壓的藥。\n訪談者：好的，那您今天有看到什麼特別的事情嗎？\n患者：特別的事啊...[停頓]嗯...我在菜市場，看到那個賣魚的人，好像換了一條新船咧。",
+  "marked_transcript": "訪談者：阿嬤，早安喔。現在是幾點鐘啊？\n[停頓]\n患者：早...早安。嗯...現在好像是早上九點吧。\n訪談者：好的，那您今天早上吃了什麼早餐呢？\n[長停頓]\n患者：早餐啊...我記得有喝豆漿，還有吃一個煎蛋啦。不過好像還有一個包子...\n訪談者：嗯，那您最近有沒有去診所拿藥？\n患者：拿藥喔...對，我有去。昨天才去的嘛。好像是拿高血壓的藥。\n[停頓]\n訪談者：好的，那您今天有看到什麼特別的事情嗎？\n[長停頓]\n患者：特別的事啊...[停頓]嗯...我在菜市場，看到那個賣魚的人，好像換了一條新船咧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿嬤，早安喔。現在是幾點鐘啊？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早...早安。嗯...現在好像是早上九點吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您今天早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐啊...我記得有喝豆漿，還有吃一個煎蛋啦。不過好像還有一個包子..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，那您最近有沒有去診所拿藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥喔...對，我有去。昨天才去的嘛。好像是拿高血壓的藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您今天有看到什麼特別的事情嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1300
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "特別的事啊...嗯...我在菜市場，看到那個賣魚的人，好像換了一條新船咧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3600,
+    "chinese_char_count": 171
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

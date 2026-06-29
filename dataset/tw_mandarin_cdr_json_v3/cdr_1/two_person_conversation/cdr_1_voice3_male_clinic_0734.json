@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_1_voice3_male_clinic_0734",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，請問您早餐吃了什麼？\n患者：嗯……早安。 我好像有吃粥……欸，是白粥還是皮蛋粥呢？ 記不太清楚了。\n訪談者：沒關係，那昨天兒子來看過您嗎？\n患者：啊對，他有來。 應該是上週五吧？還是上個月？反正有帶水果過來。\n訪談者：好的，那今天的藥有拿了嗎？\n患者：有拿，就在那邊……那個藥盒裡。 唉，我最近老是忘記擺在哪裡。",
+  "marked_transcript": "訪談者：早安，請問您早餐吃了什麼？\n患者：嗯……早安。[停頓] 我好像有吃粥……欸，是白粥還是皮蛋粥呢？[長停頓] 記不太清楚了。\n訪談者：沒關係，那昨天兒子來看過您嗎？\n患者：啊對，他有來。[吸氣] 應該是上週五吧？還是上個月？反正有帶水果過來。\n訪談者：好的，那今天的藥有拿了嗎？\n患者：有拿，就在那邊……那個藥盒裡。[嘆氣] 唉，我最近老是忘記擺在哪裡。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，請問您早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……早安"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 797
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我好像有吃粥……欸，是白粥還是皮蛋粥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1616
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那昨天兒子來看過您嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對，他有來"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 580
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是上週五吧？還是上個月？反正有帶水果過來"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那今天的藥有拿了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有拿，就在那邊……那個藥盒裡"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1363
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "唉，我最近老是忘記擺在哪裡"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4356,
+    "chinese_char_count": 123
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 1 mild: Patient shows word-finding difficulty (uncertainty between porridge types), mild memory uncertainty about dates, and slight disorientation on medication location. Speech remains coherent with natural pauses."
+}

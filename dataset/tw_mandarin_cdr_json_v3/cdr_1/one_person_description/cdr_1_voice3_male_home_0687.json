@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice3_male_home_0687",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "嗯，每天早上我都會去菜市場買菜。欸，好像是七點半左右？ 阿母以前都跟我一起去，不過她現在腿腳不太方便。我會先拿藥，然後去診所看一下血壓。啊，那個……記不得是不是昨天去過了。反正就是老樣子，回家煮個飯，等囝仔下班回來一起吃飯。 應該沒忘記什麼吧？",
+  "marked_transcript": "嗯，每天早上我都會去菜市場買菜。欸，好像是七點半左右？[停頓] 阿母以前都跟我一起去，不過她現在腿腳不太方便。我會先拿藥，然後去診所看一下血壓。啊，那個……記不得是不是昨天去過了。反正就是老樣子，回家煮個飯，等囝仔下班回來一起吃飯。[長停頓] 應該沒忘記什麼吧？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，每天早上我都會去菜市場買菜。欸，好像是七點半左右？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 796
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母以前都跟我一起去，不過她現在腿腳不太方便。我會先拿藥，然後去診所看一下血壓。啊，那個……記不得是不是昨天去過了。反正就是老樣子，回家煮個飯，等囝仔下班回來一起吃飯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1680
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒忘記什麼吧？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2476,
+    "chinese_char_count": 104
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild: Shows clear word-finding difficulty ('那個', '記不得'), one orientation/memory uncertainty (unclear if visited clinic yesterday), and mild repetition of routine. Natural pauses included but speech remains coherent and on topic."
+}

@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0910",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：您好，請問現在是什麼時間？\n受訪者：欸...什麼時間啊。 好像是一天吧...\n應該是早上喔。\n訪談者：那今天是幾號呢？\n受訪者：幾號...嗯...我忘記了啦。\n記得是月初...\n大概十號左右？\n訪談者：我們現在是在哪裡呢？\n受訪者：這裡啊...我們來拿藥的。\n啊對咧，菜市場後面那個診所。\n訪談者：為什麼會來這裡呢？\n受訪者：因為頭有比較不舒服...\n還有血壓那個問題啦。 要去開一點藥回去吃。",
+  "marked_transcript": "訪談者：您好，請問現在是什麼時間？\n受訪者：欸...什麼時間啊。 [停頓] 好像是一天吧...\n應該是早上喔。\n訪談者：那今天是幾號呢？\n受訪者：幾號...嗯...我忘記了啦。\n記得是月初...\n大概十號左右？\n訪談者：我們現在是在哪裡呢？\n受訪者：這裡啊...我們來拿藥的。\n啊對咧，菜市場後面那個診所。\n訪談者：為什麼會來這裡呢？\n受訪者：因為頭有比較不舒服...\n還有血壓那個問題啦。 [嘆氣] 要去開一點藥回去吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：您好，請問現在是什麼時間？\n受訪者：欸...什麼時間啊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是一天吧...\n應該是早上喔。\n訪談者：那今天是幾號呢？\n受訪者：幾號...嗯...我忘記了啦。\n記得是月初...\n大概十號左右？\n訪談者：我們現在是在哪裡呢？\n受訪者：這裡啊...我們來拿藥的。\n啊對咧，菜市場後面那個診所。\n訪談者：為什麼會來這裡呢？\n受訪者：因為頭有比較不舒服...\n還有血壓那個問題啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "要去開一點藥回去吃。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 600,
+    "chinese_char_count": 144
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 4,
+    "topic_drift_score": 0.42,
+    "coherence_score": 0.58,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "speech_rate_target": "very_slow"
+}

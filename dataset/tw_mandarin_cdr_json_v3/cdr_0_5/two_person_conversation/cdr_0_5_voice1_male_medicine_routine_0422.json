@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_medicine_routine_0422",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天星期幾？\n患者：嗯……應該是星期三吧，我想一下。 對，就是星期三。\n訪談者：為什麼來這裡呢？\n患者：欸……拿藥。 上次醫師說要定期回診，所以來拿藥。",
+  "marked_transcript": "訪談者：今天星期幾？\n患者：嗯……應該是星期三吧，我想一下。[停頓] 對，就是星期三。\n訪談者：為什麼來這裡呢？\n患者：欸……拿藥。[吸氣] 上次醫師說要定期回診，所以來拿藥。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……應該是星期三吧，我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 808
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，就是星期三"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……拿藥"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 397
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "上次醫師說要定期回診，所以來拿藥"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1205,
+    "chinese_char_count": 58
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 0.5: Coherent response with one small uncertainty ('應該是') and light hesitation markers ([停頓], [吸氣]). No major memory loss."
+}

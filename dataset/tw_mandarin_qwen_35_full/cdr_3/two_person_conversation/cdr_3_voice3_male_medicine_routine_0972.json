@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_3_voice3_male_medicine_routine_0972",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿伯，現在幾點？\n患者：嗯...時間咧...喔...應該是下午吧。\n訪談者：那您今天來這裡做什麼呢？\n患者：拿藥...對，拿藥。就是那個...那個...藥丸。啊，忘記是什麼藥了。\n訪談者：好的。那您住哪裡呢？\n患者：住...住在...那裡喔。對，診所附近。大概...大概走路五分鐘左右吧。欸，我是說...是阿母跟我講的啦。\n訪談者：您記得剛才我問您什麼嗎？\n患者：什麼？嗯...那個...藥丸？還是時間？啊，我想不起來了...",
+  "marked_transcript": "訪談者：阿伯，現在幾點？[停頓]\n患者：嗯...[停頓] 時間咧...喔...應該是下午吧。\n訪談者：那您今天來這裡做什麼呢？\n患者：拿藥...對，拿藥。就是那個...那個...藥丸。啊，忘記是什麼藥了。\n訪談者：好的。那您住哪裡呢？[長停頓]\n患者：住...住在...那裡喔。對，診所附近。大概...大概走路五分鐘左右吧。欸，我是說...是阿母跟我講的啦。\n訪談者：您記得剛才我問您什麼嗎？\n患者：什麼？嗯...那個...藥丸？還是時間？啊，我想不起來了[嘆氣]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，現在幾點？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...時間咧...喔...應該是下午吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天來這裡做什麼呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥...對，拿藥。就是那個...那個...藥丸。啊，忘記是什麼藥了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那您住哪裡呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "住...住在...那裡喔。對，診所附近。大概...大概走路五分鐘左右吧。欸，我是說...是阿母跟我講的啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您記得剛才我問您什麼嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "什麼？嗯...那個...藥丸？還是時間？啊，我想不起來了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3200,
+    "chinese_char_count": 141
+  },
+  "impairment_features": {
+    "hesitation_count": 14,
+    "repetition_count": 7,
+    "word_finding_count": 6,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.35,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

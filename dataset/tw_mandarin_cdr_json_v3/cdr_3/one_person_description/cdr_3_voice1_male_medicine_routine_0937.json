@@ -1,0 +1,156 @@
+{
+  "sample_id": "cdr_3_voice1_male_medicine_routine_0937",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "藥…… 那個。\n阿母講…… 拿藥。\n診所…… 嗯。\n吃…… 早上？ 忘記了。\n瓶子…… 在哪裡？\n紅的…… 白的…… 記不得。\n藥…… …… 要吃。",
+  "marked_transcript": "藥…… [停頓] 那個。[長停頓]\n阿母講…… [吸氣] 拿藥。[停頓]\n診所…… [咳嗽] 嗯。[停頓]\n吃…… 早上？[嘆氣] 忘記了。[長停頓]\n瓶子…… [停頓] 在哪裡？\n紅的…… [吸氣] 白的…… [停頓] 記不得。\n藥…… …… 要吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 892
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1629
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母講……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 759
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 892
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 696
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 675
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃…… 早上？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 923
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1559
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "瓶子……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 688
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在哪裡？ 紅的……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 435
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "白的……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 708
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得。 藥…… …… 要吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 9856,
+    "chinese_char_count": 32
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "generation_notes": "CDR 3 severe: fragmented sentences, word-finding difficulty ('那個', '紅的'), orientation confusion (time/place), repetition of key words, frequent pauses and markers."
+}

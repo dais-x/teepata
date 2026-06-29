@@ -1,0 +1,120 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0456",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿母，現在跟您聊聊喔。今天是幾月幾號呢？\n患者：今天啊...是星期二，應該沒錯吧。\n訪談者：那您記得這是什麼地方嗎？\n患者：這裡是菜市場啦，我們常來買菜的。欸，不過好像有點久沒來了。\n訪談者：那您今天早上吃了什麼早餐呢？\n患者：早上...有喝豆漿，還吃了一個蛋餅。阿母我記得喔。\n訪談者：很好。那您昨天有沒有去拿藥呢？\n患者：昨天沒有耶，應該是今天要去拿藥。那個...好像是診所那邊的藥。\n訪談者：好，我們再講一下喔。剛才說的是星期二嗎？",
+  "marked_transcript": "訪談者：阿母，現在跟您聊聊喔。今天是幾月幾號呢？\n患者：今天啊 [停頓] 是星期二，應該沒錯吧。\n訪談者：那您記得這是什麼地方嗎？\n患者：這裡是菜市場啦，我們常來買菜的。欸，不過好像有點久沒來了。\n訪談者：那您今天早上吃了什麼早餐呢？\n患者：早上 [停頓] 有喝豆漿，還吃了一個蛋餅。阿母我記得喔。\n訪談者：很好。那您昨天有沒有去拿藥呢？\n患者：昨天沒有耶，應該是今天要去拿藥。那個...好像是診所那邊的藥。\n訪談者：好，我們再講一下喔。剛才說的是星期二嗎？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿母，現在跟您聊聊喔。今天是幾月幾號呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天啊 是星期二，應該沒錯吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您記得這是什麼地方嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是菜市場啦，我們常來買菜的。欸，不過好像有點久沒來了。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您今天早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上 有喝豆漿，還吃了一個蛋餅。阿母我記得喔。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那您昨天有沒有去拿藥呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天沒有耶，應該是今天要去拿藥。那個...好像是診所那邊的藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，我們再講一下喔。剛才說的是星期二嗎？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 175
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

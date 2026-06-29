@@ -1,0 +1,83 @@
+{
+  "sample_id": "cdr_1_voice1_male_market_0621",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上啊，我去菜市場。 那個...買些青菜啦。 本來想說要買魚，但是好像忘記帶錢包了，欸，應該是放在客廳吧？然後就只買到一些蔥和蒜頭。記得昨天有跟阿母講過要去，但今天時間好像是...大概是十點多去的。對，差不多這個時間。 後來還去藥局拿藥，那個降血壓的藥，忘記幾顆了，應該是一天兩顆吧。嗯，大概就這樣啦。",
+  "marked_transcript": "嗯，今天早上啊，我去菜市場。 [停頓] 那個...買些青菜啦。 [吸氣] 本來想說要買魚，但是好像忘記帶錢包了，欸，應該是放在客廳吧？然後就只買到一些蔥和蒜頭。記得昨天有跟阿母講過要去，但今天時間好像是...大概是十點多去的。對，差不多這個時間。 [長停頓] 後來還去藥局拿藥，那個降血壓的藥，忘記幾顆了，應該是一天兩顆吧。嗯，大概就這樣啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯，今天早上啊，我去菜市場。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "那個...買些青菜啦。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "本來想說要買魚，但是好像忘記帶錢包了，欸，應該是放在客廳吧？然後就只買到一些蔥和蒜頭。記得昨天有跟阿母講過要去，但今天時間好像是...大概是十點多去的。對，差不多這個時間。"
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "後來還去藥局拿藥，那個降血壓的藥，忘記幾顆了，應該是一天兩顆吧。嗯，大概就這樣啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 4,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 127
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "speech_rate_target": "slow"
+}

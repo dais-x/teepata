@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_family_0339",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天是幾月幾號呢？\n患者：我想一下，應該是這個星期三吧。\n訪談者：那你記得上個禮拜你做了什麼嗎？\n患者：嗯...好像去了菜市場買東西，然後去診所拿藥。\n訪談者：好的，那說說你今天早上起來的第一件事是什麼呢？\n患者：那個啊，大概就是先洗臉，然後吃飯吧。\n訪談者：好，最後我們來聊聊你認識的人，可以告訴我你家裡有誰嗎？\n患者：喔，當然了，我爸媽還有兩個囝仔。",
+  "marked_transcript": "訪談者：今天是幾月幾號呢？[停頓]\n患者：我想一下，應該是這個星期三吧。\n訪談者：那你記得上個禮拜你做了什麼嗎？\n患者：嗯...好像去了菜市場買東西，然後去診所拿藥。[長停頓]\n訪談者：好的，那說說你今天早上起來的第一件事是什麼呢？\n患者：那個啊，大概就是先洗臉，然後吃飯吧。\n訪談者：好，最後我們來聊聊你認識的人，可以告訴我你家裡有誰嗎？[停頓]\n患者：喔，當然了，我爸媽還有兩個囝仔。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是幾月幾號呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下，應該是這個星期三吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你記得上個禮拜你做了什麼嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...好像去了菜市場買東西，然後去診所拿藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那說說你今天早上起來的第一件事是什麼呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個啊，大概就是先洗臉，然後吃飯吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，最後我們來聊聊你認識的人，可以告訴我你家裡有誰嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，當然了，我爸媽還有兩個囝仔。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3100,
+    "chinese_char_count": 146
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_1_voice4_female_market_0765",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早上我去菜市場買菜。 那個……記得要拿藥，診所開的。欸，好像忘記帶錢包了，啊不對，是放在家裡。 囝仔說要去那裡，我記不太清楚是哪個攤位。應該是賣魚的那邊吧？嗯，對，就是那邊。",
+  "marked_transcript": "嗯，今天早上我去菜市場買菜。[停頓] 那個……記得要拿藥，診所開的。欸，好像忘記帶錢包了，啊不對，是放在家裡。[長停頓] 囝仔說要去那裡，我記不太清楚是哪個攤位。應該是賣魚的那邊吧？嗯，對，就是那邊。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早上我去菜市場買菜"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 702
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……記得要拿藥，診所開的。欸，好像忘記帶錢包了，啊不對，是放在家裡"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1394
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔說要去那裡，我記不太清楚是哪個攤位。應該是賣魚的那邊吧？嗯，對，就是那邊"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2096,
+    "chinese_char_count": 73
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty ('忘記帶錢包' vs '放在家裡'), mild repetition, and one orientation error regarding location. Speech remains coherent with 2 pauses."
+}

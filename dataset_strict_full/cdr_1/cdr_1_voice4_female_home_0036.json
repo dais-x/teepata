@@ -1,0 +1,88 @@
+{
+  "sample_id": "cdr_1_voice4_female_home_0036",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "older_female_clear",
+    "gender": "female",
+    "description": "清楚自然的台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "昨天下午我本來要去公園散步，但是後來下雨了，我就沒有去成。其實我記得那天是週三，不過現在想起來有點模糊。那個...嗯，我好像忘記帶傘了，所以如果下雨的話會淋濕。然後我在家裡看電視，看了大概一個小時左右。",
+  "marked_transcript": "昨天下午 [停頓] 我本來要去公園散步，但是後來下雨了，我就沒有去成。其實我記得那天是週三，不過現在想起來有點模糊。那個...嗯，我好像忘記帶傘了，所以如果下雨的話會淋濕。然後我在家裡看電視，看了大概一個小時左右。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天下午"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我本來要去公園散步，但是後來下雨了，我就沒有去成。其實我記得那天是週三，不過現在想起來有點模糊。那個...嗯，我好像忘記帶傘了，所以如果下雨的話會淋濕。然後我在家裡看電視，看了大概一個小時左右。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 2,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.6,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.6,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.8,
+      "filled_pause_count": 3,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 1,
+      "circumlocution_count": 0,
+      "word_repetition_count": 0,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 2
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.72,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

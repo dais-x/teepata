@@ -1,0 +1,158 @@
+{
+  "sample_id": "cdr_3_voice3_male_home_0975",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… 粥…… 忘記了。\n訪談者：昨天阿孫有來嗎？\n患者：阿孫…… 誰？ 好像…… 記不得。\n訪談者：藥吃了嗎？\n患者：藥…… 哪種藥？ 忘記了。欸，應該是…… 沒吃。",
+  "marked_transcript": "訪談者：你早上吃什麼？\n患者：嗯…… [停頓] 粥…… [長停頓] 忘記了。[嘆氣]\n訪談者：昨天阿孫有來嗎？\n患者：阿孫…… [吸氣] 誰？[停頓] 好像…… [長停頓] 記不得。\n訪談者：藥吃了嗎？\n患者：藥…… [咳嗽] 哪種藥？[停頓] 忘記了。欸，應該是…… [長停頓] 沒吃。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你早上吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 693
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1216
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1210
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天阿孫有來嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿孫……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 554
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 833
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1378
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥吃了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 777
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哪種藥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 797
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了。欸，應該是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1589
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "沒吃"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 9047,
+    "chinese_char_count": 58
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 3 severe: Patient shows fragmented speech, frequent word-finding failures, orientation confusion (forgetting grandson), and inability to recall medication. Speech is broken with multiple long pauses and repetitions."
+}

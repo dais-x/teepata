@@ -1,0 +1,133 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0065",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "name": "clinic_room_noise",
+    "description": "輕微診間背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個我剛剛在市場買菜，嗯...就是青菜啦，呃...不知道怎麼講，好像是番茄？對，番茄。哎呀，忘記了，不記得是幾點了，反正就是早上去逛市場。那個東西叫什麼名字來著？就是賣肉的地方嘛，嗯...豬肉攤。然後還有水果，呃...香蕉、蘋果之類的。我想一下啊，好像還有蔬菜。對，青菜。哎呀，想不起來了，忘記了。",
+  "marked_transcript": "那個 [停頓] 我剛剛在市場買菜， [停頓] 嗯...就是青菜啦， [停頓] 呃...不知道怎麼講，好像是番茄？對，番茄。哎呀，忘記了，不記得是幾點了，反正就是早上去逛市場。那個東西叫什麼名字來著？就是賣肉的地方嘛， [停頓] 嗯...豬肉攤。然後還有水果， [停頓] 呃...香蕉、蘋果之類的。我想一下啊， [長停頓] 好像還有蔬菜。對，青菜。哎呀，想不起來了，忘記了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我剛剛在市場買菜，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...就是青菜啦，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...不知道怎麼講，好像是番茄？對，番茄。哎呀，忘記了，不記得是幾點了，反正就是早上去逛市場。那個東西叫什麼名字來著？就是賣肉的地方嘛，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.9
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...豬肉攤。然後還有水果，"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...香蕉、蘋果之類的。我想一下啊，"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像還有蔬菜。對，青菜。哎呀，想不起來了，忘記了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 7,
+    "pause_count": 5,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 7.8,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 5,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 7.8,
+      "silence_ratio": 0.06,
+      "speech_rate_target_cps": 2.7,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 4,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 7
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.49,
+      "memory_gap_count": 4,
+      "orientation_error_count": 1
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "sample_id": "cdr_1_voice1_male_home_0651",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "home",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上的早餐吃了什麼？\n患者：嗯…… 好像是粥， 阿母煮的。欸，好像還有煎蛋？記不太清楚了。\n訪談者：昨天兒子有打電話來嗎？\n患者：有啊， 應該是上週吧？還是這週？ 我忘記了。反正他有說要來看我。\n訪談者：那藥有按時吃嗎？\n患者：有啦， 早上跟晚上都有拿藥。嗯…… 應該沒漏掉。",
+  "marked_transcript": "訪談者：早上的早餐吃了什麼？\n患者：嗯…… [停頓] 好像是粥，[長停頓] 阿母煮的。欸，好像還有煎蛋？記不太清楚了。\n訪談者：昨天兒子有打電話來嗎？\n患者：有啊，[嘆氣] 應該是上週吧？還是這週？[吸氣] 我忘記了。反正他有說要來看我。\n訪談者：那藥有按時吃嗎？\n患者：有啦，[停頓] 早上跟晚上都有拿藥。嗯…… [咳嗽] 應該沒漏掉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上的早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 650
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1443
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母煮的。欸，好像還有煎蛋？記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天兒子有打電話來嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 949
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是上週吧？還是這週？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 420
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我忘記了。反正他有說要來看我"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥有按時吃嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 619
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上跟晚上都有拿藥。嗯……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 496
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒漏掉"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4577,
+    "chinese_char_count": 105
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 1 mild: exhibits word-finding difficulty (forgetting specific food items), mild temporal disorientation (confusing last week vs. this week), and slight repetition, but maintains topic coherence."
+}

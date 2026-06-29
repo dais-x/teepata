@@ -1,0 +1,113 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0646",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：你今天早餐吃了什麼？\n患者：嗯...我想一下...啊，好像吃了一個包子。\n訪談者：昨天有什麼特別的事嗎？\n患者：昨天嘛...那個，應該是去診所拿藥了，對吧？\n訪談者：最近家裡發生了什麼事呢？\n患者：最近嘛...好像是我們家囝仔生日吧，應該就是這個月。\n訪談者：你記得醫生開的藥嗎？\n患者：呃...那個，記不得了，好像要吃兩次一天...\n訪談者：好的，請問昨天早上發生了什麼事呢？\n患者：喔，昨天早上嘛...嗯...那個，應該是去菜市場買菜了。",
+  "marked_transcript": "訪談者：你今天早餐吃了什麼？[停頓]\n患者：嗯...我想一下...啊，好像吃了一個包子。\n訪談者：昨天有什麼特別的事嗎？\n患者：昨天嘛...那個，應該是去診所拿藥了，對吧？\n訪談者：最近家裡發生了什麼事呢？[停頓]\n患者：最近嘛...好像是我們家囝仔生日吧，應該就是這個月。\n訪談者：你記得醫生開的藥嗎？\n患者：呃...那個，記不得了，好像要吃兩次一天...\n訪談者：好的，請問昨天早上發生了什麼事呢？[停頓]\n患者：喔，昨天早上嘛...嗯...那個，應該是去菜市場買菜了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下...啊，好像吃了一個包子。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有什麼特別的事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天嘛...那個，應該是去診所拿藥了，對吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "最近家裡發生了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "最近嘛...好像是我們家囝仔生日吧，應該就是這個月。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得醫生開的藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "呃...那個，記不得了，好像要吃兩次一天..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，請問昨天早上發生了什麼事呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，昨天早上嘛...嗯...那個，應該是去菜市場買菜了。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2600,
+    "chinese_char_count": 164
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 3,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.28,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

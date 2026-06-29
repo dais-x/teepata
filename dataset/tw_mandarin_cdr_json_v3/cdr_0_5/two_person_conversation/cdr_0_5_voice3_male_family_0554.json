@@ -1,0 +1,90 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0554",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天早上吃什麼早餐？\n患者：嗯，我記得有喝牛奶， 還有兩片吐司。欸，好像是煎蛋吧？我想一下。\n訪談者：那昨天阿嬤來家裡，你記得嗎？\n患者：記得啊，她帶了菜市場買的水果。 不過那個……好像忘記幾點來的。",
+  "marked_transcript": "訪談者：今天早上吃什麼早餐？\n患者：嗯，我記得有喝牛奶，[停頓] 還有兩片吐司。欸，好像是煎蛋吧？我想一下。\n訪談者：那昨天阿嬤來家裡，你記得嗎？\n患者：記得啊，她帶了菜市場買的水果。[吸氣] 不過那個……好像忘記幾點來的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上吃什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，我記得有喝牛奶"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 842
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有兩片吐司。欸，好像是煎蛋吧？我想一下"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天阿嬤來家裡，你記得嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得啊，她帶了菜市場買的水果"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 384
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過那個……好像忘記幾點來的"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1226,
+    "chinese_char_count": 81
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0.5 very mild: mostly coherent with one hesitation and minor uncertainty about time."
+}

@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_market_0021",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "market",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，阿嬤。今天早餐吃了什麼？ 受訪者：欸，早啊。早上有吃粥啦，還有蛋。\n訪談者：喔，那昨天家裡有沒有發生什麼特別的事？ 受訪者：嗯...昨天囝仔打電話來，好像說下禮拜要帶我去診所看阿母。\n訪談者：記得是明天還是後天呢？ 受訪者：啊，我想一下，好像是後天啦，對不對？應該沒錯。\n訪談者：那您有吃藥嗎？ 受訪者：有啊，早上有拿藥。那個...血壓藥。\n訪談者：好的。那剛才我請您記的那個水果是什麼？ 受訪者：喔，那個...好像是蘋果？還是橘子？欸，好像剛剛才想到是蘋果啦。\n訪談者：好的，謝謝您。",
+  "marked_transcript": "訪談者：早安，阿嬤。今天早餐吃了什麼？ [停頓] 受訪者：欸，早啊。早上有吃粥啦，還有蛋。\n訪談者：喔，那昨天家裡有沒有發生什麼特別的事？ [吸氣] 受訪者：嗯...昨天囝仔打電話來，好像說下禮拜要帶我去診所看阿母。\n訪談者：記得是明天還是後天呢？ [停頓] 受訪者：啊，我想一下，好像是後天啦，對不對？應該沒錯。\n訪談者：那您有吃藥嗎？ [嘆氣] 受訪者：有啊，早上有拿藥。那個...血壓藥。\n訪談者：好的。那剛才我請您記的那個水果是什麼？ [停頓] 受訪者：喔，那個...好像是蘋果？還是橘子？欸，好像剛剛才想到是蘋果啦。\n訪談者：好的，謝謝您。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：早安，阿嬤。今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：欸，早啊。早上有吃粥啦，還有蛋。\n訪談者：喔，那昨天家裡有沒有發生什麼特別的事？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：嗯...昨天囝仔打電話來，好像說下禮拜要帶我去診所看阿母。\n訪談者：記得是明天還是後天呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 750
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：啊，我想一下，好像是後天啦，對不對？應該沒錯。\n訪談者：那您有吃藥嗎？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：有啊，早上有拿藥。那個...血壓藥。\n訪談者：好的。那剛才我請您記的那個水果是什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "受訪者：喔，那個...好像是蘋果？還是橘子？欸，好像剛剛才想到是蘋果啦。\n訪談者：好的，謝謝您。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 6,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 2150,
+    "chinese_char_count": 190
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "speech_rate_target": "slightly_slow"
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_home_0561",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "home",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上我起來，先去廁所，然後那個...我想一下...然後就去廚房。準備早餐的時候，會做一些簡單的東西。比如說土司、蛋，還有牛奶。嗯，那個早餐吃完了之後，就會去菜市場買一些下午要吃的東西。",
+  "marked_transcript": "[停頓]今天早上我起來，先去廁所，然後那個...[長停頓]我想一下...然後就去廚房。[嘆氣]準備早餐的時候，會做一些簡單的東西。比如說土司、蛋，還有牛奶。嗯，那個早餐吃完了之後，就會去菜市場買一些下午要吃的東西。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "[停頓]今天早上我起來，先去廁所，然後那個...[長停頓]"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下...然後就去廚房。[嘆氣]準備早餐的時候，會做一些簡單的東西。比如說土司、蛋，還有牛奶。嗯，那個早餐吃完了之後，就會去菜市場買一些下午要吃的東西。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 0,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1000,
+    "chinese_char_count": 77
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 2,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.8,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 0
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_clinic_0410",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，您好。請問今天是幾號？今天星期幾啊？\n患者：欸……是喔，讓我想一想。好像是……嗯，應該是四月十號吧。對，禮拜五。\n訪談者：好的，那我們現在是在哪裡呢？為什麼要來看診咧？\n患者：這裡是……診所嘛，就附近那個大醫生的地方啦。因為我最近頭有點暈，來拿藥的。\n訪談者：喔，原來是這樣。那昨天做了什麼事啊？有去菜市場嗎？\n患者：有啊，我去買菜。好像有跟阿母講電話……嗯，對，有講到。那個……我記得好像是吃青菜，還有魚啦。",
+  "marked_transcript": "訪談者：阿姨，您好。請問今天是幾號？[停頓] 今天星期幾啊？\n患者：欸……是喔，讓我想一想。[長停頓] 好像是……嗯，應該是四月十號吧。對，禮拜五。\n訪談者：好的，那我們現在是在哪裡呢？為什麼要來看診咧？\n患者：這裡是……診所嘛，就附近那個大醫生的地方啦。因為我最近頭有點暈，來拿藥的。\n訪談者：喔，原來是這樣。那昨天做了什麼事啊？有去菜市場嗎？\n患者：有啊，我去買菜。[停頓] 好像有跟阿母講電話……嗯，對，有講到。那個……我記得好像是吃青菜，還有魚啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，您好。請問今天是幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸……是喔，讓我想一想。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……嗯，應該是四月十號吧。對，禮拜五。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們現在是在哪裡呢？為什麼要來看診咧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是……診所嘛，就附近那個大醫生的地方啦。因為我最近頭有點暈，來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，原來是這樣。那昨天做了什麼事啊？有去菜市場嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，我去買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有跟阿母講電話……嗯，對，有講到。那個……我記得好像是吃青菜，還有魚啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 9,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 163
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

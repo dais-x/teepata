@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_3_voice3_male_market_0985",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：先生現在是幾號？\n受訪者： 嗯... 幾號啊？好像是... 那天，哦對，昨天。\n訪談者：今天是星期幾呢？\n受訪者：星期... 星期...欸，忘記了。好像禮拜五？不對啦。\n訪談者：我們現在在哪裡呀？\n受訪者：這裡... 這裡喔。菜市場...啊不是，診所？拿藥的地方。\n訪談者：那你為什麼來這裡？\n受訪者：來...買東西。阿母囑咐的。去...那個，賣菜的地方。\n訪談者：今天天氣如何？\n受訪者：嗯，有風... 下雨嗎？不曉得啦。出門前忘記看。\n訪談者：好的，那我們休息一下。",
+  "marked_transcript": "訪談者：先生現在是幾號？\n受訪者： [停頓] 嗯... [吸氣] 幾號啊？好像是... [長停頓] 那天，哦對，昨天。\n訪談者：今天是星期幾呢？\n受訪者：星期... [停頓] 星期...欸，忘記了。好像禮拜五？不對啦。\n訪談者：我們現在在哪裡呀？\n受訪者：這裡... [咳嗽] 這裡喔。菜市場...啊不是，診所？拿藥的地方。\n訪談者：那你為什麼來這裡？\n受訪者：來...買東西。阿母囑咐的。去...那個，賣菜的地方。\n訪談者：今天天氣如何？\n受訪者：嗯，有風... [嘆氣] 下雨嗎？不曉得啦。出門前忘記看。\n訪談者：好的，那我們休息一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "訪談者：先生現在是幾號？\n受訪者："
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯..."
+    },
+    {
+      "type": "breath",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "幾號啊？好像是..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "那天，哦對，昨天。\n訪談者：今天是星期幾呢？\n受訪者：星期..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "星期...欸，忘記了。好像禮拜五？不對啦。\n訪談者：我們現在在哪裡呀？\n受訪者：這裡..."
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "這裡喔。菜市場...啊不是，診所？拿藥的地方。\n訪談者：那你為什麼來這裡？\n受訪者：來...買東西。阿母囑咐的。去...那個，賣菜的地方。\n訪談者：今天天氣如何？\n受訪者：嗯，有風..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "下雨嗎？不曉得啦。出門前忘記看。\n訪談者：好的，那我們休息一下。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 7,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 2900,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 6,
+    "word_finding_count": 7,
+    "orientation_error_count": 3,
+    "memory_error_count": 6,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.28,
+    "speech_rate_target": "very_slow"
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  },
+  "speech_rate_target": "very_slow"
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "cdr_0_voice3_male_home_0104",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "home",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：您好，現在請您跟我說一下今天是幾月幾號？\n患者：嗯，今天喔，應該是五月四日。\n訪談者：好，那我們現在在哪裡呢？\n患者：應該是在家裡啊，客廳這裡啦。然後我兒子剛才還講電話咧。\n訪談者：沒錯，那您記得昨天做了什麼事情嗎？\n患者：昨天啊，我想一下，有去菜市場買菜，還有拿藥回來吃。\n訪談者：很好，那您現在身體感覺怎麼樣？\n患者：嗯，還不錯啦，就是有时候頭會稍微暈一點點，不過沒關係。",
+  "marked_transcript": "訪談者：您好，現在請您跟我說一下今天是幾月幾號？\n[停頓]\n患者：嗯，今天喔，應該是五月四日。\n訪談者：好，那我們現在在哪裡呢？\n患者：應該是在家裡啊，客廳這裡啦。然後我兒子剛才還講電話咧。\n訪談者：沒錯，那您記得昨天做了什麼事情嗎？\n[停頓]\n患者：昨天啊，我想一下，有去菜市場買菜，還有拿藥回來吃。\n訪談者：很好，那您現在身體感覺怎麼樣？\n患者：嗯，還不錯啦，就是有时候頭會稍微暈一點點，不過沒關係。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，現在請您跟我說一下今天是幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天喔，應該是五月四日。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在家裡啊，客廳這裡啦。然後我兒子剛才還講電話咧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒錯，那您記得昨天做了什麼事情嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊，我想一下，有去菜市場買菜，還有拿藥回來吃。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好，那您現在身體感覺怎麼樣？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，還不錯啦，就是有时候頭會稍微暈一點點，不過沒關係。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1100,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

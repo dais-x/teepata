@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_1_voice1_male_market_0664",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天要去菜市場。 早上起來想一下，要買什麼。好像是青菜，還有肉。那個…… 豬肉還是牛肉？忘記了。反正去問老闆娘就好。囝仔說要吃湯，所以要多買一點豆腐。 哎呀，年紀大了記性不好。不過還算清楚啦。走到路口…… 記得轉彎。市場人很多，吵鬧的。買到東西就回家煮。嗯，大概這樣。",
+  "marked_transcript": "嗯，今天要去菜市場。[停頓] 早上起來想一下，要買什麼。好像是青菜，還有肉。那個…… [停頓] 豬肉還是牛肉？忘記了。反正去問老闆娘就好。囝仔說要吃湯，所以要多買一點豆腐。[嘆氣] 哎呀，年紀大了記性不好。不過還算清楚啦。走到路口…… [停頓] 記得轉彎。市場人很多，吵鬧的。買到東西就回家煮。嗯，大概這樣。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天要去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 840
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早上起來想一下，要買什麼。好像是青菜，還有肉。那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 622
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "豬肉還是牛肉？忘記了。反正去問老闆娘就好。囝仔說要吃湯，所以要多買一點豆腐"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1196
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "哎呀，年紀大了記性不好。不過還算清楚啦。走到路口……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 791
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記得轉彎。市場人很多，吵鬧的。買到東西就回家煮。嗯，大概這樣"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 3449,
+    "chinese_char_count": 108
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR1 mild: word-finding difficulty (meat type), mild memory uncertainty, natural pauses and sighs."
+}

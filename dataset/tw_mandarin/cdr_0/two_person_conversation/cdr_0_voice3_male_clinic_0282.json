@@ -1,0 +1,123 @@
+{
+  "sample_id": "cdr_0_voice3_male_clinic_0282",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：現在是哪一年？\n患者：現在是2023年。\n訪談者：您住在哪裡呢？\n患者：我住在台北市，靠近捷運站附近。\n訪談者：您的生日幾月幾日？\n患者：我的生日是12月25日。\n訪談者：今天星期幾呢？\n患者：今天是週二，我想想啊，對了，今天是週三。\n訪談者：請問您早餐吃了什麼？\n患者：早餐吃的是稀飯跟小菜。\n訪談者：昨天有沒有去市場買菜？\n患者：昨天沒有去市場買菜，因為下雨嘛。",
+  "marked_transcript": "[停頓] 訪談者：現在是哪一年？\n[停頓] 患者：現在是2023年。\n訪談者：您住在哪裡呢？\n患者：我住在台北市，靠近捷運站附近。\n訪談者：您的生日幾月幾日？\n患者：我的生日是12月25日。\n訪談者：今天星期幾呢？\n[長停頓] 患者：今天是週二，我想想啊，對了，今天是週三。\n訪談者：請問您早餐吃了什麼？\n患者：早餐吃的是稀飯跟小菜。\n訪談者：昨天有沒有去市場買菜？\n[停頓] 患者：昨天沒有去市場買菜，因為下雨嘛。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在是哪一年？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "現在是2023年。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您住在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我住在台北市，靠近捷運站附近。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您的生日幾月幾日？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我的生日是12月25日。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天是週二，我想想啊，對了，今天是週三。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問您早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "早餐吃的是稀飯跟小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有沒有去市場買菜？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天沒有去市場買菜，因為下雨嘛。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2500,
+    "chinese_char_count": 139
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

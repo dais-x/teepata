@@ -1,0 +1,172 @@
+{
+  "sample_id": "cdr_3_voice4_female_daily_life_0929",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：昨天早餐吃什麼？\n患者：嗯…… 粥…… 好像有蛋。\n訪談者：你兒子什麼時候來的？\n患者：兒子…… 誰？ 欸，忘記了。\n訪談者：藥吃了嗎？\n患者：藥…… 那個…… 紅色的。\n訪談者：現在幾點了？\n患者：時間…… 不知道。 對不起。",
+  "marked_transcript": "訪談者：昨天早餐吃什麼？\n患者：嗯…… [停頓] 粥…… [長停頓] 好像有蛋。[吸氣]\n訪談者：你兒子什麼時候來的？\n患者：兒子…… [停頓] 誰？[嘆氣] 欸，忘記了。\n訪談者：藥吃了嗎？\n患者：藥…… [停頓] 那個…… [咳嗽] 紅色的。[長停頓]\n訪談者：現在幾點了？\n患者：時間…… [停頓] 不知道。[吸氣] 對不起。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天早餐吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 814
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "粥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1270
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有蛋"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 561
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你兒子什麼時候來的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "兒子……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 852
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "誰？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1187
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，忘記了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "藥吃了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 779
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 629
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "紅色的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1484
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "現在幾點了？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 651
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不知道"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 774
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對不起"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 2,
+    "total_pause_ms": 9001,
+    "chinese_char_count": 72
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 2,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 3 severe: fragmented sentences, frequent word-finding failures ('誰', '那個'), orientation confusion (time), repeated simple phrases, and excessive pauses indicating significant memory loss."
+}

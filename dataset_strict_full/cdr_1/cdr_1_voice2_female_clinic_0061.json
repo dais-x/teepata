@@ -1,0 +1,116 @@
+{
+  "sample_id": "cdr_1_voice2_female_clinic_0061",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "clinic",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": [
+    {
+      "speaker": "interviewer",
+      "text": "你可以跟我說一下今天早上做了什麼嗎？"
+    },
+    {
+      "speaker": "patient",
+      "text": "嗯，那個我早上有去公園走走啦。不過後來忘記帶傘了，結果淋了一點雨。然後就回家煮個粥吃。記得好像還有看電視，但具體是幾點就不太記得了。"
+    }
+  ],
+  "spoken_transcript": "嗯，那個我早上有去公園走走啦。不過後來忘記帶傘了，結果淋了一點雨。然後就回家煮個粥吃。記得好像還有看電視，但具體是幾點就不太記得了。",
+  "marked_transcript": "嗯，那個 [停頓] 我早上有去公園走走啦。不過後來忘記帶傘了，結果淋了一點雨。然後就回家煮個粥吃。記得好像還有看電視，但具體是幾點就不太記得了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我早上有去公園走走啦。不過後來忘記帶傘了，結果淋了一點雨。然後就回家煮個粥吃。記得好像還有看電視，但具體是幾點就不太記得了。"
+    }
+  ],
+  "full_conversation_event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你可以跟我說一下今天早上做了什麼嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個，我早上有去公園走走啦。不過後來忘記帶傘了，結果淋了一點雨。然後就回家煮個粥吃。記得好像還有看電視，但具體是幾點就不太記得了。"
+    }
+  ],
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": "full_conversation.wav"
+  },
+  "event_stats": {
+    "speech_event_count": 2,
+    "pause_count": 1,
+    "long_pause_count": 0,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 0.8,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 1,
+      "long_pause_count": 0,
+      "total_pause_duration_sec": 0.8,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 3.5,
+      "filled_pause_count": 3,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 1,
+      "vague_reference_count": 0,
+      "circumlocution_count": 0,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 0,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 1
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.35,
+      "coherence_score": 0.75,
+      "memory_gap_count": 1,
+      "orientation_error_count": 0
+    }
+  }
+}

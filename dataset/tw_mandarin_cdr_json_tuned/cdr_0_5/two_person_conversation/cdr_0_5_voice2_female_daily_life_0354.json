@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_5_voice2_female_daily_life_0354",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，阿母。今天天氣不錯，您記得今天是幾月幾號嗎？\n患者：嗯...讓我想一想喔，應該是九月吧。不過日期我好像記不太清楚，可能是十三號？\n訪談者：沒關係，我們先不確定日期。那昨天早上您有吃什麼早餐呢？\n患者：我有吃稀飯，還有煎蛋啦。那個菜市場的老闆娘也有跟我打招呼。\n訪談者：很好。那您今天早上有去拿藥嗎？\n患者：有啊，我去診所拿的。嗯...好像是用健保卡領的，沒錯吧？\n訪談者：對，是這樣沒錯。謝謝您的回答。\n患者：不客氣啦，希望我沒說錯什麼。",
+  "marked_transcript": "訪談者：您好，阿母。今天天氣不錯，您記得今天是幾月幾號嗎？\n[停頓]\n患者：嗯...讓我想一想喔，應該是九月吧。不過日期我好像記不太清楚，可能是十三號？\n[停頓]\n訪談者：沒關係，我們先不確定日期。那昨天早上您有吃什麼早餐呢？\n患者：我有吃稀飯，還有煎蛋啦。那個菜市場的老闆娘也有跟我打招呼。\n[吸氣]\n訪談者：很好。那您今天早上有去拿藥嗎？\n患者：有啊，我去診所拿的。嗯...好像是用健保卡領的，沒錯吧？\n訪談者：對，是這樣沒錯。謝謝您的回答。\n患者：不客氣啦，希望我沒說錯什麼。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，阿母。今天天氣不錯，您記得今天是幾月幾號嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...讓我想一想喔，應該是九月吧。不過日期我好像記不太清楚，可能是十三號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們先不確定日期。那昨天早上您有吃什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我有吃稀飯，還有煎蛋啦。那個菜市場的老闆娘也有跟我打招呼。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "很好。那您今天早上有去拿藥嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊，我去診所拿的。嗯...好像是用健保卡領的，沒錯吧？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，是這樣沒錯。謝謝您的回答。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不客氣啦，希望我沒說錯什麼。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1600,
+    "chinese_char_count": 180
+  },
+  "impairment_features": {
+    "hesitation_count": 3,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

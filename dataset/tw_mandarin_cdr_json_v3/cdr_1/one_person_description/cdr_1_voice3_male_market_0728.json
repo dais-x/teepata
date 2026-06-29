@@ -1,0 +1,93 @@
+{
+  "sample_id": "cdr_1_voice3_male_market_0728",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，今天早點去菜市場。 想買些青菜……欸，好像是昨天才買過？ 記不太清楚了。阿母常說要趁新鮮。 診所那邊拿藥的醫生也提醒我……那個，藥名好像忘記了。 不過回家煮個湯應該沒問題。",
+  "marked_transcript": "嗯，今天早點去菜市場。[停頓] 想買些青菜……欸，好像是昨天才買過？[長停頓] 記不太清楚了。阿母常說要趁新鮮。[嘆氣] 診所那邊拿藥的醫生也提醒我……那個，藥名好像忘記了。[吸氣] 不過回家煮個湯應該沒問題。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天早點去菜市場"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 611
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "想買些青菜……欸，好像是昨天才買過？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1192
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了。阿母常說要趁新鮮"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1202
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所那邊拿藥的醫生也提醒我……那個，藥名好像忘記了"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 608
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不過回家煮個湯應該沒問題"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3613,
+    "chinese_char_count": 71
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 1 mild: Shows word-finding difficulty (forgotten medicine name), mild memory uncertainty (repeated buying vegetables), and brief pauses. Speech remains coherent and on topic."
+}

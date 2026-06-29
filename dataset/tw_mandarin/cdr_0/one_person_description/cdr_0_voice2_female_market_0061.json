@@ -1,0 +1,74 @@
+{
+  "sample_id": "cdr_0_voice2_female_market_0061",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天我去菜市場買東西，先去了賣魚的攤子，那個阿婆知道我喜歡吃什麼，我就跟她要了一些。然後我又去買蔬菜水果，那裡有很多種類，我都挑了幾樣自己愛吃的。還有拿藥的部分，我記得要去診所拿藥，不過今天還沒到時間，所以就先不去了。",
+  "marked_transcript": "今天我去菜市場買東西[停頓]，先去了賣魚的攤子，那個阿婆知道我喜歡吃什麼，我就跟她要了一些。然後我又去買蔬菜水果[長停頓]，那裡有很多種類，我都挑了幾樣自己愛吃的。還有拿藥的部分，我記得要去診所拿藥，不過今天還沒到時間，所以就先不去了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天我去菜市場買東西"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "先去了賣魚的攤子，那個阿婆知道我喜歡吃什麼，我就跟她要了一些。然後我又去買蔬菜水果"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那裡有很多種類，我都挑了幾樣自己愛吃的。還有拿藥的部分，我記得要去診所拿藥，不過今天還沒到時間，所以就先不去了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 2,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2000,
+    "chinese_char_count": 98
+  },
+  "impairment_features": {
+    "hesitation_count": 0,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 1.0,
+    "speech_rate_target": "normal",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

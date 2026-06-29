@@ -1,0 +1,107 @@
+{
+  "sample_id": "cdr_0_5_voice4_female_medicine_routine_0392",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天是星期幾呢？\n患者：嗯...我想一下，好像是週三吧。\n訪談者：好的。請告訴我，你上一次看醫生的日期是哪一天？\n患者：那個...應該是在兩個禮拜前啦。\n訪談者：那你最近有沒有忘記吃藥的情況呢？\n患者：喔，這個嘛，好像有一次忘了啦，就是星期一那天吧。\n訪談者：好的。現在請描述一下你早上起床後的日常生活流程。\n患者：我啊，一早起來就會先去上廁所，然後再去廚房喝杯水，再來就是準備早餐囉。",
+  "marked_transcript": "訪談者：今天是星期幾呢？\n[停頓]\n患者：嗯...我想一下，好像是週三吧。\n[長停頓]\n訪談者：好的。請告訴我，你上一次看醫生的日期是哪一天？\n患者：那個...應該是在兩個禮拜前啦。\n[嘆氣]\n訪談者：那你最近有沒有忘記吃藥的情況呢？\n患者：喔，這個嘛，好像有一次忘了啦，就是星期一那天吧。\n[吸氣]\n訪談者：好的。現在請描述一下你早上起床後的日常生活流程。\n患者：我啊，一早起來就會先去上廁所，然後再去廚房喝杯水，再來就是準備早餐囉。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天是星期幾呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下，好像是週三吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。請告訴我，你上一次看醫生的日期是哪一天？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...應該是在兩個禮拜前啦。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你最近有沒有忘記吃藥的情況呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，這個嘛，好像有一次忘了啦，就是星期一那天吧。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。現在請描述一下你早上起床後的日常生活流程。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我啊，一早起來就會先去上廁所，然後再去廚房喝杯水，再來就是準備早餐囉。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3900,
+    "chinese_char_count": 158
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "phone_mic_degraded",
+  "acoustic_condition_info": {
+    "weight": 20,
+    "description": "手機麥克風錄音，音質稍微壓縮。"
+  }
+}

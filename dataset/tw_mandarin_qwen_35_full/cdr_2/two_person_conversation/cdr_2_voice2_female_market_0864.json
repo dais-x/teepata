@@ -1,0 +1,119 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0864",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，請問今天幾號喔？\n患者：嗯...今天是...好像是十五號啦。欸不對，應該是十四號？\n訪談者：好的，那我們現在在哪裡呢？\n患者：這裡啊...菜市場。對，來買菜的。昨天也是來的...\n訪談者：那您為什麼今天會來這裡呢？\n患者：那個...拿藥。喔不對，是買東西。阿母叫我來買菜。\n訪談者：好的，那最近家裡有什麼特別的事情嗎？\n患者：嗯...家裡啊...沒有什麼啦。就是每天吃吃飯，走走走路。昨天好像有下雨...",
+  "marked_transcript": "訪談者：阿姨，請問今天幾號喔？\n[停頓]\n患者：嗯...今天是...好像是十五號啦。\n[長停頓]\n欸不對，應該是十四號？\n訪談者：好的，那我們現在在哪裡呢？\n[吸氣]\n患者：這裡啊...菜市場。對，來買菜的。昨天也是來的...\n[停頓]\n訪談者：那您為什麼今天會來這裡呢？\n[嘆氣]\n患者：那個...拿藥。\n[停頓]\n喔不對，是買東西。阿母叫我來買菜。\n訪談者：好的，那最近家裡有什麼特別的事情嗎？\n[咳嗽]\n患者：嗯...家裡啊...沒有什麼啦。\n就是每天吃吃飯，走走走路。\n昨天好像有下雨...",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，請問今天幾號喔？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...今天是...好像是十五號啦。欸不對，應該是十四號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們現在在哪裡呢？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡啊...菜市場。對，來買菜的。昨天也是來的..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那您為什麼今天會來這裡呢？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...拿藥。喔不對，是買東西。阿母叫我來買菜。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那最近家裡有什麼特別的事情嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...家裡啊...沒有什麼啦。就是每天吃吃飯，走走走路。昨天好像有下雨..."
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 4,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 5800,
+    "chinese_char_count": 150
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 3,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.52,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 4
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

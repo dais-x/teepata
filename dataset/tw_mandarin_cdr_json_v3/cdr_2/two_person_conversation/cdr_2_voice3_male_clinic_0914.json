@@ -1,0 +1,159 @@
+{
+  "sample_id": "cdr_2_voice3_male_clinic_0914",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：早安，阿伯。今天早餐吃了什麼？\n患者：嗯……欸……我想一下。好像有吃粥， 還有鹹蛋。 不對，是昨天吃的吧？記不得了。\n訪談者：那上個禮拜，您孫子來過嗎？\n患者：孫子？ 啊，對，有來。 還是外孫？我頭有點暈……好像是星期二？\n訪談者：好的，那您現在在吃什麼藥？\n患者：藥……藥瓶在那邊。 嗯，降血壓的。 還有……那個白色的，忘記名字了。\n訪談者：沒關係，我們慢慢來。最後問一下，今天是幾號？\n患者：幾號？ 應該是……十五？還是十六？欸，我記不清了。",
+  "marked_transcript": "訪談者：早安，阿伯。今天早餐吃了什麼？\n患者：嗯……欸……我想一下。好像有吃粥，[停頓] 還有鹹蛋。[長停頓] 不對，是昨天吃的吧？記不得了。\n訪談者：那上個禮拜，您孫子來過嗎？\n患者：孫子？[嘆氣] 啊，對，有來。[停頓] 還是外孫？我頭有點暈……好像是星期二？[吸氣]\n訪談者：好的，那您現在在吃什麼藥？\n患者：藥……藥瓶在那邊。[咳嗽] 嗯，降血壓的。[長停頓] 還有……那個白色的，忘記名字了。\n訪談者：沒關係，我們慢慢來。最後問一下，今天是幾號？\n患者：幾號？[停頓] 應該是……十五？還是十六？欸，我記不清了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，阿伯。今天早餐吃了什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……欸……我想一下。好像有吃粥"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 611
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有鹹蛋"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1166
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，是昨天吃的吧？記不得了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那上個禮拜，您孫子來過嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "孫子？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1002
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，對，有來"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 827
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還是外孫？我頭有點暈……好像是星期二？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 764
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您現在在吃什麼藥？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "藥……藥瓶在那邊"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 415
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，降血壓的"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1194
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "還有……那個白色的，忘記名字了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，我們慢慢來。最後問一下，今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 769
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是……十五？還是十六？欸，我記不清了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 6748,
+    "chinese_char_count": 160
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 3,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "Moderate dementia (CDR 2) simulation featuring fragmented recall, time confusion, repetition of uncertainty markers, and mild disorientation regarding dates while maintaining conversational coherence."
+}

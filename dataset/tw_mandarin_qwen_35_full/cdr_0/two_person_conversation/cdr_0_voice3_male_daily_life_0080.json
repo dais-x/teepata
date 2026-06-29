@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_voice3_male_daily_life_0080",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：陳先生，您好。請問今天是幾月幾號？\n患者：欸，今天啊，應該是五月十二號，禮拜二。\n訪談者：好，那我們現在是在哪裡呢？\n患者：這裡喔，是我家啦，在景美這邊。\n訪談者：嗯，為什麼會來這裡呢？是要看醫生嗎？\n患者：沒有，不是看醫生。我剛剛從菜市場回來，順路過來坐一下，跟您聊聊天而已。\n訪談者：這樣啊，那今天早上有什麼特別的事情發生嗎？\n患者：嗯……今天早上阿母有打來電話，問我有沒有吃藥。然後我就去拿了一下早上的藥，之後就去買菜了。就這些啦，沒什麼特別的。",
+  "marked_transcript": "訪談者：陳先生，您好。請問今天是幾月幾號？\n患者：欸，[停頓] 今天啊，應該是五月十二號，禮拜二。\n訪談者：好，那我們現在是在哪裡呢？\n患者：這裡喔，是我家啦，在景美這邊。\n訪談者：嗯，為什麼會來這裡呢？是要看醫生嗎？\n患者：沒有，不是看醫生。[停頓] 我剛剛從菜市場回來，順路過來坐一下，跟您聊聊天而已。\n訪談者：這樣啊，那今天早上有什麼特別的事情發生嗎？\n患者：嗯……今天早上阿母有打來電話，問我有沒有吃藥。然後我就去拿了一下早上的藥，之後就去買菜了。就這些啦，沒什麼特別的。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：陳先生，您好。請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：欸，[停頓] 今天啊，應該是五月十二號，禮拜二。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：好，那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：這裡喔，是我家啦，在景美這邊。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：嗯，為什麼會來這裡呢？是要看醫生嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：沒有，不是看醫生。[停頓] 我剛剛從菜市場回來，順路過來坐一下，跟您聊聊天而已。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "訪談者：這樣啊，那今天早上有什麼特別的事情發生嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "患者：嗯……今天早上阿母有打來電話，問我有沒有吃藥。然後我就去拿了一下早上的藥，之後就去買菜了。就這些啦，沒什麼特別的。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 1850,
+    "chinese_char_count": 185
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

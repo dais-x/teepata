@@ -1,0 +1,101 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0040",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "name": "home_background_noise",
+    "description": "輕微居家背景聲。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "我剛剛去買菜那個...嗯，就是市場裡，有賣很多蔬菜啦。可是我不記得是幾點鐘去的了，好像下午吧？呃，對不對啊？忘記帶錢包，然後又回去拿，結果忘了要買什麼東西。那個叫什麼來著？豆腐還是豆乾？哎呀，想不起來了。",
+  "marked_transcript": "我剛剛去買菜 [長停頓] [停頓] 那個...嗯，就是市場裡，有賣很多蔬菜啦。可是我不記得是幾點鐘去的了，好像下午吧？呃，對不對啊？忘記帶錢包，然後又回去拿，結果忘了要買什麼東西。 [停頓] 那個叫什麼來著？豆腐還是豆乾？哎呀，想不起來了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我剛剛去買菜"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 1.8
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.8
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...嗯，就是市場裡，有賣很多蔬菜啦。可是我不記得是幾點鐘去的了，好像下午吧？呃，對不對啊？忘記帶錢包，然後又回去拿，結果忘了要買什麼東西。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 1.2
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個叫什麼來著？豆腐還是豆乾？哎呀，想不起來了。"
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 3,
+    "pause_count": 2,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 3.8,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 2,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 3.8,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.8,
+      "filled_pause_count": 7,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 2,
+      "vague_reference_count": 2,
+      "circumlocution_count": 1,
+      "word_repetition_count": 1,
+      "phrase_repetition_count": 1,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 4
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.58,
+      "coherence_score": 0.48,
+      "memory_gap_count": 3,
+      "orientation_error_count": 1
+    }
+  }
+}

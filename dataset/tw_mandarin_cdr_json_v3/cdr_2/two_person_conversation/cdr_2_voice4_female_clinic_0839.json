@@ -1,0 +1,164 @@
+{
+  "sample_id": "cdr_2_voice4_female_clinic_0839",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯…… 好像是…… 五月底？記不得了。應該是五月。\n訪談者：我們現在在哪裡？\n患者：欸， 這裡是…… 診所吧？對，拿藥的地方。\n訪談者：你為什麼來這裡？\n患者：啊， 頭痛。嗯…… 醫生說要吃藥。好像是上週來的。\n訪談者：上次看診是什麼時候？\n患者：那個…… 記不清了。應該是…… 兩三天前？還是上個月？",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯…… [停頓] 好像是…… [長停頓] 五月底？記不得了。應該是五月。\n訪談者：我們現在在哪裡？\n患者：欸，[吸氣] 這裡是…… [停頓] 診所吧？對，拿藥的地方。\n訪談者：你為什麼來這裡？\n患者：啊，[嘆氣] 頭痛。嗯…… [停頓] 醫生說要吃藥。好像是上週來的。\n訪談者：上次看診是什麼時候？\n患者：那個…… [長停頓] 記不清了。應該是…… [停頓] 兩三天前？還是上個月？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 613
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1191
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "五月底？記不得了。應該是五月"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 531
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 883
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所吧？對，拿藥的地方"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 895
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "頭痛。嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 766
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "醫生說要吃藥。好像是上週來的"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "上次看診是什麼時候？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1494
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不清了。應該是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 606
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "兩三天前？還是上個月？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 16,
+    "pause_event_count": 6,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6979,
+    "chinese_char_count": 111
+  },
+  "impairment_features": {
+    "hesitation_count": 7,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: Patient shows fragmented recall, confuses dates and events, requires prompting to maintain topic, uses natural oral fillers and pauses."
+}

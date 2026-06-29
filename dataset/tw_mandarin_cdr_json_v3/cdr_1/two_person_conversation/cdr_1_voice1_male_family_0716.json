@@ -1,0 +1,108 @@
+{
+  "sample_id": "cdr_1_voice1_male_family_0716",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早上的粥，您記得吃什麼嗎？\n患者：嗯…… 好像是白粥，加一點小菜。欸， 到底是鹹菜還是豆腐乳呢？我想一下…… 應該是豆腐乳吧。\n訪談者：那昨天兒子來看過您嗎？\n患者：有啊， 他好像說要帶我去診所拿藥。但我不太記得是今天還是明天了。",
+  "marked_transcript": "訪談者：早上的粥，您記得吃什麼嗎？\n患者：嗯…… [停頓] 好像是白粥，加一點小菜。欸，[長停頓] 到底是鹹菜還是豆腐乳呢？我想一下…… [吸氣] 應該是豆腐乳吧。\n訪談者：那昨天兒子來看過您嗎？\n患者：有啊，[嘆氣] 他好像說要帶我去診所拿藥。但我不太記得是今天還是明天了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早上的粥，您記得吃什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 825
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是白粥，加一點小菜。欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1525
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "到底是鹹菜還是豆腐乳呢？我想一下……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 597
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是豆腐乳吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那昨天兒子來看過您嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "有啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1275
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "他好像說要帶我去診所拿藥。但我不太記得是今天還是明天了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 4222,
+    "chinese_char_count": 93
+  },
+  "impairment_features": {
+    "hesitation_count": 5,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.29,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 1 mild simulation: Subject shows word-finding difficulty (uncertainty between pickled vegetables and tofu), mild repetition of checking memory, one orientation error regarding appointment date. Speech remains coherent with natural pauses."
+}

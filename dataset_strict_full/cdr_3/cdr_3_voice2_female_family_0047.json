@@ -1,0 +1,110 @@
+{
+  "sample_id": "cdr_3_voice2_female_family_0047",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "family",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "older_female",
+    "gender": "female",
+    "description": "台灣華語女性長輩聲音。",
+    "split": "train"
+  },
+  "interviewer": null,
+  "split": "train",
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "name": "clean",
+    "description": "乾淨錄音，無明顯背景噪音。"
+  },
+  "conversation_context": null,
+  "spoken_transcript": "那個...我早上起來啊，嗯，不知道怎麼講，就是說我要去買菜嘛，然後那個東西，呃，叫什麼名字來著？忘記了啦。對不對？然後我就走到那個路口，哎呀，想不起來是幾號路了。嗯，那個，我想一下，好像是有個公園附近，但是我不記得有沒有經過那裡。唉，反正就是...就是說我本來要去買東西的嘛，結果走到那邊就忘記要幹嘛了啦。呃，然後我就坐在那邊啊，一直想，想不起來到底是要回家還是繼續走。嗯，那個，叫什麼？對不對？哎呀，不記得啦。",
+  "marked_transcript": "那個...我早上起來啊，嗯，不知道怎麼講，就是說我要去買菜嘛，然後那個東西，呃，叫什麼名字來著？忘記了啦。 [停頓] 對不對？然後我就走到那個路口，哎呀，想不起來是幾號路了。嗯，那個，我想一下，好像是有個公園附近，但是我不記得有沒有經過那裡。 [長停頓] 唉，反正就是...就是說我本來要去買東西的嘛，結果走到那邊就忘記要幹嘛了啦。呃，然後我就坐在那邊啊，一直想，想不起來到底是要回家還是繼續走。 [停頓] 嗯，那個，叫什麼？對不對？哎呀，不記得啦。 [停頓]",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...我早上起來啊，嗯，不知道怎麼講，就是說我要去買菜嘛，然後那個東西，呃，叫什麼名字來著？忘記了啦。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.5
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對不對？然後我就走到那個路口，哎呀，想不起來是幾號路了。嗯，那個，我想一下，好像是有個公園附近，但是我不記得有沒有經過那裡。"
+    },
+    {
+      "type": "long_pause",
+      "duration_sec": 2.3
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "唉，反正就是...就是說我本來要去買東西的嘛，結果走到那邊就忘記要幹嘛了啦。呃，然後我就坐在那邊啊，一直想，想不起來到底是要回家還是繼續走。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.6
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，那個，叫什麼？對不對？哎呀，不記得啦。"
+    },
+    {
+      "type": "pause",
+      "duration_sec": 0.7
+    }
+  ],
+  "full_conversation_event_script": null,
+  "audio_outputs": {
+    "training_audio": "patient_only.wav",
+    "demo_audio": null
+  },
+  "event_stats": {
+    "speech_event_count": 4,
+    "pause_count": 3,
+    "long_pause_count": 1,
+    "silence_count": 0,
+    "sigh_count": 0,
+    "cough_count": 0,
+    "total_pause_duration_sec": 4.1,
+    "total_silence_duration_sec": 0.0
+  },
+  "impairment_features": {
+    "acoustic_fluency": {
+      "pause_count": 3,
+      "long_pause_count": 1,
+      "total_pause_duration_sec": 4.1,
+      "silence_ratio": 0.05,
+      "speech_rate_target_cps": 2.1,
+      "filled_pause_count": 10,
+      "restart_count": 0
+    },
+    "linguistic_impairment": {
+      "word_finding_count": 6,
+      "vague_reference_count": 3,
+      "circumlocution_count": 0,
+      "word_repetition_count": 2,
+      "phrase_repetition_count": 2,
+      "self_correction_count": 0,
+      "sentence_fragment_count": 8
+    },
+    "cognitive_task_performance": {
+      "key_information_units_mentioned": null,
+      "key_information_units_total": null,
+      "missing_key_information_count": null,
+      "incorrect_detail_count": 0,
+      "topic_drift_score": 0.85,
+      "coherence_score": 0.25,
+      "memory_gap_count": 6,
+      "orientation_error_count": 3
+    }
+  }
+}

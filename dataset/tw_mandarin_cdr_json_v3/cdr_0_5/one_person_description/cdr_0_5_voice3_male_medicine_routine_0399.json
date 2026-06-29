@@ -1,0 +1,66 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_medicine_routine_0399",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯，早上起來先吃藥。那個……好像有兩顆，一顆是血壓的，一顆是維他命。欸，我記得昨天也有吃過，但是現在想不太清楚時間了。應該沒問題啦，阿母常提醒我要準時。 拿完藥就回來了。",
+  "marked_transcript": "嗯，早上起來先吃藥。那個……好像有兩顆，一顆是血壓的，一顆是維他命。欸，我記得昨天也有吃過，但是現在想不太清楚時間了。應該沒問題啦，阿母常提醒我要準時。[停頓] 拿完藥就回來了。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，早上起來先吃藥。那個……好像有兩顆，一顆是血壓的，一顆是維他命。欸，我記得昨天也有吃過，但是現在想不太清楚時間了。應該沒問題啦，阿母常提醒我要準時"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 876
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿完藥就回來了"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 2,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 876,
+    "chinese_char_count": 71
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.14,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "generation_notes": "CDR 0.5: Coherent daily routine description with one subtle uncertainty about medication timing and light hesitation markers."
+}

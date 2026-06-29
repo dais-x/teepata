@@ -1,0 +1,131 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_medicine_routine_0430",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "medicine_routine",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，今天星期幾啊？\n患者：嗯...今天是星期三吧，應該是。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：喔，這個診所啦。阿母叫我來拿藥的。\n訪談者：對，是來拿藥沒錯。那您記得昨天做了什麼事嗎？\n患者：昨天...嗯，我想一下。有去菜市場買菜，然後回家煮飯。好像還看了電視。啊，記不太清楚了啦。\n訪談者：沒關係，慢慢說就好。",
+  "marked_transcript": "訪談者：您好，今天星期幾啊？\n患者：嗯 [停頓] ...今天是星期三吧 [長停頓] ，應該是。\n訪談者：好的，那我們現在是在哪裡呢？\n患者：喔，這個診所啦。阿母叫我來拿藥的。\n訪談者：對，是來拿藥沒錯。那您記得昨天做了什麼事嗎？\n患者：昨天 [停頓] ...嗯 [吸氣] ，我想一下。有去菜市場買菜，然後回家煮飯。好像還看了電視。啊 [嘆氣] ，記不太清楚了啦。\n訪談者：沒關係，慢慢說就好。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，今天星期幾啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...今天是星期三吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "，應該是。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，這個診所啦。阿母叫我來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，是來拿藥沒錯。那您記得昨天做了什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "...嗯"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "，我想一下。有去菜市場買菜，然後回家煮飯。好像還看了電視。啊"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "，記不太清楚了啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢說就好。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3600,
+    "chinese_char_count": 125
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 0,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.12,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

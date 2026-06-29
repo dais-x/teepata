@@ -1,0 +1,109 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_family_0593",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "family",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問您今天覺得精神怎麼樣？\n患者：嗯，還不錯啦，早上有去菜市場買菜。\n訪談者：喔，那您記得今天是幾號嗎？\n患者：這個...我想一下，好像是十號？還是十一號啊？有點忘記了。\n[停頓]\n訪談者：沒關係，那您今天早上吃了什麼早餐呢？\n患者：嗯...是稀飯跟蛋啦。啊不對，還有小菜喔，應該是小菜。\n訪談者：好的，那您有沒有去哪裡看醫生拿藥呢？\n患者：欸，對喔，我有去診所拿藥。記得好像上禮拜的事...\n[嘆氣]\n訪談者：沒關係，慢慢來就好。謝謝您的配合。\n患者：嗯，好的啦。",
+  "marked_transcript": "訪談者：您好，請問您今天覺得精神怎麼樣？\n患者：嗯，還不錯啦，早上有去菜市場買菜。\n訪談者：喔，那您記得今天是幾號嗎？\n患者：這個...我想一下，好像是十號？還是十一號啊？有點忘記了。\n[停頓]\n訪談者：沒關係，那您今天早上吃了什麼早餐呢？\n患者：嗯...是稀飯跟蛋啦。啊不對，還有小菜喔，應該是小菜。\n訪談者：好的，那您有沒有去哪裡看醫生拿藥呢？\n患者：欸，對喔，我有去診所拿藥。記得好像上禮拜的事...\n[嘆氣]\n訪談者：沒關係，慢慢來就好。謝謝您的配合。\n患者：嗯，好的啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問您今天覺得精神怎麼樣？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，還不錯啦，早上有去菜市場買菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，那您記得今天是幾號嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這個...我想一下，好像是十號？還是十一號啊？有點忘記了。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 850
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那您今天早上吃了什麼早餐呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...是稀飯跟蛋啦。啊不對，還有小菜喔，應該是小菜。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您有沒有去哪裡看醫生拿藥呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，對喔，我有去診所拿藥。記得好像上禮拜的事..."
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，慢慢來就好。謝謝您的配合。"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，好的啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 1,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2050,
+    "chinese_char_count": 179
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 2,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

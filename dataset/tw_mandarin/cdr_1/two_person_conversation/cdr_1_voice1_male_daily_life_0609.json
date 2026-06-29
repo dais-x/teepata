@@ -1,0 +1,122 @@
+{
+  "sample_id": "cdr_1_voice1_male_daily_life_0609",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：今天早餐吃了什麼？\n患者：嗯...我想一下啊...\n訪談者：昨天有沒有吃藥呀？\n患者：好像有啦，應該是早上吃的吧。\n訪談者：記得最近發生的家族事件嗎？\n患者：那個嘛...好像是阿姨家的囝仔滿月了耶！\n訪談者：今天早上做了什麼事呢？\n患者：啊...我想想看咧...\n訪談者：昨天有沒有跟誰講話呀？\n患者：嗯，應該是跟隔壁的阿母聊了一下吧。\n訪談者：好，記憶力的部分就到這裡。",
+  "marked_transcript": "訪談者：今天早餐吃了什麼？[停頓]\n患者：嗯...我想一下啊...[長停頓]\n訪談者：昨天有沒有吃藥呀？\n患者：好像有啦，應該是早上吃的吧。\n訪談者：記得最近發生的家族事件嗎？\n患者：那個嘛...好像是阿姨家的囝仔滿月了耶！[嘆氣]\n訪談者：今天早上做了什麼事呢？\n患者：啊...我想想看咧...[長停頓]\n訪談者：昨天有沒有跟誰講話呀？\n患者：嗯，應該是跟隔壁的阿母聊了一下吧。\n訪談者：好，記憶力的部分就到這裡。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...我想一下啊..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有沒有吃藥呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有啦，應該是早上吃的吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "記得最近發生的家族事件嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個嘛...好像是阿姨家的囝仔滿月了耶！"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天早上做了什麼事呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊...我想想看咧..."
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天有沒有跟誰講話呀？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，應該是跟隔壁的阿母聊了一下吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，記憶力的部分就到這裡。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4500,
+    "chinese_char_count": 142
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 1,
+    "topic_drift_score": 0.35,
+    "coherence_score": 0.7,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

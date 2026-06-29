@@ -1,0 +1,154 @@
+{
+  "sample_id": "cdr_2_voice4_female_clinic_0851",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "clinic",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：請問今天是幾月幾號？\n患者：嗯…… 好像是…… 五月吧？欸，不對，應該是六月了。記不得清楚。\n訪談者：那我們現在在哪裡呢？\n患者：在診所…… 對，拿藥的地方。 啊，剛才好像有經過菜市場，怎麼會在這邊？\n訪談者：您今天來看醫生是為了什麼事？\n患者： 頭暈，一直眩暈。 嗯……好像是上週開始的。阿母說要來檢查。\n訪談者：好的，那您記得上次什麼時候來的嗎？\n患者： 記不得了…… 應該是很久以前？還是昨天？欸，那個，我想一下。",
+  "marked_transcript": "訪談者：請問今天是幾月幾號？\n患者：嗯……[停頓] 好像是……[長停頓] 五月吧？欸，不對，應該是六月了。記不得清楚。\n訪談者：那我們現在在哪裡呢？\n患者：在診所……[吸氣] 對，拿藥的地方。[停頓] 啊，剛才好像有經過菜市場，怎麼會在這邊？\n訪談者：您今天來看醫生是為了什麼事？\n患者：[嘆氣] 頭暈，一直眩暈。[長停頓] 嗯……好像是上週開始的。阿母說要來檢查。\n訪談者：好的，那您記得上次什麼時候來的嗎？\n患者：[咳嗽] 記不得了……[停頓] 應該是很久以前？還是昨天？欸，那個，我想一下。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "請問今天是幾月幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 751
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1525
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "五月吧？欸，不對，應該是六月了。記不得清楚"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在診所……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 393
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，拿藥的地方"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 659
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，剛才好像有經過菜市場，怎麼會在這邊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您今天來看醫生是為了什麼事？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 945
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "頭暈，一直眩暈"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1456
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……好像是上週開始的。阿母說要來檢查"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，那您記得上次什麼時候來的嗎？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 509
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不得了……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 775
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是很久以前？還是昨天？欸，那個，我想一下"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7013,
+    "chinese_char_count": 157
+  },
+  "impairment_features": {
+    "hesitation_count": 11,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 2,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  },
+  "generation_notes": "CDR 2 moderate simulation: noticeable memory gaps regarding date/place, fragmented recall with time confusion (May/June), repetition of uncertainty markers, and mild disorientation about current location context."
+}

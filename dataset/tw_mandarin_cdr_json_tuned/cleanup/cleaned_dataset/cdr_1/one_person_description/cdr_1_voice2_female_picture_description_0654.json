@@ -1,0 +1,96 @@
+{
+  "sample_id": "cdr_1_voice2_female_picture_description_0654",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "picture_description",
+  "task_type": "picture_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": {
+    "picture_id": "living_room_family_scene_001",
+    "name": "living_room_family_scene",
+    "description": "一個客廳裡的家庭場景。阿公坐在沙發上看相簿，旁邊有一副老花眼鏡和一杯茶。一個小孩坐在地上玩積木，積木散在地毯上。媽媽站在窗邊接電話，一隻貓跳到茶几旁邊，好像快要碰倒茶杯。牆上有時鐘和家庭照片，窗外看起來像是下午。畫面裡有幾個人和物品，每個人都在做不同的事情。"
+  },
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "嗯 這張照片是在家裡客廳啦。阿公坐在那邊沙發上看相簿，那個... 好像是老花眼鏡放在旁邊喔。然後有 個囝仔在地板上玩積木，積木散開來...對啊。媽媽站在窗邊好像接電話，欸 ，有一隻貓跳過來茶几旁，好像要碰倒茶杯。牆上有時鐘跟照片，窗外是下午的樣子啦。大概就這些人做事情。",
+  "marked_transcript": "嗯 [停頓] 這張照片是在家裡客廳啦。阿公坐在那邊沙發上看相簿，那個... [長停頓] 好像是老花眼鏡放在旁邊喔。然後有 [吸氣] 個囝仔在地板上玩積木，積木散開來...對啊。媽媽站在窗邊好像接電話，欸 [嘆氣] ，有一隻貓跳過來茶几旁，好像要碰倒茶杯。牆上有時鐘跟照片，窗外是下午的樣子啦。大概就這些人做事情。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "這張照片是在家裡客廳啦。阿公坐在那邊沙發上看相簿，那個..."
+    },
+    {
+      "type": "long_pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "好像是老花眼鏡放在旁邊喔。然後有"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "個囝仔在地板上玩積木，積木散開來...對啊。媽媽站在窗邊好像接電話，欸"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "participant",
+      "text": "，有一隻貓跳過來茶几旁，好像要碰倒茶杯。牆上有時鐘跟照片，窗外是下午的樣子啦。大概就這些人做事情。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 5,
+    "pause_event_count": 2,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1800,
+    "chinese_char_count": 113
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 2,
+    "word_finding_count": 2,
+    "orientation_error_count": 0,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow"
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  },
+  "speech_rate_target": "slow"
+}

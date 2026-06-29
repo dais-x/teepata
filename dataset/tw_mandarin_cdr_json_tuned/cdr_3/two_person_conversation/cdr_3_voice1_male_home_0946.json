@@ -1,0 +1,135 @@
+{
+  "sample_id": "cdr_3_voice1_male_home_0946",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：今天幾號啊？\n患者：嗯...幾號。欸，好像是...十一號。\n訪談者：那今天是星期幾呢？\n患者：星期...週...日。是禮拜天嗎？不太確定...\n訪談者：我們現在在哪裡？\n患者：在...在家啊。家裡。對啦。嗯。\n訪談者：為什麼來這裡呢？\n患者：拿藥。看病。醫生。\n訪談者：昨天做了什麼事？\n患者：昨天...吃過飯了。去菜市場。買東西。\n訪談者：你記得幾點嗎？\n患者：時間...忘記了。早上吧？還是下午...不知道。",
+  "marked_transcript": "訪談者：今天幾號啊？\n患者：嗯 [停頓] 幾號。欸，好像是 [停頓] 十一號。\n訪談者：那今天是星期幾呢？\n患者：星期 [停頓] 週...日。是禮拜天嗎？不太確定...\n訪談者：我們現在在哪裡？\n患者：在...在家啊。家裡。對啦。嗯。\n訪談者：為什麼來這裡呢？\n患者：拿藥。看病。醫生。\n訪談者：昨天做了什麼事？\n患者：昨天 [停頓] 吃過飯了。去菜市場。買東西。\n訪談者：你記得幾點嗎？\n患者：時間...忘記了。早上吧？還是下午 [長停頓] 不知道。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯 幾號。欸，好像是 十一號。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那今天是星期幾呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "星期 週...日。是禮拜天嗎？不太確定..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們現在在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "在...在家啊。家裡。對啦。嗯。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥。看病。醫生。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天做了什麼事？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天 吃過飯了。去菜市場。買東西。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你記得幾點嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "時間...忘記了。早上吧？還是下午 不知道。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1400
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 12,
+    "pause_event_count": 6,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 4100,
+    "chinese_char_count": 136
+  },
+  "impairment_features": {
+    "hesitation_count": 12,
+    "repetition_count": 5,
+    "word_finding_count": 7,
+    "orientation_error_count": 3,
+    "memory_error_count": 6,
+    "topic_drift_score": 0.68,
+    "coherence_score": 0.28,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 6
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sample_id": "cdr_1_voice2_female_medicine_routine_0611",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "今天早上起來，我先去拿藥。然後我就要吃早餐囉。欸，我想想看，昨天有沒有吃完早餐呢？好像還沒吃吧。那個現在我要去菜市場買一些東西，準備午餐。嗯... 我要去診所拿藥了，醫生說下次再來的時候要注意一下自己的身體狀況。",
+  "marked_transcript": "[停頓]今天早上起來，我先去拿藥。然後我就要吃早餐囉。欸，我想想看，昨天有沒有吃完早餐呢？好像還沒吃吧[長停頓]那個現在我要去菜市場買一些東西，準備午餐。嗯... 我要去診所拿藥了，醫生說下次再來的時候要注意一下自己的身體狀況。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天早上起來，我先去拿藥。然後我就要吃早餐囉。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸，我想想看，昨天有沒有吃完早餐呢？好像還沒吃吧"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個現在我要去菜市場買一些東西，準備午餐。嗯... 我要去診所拿藥了，醫生說下次再來的時候要注意一下自己的身體狀況。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 400,
+    "chinese_char_count": 91
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 1,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.3,
+    "coherence_score": 0.75,
+    "speech_rate_target": "slow",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

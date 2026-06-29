@@ -1,0 +1,75 @@
+{
+  "sample_id": "cdr_0_voice1_male_medicine_routine_0145",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "medicine_routine",
+  "task_type": "daily_life_description",
+  "interaction_type": "one_person_description",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "我每天早上七點都會吃降血壓藥，放在客廳抽屜裡。 吃完藥之後我會去菜市場買菜，阿母常說要多吃青菜。欸，今天天氣不錯，應該不會下雨。 診所的張醫師上週有跟我確認過藥量沒變，我記得很清楚。",
+  "marked_transcript": "我每天早上七點都會吃降血壓藥，放在客廳抽屜裡。[停頓] 吃完藥之後我會去菜市場買菜，阿母常說要多吃青菜。欸，今天天氣不錯，應該不會下雨。[吸氣] 診所的張醫師上週有跟我確認過藥量沒變，我記得很清楚。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我每天早上七點都會吃降血壓藥，放在客廳抽屜裡"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 726
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "吃完藥之後我會去菜市場買菜，阿母常說要多吃青菜。欸，今天天氣不錯，應該不會下雨"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 646
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "診所的張醫師上週有跟我確認過藥量沒變，我記得很清楚"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 3,
+    "pause_event_count": 1,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 1372,
+    "chinese_char_count": 80
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.04,
+    "coherence_score": 0.96,
+    "speech_rate_target": "normal",
+    "pause_event_count": 1
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 0 normal profile: coherent narrative, accurate recall of medication routine and doctor visit, no memory errors or disorientation. Occasional natural pauses [停頓] and one breath [吸氣]. Uses typical Taiwanese markers like 阿母 and 菜市場."
+}

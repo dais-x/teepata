@@ -1,0 +1,121 @@
+{
+  "sample_id": "cdr_1_voice2_female_daily_life_0663",
+  "cdr_level": 1,
+  "cdr_label": "mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：早安，請問您知道今天是幾月幾號嗎？\n患者：嗯...早安。今天喔...應該是三月吧。啊不對，好像是四月。\n訪談者：沒關係，那請問我們現在是在哪裡呢？\n患者：這裡...是診所啦。對，來拿藥的。\n訪談者：好的，您記得昨天吃了什麼嗎？\n患者：昨天啊...我在家裡吃的。菜市場買的菜，炒個青菜，還有魚湯。嗯，記不太清楚了，大概是這樣吧。",
+  "marked_transcript": "訪談者：早安，請問您知道今天是幾月幾號嗎？\n[停頓]\n患者：嗯...早安。今天喔...應該是三月吧。\n[長停頓]\n啊不對，好像是四月。\n訪談者：沒關係，那請問我們現在是在哪裡呢？\n患者：這裡...是診所啦。\n[吸氣]\n對，來拿藥的。\n訪談者：好的，您記得昨天吃了什麼嗎？\n患者：昨天啊...\n[停頓]\n我在家裡吃的。菜市場買的菜，炒個青菜，還有魚湯。\n[嘆氣]\n嗯，記不太清楚了，大概是這樣吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "早安，請問您知道今天是幾月幾號嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...早安。今天喔...應該是三月吧。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊不對，好像是四月。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "沒關係，那請問我們現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡...是診所啦。"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，您記得昨天吃了什麼嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天啊..."
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在家裡吃的。菜市場買的菜，炒個青菜，還有魚湯。"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，記不太清楚了，大概是這樣吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 10,
+    "pause_event_count": 3,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 3600,
+    "chinese_char_count": 124
+  },
+  "impairment_features": {
+    "hesitation_count": 6,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.25,
+    "coherence_score": 0.72,
+    "speech_rate_target": "slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

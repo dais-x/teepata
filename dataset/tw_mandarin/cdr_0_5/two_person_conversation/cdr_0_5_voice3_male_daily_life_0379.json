@@ -1,0 +1,103 @@
+{
+  "sample_id": "cdr_0_5_voice3_male_daily_life_0379",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice3_male",
+    "voice_id": "voice3_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你今天早上的早餐吃了什麼？\n患者：嗯...那個，我昨天早上有吃稀飯跟蛋湯。\n訪談者：哦，那你最近家裡發生了什麼事嗎？\n患者：我想一下...好像有點忘記了，最近沒有特別的事情吧。\n訪談者：你說你要記得拿藥的，記得拿藥了嗎？\n患者：應該是拿過了吧，我剛才去診所拿藥回來的。\n訪談者：那你昨天或今天早上有什麼事發生呢？\n患者：那個...昨天好像沒有特別的事情，就是平常在家裡做家務啦。",
+  "marked_transcript": "訪談者：你今天早上的早餐吃了什麼？[停頓]\n患者：嗯...那個，我昨天早上有吃稀飯跟蛋湯。\n訪談者：哦，那你最近家裡發生了什麼事嗎？[長停頓]\n患者：我想一下...好像有點忘記了，最近沒有特別的事情吧。\n訪談者：你說你要記得拿藥的，記得拿藥了嗎？\n患者：應該是拿過了吧，我剛才去診所拿藥回來的。\n訪談者：那你昨天或今天早上有什麼事發生呢？[停頓]\n患者：那個...昨天好像沒有特別的事情，就是平常在家裡做家務啦。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你今天早上的早餐吃了什麼？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯...那個，我昨天早上有吃稀飯跟蛋湯。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "哦，那你最近家裡發生了什麼事嗎？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下...好像有點忘記了，最近沒有特別的事情吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你說你要記得拿藥的，記得拿藥了嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是拿過了吧，我剛才去診所拿藥回來的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那你昨天或今天早上有什麼事發生呢？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個...昨天好像沒有特別的事情，就是平常在家裡做家務啦。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 8,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2300,
+    "chinese_char_count": 155
+  },
+  "impairment_features": {
+    "hesitation_count": 2,
+    "repetition_count": 1,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.85,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "sample_id": "cdr_2_voice2_female_market_0886",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "market",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：阿姨，請問今天是幾號啊？\n患者：嗯……今天啊……好像是……哦，是週五。應該沒錯吧。\n訪談者：那我們現在在哪裡呢？\n患者：喔，這裡……菜市場。對，來買菜的。阿母叫我拿藥去的，欸，好像不是拿藥，是要去診所。\n訪談者：為什麼會到這裡來的呢？\n患者：那個……我想一下……啊，對，因為要去買青菜。然後……順便看囝仔有沒有在。喔，不對，是去看阿孫啦。\n訪談者：那請問您記得剛剛來做什麼嗎？\n患者：剛剛……剛剛就是……嗯，走路過來。好像走了很久，唉，記不太清楚了。應該是要去買菜吧。",
+  "marked_transcript": "訪談者：阿姨，請問今天是幾號啊？\n患者：嗯 [停頓] ……今天啊 [長停頓] ……好像是……哦，是週五 [嘆氣] 。應該沒錯吧。\n訪談者：那我們現在在哪裡呢？\n患者：喔，這裡……菜市場。對，來買菜的。阿母叫我拿藥去的，欸 [咳嗽] ，好像不是拿藥，是要去診所。\n訪談者：為什麼會到這裡來的呢？\n患者：那個……我想一下……啊，對，因為要去買青菜。然後……順便看囝仔有沒有在。喔，不對，是去看阿孫啦。\n訪談者：那請問您記得剛剛來做什麼嗎？\n患者：剛剛 [吸氣] ……剛剛就是……嗯，走路過來。好像走了很久，唉 [嘆氣] ，記不太清楚了。應該是要去買菜吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿姨，請問今天是幾號啊？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "……今天啊"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "……好像是……哦，是週五"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1000
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該沒錯吧。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那我們現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "喔，這裡……菜市場。對，來買菜的。阿母叫我拿藥去的，欸"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 400
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像不是拿藥，是要去診所。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼會到這裡來的呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "那個……我想一下……啊，對，因為要去買青菜。然後……順便看囝仔有沒有在。喔，不對，是去看阿孫啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那請問您記得剛剛來做什麼嗎？"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 350
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "剛剛……剛剛就是……嗯，走路過來。好像走了很久，唉"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1200
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了。應該是要去買菜吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 13,
+    "pause_event_count": 2,
+    "sigh_event_count": 2,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 4750,
+    "chinese_char_count": 176
+  },
+  "impairment_features": {
+    "hesitation_count": 11,
+    "repetition_count": 4,
+    "word_finding_count": 5,
+    "orientation_error_count": 3,
+    "memory_error_count": 2,
+    "topic_drift_score": 0.48,
+    "coherence_score": 0.45,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 2
+  },
+  "acoustic_condition": "home_background_noise",
+  "acoustic_condition_info": {
+    "weight": 10,
+    "description": "家中背景聲，例如電風扇、遠處人聲或碗盤聲。"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "sample_id": "cdr_0_5_voice1_male_daily_life_0529",
+  "cdr_level": 0.5,
+  "cdr_label": "very_mild",
+  "scenario": "daily_life",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice1_male",
+    "voice_id": "voice1_male",
+    "speaker_group": "male",
+    "gender": "male",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：您好，請問今天是幾號？\n患者：嗯...今天啊，我想一下...應該是五月底吧，好像五月二十九日。\n訪談者：喔，對的。那您現在在哪裡呢？\n患者：我在這裡啦，就是這個診所嘛。來拿藥的。\n訪談者：為什麼會到我們這裡來呢？\n患者：因為那個頭有點不舒服，阿母叫我來看看。然後...欸，好像是醫生說要再來複診一次吧。",
+  "marked_transcript": "訪談者：您好，請問今天是幾號？\n患者：嗯 [停頓] 今天啊 [吸氣] 我想一下 [停頓] 應該是五月底吧 [停頓] 好像五月二十九日。\n訪談者：喔，對的。那您現在在哪裡呢？\n患者：我在這裡啦 [停頓] 就是這個診所嘛 [停頓] 來拿藥的。\n訪談者：為什麼會到我們這裡來呢？\n患者：因為那個頭有點不舒服 [長停頓] 阿母叫我來看看。然後 [嘆氣] 欸 [停頓] 好像是醫生說要再來複診一次吧。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "您好，請問今天是幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "今天啊"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 450
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我想一下"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 800
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是五月底吧"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像五月二十九日。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "喔，對的。那您現在在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我在這裡啦"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "就是這個診所嘛"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "來拿藥的。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼會到我們這裡來呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "因為那個頭有點不舒服"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母叫我來看看。然後"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 900
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "欸"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是醫生說要再來複診一次吧。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 15,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 0,
+    "breath_event_count": 1,
+    "total_pause_ms": 6650,
+    "chinese_char_count": 119
+  },
+  "impairment_features": {
+    "hesitation_count": 4,
+    "repetition_count": 1,
+    "word_finding_count": 2,
+    "orientation_error_count": 1,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.15,
+    "coherence_score": 0.82,
+    "speech_rate_target": "slightly_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "sample_id": "cdr_3_voice2_female_home_0950",
+  "cdr_level": 3,
+  "cdr_label": "severe",
+  "scenario": "home",
+  "task_type": "orientation_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "test"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "test",
+  "spoken_transcript": "訪談者：今天幾號？\n患者：嗯…… 好像是…… 幾號…… 記不得 。\n訪談者：我們在哪裡？\n患者：這裡…… 家裡？ 對，家裡。欸…… 不對，診所？。\n訪談者：為什麼來這裡？\n患者：拿藥…… 阿母說要拿藥…… 忘記了。嗯…… 囝仔…… 囝仔在哪裡？",
+  "marked_transcript": "訪談者：今天幾號？\n患者：嗯…… [停頓] 好像是…… [長停頓] 幾號…… 記不得 [吸氣]。\n訪談者：我們在哪裡？\n患者：這裡…… [停頓] 家裡？[咳嗽] 對，家裡。欸…… [停頓] 不對，診所？[嘆氣]。\n訪談者：為什麼來這裡？\n患者：拿藥…… [長停頓] 阿母說要拿藥…… [停頓] 忘記了。嗯…… [停頓] 囝仔…… 囝仔在哪裡？",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "今天幾號？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 756
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1381
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "幾號…… 記不得"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 566
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "我們在哪裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "這裡……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 792
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "家裡？"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 786
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "對，家裡。欸……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 778
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "不對，診所？"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1270
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "為什麼來這裡？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1358
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母說要拿藥……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 711
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記了。嗯……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 838
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "囝仔…… 囝仔在哪裡？"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 7,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 9236,
+    "chinese_char_count": 70
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 5,
+    "word_finding_count": 5,
+    "orientation_error_count": 4,
+    "memory_error_count": 5,
+    "topic_drift_score": 0.75,
+    "coherence_score": 0.27,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 7
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 3 severe: Patient shows fragmented speech, frequent orientation confusion (date/place/reason), word-finding failure, and repeated simple phrases with multiple pauses."
+}

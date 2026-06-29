@@ -1,0 +1,154 @@
+{
+  "sample_id": "cdr_2_voice2_female_family_0874",
+  "cdr_level": 2,
+  "cdr_label": "moderate",
+  "scenario": "family",
+  "task_type": "memory_recall_conversation",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice2_female",
+    "voice_id": "voice2_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "val"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "val",
+  "spoken_transcript": "訪談者：阿伯，早餐有吃什麼？\n患者：嗯…… 那個…… 好像有吃粥。欸，是白米粥還是小米粥？ 啊對，是鹹的。還有菜脯。 記不太清楚了。\n訪談者：昨天家裡發生什麼事嗎？\n患者：昨天…… 好像有去診所拿藥。欸，不對，是前天吧？ 阿母有來陪我去的。應該是這樣沒錯。 忘記醫生講什麼了。\n訪談者：那藥名還記得嗎？\n患者：嗯…… 好像是治頭痛的。阿母說要每天吃。 可是現在放在哪裡？好像沒帶回家。",
+  "marked_transcript": "訪談者：阿伯，早餐有吃什麼？\n患者：嗯…… 那個…… [停頓] 好像有吃粥。欸，是白米粥還是小米粥？[長停頓] 啊對，是鹹的。還有菜脯。[嘆氣] 記不太清楚了。\n訪談者：昨天家裡發生什麼事嗎？\n患者：昨天…… [吸氣] 好像有去診所拿藥。欸，不對，是前天吧？[停頓] 阿母有來陪我去的。應該是這樣沒錯。[長停頓] 忘記醫生講什麼了。\n訪談者：那藥名還記得嗎？\n患者：嗯…… [咳嗽] 好像是治頭痛的。阿母說要每天吃。[停頓] 可是現在放在哪裡？好像沒帶回家。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "阿伯，早餐有吃什麼？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯…… 那個……"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 764
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有吃粥。欸，是白米粥還是小米粥？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1353
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊對，是鹹的。還有菜脯"
+    },
+    {
+      "type": "sigh",
+      "duration_ms": 1202
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "記不太清楚了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "昨天家裡發生什麼事嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "昨天……"
+    },
+    {
+      "type": "breath",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像有去診所拿藥。欸，不對，是前天吧？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 672
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "阿母有來陪我去的。應該是這樣沒錯"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1691
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "忘記醫生講什麼了"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "那藥名還記得嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯……"
+    },
+    {
+      "type": "cough",
+      "duration_ms": 673
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "好像是治頭痛的。阿母說要每天吃"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 737
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "可是現在放在哪裡？好像沒帶回家"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 14,
+    "pause_event_count": 5,
+    "sigh_event_count": 1,
+    "cough_event_count": 1,
+    "breath_event_count": 1,
+    "total_pause_ms": 7692,
+    "chinese_char_count": 142
+  },
+  "impairment_features": {
+    "hesitation_count": 10,
+    "repetition_count": 3,
+    "word_finding_count": 3,
+    "orientation_error_count": 1,
+    "memory_error_count": 3,
+    "topic_drift_score": 0.53,
+    "coherence_score": 0.48,
+    "speech_rate_target": "very_slow",
+    "pause_event_count": 5
+  },
+  "acoustic_condition": "clean",
+  "acoustic_condition_info": {
+    "weight": 45,
+    "description": "乾淨近距離錄音，低背景噪音。"
+  },
+  "generation_notes": "CDR 2 moderate dementia simulation with fragmented recall, time confusion (yesterday vs. day before), and medication memory loss."
+}

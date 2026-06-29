@@ -1,0 +1,118 @@
+{
+  "sample_id": "cdr_0_voice4_female_market_0208",
+  "cdr_level": 0,
+  "cdr_label": "normal",
+  "scenario": "market",
+  "task_type": "structured_cognitive_interview",
+  "interaction_type": "two_person_conversation",
+  "picture_reference": null,
+  "speaker": {
+    "speaker_id": "voice4_female",
+    "voice_id": "voice4_female",
+    "speaker_group": "female",
+    "gender": "female",
+    "split": "train"
+  },
+  "interviewer": {
+    "speaker_id": "interviewer_neutral",
+    "voice_id": "interviewer_neutral",
+    "speaker_group": "interviewer"
+  },
+  "split": "train",
+  "spoken_transcript": "訪談者：你好，我們現在在進行簡單的問答。先請問今天幾月幾號？\n患者：嗯，今天是八月八號。\n訪談者：好的。那現在是在哪裡呢？\n患者：應該是在診所吧，剛剛來拿藥。\n訪談者：對，這裡是診間。您記得剛才跟您講話的是誰嗎？\n患者：啊，就是你啊，剛剛有問我幾個問題。\n訪談者：好，那我們再來聊一下，早上吃過什麼早餐？\n患者：我吃稀飯、小菜，還有茶葉蛋啦。\n訪談者：嗯，聽起來很健康。那您剛才說來拿藥，是看哪一科的？\n患者：内科啊，血壓有點高，所以來開藥。\n訪談者：好的，謝謝您的分享。",
+  "marked_transcript": "訪談者：你好，[停頓] 我們現在在進行簡單的問答。先請問今天幾月幾號？\n患者：嗯，今天是八月八號。\n訪談者：好的。那現在是在哪裡呢？\n患者：應該是在診所吧，[停頓] 剛剛來拿藥。\n訪談者：對，這裡是診間。您記得剛才跟您講話的是誰嗎？\n患者：啊，就是你啊，[長停頓] 剛剛有問我幾個問題。\n訪談者：好，那我們再來聊一下，早上吃過什麼早餐？\n患者：我吃稀飯、小菜，還有茶葉蛋啦。\n訪談者：嗯，聽起來很健康。那您剛才說來拿藥，是看哪一科的？\n患者：内科啊，血壓有點高，所以來開藥。\n訪談者：好的，謝謝您的分享。",
+  "event_script": [
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "你好，我們現在在進行簡單的問答。先請問今天幾月幾號？"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 600
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "嗯，今天是八月八號。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的。那現在是在哪裡呢？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "應該是在診所吧，剛剛來拿藥。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 700
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "對，這裡是診間。您記得剛才跟您講話的是誰嗎？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "啊，就是你啊，剛剛有問我幾個問題。"
+    },
+    {
+      "type": "pause",
+      "duration_ms": 1500
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好，那我們再來聊一下，早上吃過什麼早餐？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "我吃稀飯、小菜，還有茶葉蛋啦。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "嗯，聽起來很健康。那您剛才說來拿藥，是看哪一科的？"
+    },
+    {
+      "type": "speech",
+      "speaker": "patient",
+      "text": "内科啊，血壓有點高，所以來開藥。"
+    },
+    {
+      "type": "speech",
+      "speaker": "interviewer",
+      "text": "好的，謝謝您的分享。"
+    }
+  ],
+  "event_stats": {
+    "speech_chunk_count": 11,
+    "pause_event_count": 3,
+    "sigh_event_count": 0,
+    "cough_event_count": 0,
+    "breath_event_count": 0,
+    "total_pause_ms": 2800,
+    "chinese_char_count": 185
+  },
+  "impairment_features": {
+    "hesitation_count": 1,
+    "repetition_count": 0,
+    "word_finding_count": 0,
+    "orientation_error_count": 0,
+    "memory_error_count": 0,
+    "topic_drift_score": 0.05,
+    "coherence_score": 0.98,
+    "speech_rate_target": "normal",
+    "pause_event_count": 3
+  },
+  "acoustic_condition": "clinic_room_noise",
+  "acoustic_condition_info": {
+    "weight": 25,
+    "description": "診間環境，輕微背景聲與空調聲。"
+  }
+}
